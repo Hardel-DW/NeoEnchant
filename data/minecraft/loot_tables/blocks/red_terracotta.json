@@ -8,6 +8,28 @@
           "condition": "minecraft:survives_explosion"
         }
       ],
+      "functions": [
+        {
+          "function": "minecraft:furnace_smelt",
+          "conditions": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "enchantplus:tools/auto_smelt",
+                      "levels": {
+                        "min": 1
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",

@@ -2,45 +2,41 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 1,
       "bonus_rolls": 0.0,
-      "entries": [
+      "conditions": [
         {
-          "type": "minecraft:alternatives",
-          "children": [
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:furnace_smelt",
+          "conditions": [
             {
-              "type": "minecraft:item",
-              "name": "minecraft:charcoal",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "predicates": {
-                      "minecraft:enchantments": [
-                        {
-                          "enchantments": "enchantplus:tools/auto_smelt",
-                          "levels": {
-                            "min": 1
-                          }
-                        }
-                      ]
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "enchantplus:tools/auto_smelt",
+                      "levels": {
+                        "min": 1
+                      }
                     }
-                  }
+                  ]
                 }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "name": "minecraft:oak_wood",
-              "conditions": [
-                {
-                  "condition": "minecraft:survives_explosion"
-                }
-              ]
+              }
             }
           ]
         }
-      ]
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_wood"
+        }
+      ],
+      "rolls": 1.0
     }
   ],
   "random_sequence": "minecraft:blocks/oak_wood"
