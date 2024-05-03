@@ -8,7 +8,7 @@ Below is the list of enchantments included in this release. Check off the enchan
 ### Enchantment migration progress :
 - [ ] **TimeBreaker**: Gives harmful effects to mobs around you.
 - [x] **Bright Vision**: Gives night vision to the player.
-- [ ] **Anti-Explosion**: Prevents Creeper and TNT explosions when this enchantment is applied.
+- [x] **Anti-Explosion**: Prevents Creeper and TNT explosions when this enchantment is applied.
 - [x] **Auto-Feed**: Automatically feeds you every minute.
 - [ ] **Anti-Venom**: Provides protection against negative effects.
 - [x] **Life+**: Gives the player extra hearts.
