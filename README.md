@@ -2,6 +2,13 @@
 The official Technical Enchant+ update
 Welcome to the futur update NeoEnchant is the official update of TE+ This project introduces a new suite of enchantments that expand upon the gameplay mechanics introduced in the previous update, V4. Explore innovative ways to enhance your Minecraft experience with our latest version, V5.
 
+# From Technical Enchant+
+Link: [TE+ Official 1.13 and 1.4](https://www.planetminecraft.com/data-pack/enchant-datapack-1-13/)
+275,632 views and 45,977 downloads
+
+Link: [TE+ Rewened Fork by Frektip 1.15 to 1.20.4](https://www.planetminecraft.com/data-pack/enchant-datapack-1-13/)
+293,986 views, 62,173 downloads
+
 ## Enchantments List
 Below is the list of enchantments included in this release. Check off the enchantments as you explore each one in your game:
 
