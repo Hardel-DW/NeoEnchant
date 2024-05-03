@@ -23,7 +23,7 @@ Below is the list of enchantments included in this release. Check off the enchan
 - [ ] **Mining+**: Lets you mine a 3x3 area.
 - [ ] **Accuracy Shot**: Arrows fly straight.
 - [x] **Burst Arrow**: Just fun, find out for yourself! -> Renamed to Explosive Arrow
-- [ ] **Attack Speed**: Increases your attack speed.
+- [x] **Attack Speed**: Increases your attack speed.
 - [ ] **Bloody Blade**: The more you kill, the stronger you become.
 - [ ] **Last Life**: Heals you when your HP is low, with a 5-minute cooldown.
 - [ ] **Timber**: Cut down a tree with one strike.
