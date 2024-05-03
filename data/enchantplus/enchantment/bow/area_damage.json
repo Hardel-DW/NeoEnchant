@@ -1,0 +1,59 @@
+{
+    "anvil_cost": 4,
+    "description": {
+        "text": "Area arrows"
+    },
+    "effects": {
+        "minecraft:hit_block": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "exploding_arrow"
+                }
+            },
+            {
+                "effect": {
+                    "type": "minecraft:explode",
+                    "large_particle": {
+                        "type": "minecraft:ash"
+                    },
+                    "damage_type": "minecraft:arrow",
+                    "small_particle": {
+                        "type": "minecraft:ash"
+                    },
+                    "immune_blocks": "#enchantplus:all",
+                    "block_interaction": "mob",
+                    "radius": {
+                        "type": "minecraft:linear",
+                        "base": 1.5,
+                        "per_level_above_first": 1
+                    },
+                    "sound": "minecraft:entity.breeze.wind_burst"
+                },
+                "requirements": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": "#minecraft:arrow"
+                    }
+                }
+            }
+        ]
+    },
+    "exclusive_set": "#enchantplus:exclusive_set/bow",
+    "max_cost": {
+        "base": 65,
+        "per_level_above_first": 9
+    },
+    "max_level": 3,
+    "min_cost": {
+        "base": 15,
+        "per_level_above_first": 9
+    },
+    "slots": [
+        "mainhand",
+        "offhand"
+    ],
+    "supported_items": "#minecraft:enchantable/bow",
+    "weight": 2
+}
