@@ -18,7 +18,7 @@ Below is the list of enchantments included in this release. Check off the enchan
 - [ ] **Lava Walker**: Allows the player to walk on lava.
 - [ ] **Poison Aspect**: Poisons the mob upon hitting it.
 - [ ] **Life Steal**: Drains health from the target and transfers it to the player.
-- ~[ ] **Haste**: Allows faster mining and attacking.~ -> Removed Duplicate
+- [x] ~**Haste**: Allows faster mining and attacking.~ -> Removed because Effiency exist
 - [ ] **Auto-Smelt**: Automatically smelts items.
 - [ ] **Mining+**: Lets you mine a 3x3 area.
 - [ ] **Accuracy Shot**: Arrows fly straight.
@@ -35,10 +35,12 @@ Below is the list of enchantments included in this release. Check off the enchan
 
 ### New enchantments progressd :
 These enchantments should have been in the old V5.0 and introduced in TE+ Rewened.
-- [x] **Area Arrow**: Damage in area when the arrow hit a block -> I don't know for the name HELP ME.
 - [ ] **Replant**: If you break any crop with this hoe (wheat, carrot, potato, beetroot or nether wart), it will plant it for you.
 - [ ] **Harvesting**: Grand Tilling: If you use a hoe to till the land, it will create a 3x3 area of farmland.
 - [ ] **Scyther**: Allows you to cut a 3x3 surface of any hoe related blocks and vegetation-
+
+It wasn't planned, but the idea was cool.
+- [x] **Area Arrow**: Damage in area when the arrow hit a block -> I don't know for the name HELP ME.
 
 ## Version Information
 This project is the continuation of the updates introduced in Version 4. Version 5 brings new levels of gameplay enhancements and enchantments that provide both utility and fun in your Minecraft world.
