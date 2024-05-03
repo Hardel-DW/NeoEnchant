@@ -11,7 +11,7 @@ Below is the list of enchantments included in this release. Check off the enchan
 - [ ] **Anti-Explosion**: Prevents Creeper and TNT explosions when this enchantment is applied.
 - [x] **Auto-Feed**: Automatically feeds you every minute.
 - [ ] **Anti-Venom**: Provides protection against negative effects.
-- [ ] **Life+**: Gives the player extra hearts.
+- [x] **Life+**: Gives the player extra hearts.
 - [ ] **Dolphin**: Grants the player a dolphin_grace effect.
 - [ ] **Agility**: Increases player speed.
 - [ ] **Leaping**: Boosts the player.
