@@ -1,0 +1,17 @@
+{
+  "values": [
+    "enchantplus:armor/auto_feed",
+    "enchantplus:helmet/bright_vision",
+    "enchantplus:chestplate/lifeplus",
+    "enchantplus:leggings/anti_explosion",
+    "enchantplus:boots/lava_walker",
+    "enchantplus:bow/area_arrow",
+    "enchantplus:bow/explosive_arrow",
+    "enchantplus:bucket/magical_water",
+    "enchantplus:sword/attack_speed",
+    "enchantplus:sword/xp_boost",
+    "enchantplus:sword/poison_aspect",
+    "enchantplus:tools/auto_smelt"
+  ],
+  "replace": false
+}

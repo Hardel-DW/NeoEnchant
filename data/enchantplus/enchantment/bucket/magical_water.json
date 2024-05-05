@@ -1,0 +1,54 @@
+{
+    "anvil_cost": 4,
+    "description": {
+        "translate": "Magical Water"
+    },
+    "effects": {
+        "minecraft:hit_block": [
+            {
+                "effect": {
+                    "type": "minecraft:all_of",
+                    "effects": [
+                        {
+                            "type": "minecraft:set_block_properties",
+                            "properties": {
+                                "waterlogged": "true"
+                            }
+                        },
+                        {
+                            "type": "minecraft:damage_item",
+                            "amount": 1.0
+                        }
+                    ]
+                },
+                "requirements": {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                        "block": {
+                            "state": {
+                                "waterlogged": "false"
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 65,
+        "per_level_above_first": 9
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 15,
+        "per_level_above_first": 9
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#enchantplus:enchantable/bucket",
+    "primary_items": [
+        "minecraft:bucket"
+    ],
+    "weight": 2
+}

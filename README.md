@@ -23,7 +23,7 @@ Below is the list of enchantments included in this release. Check off the enchan
 - [ ] **Agility**: Increases player speed.
 - [ ] **Leaping**: Boosts the player.
 - [ ] **Lava Walker**: Allows the player to walk on lava.
-- [ ] **Poison Aspect**: Poisons the mob upon hitting it.
+- [x] **Poison Aspect**: Poisons the mob upon hitting it. -> Bug with Amplfier [Jira](https://bugs.mojang.com/browse/MC-271641)
 - [ ] **Life Steal**: Drains health from the target and transfers it to the player.
 - [x] ~**Haste**: Allows faster mining and attacking.~ -> Removed because Effiency exist
 - [x] **Auto-Smelt**: Automatically smelts items.
