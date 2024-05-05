@@ -1,0 +1,46 @@
+{
+    "description": {
+        "text": "Leaping"
+    },
+    "weight": 2,
+    "max_level": 2,
+    "min_cost": {
+        "base": 15,
+        "per_level_above_first": 9
+    },
+    "max_cost": {
+        "base": 65,
+        "per_level_above_first": 9
+    },
+    "anvil_cost": 4,
+    "slots": [
+        "legs"
+    ],
+    "supported_items": "#minecraft:enchantable/leg_armor",
+    "effects": {
+        "minecraft:attributes": [
+            {
+                "name": "enchantment.leaping_jump",
+                "attribute": "minecraft:generic.jump_strength",
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": 0.15,
+                    "per_level_above_first": 0.25
+                },
+                "operation": "add_multiplied_total",
+                "uuid": "31adb5dd-e65c-46e7-9f4f-e8617f15810a"
+            },
+            {
+                "name": "enchantment.leaping_safe",
+                "attribute": "minecraft:generic.safe_fall_distance",
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": 0.15,
+                    "per_level_above_first": 0.25
+                },
+                "operation": "add_multiplied_total",
+                "uuid": "f64a6dcc-76d2-47a2-b871-9a0e5a75892e"
+            }
+        ]
+    }
+}

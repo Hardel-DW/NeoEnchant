@@ -2,7 +2,6 @@
     "description": {
         "text": "Anti Explosion"
     },
-    "supported_items": "#minecraft:enchantable/leg_armor",
     "weight": 2,
     "max_level": 1,
     "min_cost": {
@@ -17,6 +16,7 @@
     "slots": [
         "legs"
     ],
+    "supported_items": "#minecraft:enchantable/leg_armor",
     "effects": {
         "minecraft:attributes": [
             {

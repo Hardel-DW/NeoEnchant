@@ -20,8 +20,8 @@ Below is the list of enchantments included in this release. Check off the enchan
 - [ ] **Anti-Venom**: Provides protection against negative effects.
 - [x] **Life+**: Gives the player extra hearts.
 - [ ] **Dolphin**: Grants the player a dolphin_grace effect.
-- [ ] **Agility**: Increases player speed.
-- [ ] **Leaping**: Boosts the player.
+- [x] **Agility**: Increases player speed.
+- [x] **Leaping**: Boosts the player.
 - [ ] **Lava Walker**: Allows the player to walk on lava.
 - [x] **Poison Aspect**: Poisons the mob upon hitting it. -> Bug with Amplfier [Jira](https://bugs.mojang.com/browse/MC-271641)
 - [x] **Life Steal**: Drains health from the target and transfers it to the player.
