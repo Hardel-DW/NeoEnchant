@@ -11,6 +11,7 @@
     "enchantplus:sword/attack_speed",
     "enchantplus:sword/xp_boost",
     "enchantplus:sword/poison_aspect",
+    "enchantplus:sword/life_steal",
     "enchantplus:tools/auto_smelt"
   ],
   "replace": false
