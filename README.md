@@ -19,7 +19,7 @@ Below is the list of enchantments included in this release. Check off the enchan
 - [x] **Auto-Feed**: Automatically feeds you every minute.
 - [ ] **Anti-Venom**: Provides protection against negative effects.
 - [x] **Life+**: Gives the player extra hearts.
-- [ ] **Dolphin**: Grants the player a dolphin_grace effect.
+- [x] **Dolphin**: Grants the player a dolphin_grace effect.
 - [x] **Agility**: Increases player speed.
 - [x] **Leaping**: Boosts the player.
 - [ ] **Lava Walker**: Allows the player to walk on lava.
@@ -48,6 +48,7 @@ These enchantments should have been in the old V5.0 and introduced in TE+ Rewene
 
 It wasn't planned, but the idea was cool.
 - [x] **Area Arrow**: Damage in area when the arrow hit a block -> I don't know for the name HELP ME.
+- [x] **Step Assist**: Allows you to walk up blocks more easily.
 
 ## Version Information
 This project is the continuation of the updates introduced in Version 4. Version 5 brings new levels of gameplay enhancements and enchantments that provide both utility and fun in your Minecraft world.
