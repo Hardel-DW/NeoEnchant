@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:arrow] if predicate enchantplus:arrow run say Heloo

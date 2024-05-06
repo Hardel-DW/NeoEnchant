@@ -1,0 +1,8 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "periodic_tick": 200,
+        "nbt": "{weapon:{components:{\"minecraft:enchantments\":{levels:{\"enchantplus:bow/accuracy_shot\":1}}}}}"
+    }
+}

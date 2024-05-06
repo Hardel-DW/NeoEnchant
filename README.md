@@ -28,7 +28,7 @@ Below is the list of enchantments included in this release. Check off the enchan
 - [x] ~**Haste**: Allows faster mining and attacking.~ -> Removed because Effiency exist
 - [x] **Auto-Smelt**: Automatically smelts items.
 - [ ] **Mining+**: Lets you mine a 3x3 area.
-- [ ] **Accuracy Shot**: Arrows fly straight.
+- [x] **Accuracy Shot**: Arrows fly straight.
 - [x] **Burst Arrow**: Just fun, find out for yourself! -> Renamed to Explosive Arrow
 - [x] **Attack Speed**: Increases your attack speed.
 - [ ] **Bloody Blade**: The more you kill, the stronger you become.
