@@ -1,0 +1,47 @@
+{
+    "anvil_cost": 4,
+    "description": {
+        "text": "Auto Smelt"
+    },
+    "effects": {
+        "minecraft:tick": [
+            {
+                "effect": {
+                    "type": "minecraft:spawn_particles",
+                    "horizontal_position": {
+                        "type": "in_bounding_box",
+                        "scale": 5
+                    },
+                    "vertical_position": {
+                        "type": "in_bounding_box",
+                        "scale": 5
+                    },
+                    "particle": {
+                        "type": "minecraft:flame"
+                    },
+                    "speed": 1.0,
+                    "horizontal_velocity": {
+                        "movement_scale": -0.2
+                    },
+                    "vertical_velocity": {
+                        "base": 0.1
+                    }
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 65,
+        "per_level_above_first": 9
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 15,
+        "per_level_above_first": 9
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#minecraft:enchantable/mining_loot",
+    "weight": 2
+}

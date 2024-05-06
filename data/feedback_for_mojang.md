@@ -21,8 +21,8 @@ This avoids the creation of tags containing all the game blocks to be updated at
 - The post effect module for Data Driven enchantments, specifically the `min_amplifier` and `max_amplifier` property, is not being applied. This issue was observed with the "Bane of Arthropods" enchantment and also custom enchantments. [Jira](https://bugs.mojang.com/browse/MC-271641)
 
 ### Suggestions :
-I have some rather important suggestions, which are quite different from the section above, which are eventual omissions.
-I'm simply giving the idea to Mojang, implementing them would give a lot of functionality for content creation.
+I have some other suggestions, which are quite different from the section above, which are eventual omissions.
+I'm simply giving the idea to Mojang. 
 
 - In the effects `minecraft:explode`, The possibility of modifying the proboability of dropping blocks after destruction and a boolean to deactivate whether items currently on the ground disappear during an explosion.
 

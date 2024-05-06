@@ -42,8 +42,8 @@ Below is the list of enchantments included in this release. Check off the enchan
 
 ### New enchantments progressd :
 These enchantments should have been in the old V5.0 and introduced in TE+ Rewened.
-- [ ] **Replant**: If you break any crop with this hoe (wheat, carrot, potato, beetroot or nether wart), it will plant it for you.
-- [ ] **Harvesting**: If you break any crop with this hoe (wheat, carrot, potato, beetroot or nether wart), it will break other crops around it.
+- [x] ~**Replant**: If you break any crop with this hoe (wheat, carrot, potato, beetroot or nether wart), it will plant it for you.~ -> Not possible with the current system, need some new effects and properties.
+- [x] **Harvesting**: If you break any crop with this hoe (wheat, carrot, potato, beetroot or nether wart), it will break other crops around it. (minecraft:replace_disc need additonal properties an boolean for drop replaced blocks) (Only Creative, don't drop items for the moment)
 - [x] **Scyther**: Allows you to transform dirt in farmland in x by z surface depending enchantment levels
 
 It wasn't planned, but the idea was cool.
