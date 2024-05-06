@@ -43,8 +43,8 @@ Below is the list of enchantments included in this release. Check off the enchan
 ### New enchantments progressd :
 These enchantments should have been in the old V5.0 and introduced in TE+ Rewened.
 - [ ] **Replant**: If you break any crop with this hoe (wheat, carrot, potato, beetroot or nether wart), it will plant it for you.
-- [ ] **Harvesting**: Grand Tilling: If you use a hoe to till the land, it will create a 3x3 area of farmland.
-- [ ] **Scyther**: Allows you to cut a 3x3 surface of any hoe related blocks and vegetation-
+- [ ] **Harvesting**: If you break any crop with this hoe (wheat, carrot, potato, beetroot or nether wart), it will break other crops around it.
+- [x] **Scyther**: Allows you to transform dirt in farmland in x by z surface depending enchantment levels
 
 It wasn't planned, but the idea was cool.
 - [x] **Area Arrow**: Damage in area when the arrow hit a block -> I don't know for the name HELP ME.

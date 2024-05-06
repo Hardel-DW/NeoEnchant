@@ -17,7 +17,8 @@
     "enchantplus:sword/xp_boost",
     "enchantplus:sword/poison_aspect",
     "enchantplus:sword/life_steal",
-    "enchantplus:tools/auto_smelt"
+    "enchantplus:tools/auto_smelt",
+    "enchantplus:hoe/Scyther"
   ],
   "replace": false
 }
