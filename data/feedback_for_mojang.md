@@ -13,8 +13,8 @@ I've found some very minor missing details, and I don't know if they're omission
 
 - In the effect `minecraft:apply_mob_effect`, the ability to edit the "ShowIcon" NBT is missing, like the command `/effect give @s minecraft:strength 10 1 true`.
 
-- In the effects `minecraft:explode`, there is a property named `immune_blocks` which acts as a whitelist, the opposite would be a good thing, something like "vulnerable_blocks" or `affect_blocks` acting as a blacklist.
-Even more simply, `immune_blocks` becomes an object, containing a `block` parameter, and an `invert` parameter that would be boolean.
+- In the effects `minecraft:explode`, there is a property named `immune_blocks` which acts as a whitelist, the opposite would be a good thing, a parameter like `affect_blocks` acting as a blacklist.  
+Or rven more simply, `immune_blocks` can becomes an object, containing a `block` parameter, and an `invert` parameter that would be boolean.
 This avoids the creation of tags containing all the game blocks to be updated at each snapshot.
 
 ## Minor Bugs :
