@@ -26,7 +26,7 @@ I'm simply giving the idea to Mojang.
 
 - In the effects `minecraft:explode`, The possibility of modifying the proboability of dropping blocks after destruction and a boolean to deactivate whether items currently on the ground disappear during an explosion.
 
-- An new effect `post_destroy_block` which would be triggered after a block is destroyed, this would allow for a lot of possibilities. With the same entry than `hit_block` with new entries :
+- An new effect `post_destroy_block` which would be triggered after a block is destroyed, this would allow for a lot of possibilities. With the same entry than `hit_block` and with new entries :
     - `drop`:
         - `prevent`: boolean; default: false; If true, the block will not drop anything.
         - `modifier`: item_modifier resourcde location; apply item modifier to all dropped items.
