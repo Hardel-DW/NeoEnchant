@@ -17,12 +17,12 @@ Below is the list of enchantments included in this release. Check off the enchan
 - [x] **Bright Vision**: Gives night vision to the player.
 - [x] **Anti-Explosion**: Prevents Creeper and TNT explosions when this enchantment is applied.
 - [x] **Auto-Feed**: Automatically feeds you every minute.
-- [ ] **Anti-Venom**: Provides protection against negative effects.
+- [x] **Anti-Venom**: Provides protection against negative effects.
 - [x] **Life+**: Gives the player extra hearts.
 - [x] **Dolphin**: Grants the player a dolphin_grace effect.
 - [x] **Agility**: Increases player speed.
 - [x] **Leaping**: Boosts the player.
-- [ ] **Lava Walker**: Allows the player to walk on lava.
+- [x] **Lava Walker**: Allows the player to walk on lava.
 - [x] **Poison Aspect**: Poisons the mob upon hitting it. -> Bug with Amplfier [Jira](https://bugs.mojang.com/browse/MC-271641)
 - [x] **Life Steal**: Drains health from the target and transfers it to the player.
 - [x] ~**Haste**: Allows faster mining and attacking.~ -> Removed because Effiency exist
@@ -34,7 +34,7 @@ Below is the list of enchantments included in this release. Check off the enchan
 - [ ] **Bloody Blade**: The more you kill, the stronger you become.
 - [ ] **Last Life**: Heals you when your HP is low, with a 5-minute cooldown.
 - [ ] **Timber**: Cut down a tree with one strike.
-- [ ] **Anti-Knockback**: Ignores knockback effects.
+- [x] ~**Anti-Knockback**: Ignores knockback effects.~ -> Removed because Netherite exist
 - [ ] **Magnet (Helmet)**: Attracts all items around you.
 - [ ] **VeinMiner**: If you break a mineral block, all surrounding minerals also break.
 - [x] **XpBoost**: Gain additional experience from killing mobs.

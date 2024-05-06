@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "poison": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "entity": "this",
+                        "condition": "minecraft:entity_properties",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "effects": {
+                                "minecraft:poison": {}
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "enchantplus:anti_venom"
+    }
+}

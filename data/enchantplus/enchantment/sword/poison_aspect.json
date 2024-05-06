@@ -23,6 +23,46 @@
                     "min_duration": 3.25,
                     "min_amplifier": 2,
                     "to_apply": "minecraft:wither"
+                },
+                "requirements": {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player"
+                        }
+                    }
+                }
+            },
+            {
+                "affected": "victim",
+                "enchanted": "attacker",
+                "effect": {
+                    "type": "minecraft:apply_mob_effect",
+                    "max_duration": {
+                        "type": "minecraft:linear",
+                        "base": 3.25,
+                        "per_level_above_first": 1.25
+                    },
+                    "max_amplifier": {
+                        "type": "minecraft:linear",
+                        "base": 2,
+                        "per_level_above_first": 1
+                    },
+                    "min_duration": 3.25,
+                    "min_amplifier": 2,
+                    "to_apply": "minecraft:poison"
+                },
+                "requirements": {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player"
+                        }
+                    }
                 }
             }
         ]
