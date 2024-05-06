@@ -33,7 +33,7 @@ I'm simply giving the idea to Mojang.
         - `loot`: loot_table resource location; Spawn a loot table.
     - `experience`: Integrate the current effect `minecraft:block_experience` here.
 
-- For `minecraft:replace_block` and `minecraft:replace_disc`, introduce a `propagate` property object which allows the effect to propagate recursively to the blocks adjacent to the replaced block. Of course the `destroy` property mentioned above would work. This enhancement could open up numerous possibilities, the  For instance:
+- For `minecraft:replace_block` and `minecraft:replace_disc`, introduce a `propagate` property object which allows to propagate recursively the effect to adjacent blocks. Of course the `destroy` property mentioned above would work. This enhancement could open up numerous possibilities, the  For instance:
     - `max_range`: int; default: 1; The range of the propagation.
     - `affect_blocks`: 
         - `block`: the list of blocks affected by the propagation, tag or block or block list.
