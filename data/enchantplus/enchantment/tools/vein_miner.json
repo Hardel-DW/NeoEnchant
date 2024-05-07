@@ -1,9 +1,8 @@
 {
     "description": {
-        "text": "Accuaracy Shot"
+        "text": "Vein Miner"
     },
-    "exclusive_set": "#enchantplus:exclusive_set/bow",
-    "supported_items": "#minecraft:enchantable/bow",
+    "supported_items": "#minecraft:enchantable/mining_loot",
     "weight": 2,
     "max_level": 1,
     "min_cost": {
@@ -16,15 +15,14 @@
     },
     "anvil_cost": 4,
     "slots": [
-        "mainhand",
-        "offhand"
+        "mainhand"
     ],
     "effects": {
-        "minecraft:projectile_spawned": [
+        "minecraft:hit_block": [
             {
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/no_gravity"
+                    "function": "enchantplus:hit_block/vein_miner/place_hit_block_marker"
                 }
             }
         ]

@@ -1,1 +1,0 @@
-particle minecraft:end_rod ~ ~1 ~ .15 .15 .15 .25 100

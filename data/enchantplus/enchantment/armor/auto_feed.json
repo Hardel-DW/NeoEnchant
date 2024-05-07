@@ -8,7 +8,7 @@
             {
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "feed"
+                    "function": "enchantplus:actions/feed"
                 },
                 "requirements": [
                     {

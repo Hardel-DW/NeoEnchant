@@ -1,1 +1,2 @@
 execute as @e[type=minecraft:arrow] at @s unless entity @a[distance=..5] if predicate enchantplus:arrow run kill @s
+execute as @e[type=minecraft:marker,tag=enchantplus.hit_block] at @s run function enchantplus:hit_block/main

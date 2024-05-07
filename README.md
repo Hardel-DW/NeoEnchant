@@ -38,7 +38,7 @@ Below is the list of enchantments included in this release. Check off the enchan
 - [ ] **Magnet (Helmet)**: Attracts all items around you.
 - [ ] **VeinMiner**: If you break a mineral block, all surrounding minerals also break.
 - [x] **XpBoost**: Gain additional experience from killing mobs.
-- [ ] **SkyWalk**: Allows you to fly across 5 air blocks. Press the "Sneak" key to descend.
+- [x] ~**SkyWalk**: Allows you to fly across 5 air blocks. Press the "Sneak" key to descend.~ -> Removed too strange, nobody understand it
 
 ### New enchantments progressd :
 These enchantments should have been in the old V5.0 and introduced in TE+ Rewened.

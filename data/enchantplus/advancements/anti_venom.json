@@ -19,6 +19,6 @@
         }
     },
     "rewards": {
-        "function": "enchantplus:anti_venom"
+        "function": "enchantplus:actions/anti_venom"
     }
 }
