@@ -1,8 +1,8 @@
 {
     "description": {
-        "text": "Vein Miner"
+        "text": "Timber"
     },
-    "supported_items": "#minecraft:enchantable/mining_loot",
+    "supported_items": "#minecraft:axes",
     "weight": 2,
     "max_level": 1,
     "min_cost": {
@@ -22,7 +22,7 @@
             {
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:hit_block/vein_miner/place_hit_block_marker"
+                    "function": "enchantplus:hit_block/timber/place_hit_block_marker"
                 }
             }
         ]

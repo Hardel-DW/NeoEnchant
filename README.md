@@ -33,10 +33,10 @@ Below is the list of enchantments included in this release. Check off the enchan
 - [x] **Attack Speed**: Increases your attack speed.
 - [ ] **Bloody Blade**: The more you kill, the stronger you become.
 - [ ] **Last Life**: Heals you when your HP is low, with a 5-minute cooldown.
-- [ ] **Timber**: Cut down a tree with one strike.
+- [x] **Timber**: Cut down a tree with one strike.
 - [x] ~**Anti-Knockback**: Ignores knockback effects.~ -> Removed because Netherite exist
 - [ ] **Magnet (Helmet)**: Attracts all items around you.
-- [ ] **VeinMiner**: If you break a mineral block, all surrounding minerals also break.
+- [x] **VeinMiner**: If you break a mineral block, all surrounding minerals also break.
 - [x] **XpBoost**: Gain additional experience from killing mobs.
 - [x] ~**SkyWalk**: Allows you to fly across 5 air blocks. Press the "Sneak" key to descend.~ -> Removed too strange, nobody understand it
 
