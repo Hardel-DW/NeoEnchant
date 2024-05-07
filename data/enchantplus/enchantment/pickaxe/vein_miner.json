@@ -1,6 +1,7 @@
 {
     "description": {
-        "text": "Vein Miner"
+        "translate": "enchantment.enchantplus.vein_miner",
+        "fallback": "Vein Miner"
     },
     "supported_items": "#minecraft:pickaxes",
     "weight": 2,

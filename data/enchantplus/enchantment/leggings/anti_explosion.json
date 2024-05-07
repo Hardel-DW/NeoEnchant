@@ -1,6 +1,7 @@
 {
     "description": {
-        "text": "Anti Explosion"
+        "translate": "enchantment.enchantplus.anti_explosion",
+        "fallback": "Anti Explosion"
     },
     "weight": 2,
     "max_level": 1,

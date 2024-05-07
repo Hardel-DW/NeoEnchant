@@ -1,6 +1,7 @@
 {
     "description": {
-        "text": "Timber"
+        "translate": "enchantment.enchantplus.timber",
+        "fallback": "Timber"
     },
     "supported_items": "#minecraft:axes",
     "weight": 2,

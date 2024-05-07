@@ -1,6 +1,7 @@
 {
     "description": {
-        "text": "Scyther"
+        "translate": "enchantment.enchantplus.scyther",
+        "fallback": "Scyther"
     },
     "supported_items": "#minecraft:hoes",
     "weight": 2,

@@ -1,7 +1,8 @@
 {
     "anvil_cost": 4,
     "description": {
-        "text": "Auto Smelt"
+        "translate": "enchantment.enchantplus.auto_smelt",
+        "fallback": "Auto Smelt"
     },
     "effects": {
         "minecraft:block_experience": [

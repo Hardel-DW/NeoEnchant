@@ -1,6 +1,7 @@
 {
     "description": {
-        "text": "Leaping"
+        "translate": "enchantment.enchantplus.leaping",
+        "fallback": "Leaping"
     },
     "weight": 2,
     "max_level": 2,

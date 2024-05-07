@@ -1,6 +1,7 @@
 {
     "description": {
-        "text": "Accuaracy Shot"
+        "translate": "enchantment.minecraft.auto_feed",
+        "fallback": "Accuaracy Shot"
     },
     "exclusive_set": "#enchantplus:exclusive_set/bow",
     "supported_items": "#minecraft:enchantable/bow",

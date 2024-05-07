@@ -1,7 +1,8 @@
 {
     "anvil_cost": 4,
     "description": {
-        "text": "Attack Speed"
+        "translate": "enchantment.enchantplus.attack_speed",
+        "fallback": "Attack Speed"
     },
     "effects": {
         "minecraft:attributes": [

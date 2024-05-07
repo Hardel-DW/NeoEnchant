@@ -1,6 +1,7 @@
 {
     "description": {
-        "text": "Bright Vision"
+        "translate": "enchantment.enchantplus.bright_vision",
+        "fallback": "Bright Vision"
     },
     "supported_items": "#minecraft:enchantable/head_armor",
     "weight": 2,

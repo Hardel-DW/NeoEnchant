@@ -1,6 +1,7 @@
 {
     "description": {
-        "text": "Agility"
+        "translate": "enchantment.enchantplus.agility",
+        "fallback": "Agility"
     },
     "slots": [
         "feet"

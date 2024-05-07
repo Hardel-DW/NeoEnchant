@@ -1,7 +1,8 @@
 {
     "anvil_cost": 2,
     "description": {
-        "text": "Poison Aspect"
+        "translate": "enchantment.enchantplus.poison_aspect",
+        "fallback": "Poison Aspect"
     },
     "effects": {
         "minecraft:post_attack": [

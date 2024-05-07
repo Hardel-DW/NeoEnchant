@@ -1,7 +1,8 @@
 {
     "anvil_cost": 4,
     "description": {
-        "text": "Xp Boost"
+        "translate": "enchantment.enchantplus.xp_boost",
+        "fallback": "Xp Boost"
     },
     "effects": {
         "minecraft:mob_experience": [

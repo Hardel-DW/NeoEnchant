@@ -1,7 +1,8 @@
 {
     "anvil_cost": 4,
     "description": {
-        "text": "Auto Smelt"
+        "translate": "enchantment.enchantplus.unstable",
+        "fallback": "Unstable Reserved only on dev"
     },
     "effects": {
         "minecraft:tick": [

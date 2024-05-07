@@ -1,6 +1,7 @@
 {
     "description": {
-        "text": "(Creative Only) Harvesting"
+        "translate": "enchantment.enchantplus.harvesting",
+        "fallback": "(Creative Only) Harvesting"
     },
     "supported_items": "#minecraft:hoes",
     "weight": 2,

@@ -1,7 +1,8 @@
 {
     "anvil_cost": 4,
     "description": {
-        "translate": "Magical Water"
+        "translate": "enchantment.enchantplus.magical_water",
+        "fallback": "Magical Water"
     },
     "effects": {
         "minecraft:hit_block": [

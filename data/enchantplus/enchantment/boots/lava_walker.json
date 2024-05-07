@@ -1,7 +1,8 @@
 {
     "anvil_cost": 4,
     "description": {
-        "text": "Lava Walker"
+        "translate": "enchantment.enchantplus.lava_walker",
+        "fallback": "Lava Walker"
     },
     "effects": {
         "minecraft:damage_immunity": [

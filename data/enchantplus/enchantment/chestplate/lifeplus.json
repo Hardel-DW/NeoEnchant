@@ -1,6 +1,7 @@
 {
     "description": {
-        "text": "Life+"
+        "translate": "enchantment.enchantplus.lifeplus",
+        "fallback": "Life+"
     },
     "supported_items": "#minecraft:enchantable/chest_armor",
     "weight": 2,

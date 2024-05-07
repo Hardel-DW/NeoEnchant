@@ -1,6 +1,7 @@
 {
     "description": {
-        "text": "Life Steal"
+        "translate": "enchantment.enchantplus.life_steal",
+        "fallback": "Life Steal"
     },
     "exclusive_set": "#minecraft:exclusive_set/damage",
     "supported_items": "#minecraft:enchantable/weapon",

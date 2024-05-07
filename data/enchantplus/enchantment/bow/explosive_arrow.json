@@ -1,7 +1,8 @@
 {
     "anvil_cost": 4,
     "description": {
-        "text": "Explosive Arrows"
+        "translate": "enchantment.minecraft.auto_feed",
+        "fallback": "Explosive Arrows"
     },
     "effects": {
         "minecraft:hit_block": [

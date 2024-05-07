@@ -1,7 +1,8 @@
 {
     "anvil_cost": 4,
     "description": {
-        "text": "Auto Feed"
+        "translate": "enchantment.minecraft.auto_feed",
+        "fallback": "Auto Feed"
     },
     "effects": {
         "minecraft:tick": [

@@ -1,6 +1,7 @@
 {
     "description": {
-        "text": "Mining+"
+        "translate": "enchantment.enchantplus.miningplus",
+        "fallback": "Mining+"
     },
     "supported_items": "#minecraft:pickaxes",
     "weight": 2,

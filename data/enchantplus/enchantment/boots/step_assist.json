@@ -1,6 +1,7 @@
 {
     "description": {
-        "text": "Step Assist"
+        "translate": "enchantment.enchantplus.step_assist",
+        "fallback": "Step Assist"
     },
     "slots": [
         "feet"
