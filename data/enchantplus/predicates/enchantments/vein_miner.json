@@ -5,10 +5,13 @@
         "slots": {
             "weapon.mainhand": {
                 "items": "#minecraft:pickaxes",
-                "components": {
-                    "minecraft:enchantments": {
-                        "enchantplus:pickaxe/vein_miner": 1
-                    }
+                "predicates": {
+                    "minecraft:enchantments": [
+                        {
+                            "enchantments": "enchantplus:pickaxe/vein_miner",
+                            "levels": 1
+                        }
+                    ]
                 }
             }
         }

@@ -1,14 +1,32 @@
 {
-    "anvil_cost": 4,
     "description": {
         "text": "Bright Vision"
     },
+    "supported_items": "#minecraft:enchantable/head_armor",
+    "weight": 2,
+    "max_level": 1,
+    "min_cost": {
+        "base": 15,
+        "per_level_above_first": 9
+    },
+    "max_cost": {
+        "base": 65,
+        "per_level_above_first": 9
+    },
+    "anvil_cost": 4,
+    "slots": [
+        "head"
+    ],
     "effects": {
         "minecraft:tick": [
             {
                 "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/bright"
+                    "type": "minecraft:apply_mob_effect",
+                    "to_apply": "minecraft:night_vision",
+                    "min_duration": 30,
+                    "max_duration": 30,
+                    "min_amplifier": 0,
+                    "max_amplifier": 0
                 },
                 "requirements": [
                     {
@@ -21,19 +39,5 @@
                 ]
             }
         ]
-    },
-    "max_cost": {
-        "base": 65,
-        "per_level_above_first": 9
-    },
-    "max_level": 1,
-    "min_cost": {
-        "base": 15,
-        "per_level_above_first": 9
-    },
-    "slots": [
-        "head"
-    ],
-    "supported_items": "#minecraft:enchantable/head_armor",
-    "weight": 2
+    }
 }

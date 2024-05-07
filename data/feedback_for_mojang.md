@@ -30,3 +30,7 @@ I'm simply giving the idea to Mojang.
         - `modifier`: item_modifier resource location; apply item modifier to all dropped items.
         - `loot`: loot_table resource location; Spawn a loot table.
     - `experience`: Integrate the current effect `minecraft:block_experience` here.
+
+- Rename the `minecraft:apply_mob_effect` effect to `minecraft:mob_effect` with the following entries:
+    - `apply`: The current `minecraft:apply_mob_effect`properties.
+    - `clear`: The ability to clear an effect.

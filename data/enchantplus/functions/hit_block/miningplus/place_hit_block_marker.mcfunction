@@ -1,0 +1,2 @@
+# This function is called by the effect `enchantplus:hit_block` function. In the enchantment.json file
+summon minecraft:marker ~ ~ ~ {Tags: ["enchantplus.hit_block", "enchantplus.invulnerable", "enchantplus.miningplus"]}

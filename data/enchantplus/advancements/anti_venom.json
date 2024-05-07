@@ -5,10 +5,21 @@
             "conditions": {
                 "player": [
                     {
-                        "entity": "this",
                         "condition": "minecraft:entity_properties",
+                        "entity": "this",
                         "predicate": {
                             "type": "minecraft:player",
+                            "equipment": {
+                                "chest": {
+                                    "components": {
+                                        "minecraft:enchantments": {
+                                            "levels": {
+                                                "enchantplus:chestplate/anti_venom": 1
+                                            }
+                                        }
+                                    }
+                                }
+                            },
                             "effects": {
                                 "minecraft:poison": {}
                             }
