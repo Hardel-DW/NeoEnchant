@@ -13,8 +13,8 @@ I've found some very minor missing details, and I don't know if they're omission
 
 - In the effect `minecraft:apply_mob_effect`, the ability to edit the "ShowIcon" NBT is missing, like the command `/effect give @s minecraft:strength 10 1 true`.
 
-- In the effects `minecraft:explode`, there is a property named `immune_blocks` which acts as a whitelist, the opposite would be a good thing, something like "vulnerable_blocks" or `affect_blocks` acting as a blacklist.
-Even more simply, `immune_blocks` becomes an object, containing a `block` parameter, and an `invert` parameter that would be boolean.
+- In the effects `minecraft:explode`, there is a property named `immune_blocks` which acts as a blacklist, the opposite would be a good thing, a parameter like `affect_blocks` acting as a whitelist.  
+Or rven more simply, `immune_blocks` can becomes an object, containing a `block` parameter, and an `invert` parameter that would be boolean.
 This avoids the creation of tags containing all the game blocks to be updated at each snapshot.
 
 ## Minor Bugs :
@@ -26,14 +26,14 @@ I'm simply giving the idea to Mojang.
 
 - In the effects `minecraft:explode`, The possibility of modifying the proboability of dropping blocks after destruction and a boolean to deactivate whether items currently on the ground disappear during an explosion.
 
-- An new effect `post_destroy_block` which would be triggered after a block is destroyed, this would allow for a lot of possibilities. With the same entry than `hit_block` with new entries :
+- An new effect `post_destroy_block` which would be triggered after a block is destroyed, this would allow for a lot of possibilities. With the same entry than `hit_block` and with new entries :
     - `drop`:
         - `prevent`: boolean; default: false; If true, the block will not drop anything.
-        - `modifier`: item_modifier resourcde location; apply item modifier to all dropped items.
-        - `loot`: loot_table resourcde location; Spawn a loot table.
+        - `modifier`: item_modifier resource location; apply item modifier to all dropped items.
+        - `loot`: loot_table resource location; Spawn a loot table.
     - `experience`: Integrate the current effect `minecraft:block_experience` here.
 
-- For `minecraft:replace_block` and `minecraft:replace_disc`, introduce a `propagate` property object which allows the effect to propagate recursively to the blocks adjacent to the replaced block. Of course the `destroy` property mentioned above would work. This enhancement could open up numerous possibilities, the  For instance:
+- For `minecraft:replace_block` and `minecraft:replace_disc`, introduce a `propagate` property object which allows to propagate recursively the effect to adjacent blocks. Of course the `destroy` property mentioned above would work. This enhancement could open up numerous possibilities, the  For instance:
     - `max_range`: int; default: 1; The range of the propagation.
     - `affect_blocks`: 
         - `block`: the list of blocks affected by the propagation, tag or block or block list.
