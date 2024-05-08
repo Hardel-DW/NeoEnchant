@@ -8,7 +8,7 @@
                 "predicates": {
                     "minecraft:enchantments": [
                         {
-                            "enchantments": "enchantplus:leggings/anti_explosion",
+                            "enchantments": "enchantplus:leggings/fear",
                             "levels": 1
                         }
                     ]

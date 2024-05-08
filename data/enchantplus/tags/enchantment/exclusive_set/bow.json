@@ -1,6 +1,13 @@
 {
     "values": [
-        "enchantplus:bow/area_arrow",
-        "enchantplus:bow/explosive_arrow"
-    ]
+        {
+            "id": "enchantplus:bow/area_arrow",
+            "required": false
+        },
+        {
+            "id": "enchantplus:bow/explosive_arrow",
+            "required": false
+        }
+    ],
+    "replace": false
 }

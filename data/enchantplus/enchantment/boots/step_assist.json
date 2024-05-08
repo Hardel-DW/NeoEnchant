@@ -8,17 +8,17 @@
     ],
     "exclusive_set": "#minecraft:exclusive_set/boots",
     "supported_items": "#minecraft:enchantable/foot_armor",
-    "weight": 2,
+    "weight": 1,
     "max_level": 3,
     "min_cost": {
-        "base": 15,
+        "base": 65,
         "per_level_above_first": 9
     },
     "max_cost": {
         "base": 65,
         "per_level_above_first": 9
     },
-    "anvil_cost": 4,
+    "anvil_cost": 8,
     "effects": {
         "minecraft:attributes": [
             {

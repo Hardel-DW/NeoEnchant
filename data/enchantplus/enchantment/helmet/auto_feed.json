@@ -1,5 +1,5 @@
 {
-    "anvil_cost": 4,
+    "anvil_cost": 6,
     "description": {
         "translate": "enchantment.minecraft.auto_feed",
         "fallback": "Auto Feed"
@@ -28,11 +28,11 @@
         ]
     },
     "max_cost": {
-        "base": 25,
+        "base": 45,
         "per_level_above_first": 10
     },
     "min_cost": {
-        "base": 10,
+        "base": 45,
         "per_level_above_first": 10
     },
     "slots": [

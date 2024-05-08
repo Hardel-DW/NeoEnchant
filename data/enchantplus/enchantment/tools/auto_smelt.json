@@ -1,5 +1,5 @@
 {
-    "anvil_cost": 4,
+    "anvil_cost": 6,
     "description": {
         "translate": "enchantment.enchantplus.auto_smelt",
         "fallback": "Auto Smelt"
@@ -16,12 +16,12 @@
     },
     "max_cost": {
         "base": 65,
-        "per_level_above_first": 9
+        "per_level_above_first": 0
     },
     "max_level": 1,
     "min_cost": {
-        "base": 15,
-        "per_level_above_first": 9
+        "base": 20,
+        "per_level_above_first": 0
     },
     "slots": [
         "mainhand"

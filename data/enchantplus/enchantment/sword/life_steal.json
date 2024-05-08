@@ -3,18 +3,17 @@
         "translate": "enchantment.enchantplus.life_steal",
         "fallback": "Life Steal"
     },
-    "exclusive_set": "#minecraft:exclusive_set/damage",
     "supported_items": "#minecraft:enchantable/weapon",
     "primary_items": "#minecraft:enchantable/sword",
-    "weight": 5,
+    "weight": 4,
     "max_level": 3,
     "min_cost": {
         "base": 5,
-        "per_level_above_first": 8
+        "per_level_above_first": 15
     },
     "max_cost": {
-        "base": 25,
-        "per_level_above_first": 8
+        "base": 35,
+        "per_level_above_first": 12
     },
     "anvil_cost": 2,
     "slots": [

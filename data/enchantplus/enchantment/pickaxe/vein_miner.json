@@ -3,6 +3,7 @@
         "translate": "enchantment.enchantplus.vein_miner",
         "fallback": "Vein Miner"
     },
+    "exclusive_set": "#enchantplus:exclusive_set/mining",
     "supported_items": "#minecraft:pickaxes",
     "weight": 2,
     "max_level": 1,

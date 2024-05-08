@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_helmet"
+    },
+    "title": {
+      "translate": "advancement.enchantplus.title.helmet",
+      "fallback": "Neo Helmet",
+      "color": "#FFE2A8"
+    },
+    "description": {
+      "translate": "advancement.enchantplus.description.helmet",
+      "fallback": "Get every custom enchantment book for the helmet",
+      "color": "green"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "enchantplus:armor/start",
+  "criteria": {
+    "auto_feed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "enchantplus:helmet/auto_feed"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "bright_vision": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "enchantplus:helmet/bright_vision"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bright_vision"
+    ],
+    [
+      "auto_feed"
+    ]
+  ]
+}

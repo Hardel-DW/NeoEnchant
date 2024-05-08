@@ -1,0 +1,13 @@
+{
+    "values": [
+        {
+            "id": "enchantplus:pickaxe/vein_miner",
+            "required": false
+        },
+        {
+            "id": "enchantplus:tools/miningplus",
+            "required": false
+        }
+    ],
+    "replace": false
+}

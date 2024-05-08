@@ -1,5 +1,5 @@
 {
-    "anvil_cost": 4,
+    "anvil_cost": 6,
     "description": {
         "translate": "enchantment.minecraft.auto_feed",
         "fallback": "Explosive Arrows"
@@ -33,20 +33,20 @@
             }
         ]
     },
-    "exclusive_set": "#enchantplus:exclusive_set/bow",
     "max_cost": {
-        "base": 65,
+        "base": 50,
         "per_level_above_first": 9
     },
     "max_level": 3,
     "min_cost": {
-        "base": 15,
+        "base": 50,
         "per_level_above_first": 9
     },
     "slots": [
         "mainhand",
         "offhand"
     ],
+    "exclusive_set": "#enchantplus:exclusive_set/bow",
     "supported_items": "#minecraft:enchantable/bow",
     "weight": 2
 }

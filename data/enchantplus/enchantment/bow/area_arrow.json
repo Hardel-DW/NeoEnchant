@@ -1,5 +1,5 @@
 {
-    "anvil_cost": 4,
+    "anvil_cost": 6,
     "description": {
         "translate": "enchantment.minecraft.auto_feed",
         "fallback": "Area arrows"
@@ -48,7 +48,7 @@
     },
     "max_level": 3,
     "min_cost": {
-        "base": 15,
+        "base": 65,
         "per_level_above_first": 9
     },
     "slots": [

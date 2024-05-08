@@ -1,0 +1,83 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_leggings"
+    },
+    "title": {
+      "translate": "advancement.enchantplus.title.leggings",
+      "fallback": "Neo Helmet",
+      "color": "#FFE2A8"
+    },
+    "description": {
+      "translate": "advancement.enchantplus.description.leggings",
+      "fallback": "Get every custom enchantment book for the leggings",
+      "color": "green"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "enchantplus:armor/start",
+  "criteria": {
+    "fast_swim": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "enchantplus:leggings/fast_swim"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "fear": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "enchantplus:leggings/fear"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "leaping": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "enchantplus:leggings/leaping"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "fast_swim"
+    ],
+    [
+      "fear"
+    ],
+    [
+      "leaping"
+    ]
+  ]
+}

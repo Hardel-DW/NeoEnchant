@@ -1,0 +1,13 @@
+{
+  "values": [
+    {
+      "id": "enchantplus:boots/lava_walker",
+      "required": false
+    },
+    {
+      "id": "enchantplus:boots/step_assist",
+      "required": false
+    }
+  ],
+  "replace": false
+}

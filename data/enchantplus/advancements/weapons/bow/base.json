@@ -1,0 +1,83 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bow"
+    },
+    "title": {
+      "translate": "advancement.enchantplus.title.bow",
+      "fallback": "Neo Bow",
+      "color": "#FFE2A8"
+    },
+    "description": {
+      "translate": "advancement.enchantplus.description.bow",
+      "fallback": "Get every custom enchantment book for the bow",
+      "color": "green"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "enchantplus:weapons/start",
+  "criteria": {
+    "explosive_arrow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "enchantplus:bow/explosive_arrow"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "area_arrow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "enchantplus:bow/area_arrow"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "accuracy_shot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "enchantplus:bow/accuracy_shot"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "explosive_arrow"
+    ],
+    [
+      "area_arrow"
+    ],
+    [
+      "accuracy_shot"
+    ]
+  ]
+}

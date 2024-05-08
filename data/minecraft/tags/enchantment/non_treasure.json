@@ -1,0 +1,45 @@
+{
+  "values": [
+    {
+      "id": "enchantplus:sword/life_steal",
+      "required": false
+    },
+    {
+      "id": "enchantplus:sword/xp_boost",
+      "required": false
+    },
+    {
+      "id": "enchantplus:bow/accuracy_shot",
+      "required": false
+    },
+    {
+      "id": "enchantplus:sword/reach",
+      "required": false
+    },
+    {
+      "id": "enchantplus:chestplate/lifeplus",
+      "required": false
+    },
+    {
+      "id": "enchantplus:leggings/leaping",
+      "required": false
+    },
+    {
+      "id": "enchantplus:boots/agility",
+      "required": false
+    },
+    {
+      "id": "enchantplus:sword/attack_speed",
+      "required": false
+    },
+    {
+      "id": "enchantplus:sword/poison_aspect",
+      "required": false
+    },
+    {
+      "id": "minecraft:tools/auto_smelt",
+      "required": false
+    }
+  ],
+  "replace": false
+}

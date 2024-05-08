@@ -4,11 +4,11 @@
     "predicate": {
         "slots": {
             "weapon.mainhand": {
-                "items": "#minecraft:pickaxes",
+                "items": "#minecraft:enchantable/mining_loot",
                 "predicates": {
                     "minecraft:enchantments": [
                         {
-                            "enchantments": "enchantplus:pickaxe/miningplus",
+                            "enchantments": "enchantplus:tools/miningplus",
                             "levels": 1
                         }
                     ]

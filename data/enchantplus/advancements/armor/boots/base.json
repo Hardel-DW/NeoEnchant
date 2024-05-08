@@ -1,0 +1,83 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_boots"
+    },
+    "title": {
+      "translate": "advancement.enchantplus.title.boots",
+      "fallback": "Neo Boots",
+      "color": "#FFE2A8"
+    },
+    "description": {
+      "translate": "advancement.enchantplus.description.boots",
+      "fallback": "Get every custom enchantment book for the boots",
+      "color": "green"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "enchantplus:armor/start",
+  "criteria": {
+    "got_agility": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "enchantplus:boots/agility"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "got_lava_walker": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "enchantplus:boots/lava_walker"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "got_step_assist": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "enchantplus:boots/step_assist"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got_agility"
+    ],
+    [
+      "got_lava_walker"
+    ],
+    [
+      "got_step_assist"
+    ]
+  ]
+}

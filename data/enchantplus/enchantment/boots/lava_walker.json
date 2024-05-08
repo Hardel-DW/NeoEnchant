@@ -1,5 +1,5 @@
 {
-    "anvil_cost": 4,
+    "anvil_cost": 8,
     "description": {
         "translate": "enchantment.enchantplus.lava_walker",
         "fallback": "Lava Walker"
@@ -91,18 +91,18 @@
         ]
     },
     "max_cost": {
-        "base": 25,
-        "per_level_above_first": 10
+        "base": 75,
+        "per_level_above_first": 25
     },
     "max_level": 2,
     "min_cost": {
-        "base": 10,
-        "per_level_above_first": 10
+        "base": 75,
+        "per_level_above_first": 25
     },
     "slots": [
         "feet"
     ],
     "exclusive_set": "#minecraft:exclusive_set/boots",
     "supported_items": "#minecraft:enchantable/foot_armor",
-    "weight": 2
+    "weight": 1
 }

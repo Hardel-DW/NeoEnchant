@@ -1,5 +1,5 @@
 {
-  "anvil_cost": 1,
+  "anvil_cost": 10,
   "description": {
     "translate": "enchantment.minecraft.armored",
     "fallback": "Armored"
@@ -26,17 +26,17 @@
     ]
   },
   "max_cost": {
-    "base": 12,
+    "base": 60,
     "per_level_above_first": 11
   },
   "max_level": 4,
   "min_cost": {
-    "base": 1,
+    "base": 60,
     "per_level_above_first": 11
   },
   "slots": [
     "chest"
   ],
   "supported_items": "minecraft:elytra",
-  "weight": 10
+  "weight": 1
 }

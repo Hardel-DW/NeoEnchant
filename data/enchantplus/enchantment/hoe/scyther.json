@@ -4,17 +4,17 @@
         "fallback": "Scyther"
     },
     "supported_items": "#minecraft:hoes",
-    "weight": 2,
+    "weight": 6,
     "max_level": 3,
     "min_cost": {
-        "base": 15,
+        "base": 12,
         "per_level_above_first": 9
     },
     "max_cost": {
-        "base": 65,
-        "per_level_above_first": 9
+        "base": 29,
+        "per_level_above_first": 5
     },
-    "anvil_cost": 4,
+    "anvil_cost": 3,
     "slots": [
         "mainhand"
     ],

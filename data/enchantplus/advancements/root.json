@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanting_table"
+    },
+    "title": {
+      "translate": "advancement.enchantplus.title.root",
+      "fallback": "NeoEnchant+"
+    },
+    "description": {
+      "translate": "advancement.enchantplus.title.root",
+      "fallback": "Discover a new power of enchantments",
+      "color": "aqua"
+    },
+    "background": "minecraft:textures/block/quartz_block_side.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:enchanting_table"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

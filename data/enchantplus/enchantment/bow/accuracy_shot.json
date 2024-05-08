@@ -3,12 +3,11 @@
         "translate": "enchantment.minecraft.auto_feed",
         "fallback": "Accuaracy Shot"
     },
-    "exclusive_set": "#enchantplus:exclusive_set/bow",
     "supported_items": "#minecraft:enchantable/bow",
     "weight": 2,
     "max_level": 1,
     "min_cost": {
-        "base": 15,
+        "base": 20,
         "per_level_above_first": 9
     },
     "max_cost": {

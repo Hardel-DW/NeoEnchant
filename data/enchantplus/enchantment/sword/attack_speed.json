@@ -1,5 +1,5 @@
 {
-    "anvil_cost": 4,
+    "anvil_cost": 2,
     "description": {
         "translate": "enchantment.enchantplus.attack_speed",
         "fallback": "Attack Speed"
@@ -20,17 +20,18 @@
         ]
     },
     "max_cost": {
-        "base": 65,
+        "base": 21,
         "per_level_above_first": 9
     },
     "max_level": 3,
     "min_cost": {
-        "base": 15,
-        "per_level_above_first": 9
+        "base": 8,
+        "per_level_above_first": 11
     },
     "slots": [
         "mainhand"
     ],
+    "exclusive_set": "#enchantplus:exclusive_set/sword_melee",
     "supported_items": "#minecraft:enchantable/sword",
-    "weight": 2
+    "weight": 4
 }

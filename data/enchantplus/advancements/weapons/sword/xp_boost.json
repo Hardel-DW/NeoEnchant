@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_book"
+    },
+    "title": {
+      "translate": "enchantment.enchantplus.title.xp_boost",
+      "fallback": "Xp Boost",
+      "color": "#40E6FF"
+    },
+    "description": {
+      "translate": "advancement.enchantplus.description.xp_boost",
+      "fallback": "I see orb everywhere!"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "enchantplus:weapons/sword/reach",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "enchantplus:sword/xp_boost"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

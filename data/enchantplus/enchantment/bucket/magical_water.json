@@ -1,5 +1,5 @@
 {
-    "anvil_cost": 4,
+    "anvil_cost": 1,
     "description": {
         "translate": "enchantment.enchantplus.magical_water",
         "fallback": "Magical Water"
@@ -36,12 +36,12 @@
         ]
     },
     "max_cost": {
-        "base": 65,
+        "base": 200,
         "per_level_above_first": 9
     },
     "max_level": 1,
     "min_cost": {
-        "base": 15,
+        "base": 200,
         "per_level_above_first": 9
     },
     "slots": [

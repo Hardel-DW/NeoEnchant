@@ -1,0 +1,47 @@
+{
+    "description": {
+        "translate": "enchantment.enchantplus.fast_swim",
+        "fallback": "Fast swim"
+    },
+    "supported_items": "#minecraft:enchantable/leg_armor",
+    "weight": 2,
+    "max_level": 1,
+    "min_cost": {
+        "base": 15,
+        "per_level_above_first": 9
+    },
+    "max_cost": {
+        "base": 65,
+        "per_level_above_first": 9
+    },
+    "anvil_cost": 4,
+    "slots": [
+        "legs"
+    ],
+    "effects": {
+        "minecraft:tick": [
+            {
+                "effect": {
+                    "type": "minecraft:apply_mob_effect",
+                    "to_apply": "minecraft:dolphins_grace",
+                    "min_duration": 10,
+                    "max_duration": 10,
+                    "min_amplifier": 0,
+                    "max_amplifier": 0
+                },
+                "requirements": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "flags": {
+                                "is_swimming": true
+                            },
+                            "periodic_tick": 100
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
