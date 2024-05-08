@@ -17,6 +17,10 @@
       "required": false
     },
     {
+      "id": "enchantplus:boots/sky_walk",
+      "required": false
+    },
+    {
       "id": "enchantplus:bow/accuracy_shot",
       "required": false
     },
