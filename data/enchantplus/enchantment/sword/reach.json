@@ -1,0 +1,36 @@
+{
+    "anvil_cost": 4,
+    "description": {
+        "translate": "enchantment.enchantplus.reach",
+        "fallback": "Reach"
+    },
+    "effects": {
+        "minecraft:attributes": [
+            {
+                "name": "enchantment.reach",
+                "attribute": "minecraft:player.entity_interaction_range",
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": 1,
+                    "per_level_above_first": 0.5
+                },
+                "operation": "add_value",
+                "uuid": "7b781824-3876-47fa-befc-00b1510a046f"
+            }
+        ]
+    },
+    "max_level": 3,
+    "max_cost": {
+        "base": 65,
+        "per_level_above_first": 9
+    },
+    "min_cost": {
+        "base": 15,
+        "per_level_above_first": 9
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#minecraft:enchantable/sword",
+    "weight": 2
+}

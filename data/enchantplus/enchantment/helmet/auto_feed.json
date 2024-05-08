@@ -36,9 +36,9 @@
         "per_level_above_first": 10
     },
     "slots": [
-        "armor"
+        "head"
     ],
     "max_level": 1,
-    "supported_items": "#minecraft:enchantable/armor",
+    "supported_items": "#minecraft:enchantable/head_armor",
     "weight": 2
 }

@@ -1,10 +1,10 @@
 {
   "values": [
-    "enchantplus:armor/auto_feed",
+    "enchantplus:helmet/auto_feed",
     "enchantplus:helmet/bright_vision",
     "enchantplus:chestplate/lifeplus",
     "enchantplus:chestplate/anti_venom",
-    "enchantplus:leggings/anti_explosion",
+    "enchantplus:leggings/fear",
     "enchantplus:leggings/leaping",
     "enchantplus:boots/lava_walker",
     "enchantplus:boots/agility",
@@ -14,6 +14,7 @@
     "enchantplus:bow/accuracy_shot",
     "enchantplus:bucket/magical_water",
     "enchantplus:sword/attack_speed",
+    "enchantplus:sword/reach",
     "enchantplus:sword/xp_boost",
     "enchantplus:sword/poison_aspect",
     "enchantplus:sword/life_steal",

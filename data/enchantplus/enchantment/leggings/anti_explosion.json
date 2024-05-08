@@ -1,7 +1,7 @@
 {
     "description": {
-        "translate": "enchantment.enchantplus.anti_explosion",
-        "fallback": "Anti Explosion"
+        "translate": "enchantment.enchantplus.fear",
+        "fallback": "Fear"
     },
     "weight": 2,
     "max_level": 1,
@@ -18,29 +18,5 @@
         "legs"
     ],
     "supported_items": "#minecraft:enchantable/leg_armor",
-    "effects": {
-        "minecraft:attributes": [
-            {
-                "name": "enchantment.antiexplosion",
-                "attribute": "minecraft:generic.explosion_knockback_resistance",
-                "amount": 1,
-                "operation": "add_value",
-                "uuid": "a3aeb10f-3a51-47b3-b170-fac732043045"
-            }
-        ],
-        "minecraft:damage_immunity": [
-            {
-                "effect": {},
-                "condition": "minecraft:damage_source_properties",
-                "predicate": {
-                    "tags": [
-                        {
-                            "id": "minecraft:is_explosion",
-                            "expected": true
-                        }
-                    ]
-                }
-            }
-        ]
-    }
+    "effects": {}
 }
