@@ -1,5 +1,11 @@
-execute if block ~ ~ ~ minecraft:air run function enchantplus:hit_block/miningplus/destroy
-execute if predicate enchantplus:periodic if entity @s[tag=!enchantplus.invulnerable] unless block ~ ~ ~ air run function enchantplus:hit_block/kill
 
-# this line allow to skip the first tick in periodic function, because n = 0 % periodic_tick == 0 returns true, and i want to start from n = 1
-execute if entity @s[tag=enchantplus.invulnerable] run tag @s remove enchantplus.invulnerable
+#> enchantplus:hit_block/miningplus/core
+#
+# @within		enchantplus:hit_block/main
+# @executed		as & at the miningplus marker
+# @description	Handle miningplus marker tick
+#
+
+# If the block has been mined, launch destroy function
+execute if block ~ ~ ~ minecraft:air run function enchantplus:hit_block/miningplus/destroy
+
