@@ -1,6 +1,6 @@
 {
     "description": {
-        "translate": "enchantment.minecraft.auto_feed",
+        "translate": "enchantment.minecraft.accuracy_shot",
         "fallback": "Accuracy Shot"
     },
     "supported_items": "#minecraft:enchantable/bow",
