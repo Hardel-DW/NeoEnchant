@@ -14,6 +14,3 @@ execute if score #direction enchantplus.data matches 1 run function enchantplus:
 execute if score #direction enchantplus.data matches 2 run function enchantplus:hit_block/miningplus/break/north_south
 execute if score #direction enchantplus.data matches 3 run function enchantplus:hit_block/miningplus/break/east_west
 
-# Execute the function to break blocks at every new marker
-execute at @e[type=marker,tag=enchantplus.miningplus_break] run function enchantplus:hit_block/miningplus/break/execute
-
