@@ -1,4 +1,11 @@
 
+#> enchantplus:load
+#
+# @within		#load:load
+# @executed		default context
+# @description	Load function for Enchantplus.
+#
+
 # Create scoreboard objectives
 scoreboard objectives add enchantplus.data dummy
 scoreboard objectives add enchantplus.old_fuse dummy

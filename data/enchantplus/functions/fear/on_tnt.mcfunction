@@ -1,4 +1,11 @@
 
+#> enchantplus:fear/on_tnt
+#
+# @within		enchantplus:fear/tick
+# @executed		at the position of the player having fear enchantment on their leggings & as the tnt
+# @description	If the tnt is too close, prevent it from exploding by incrementing its fuse time by 1 tick
+#
+
 # Get current fuse
 execute store result score #fuse enchantplus.data run data get entity @s fuse
 

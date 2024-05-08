@@ -1,4 +1,11 @@
 
+#> enchantplus:hit_block/miningplus/break/starting
+#
+# @within		enchantplus:hit_block/miningplus/destroy
+# @executed		as the player breaking the block & at the miningplus marker
+# @description	Get in which direction the player is facing and launch the break function accordingly
+#
+
 # What direction
 scoreboard players set #direction enchantplus.data 0
 execute if score #direction enchantplus.data matches 0 if entity @s[x_rotation=-90..-45] run scoreboard players set #direction enchantplus.data 1

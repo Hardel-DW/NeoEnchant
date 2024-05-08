@@ -1,4 +1,11 @@
 
+#> enchantplus:main
+#
+# @within		#minecraft:tick
+# @executed		default context
+# @description	Main tick function for Enchantplus.
+#
+
 # Kill every accuracy shot arrows that lived for too long
 execute as @e[type=arrow,tag=enchantplus.accuracy_shot,predicate=enchantplus:accuracy_shot] at @s unless entity @a[distance=..5] run kill @s
 
