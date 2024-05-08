@@ -1,2 +1,5 @@
+
 # This function is called by the effect `enchantplus:hit_block` function. In the enchantment.json file
-summon minecraft:marker ~ ~ ~ {Tags: ["enchantplus.hit_block", "enchantplus.invulnerable", "enchantplus.timber"]}
+summon marker ~ ~ ~ {Tags: ["enchantplus.hit_block", "enchantplus.invulnerable", "enchantplus.timber"]}
+scoreboard players add #hit_block_markers enchantplus.data 1
+
