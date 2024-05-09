@@ -39,17 +39,17 @@ The following tags are used to group items for enchanting. The tags are used in 
 
 | Tags names               | Items                                                                 |
 |--------------------------|-----------------------------------------------------------------------|
-| #minecraft:enchantable/head_armor | Leather Cap, Chainmail Helmet, Iron Helmet, Diamond Helmet, Golden Helmet, Netherite Helmet |
-| #minecraft:enchantable/chest_armor | Leather Tunic, Chainmail Chestplate, Iron Chestplate, Diamond Chestplate, Golden Chestplate, Netherite Chestplate |
-| #minecraft:enchantable/leg_armor | Leather Pants, Chainmail Leggings, Iron Leggings, Diamond Leggings, Golden Leggings, Netherite Leggings |
-| #minecraft:enchantable/foot_armor | Leather Boots, Chainmail Boots, Iron Boots, Diamond Boots, Golden Boots, Netherite Boots |
-| #minecraft:pickaxes      | Wooden Pickaxe, Stone Pickaxe, Iron Pickaxe, Golden Pickaxe, Diamond Pickaxe, Netherite Pickaxe |
-| #minecraft:hoes          | Wooden Hoe, Stone Hoe, Iron Hoe, Golden Hoe, Diamond Hoe, Netherite Hoe |
-| #minecraft:axes          | Wooden Axe, Stone Axe, Iron Axe, Golden Axe, Diamond Axe, Netherite Axe |
-| #minecraft:shovels       | Wooden Shovel, Stone Shovel, Iron Shovel, Golden Shovel, Diamond Shovel, Netherite Shovel |
-| #minecraft:enchantable/sword | Wooden Sword, Stone Sword, Iron Sword, Golden Sword, Diamond Sword, Netherite Sword |
-| #minecraft:enchantable/mining_loot | Pickaxes, Axe, Shovels and Hoes |
-| #minecraft:enchantable/weapon | Swords, Axes and Maces |
+| #minecraft:enchantable/head_armor | Every Helmet |
+| #minecraft:enchantable/chest_armor | Every Chestplate |
+| #minecraft:enchantable/leg_armor | Every Leggings |
+| #minecraft:enchantable/foot_armor | Every Netherite Boots |
+| #minecraft:pickaxes      | Every Pickaxe |
+| #minecraft:hoes          | Every Hoe |
+| #minecraft:axes          | Every Axe |
+| #minecraft:shovels       | Every Shovel |
+| #minecraft:enchantable/sword | Every Sword |
+| #minecraft:enchantable/mining_loot | Every Pickaxes, Axe, Shovels and Hoes |
+| #minecraft:enchantable/weapon | Every Swords, Axes and Maces |
 | minecraft:elytra         | Elytra |
 | #minecraft:enchantable/bow | Bow, Crossbow |
 | #minecraft:enchantable/trident | Trident |
