@@ -1,19 +1,7 @@
 {
   "values": [
     {
-      "id": "enchantplus:sword/life_steal",
-      "required": false
-    },
-    {
-      "id": "enchantplus:sword/xp_boost",
-      "required": false
-    },
-    {
-      "id": "enchantplus:bow/accuracy_shot",
-      "required": false
-    },
-    {
-      "id": "enchantplus:sword/reach",
+      "id": "enchantplus:helmet/bright_vision",
       "required": false
     },
     {
@@ -29,7 +17,19 @@
       "required": false
     },
     {
+      "id": "enchantplus:boots/sky_walk",
+      "required": false
+    },
+    {
+      "id": "enchantplus:bow/accuracy_shot",
+      "required": false
+    },
+    {
       "id": "enchantplus:sword/attack_speed",
+      "required": false
+    },
+    {
+      "id": "enchantplus:sword/xp_boost",
       "required": false
     },
     {
@@ -37,7 +37,23 @@
       "required": false
     },
     {
+      "id": "enchantplus:sword/life_steal",
+      "required": false
+    },
+    {
+      "id": "enchantplus:axe/timber",
+      "required": false
+    },
+    {
+      "id": "enchantplus:hoe/scyther",
+      "required": false
+    },
+    {
       "id": "minecraft:tools/auto_smelt",
+      "required": false
+    },
+    {
+      "id": "minecraft:trident/magical_water",
       "required": false
     }
   ],
