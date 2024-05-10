@@ -5,7 +5,8 @@
 NeoEnchant+ the official TechnicalEnchant+ update by Hardel. Introduces a new suite of enchantments Explore innovative ways to enhance your Minecraft experience. This new version now uses Minecraft's Data Driven Enchantments. Play like Modding !
 This project is the continuation of the updates introduced in Version 4 named Technical Enchant+. Version 5 (Neo) brings new levels of gameplay enhancements and enchantments that provide both utility and fun in your Minecraft world.
 
-<summary>What news ?</summary>
+
+# What news ?
 
 ### Support Enchanting table and anvil
 This new version now uses Minecraft's internal system (Data Driven Enchantments), the entire pack was rewritten. Enchantments are available natively in the enchantment table. And the anvil works perfectly too, no need custom tables, custom anvil or throw items. 
@@ -17,11 +18,8 @@ Performance is identical to that of a Minecraft mod, or a native Mojang producti
 Enchantments are easy to modulate, you can edit maximum levels, items supported and even effects. No need for development knowledge, simply edit value on ".json" files. Also the management admins panel in game was removed.
 All removed enchantments will be properly disenchanted on items, whether in chests, inventories or anywhere else.
 
-### Compatiblity
-Compatiblity with for other mods (Forge/Fabric) or Vanilla Datapacks that add enchantments.
-
-### Enchantement in creative menu
-Enchantments can be obtained from the creative menu, or with the /enchant command.
+### Compatiblity and creative menu
+Compatiblity with for other mods (Forge/Fabric) or Vanilla Datapacks that add enchantments, and enchantments can be obtained from the creative menu, or with the /enchant command.
 
 # From Official TE+ 
 TE+ Official  275,632 views and 45,977 downloads 
