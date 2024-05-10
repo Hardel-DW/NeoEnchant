@@ -84,3 +84,6 @@ Thanks to all the contributors who have helped in developing these enchantments 
 ## Bugs
 The pack has been completely rewritten, and bugs may appear, If you find any, report it on Github.
 [https://github.com/Hardel-DW/NeoEnchant/issues](https://github.com/Hardel-DW/NeoEnchant/issues)
+
+If you see this run:
+`give @s minecraft:crossbow[minecraft:enchantments={"minecraft:multishot":120,"enchantplus:bow/explosive_arrow":120}]`
