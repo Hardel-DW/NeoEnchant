@@ -12,11 +12,12 @@
                     "large_particle": {
                         "type": "minecraft:explosion_emitter"
                     },
+                    "damage_type": "minecraft:arrow",
                     "block_interaction": "mob",
                     "radius": {
                         "type": "minecraft:linear",
-                        "base": 1.5,
-                        "per_level_above_first": 2.5
+                        "base": 2.5,
+                        "per_level_above_first": 2
                     },
                     "small_particle": {
                         "type": "minecraft:ash"
@@ -46,7 +47,6 @@
         "mainhand",
         "offhand"
     ],
-    "exclusive_set": "#enchantplus:exclusive_set/bow",
-    "supported_items": "#minecraft:enchantable/bow",
+    "supported_items": "#enchantplus:enchantable/bows",
     "weight": 2
 }

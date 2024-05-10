@@ -17,7 +17,7 @@
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "enchantplus:weapons/bow/area_arrow",
+  "parent": "enchantplus:weapons/bow/explosive_arrow",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

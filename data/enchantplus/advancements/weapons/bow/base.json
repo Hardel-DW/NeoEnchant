@@ -36,22 +36,6 @@
         ]
       }
     },
-    "area_arrow": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "predicates": {
-              "minecraft:enchantments": [
-                {
-                  "enchantments": "enchantplus:bow/area_arrow"
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
     "accuracy_shot": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -72,9 +56,6 @@
   "requirements": [
     [
       "explosive_arrow"
-    ],
-    [
-      "area_arrow"
     ],
     [
       "accuracy_shot"

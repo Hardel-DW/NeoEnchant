@@ -43,7 +43,7 @@ Below is the list of enchantments included in this release. Check off the enchan
 - **Auto-Smelt**: Automatically smelts items.
 - **Mining+**: Lets you mine a 3x3 area.
 - **Accuracy Shot**: Arrows fly straight.
-- **Explosive Arrow**: When arrow hit a block, create an explosion, the entity don't take damage.
+- **Explosive Arrow**: When arrow hit a block, create an explosion, the entity take damage.
 - **Attack Speed**: Increases your attack speed.
 - **Timber**: Cut down a tree with one strike.
 - **VeinMiner**: If you break a mineral block, all surrounding minerals also break.
@@ -65,7 +65,6 @@ However, new enchantments have been added to the list to provide a fresh experie
 ## New enchantments introduce in NE+
 - **Harvesting**: If you break any crop with this hoe (wheat, carrot, potato, beetroot or nether wart), it will break other crops around it.
 - **Scyther**: Allows you to transform dirt in farmland in x by z surface depending enchantment levels
-- **Area Arrow**: Damage in area when the arrow hit a block -> I don't know for the name HELP ME.
 - **Step Assist**: Allows you to walk up blocks more easily.
 - **Reach**: Increase the range of your attack.
 - **Builder Arms**: Allows you to place and break blocks from a longer distance.
