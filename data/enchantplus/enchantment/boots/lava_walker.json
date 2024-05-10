@@ -94,7 +94,7 @@
         "base": 75,
         "per_level_above_first": 25
     },
-    "max_level": 2,
+    "max_level": 4,
     "min_cost": {
         "base": 75,
         "per_level_above_first": 25
