@@ -3,7 +3,10 @@
         "translate": "enchantment.minecraft.accuracy_shot",
         "fallback": "Accuracy Shot"
     },
-    "supported_items": "#minecraft:enchantable/bow",
+    "supported_items": [
+        "minecraft:bow",
+        "minecraft:crossbow"
+    ],
     "weight": 2,
     "max_level": 1,
     "min_cost": {
