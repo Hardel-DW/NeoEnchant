@@ -8,21 +8,30 @@
         "minecraft:hit_block": [
             {
                 "effect": {
-                    "type": "minecraft:explode",
-                    "large_particle": {
-                        "type": "minecraft:explosion_emitter"
-                    },
-                    "damage_type": "minecraft:arrow",
-                    "block_interaction": "mob",
-                    "radius": {
-                        "type": "minecraft:linear",
-                        "base": 2.5,
-                        "per_level_above_first": 2
-                    },
-                    "small_particle": {
-                        "type": "minecraft:ash"
-                    },
-                    "sound": "minecraft:entity.generic.explode"
+                    "type": "minecraft:all_of",
+                    "effects": [
+                        {
+                            "type": "minecraft:run_function",
+                            "function": "enchantplus:actions/self_kill"
+                        },
+                        {
+                            "type": "minecraft:explode",
+                            "large_particle": {
+                                "type": "minecraft:explosion_emitter"
+                            },
+                            "damage_type": "minecraft:arrow",
+                            "block_interaction": "mob",
+                            "radius": {
+                                "type": "minecraft:linear",
+                                "base": 2.5,
+                                "per_level_above_first": 2
+                            },
+                            "small_particle": {
+                                "type": "minecraft:ash"
+                            },
+                            "sound": "minecraft:entity.generic.explode"
+                        }
+                    ]
                 },
                 "requirements": {
                     "condition": "minecraft:entity_properties",
