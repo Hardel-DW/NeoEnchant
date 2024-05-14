@@ -5,7 +5,6 @@
 NeoEnchant+ the official TechnicalEnchant+ update by Hardel. Introduces a new suite of enchantments Explore innovative ways to enhance your Minecraft experience. This new version now uses Minecraft's Data Driven Enchantments. Play like Modding !
 This project is the continuation of the updates introduced in Version 4 named Technical Enchant+. Version 5 (Neo) brings new levels of gameplay enhancements and enchantments that provide both utility and fun in your Minecraft world.
 
-
 # What news ?
 
 ### Support Enchanting table and anvil
@@ -74,6 +73,9 @@ However, new enchantments have been added to the list to provide a fresh experie
 ## Contributing
 You can contribute on the official Github. We welcome all contributions that help in enhancing this project and making Minecraft more enjoyable for everyone.
 [https://github.com/Hardel-DW/NeoEnchant](https://github.com/Hardel-DW/NeoEnchant)
+
+You can also come on the discord !
+[Hardel Lab's Discord](https://discord.gg/mVpYB6kF93)
 
 ## License
 This project is licensed under the NeoEnchant License - see the LICENSE file for details.
