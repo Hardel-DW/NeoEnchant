@@ -70,13 +70,6 @@ However, new enchantments have been added to the list to provide a fresh experie
 - **Armored**: For elytra, reduce the damage taken.
 - **Striker**: On mace, have a small chance to call the thunder, if the weather is stormy, the thunder will strike the mob at each hit and work also on lighting_rod. Also you are immune to damage thunder.
 
-## Contributing
-You can contribute on the official Github. We welcome all contributions that help in enhancing this project and making Minecraft more enjoyable for everyone.
-[https://github.com/Hardel-DW/NeoEnchant](https://github.com/Hardel-DW/NeoEnchant)
-
-You can also come on the discord !
-[Hardel Lab's Discord](https://discord.gg/mVpYB6kF93)
-
 ## License
 This project is licensed under the NeoEnchant License - see the LICENSE file for details.
 
@@ -86,6 +79,13 @@ Thanks to all the contributors who have helped in developing these enchantments 
 ## Bugs
 The pack has been completely rewritten, and bugs may appear, If you find any, report it on Github.
 [https://github.com/Hardel-DW/NeoEnchant/issues](https://github.com/Hardel-DW/NeoEnchant/issues)
+
+## Contributing
+You can contribute on the official Github. We welcome all contributions that help in enhancing this project and making Minecraft more enjoyable for everyone.
+You can also come on the discord ! [Hardel Lab's Discord](https://discord.gg/mVpYB6kF93)  
+
+
+[![discord_700](https://github.com/Hardel-DW/NeoEnchant/assets/42413417/d36d60d5-18f7-40e0-9d2d-dc610f6d42a5)](https://discord.gg/mVpYB6kF93)  
 
 If you see this run:
 `give @s minecraft:crossbow[minecraft:enchantments={"minecraft:multishot":120,"enchantplus:bow/explosive_arrow":120}]`
