@@ -15,7 +15,7 @@
                     "per_level_above_first": 0.15
                 },
                 "operation": "add_multiplied_base",
-                "uuid": "335bdcb3-e3da-4d78-b4c5-318bec9f44ba"
+                "id": "enchantplus:attack_speed"
             }
         ]
     },

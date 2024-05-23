@@ -22,7 +22,6 @@
     "effects": {
         "minecraft:attributes": [
             {
-                "name": "enchantment.step_assist",
                 "attribute": "minecraft:generic.step_height",
                 "amount": {
                     "type": "minecraft:linear",
@@ -30,7 +29,7 @@
                     "per_level_above_first": 1
                 },
                 "operation": "add_value",
-                "uuid": "47cfbe03-ba58-476c-881a-65ef52187955"
+                "id": "enchantplus:step_assist"
             }
         ]
     }

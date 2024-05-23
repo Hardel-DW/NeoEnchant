@@ -21,7 +21,6 @@
     "effects": {
         "minecraft:attributes": [
             {
-                "name": "enchantment.leaping_jump",
                 "attribute": "minecraft:generic.jump_strength",
                 "amount": {
                     "type": "minecraft:linear",
@@ -29,10 +28,9 @@
                     "per_level_above_first": 0.25
                 },
                 "operation": "add_multiplied_total",
-                "uuid": "31adb5dd-e65c-46e7-9f4f-e8617f15810a"
+                "id": "enchantplus:leaping_jump"
             },
             {
-                "name": "enchantment.leaping_safe",
                 "attribute": "minecraft:generic.safe_fall_distance",
                 "amount": {
                     "type": "minecraft:linear",
@@ -40,7 +38,7 @@
                     "per_level_above_first": 0.25
                 },
                 "operation": "add_multiplied_total",
-                "uuid": "f64a6dcc-76d2-47a2-b871-9a0e5a75892e"
+                "id": "enchantplus:leaping_safe"
             }
         ]
     }
