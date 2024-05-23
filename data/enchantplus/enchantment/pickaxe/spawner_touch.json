@@ -1,0 +1,23 @@
+{
+    "description": {
+        "translate": "enchantment.enchantplus.spawner_touch",
+        "fallback": "Spawner Touch"
+    },
+    "exclusive_set": "#enchantplus:exclusive_set/mining",
+    "supported_items": "#minecraft:pickaxes",
+    "weight": 2,
+    "max_level": 1,
+    "min_cost": {
+        "base": 50,
+        "per_level_above_first": 9
+    },
+    "max_cost": {
+        "base": 80,
+        "per_level_above_first": 9
+    },
+    "anvil_cost": 20,
+    "slots": [
+        "mainhand"
+    ],
+    "effects": {}
+}

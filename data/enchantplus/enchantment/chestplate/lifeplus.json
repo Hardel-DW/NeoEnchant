@@ -21,15 +21,14 @@
     "effects": {
         "minecraft:attributes": [
             {
-                "name": "enchantment.lifeplus",
+                "id": "minecraft:enchantment.lifeplus",
                 "attribute": "minecraft:generic.max_health",
                 "amount": {
                     "type": "minecraft:linear",
                     "base": 4,
                     "per_level_above_first": 4
                 },
-                "operation": "add_value",
-                "uuid": "4431d309-3e47-4d24-9a91-ece13a58c1bb"
+                "operation": "add_value"
             }
         ]
     }

@@ -7,15 +7,14 @@
     "effects": {
         "minecraft:attributes": [
             {
-                "name": "enchantment.attack_speed",
+                "id": "minecraft:enchantment.attack_speed",
                 "attribute": "minecraft:generic.attack_speed",
                 "amount": {
                     "type": "minecraft:linear",
                     "base": 0.15,
                     "per_level_above_first": 0.15
                 },
-                "operation": "add_multiplied_base",
-                "uuid": "335bdcb3-e3da-4d78-b4c5-318bec9f44ba"
+                "operation": "add_multiplied_base"
             }
         ]
     },

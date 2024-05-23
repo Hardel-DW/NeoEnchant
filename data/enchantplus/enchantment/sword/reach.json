@@ -7,15 +7,14 @@
     "effects": {
         "minecraft:attributes": [
             {
-                "name": "enchantment.reach",
+                "id": "minecraft:enchantment.reach",
                 "attribute": "minecraft:player.entity_interaction_range",
                 "amount": {
                     "type": "minecraft:linear",
                     "base": 1,
                     "per_level_above_first": 0.5
                 },
-                "operation": "add_value",
-                "uuid": "7b781824-3876-47fa-befc-00b1510a046f"
+                "operation": "add_value"
             }
         ]
     },

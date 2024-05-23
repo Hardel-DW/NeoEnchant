@@ -1,0 +1,2043 @@
+{
+    "description": {
+        "translate": "enchantment.enchantplus.pull",
+        "fallback": "Pull"
+    },
+    "exclusive_set": "#enchantplus:exclusive_set/aspect",
+    "supported_items": "#minecraft:enchantable/weapon",
+    "primary_items": "#minecraft:enchantable/sword",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+        "base": 40,
+        "per_level_above_first": 15
+    },
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 15
+    },
+    "anvil_cost": 10,
+    "slots": [
+        "mainhand"
+    ],
+    "effects": {
+        "minecraft:post_attack": [
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/allay"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:allay"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/armadillo"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:armadillo"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/axolotl"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:axolotl"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/bat"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:bat"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/bee"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:bee"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/blaze"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:blaze"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/bogged"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:bogged"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/breeze"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:breeze"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/camel"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:camel"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/cat"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:cat"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/cave_spider"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:cave_spider"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/chicken"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:chicken"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/cod"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:cod"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/cow"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:cow"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/creeper"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:creeper"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/dolphin"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:dolphin"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/donkey"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:donkey"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/drowned"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:drowned"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/egg"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:egg"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/elder_guardian"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:elder_guardian"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/enderman"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:enderman"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/endermite"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:endermite"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/ender_dragon"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:ender_dragon"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/evoker"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:evoker"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/fox"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:fox"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/frog"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:frog"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/ghast"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:ghast"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/giant"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:giant"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/glow_squid"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:glow_squid"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/goat"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:goat"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/guardian"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:guardian"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/hoglin"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:hoglin"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/horse"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:horse"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/husk"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:husk"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/illusioner"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:illusioner"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/iron_golem"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:iron_golem"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/llama"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:llama"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/magma_cube"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:magma_cube"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/mooshroom"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:mooshroom"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/mule"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:mule"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/ocelot"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:ocelot"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/panda"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:panda"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/parrot"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:parrot"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/phantom"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:phantom"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/pig"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:pig"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/piglin"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:piglin"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/piglin_brute"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:piglin_brute"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/pillager"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:pillager"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/polar_bear"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:polar_bear"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/pufferfish"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:pufferfish"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/rabbit"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:rabbit"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/ravager"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:ravager"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/salmon"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:salmon"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/sheep"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:sheep"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/shulker"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:shulker"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/silverfish"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:silverfish"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/skeleton"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:skeleton"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/skeleton_horse"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:skeleton_horse"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/slime"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:slime"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/sniffer"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:sniffer"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/snow_golem"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:snow_golem"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/spider"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:spider"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/squid"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:squid"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/stray"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:stray"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/strider"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:strider"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/tadpole"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:tadpole"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/trader_llama"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:trader_llama"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/tropical_fish"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:tropical_fish"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/turtle"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:turtle"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/vex"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:vex"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/villager"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:villager"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/vindicator"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:vindicator"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/wandering_trader"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:wandering_trader"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/warden"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:warden"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/wind_charge"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:wind_charge"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/witch"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:witch"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/wither"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:wither"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/wither_skeleton"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:wither_skeleton"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/wolf"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:wolf"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/zoglin"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:zoglin"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/zombie"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:zombie"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/zombie_horse"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:zombie_horse"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/zombie_villager"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:zombie_villager"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/egg/zombified_piglin"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:zombified_piglin"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

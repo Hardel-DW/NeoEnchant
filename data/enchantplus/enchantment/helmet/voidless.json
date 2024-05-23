@@ -1,0 +1,63 @@
+{
+    "description": {
+        "translate": "enchantment.enchantplus.voidless",
+        "fallback": "Voidless"
+    },
+    "supported_items": "#minecraft:enchantable/head_armor",
+    "weight": 8,
+    "max_level": 1,
+    "min_cost": {
+        "base": 25,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 42,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 4,
+    "slots": [
+        "head"
+    ],
+    "effects": {
+        "minecraft:location_changed": [
+            {
+                "effect": {
+                    "type": "minecraft:all_of",
+                    "effects": [
+                        {
+                            "type": "minecraft:apply_mob_effect",
+                            "to_apply": "minecraft:levitation",
+                            "min_duration": 2,
+                            "max_duration": 2,
+                            "min_amplifier": 35,
+                            "max_amplifier": 35
+                        },
+                        {
+                            "type": "minecraft:apply_mob_effect",
+                            "to_apply": "minecraft:resistance",
+                            "min_duration": 7,
+                            "max_duration": 7,
+                            "min_amplifier": 50,
+                            "max_amplifier": 50
+                        }
+                    ]
+                },
+                "requirements": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "location": {
+                            "dimension": "minecraft:the_end",
+                            "position": {
+                                "y": {
+                                    "min": -64,
+                                    "max": 0
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

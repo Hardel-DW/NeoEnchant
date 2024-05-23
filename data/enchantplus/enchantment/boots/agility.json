@@ -22,15 +22,14 @@
     "effects": {
         "minecraft:attributes": [
             {
-                "name": "enchantment.agility",
+                "id": "minecraft:enchantment.agility",
                 "attribute": "minecraft:generic.movement_speed",
                 "amount": {
                     "type": "minecraft:linear",
                     "base": 0.2,
                     "per_level_above_first": 0.2
                 },
-                "operation": "add_multiplied_total",
-                "uuid": "b0b38e84-04c4-4749-b25d-57d81e6d65ec"
+                "operation": "add_multiplied_total"
             }
         ]
     }

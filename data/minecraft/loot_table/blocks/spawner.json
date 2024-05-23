@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:spawner"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                        "components": {
+                            "minecraft:enchantments": {
+                                "enchantplus:pickaxe/spawner_touch": 1
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "random_sequence": "minecraft:blocks/spawner"
+}

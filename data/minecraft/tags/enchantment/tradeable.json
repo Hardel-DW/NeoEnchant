@@ -15,6 +15,18 @@
     {
       "id": "enchantplus:tools/auto_smelt",
       "required": false
+    },
+    {
+      "id": "enchantplus:pickaxe/spawner_touch",
+      "required": false
+    },
+    {
+      "id": "enchantplus:helmet/voidless",
+      "required": false
+    },
+    {
+      "id": "enchantplus:sword/pull",
+      "required": false
     }
   ],
   "replace": false

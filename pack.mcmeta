@@ -1,25 +1,6 @@
 {
-	"pack":
-	{
-		"pack_format": 26,
-		"description": [
-            {
-                "text": "by ",
-                "color": "#9aa3a5"
-            },
-            {
-                "text": "Hardel ",
-                "color": "#3051BF"
-            },
-            {
-                "text": "and ",
-                "color": "#9aa3a5"
-            },
-            {
-                "text": "Frektip ",
-                "color": "#CF130C"
-            }
-        ]
-
-	}
+    "pack": {
+        "pack_format": 45,
+        "description": "By Hardel"
+    }
 }
