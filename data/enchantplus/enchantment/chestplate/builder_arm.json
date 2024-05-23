@@ -21,7 +21,6 @@
     "effects": {
         "minecraft:attributes": [
             {
-                "name": "enchantment.wonder_arm",
                 "attribute": "minecraft:player.block_interaction_range",
                 "amount": {
                     "type": "minecraft:linear",
@@ -29,7 +28,7 @@
                     "per_level_above_first": 1.5
                 },
                 "operation": "add_value",
-                "uuid": "2ac8ad04-dbf3-4104-93e3-f0ead380e5a3"
+                "id": "enchantplus:wonder_arm"
             }
         ]
     }

@@ -7,7 +7,6 @@
     "effects": {
         "minecraft:attributes": [
             {
-                "name": "enchantment.reach",
                 "attribute": "minecraft:player.entity_interaction_range",
                 "amount": {
                     "type": "minecraft:linear",
@@ -15,7 +14,7 @@
                     "per_level_above_first": 0.5
                 },
                 "operation": "add_value",
-                "uuid": "7b781824-3876-47fa-befc-00b1510a046f"
+                "id": "enchantplus:reach"
             }
         ]
     },
