@@ -1,17 +1,8 @@
 {
   "values": [
-    {
-      "id": "enchantplus:helmet/auto_feed",
-      "required": false
-    },
-    {
-      "id": "enchantplus:bow/explosive_arrow",
-      "required": false
-    },
-    {
-      "id": "enchantplus:chestplate/builder_arm",
-      "required": false
-    }
+    "enchantplus:helmet/auto_feed",
+    "enchantplus:bow/explosive_arrow",
+    "enchantplus:chestplate/builder_arm"
   ],
   "replace": false
 }

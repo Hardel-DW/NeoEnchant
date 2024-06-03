@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+        "enchantplus:boots/agility",
+        "enchantplus:boots/lava_walker",
+        "enchantplus:boots/step_assist",
+        "enchantplus:bow/accuracy_shot",
+        "enchantplus:bow/explosive_arrow",
+        "enchantplus:chestplate/anti_venom",
+        "enchantplus:chestplate/life_plus",
+        "enchantplus:leggings/leaping",
+        "enchantplus:leggings/fast_swim",
+        "enchantplus:sword/poison_aspect",
+        "enchantplus:sword/attack_speed",
+        "enchantplus:sword/life_steal"
+    ]
+}

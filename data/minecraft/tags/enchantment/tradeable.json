@@ -1,33 +1,9 @@
 {
   "values": [
-    {
-      "id": "enchantplus:sword/reach",
-      "required": false
-    },
-    {
-      "id": "enchantplus:pickaxe/vein_miner",
-      "required": false
-    },
-    {
-      "id": "enchantplus:tools/miningplus",
-      "required": false
-    },
-    {
-      "id": "enchantplus:tools/auto_smelt",
-      "required": false
-    },
-    {
-      "id": "enchantplus:pickaxe/spawner_touch",
-      "required": false
-    },
-    {
-      "id": "enchantplus:helmet/voidless",
-      "required": false
-    },
-    {
-      "id": "enchantplus:sword/pull",
-      "required": false
-    }
+    "enchantplus:sword/reach",
+    "enchantplus:pickaxe/vein_miner",
+    "enchantplus:tools/miningplus",
+    "enchantplus:tools/auto_smelt"
   ],
   "replace": false
 }

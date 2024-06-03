@@ -1,0 +1,49 @@
+{
+    "description": {
+        "translate": "enchantment.minecraft.breezing_arrow",
+        "fallback": "Breezing Arrows"
+    },
+    "exclusive_set": "#enchantplus:exclusive_set/bow",
+    "supported_items": "#enchantplus:enchantable/bows",
+    "weight": 2,
+    "max_level": 3,
+    "min_cost": {
+        "base": 50,
+        "per_level_above_first": 9
+    },
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 9
+    },
+    "anvil_cost": 6,
+    "slots": [
+        "mainhand",
+        "offhand"
+    ],
+    "effects": {
+        "minecraft:hit_block": [
+            {
+                "effect": {
+                    "type": "minecraft:all_of",
+                    "effects": [
+                        {
+                            "type": "minecraft:run_function",
+                            "function": "enchantplus:actions/self_kill"
+                        },
+                        {
+                            "type": "minecraft:summon_entity",
+                            "entity": "minecraft:breeze_wind_charge"
+                        }
+                    ]
+                },
+                "requirements": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": "#minecraft:arrows"
+                    }
+                }
+            }
+        ]
+    }
+}

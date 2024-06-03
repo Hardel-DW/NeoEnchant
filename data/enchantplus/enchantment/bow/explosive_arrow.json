@@ -1,7 +1,7 @@
 {
     "anvil_cost": 6,
     "description": {
-        "translate": "enchantment.minecraft.auto_feed",
+        "translate": "enchantment.minecraft.explosive_arrow",
         "fallback": "Explosive Arrows"
     },
     "effects": {
@@ -56,6 +56,7 @@
         "mainhand",
         "offhand"
     ],
+    "exclusive_set": "#enchantplus:exclusive_set/bow",
     "supported_items": "#enchantplus:enchantable/bows",
     "weight": 2
 }

@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "enchantplus:sword/reach",
+        "enchantplus:sword/poison_aspect",
+        "enchantplus:sword/attack_speed"
+    ]
+}
