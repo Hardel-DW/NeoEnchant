@@ -1,8 +1,8 @@
 {
   "values": [
     "enchantplus:chestplate/builder_arm",
-    "minecraft:chestplate/anti_venom",
-    "minecraft:leggings/fast_swim"
+    "enchantplus:chestplate/anti_venom",
+    "enchantplus:leggings/fast_swim"
   ],
   "replace": false
 }

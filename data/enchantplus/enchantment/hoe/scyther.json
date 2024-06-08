@@ -22,7 +22,7 @@
         "minecraft:hit_block": [
             {
                 "effect": {
-                    "type": "minecraft:replace_disc",
+                    "type": "minecraft:replace_disk",
                     "block_state": {
                         "type": "minecraft:simple_state_provider",
                         "state": {

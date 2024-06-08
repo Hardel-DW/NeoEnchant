@@ -12,7 +12,7 @@
     "enchantplus:sword/life_steal",
     "enchantplus:axe/timber",
     "enchantplus:hoe/scyther",
-    "minecraft:tools/auto_smelt"
+    "enchantplus:tools/auto_smelt"
   ],
   "replace": false
 }
