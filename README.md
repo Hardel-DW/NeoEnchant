@@ -1,5 +1,5 @@
 # NeoEnchant+ V5, The official Technical Enchant V4 successor 
-![130shots_so](https://github.com/Hardel-DW/NeoEnchant/assets/42413417/97cda9cf-1632-4608-92c7-c3a39723a755)
+![enchant](https://github.com/Hardel-DW/NeoEnchant/assets/42413417/edfa5a06-e6e2-43ba-9c5e-a7d3c16b3bf0)
 
 # NeoEnchant+ !
 NeoEnchant+ the official TechnicalEnchant+ update by Hardel. Introduces a new suite of enchantments Explore innovative ways to enhance your Minecraft experience. This new version now uses Minecraft's Data Driven Enchantments. Play like Modding !
@@ -70,6 +70,28 @@ However, new enchantments have been added to the list to provide a fresh experie
 - **Armored**: For elytra, reduce the damage taken.
 - **Striker**: On mace, have a small chance to call the thunder, if the weather is stormy, the thunder will strike the mob at each hit and work also on lighting_rod. Also you are immune to damage thunder.
 
+## New enchantments introduce by Yggdrasil
+- **Voidless**: If you fall into the void, you briefly gain a levitation effect.
+- **Spawner Touch**: Allows your pickaxe to retrieve spawners.
+- **Pull** Allows you to retrieve a mob egg with a small probability when you kill a monster.
+- **Breezing Arrow**: (Bow and Crossbow) Causes a repulsion effect and sends the hit target into the air. If arrows miss, it causes a repulsion effect on the ground.
+- **Wind Propulsion** When you striking with your mace the ground, you cause an explosion that sends you into the air, designed to be used in combination with "Wind Burst".
+
+# Yggdrasil - Structure
+![yggdrasil](https://github.com/Hardel-DW/Yggdrasil-Structure/assets/42413417/b481d58c-a1f4-4d04-a884-6ac538c02bbd)
+
+This pack adds **gigantic structures** that take hours to explore. Magnificent structures that spawn all over the world, and gives **unique rewards**, and combined with NeoEnchant it gets even better!
+An unprecedented difficulty for the end of the game, Exclusive enchantments to be found in this structure if you use the NeoEnchant pack.
+The NeoEnchant pack is not mandatory, it is designed to work with or without it!  
+[Modrinth Yggdrasil](https://modrinth.com/datapack/yggdrasil-structure)
+
+# BeyondEnchant - Breaks vanilla limits
+![beyond](https://github.com/Hardel-DW/BeyondEnchant/assets/42413417/d107bc40-c48c-47b2-91eb-8a012a55c95c)
+
+**BeyondEnchant** is the ultimate expansion for enchantments, developed by Hardel. 
+This mod/datapack allows you to break the traditional limits of enchantments, introducing unprecedented flexibility and power to your Minecraft experience. Enhance your gear beyond the vanilla constraints and explore new heights of gameplay.  
+[Modrinth BeyondEnchant](https://modrinth.com/datapack/beyondenchant)
+
 ## License
 This project is licensed under the NeoEnchant License - see the LICENSE file for details.
 
@@ -83,7 +105,6 @@ The pack has been completely rewritten, and bugs may appear, If you find any, re
 ## Contributing
 You can contribute on the official Github. We welcome all contributions that help in enhancing this project and making Minecraft more enjoyable for everyone.
 You can also come on the discord ! [Hardel Lab's Discord](https://discord.gg/mVpYB6kF93)  
-
 
 [![discord_700](https://github.com/Hardel-DW/NeoEnchant/assets/42413417/d36d60d5-18f7-40e0-9d2d-dc610f6d42a5)](https://discord.gg/mVpYB6kF93)  
 
