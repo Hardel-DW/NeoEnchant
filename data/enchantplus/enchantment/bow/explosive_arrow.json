@@ -1,10 +1,51 @@
 {
-    "anvil_cost": 6,
     "description": {
         "translate": "enchantment.minecraft.explosive_arrow",
         "fallback": "Explosive Arrows"
     },
+    "exclusive_set": "#enchantplus:exclusive_set/bow",
+    "supported_items": "#enchantplus:enchantable/bows",
+    "weight": 2,
+    "max_level": 3,
+    "min_cost": {
+        "base": 50,
+        "per_level_above_first": 9
+    },
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 9
+    },
+    "anvil_cost": 6,
+    "slots": [
+        "mainhand",
+        "offhand"
+    ],
     "effects": {
+        "minecraft:post_attack": [
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:explode",
+                    "damage_type": "minecraft:arrow",
+                    "radius": {
+                        "type": "minecraft:linear",
+                        "base": 0.5,
+                        "per_level_above_first": 0.5
+                    },
+                    "block_interaction": "mob",
+                    "small_particle": {
+                        "type": "minecraft:ash"
+                    },
+                    "large_particle": {
+                        "type": "minecraft:explosion_emitter"
+                    },
+                    "immune_blocks": "#enchantplus:all",
+                    "sound": "minecraft:entity.generic.explode",
+                    "knockback_multiplier": 0
+                }
+            }
+        ],
         "minecraft:hit_block": [
             {
                 "effect": {
@@ -16,18 +57,18 @@
                         },
                         {
                             "type": "minecraft:explode",
-                            "large_particle": {
-                                "type": "minecraft:explosion_emitter"
-                            },
                             "damage_type": "minecraft:arrow",
-                            "block_interaction": "mob",
                             "radius": {
                                 "type": "minecraft:linear",
-                                "base": 2.5,
-                                "per_level_above_first": 2
+                                "base": 1,
+                                "per_level_above_first": 1.5
                             },
+                            "block_interaction": "mob",
                             "small_particle": {
                                 "type": "minecraft:ash"
+                            },
+                            "large_particle": {
+                                "type": "minecraft:explosion_emitter"
                             },
                             "sound": "minecraft:entity.generic.explode"
                         }
@@ -42,21 +83,5 @@
                 }
             }
         ]
-    },
-    "max_cost": {
-        "base": 50,
-        "per_level_above_first": 9
-    },
-    "max_level": 3,
-    "min_cost": {
-        "base": 50,
-        "per_level_above_first": 9
-    },
-    "slots": [
-        "mainhand",
-        "offhand"
-    ],
-    "exclusive_set": "#enchantplus:exclusive_set/bow",
-    "supported_items": "#enchantplus:enchantable/bows",
-    "weight": 2
+    }
 }
