@@ -2,7 +2,8 @@
     "values": [
         "enchantplus:pickaxe/vein_miner",
         "enchantplus:tools/miningplus",
-        "enchantplus:pickaxe/spawner_touch"
+        "enchantplus:pickaxe/spawner_touch",
+        "enchantplus:pickaxe/experimental_bedrock_breaker"
     ],
     "replace": false
 }
