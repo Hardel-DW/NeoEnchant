@@ -77,6 +77,9 @@ However, new enchantments have been added to the list to provide a fresh experie
 - **Breezing Arrow**: (Bow and Crossbow) Causes a repulsion effect and sends the hit target into the air. If arrows miss, it causes a repulsion effect on the ground.
 - **Wind Propulsion** When you striking with your mace the ground, you cause an explosion that sends you into the air, designed to be used in combination with "Wind Burst".
 
+## New experimental enchantments (Not available in the Survival)
+- **Bedrock Breaker**: Allows you to break bedrock, but consumes 200 durability per block.
+
 # Yggdrasil - Structure
 ![yggdrasil](https://github.com/Hardel-DW/Yggdrasil-Structure/assets/42413417/b481d58c-a1f4-4d04-a884-6ac538c02bbd)
 
