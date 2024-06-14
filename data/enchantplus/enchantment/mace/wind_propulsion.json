@@ -42,13 +42,13 @@
                         "type": "minecraft:lookup",
                         "fallback": {
                             "type": "minecraft:linear",
-                            "base": 1.5,
-                            "per_level_above_first": 0.35
+                            "base": 0.5,
+                            "per_level_above_first": 0.5
                         },
                         "values": [
-                            1.2,
-                            1.5,
-                            2
+                            0.85,
+                            1.25,
+                            1.55
                         ]
                     }
                 }
