@@ -13,10 +13,15 @@
                 {
                     "condition": "minecraft:match_tool",
                     "predicate": {
-                        "components": {
-                            "minecraft:enchantments": {
-                                "enchantplus:pickaxe/spawner_touch": 1
-                            }
+                        "predicates": {
+                            "minecraft:enchantments": [
+                                {
+                                    "enchantments": "enchantplus:pickaxe/spawner_touch",
+                                    "levels": {
+                                        "min": 1
+                                    }
+                                }
+                            ]
                         }
                     }
                 }
