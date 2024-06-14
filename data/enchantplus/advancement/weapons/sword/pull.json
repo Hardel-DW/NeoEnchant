@@ -4,20 +4,20 @@
       "id": "minecraft:enchanted_book"
     },
     "title": {
-      "translate": "enchantment.enchantplus.title.breezing_arrow",
-      "fallback": "Breezing Arrow",
+      "translate": "enchantment.enchantplus.title.pull",
+      "fallback": "Pull",
       "color": "#40E6FF"
     },
     "description": {
-      "translate": "advancement.enchantplus.description.breezing_arrow",
-      "fallback": "The power of the wind is in your hands!"
+      "translate": "advancement.enchantplus.description.pull",
+      "fallback": "The mobs eggs collection begins"
     },
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "enchantplus:weapons/bow/accuracy_shot",
+  "parent": "enchantplus:weapons/sword/xp_boost",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",
@@ -27,7 +27,7 @@
             "predicates": {
               "minecraft:enchantments": [
                 {
-                  "enchantments": "enchantplus:bow/breezing_arrow"
+                  "enchantments": "enchantplus:sword/pull"
                 }
               ]
             }

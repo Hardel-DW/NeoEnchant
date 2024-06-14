@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:diamond_pickaxe"
+      "id": "minecraft:netherite_pickaxe"
     },
     "title": {
       "translate": "advancement.enchantplus.title.pickaxe",
@@ -35,11 +35,49 @@
           }
         ]
       }
+    },
+    "spawner_touch": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "enchantplus:pickaxe/spawner_touch"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "bedrock_breaker": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "enchantplus:pickaxe/experimental_bedrock_breaker"
+                }
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   "requirements": [
     [
       "vein_miner"
+    ],
+    [
+      "spawner_touch"
+    ],
+    [
+      "bedrock_breaker"
     ]
   ]
 }

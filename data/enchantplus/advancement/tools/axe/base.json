@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:golden_axe"
+      "id": "minecraft:netherite_axe"
     },
     "title": {
       "translate": "advancement.enchantplus.title.axe",

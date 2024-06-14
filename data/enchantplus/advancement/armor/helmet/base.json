@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:diamond_helmet"
+      "id": "minecraft:netherite_helmet"
     },
     "title": {
       "translate": "advancement.enchantplus.title.helmet",

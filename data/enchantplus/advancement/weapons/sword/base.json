@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:iron_sword"
+      "id": "minecraft:netherite_sword"
     },
     "title": {
       "translate": "advancement.enchantplus.title.sword",
@@ -99,6 +99,22 @@
           }
         ]
       }
+    },
+    "pull": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "enchantplus:sword/pull"
+                }
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -116,6 +132,9 @@
     ],
     [
       "xp_boost"
+    ],
+    [
+      "pull"
     ]
   ]
 }

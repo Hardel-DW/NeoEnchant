@@ -5,7 +5,7 @@
     },
     "title": {
       "translate": "enchantment.enchantplus.title.timber",
-      "fallback": "Agility",
+      "fallback": "Timber",
       "color": "#40E6FF"
     },
     "description": {
