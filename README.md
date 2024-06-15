@@ -105,11 +105,10 @@ If you like the work I produce, please don't hesitate to help me.
 Every contribution means a lot to me and helps me continue creating exciting content for the Minecraft community.  
   
 Join us on Patreon and help me make Minecraft an even more amazing experience for everyone! [Support me](https://www.patreon.com/hardel)  
-You can also contribute on the official Github. [https://github.com/Hardel-DW/NeoEnchant](https://github.com/Hardel-DW/NeoEnchant)  
+You can also contribute on the official Github. [Official Github](https://github.com/Hardel-DW/NeoEnchant)  
 An join the discord ! [Hardel Lab's Discord](https://discord.gg/mVpYB6kF93)  
 
 [![Patreon](https://github.com/Hardel-DW/NeoEnchant/assets/42413417/4fac417a-9c4c-40cd-95f3-fa908e4dd061)](https://www.patreon.com/hardel)
-
 
 ## License
 This project is licensed under the NeoEnchant License - see the LICENSE file for details.
