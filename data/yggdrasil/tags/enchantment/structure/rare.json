@@ -1,15 +1,45 @@
 {
     "replace": false,
     "values": [
-        "enchantplus:pickaxe/vein_miner",
-        "enchantplus:tools/auto_smelt",
-        "enchantplus:tools/miningplus",
-        "enchantplus:sword/reach",
-        "enchantplus:sword/xp_boost",
-        "enchantplus:chestplate/builder_arm",
-        "enchantplus:boots/sky_walk",
-        "enchantplus:axe/timber",
-        "enchantplus:hoe/scyther",
-        "enchantplus:helmet/auto_feed"
+        {
+            "id": "enchantplus:pickaxe/vein_miner",
+            "required": false
+        },
+        {
+            "id": "enchantplus:tools/auto_smelt",
+            "required": false
+        },
+        {
+            "id": "enchantplus:tools/miningplus",
+            "required": false
+        },
+        {
+            "id": "enchantplus:sword/reach",
+            "required": false
+        },
+        {
+            "id": "enchantplus:sword/xp_boost",
+            "required": false
+        },
+        {
+            "id": "enchantplus:chestplate/builder_arm",
+            "required": false
+        },
+        {
+            "id": "enchantplus:boots/sky_walk",
+            "required": false
+        },
+        {
+            "id": "enchantplus:axe/timber",
+            "required": false
+        },
+        {
+            "id": "enchantplus:hoe/scyther",
+            "required": false
+        },
+        {
+            "id": "enchantplus:helmet/auto_feed",
+            "required": false
+        }
     ]
 }

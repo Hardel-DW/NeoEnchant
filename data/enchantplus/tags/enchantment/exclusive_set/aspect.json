@@ -1,7 +1,13 @@
 {
     "values": [
-        "minecraft:fire_aspect",
-        "enchantplus:sword/poison_aspect"
+        {
+            "id": "minecraft:fire_aspect",
+            "required": false
+        },
+        {
+            "id": "enchantplus:sword/poison_aspect",
+            "required": false
+        }
     ],
     "replace": false
 }

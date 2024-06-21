@@ -1,8 +1,17 @@
 {
   "values": [
-    "enchantplus:boots/lava_walker",
-    "enchantplus:boots/step_assist",
-    "enchantplus:boots/sky_walk"
+    {
+      "id": "enchantplus:boots/lava_walker",
+      "required": false
+    },
+    {
+      "id": "enchantplus:boots/step_assist",
+      "required": false
+    },
+    {
+      "id": "enchantplus:boots/sky_walk",
+      "required": false
+    }
   ],
   "replace": false
 }

@@ -1,18 +1,57 @@
 {
   "values": [
-    "enchantplus:helmet/bright_vision",
-    "enchantplus:chestplate/lifeplus",
-    "enchantplus:leggings/leaping",
-    "enchantplus:boots/agility",
-    "enchantplus:boots/sky_walk",
-    "enchantplus:bow/accuracy_shot",
-    "enchantplus:sword/attack_speed",
-    "enchantplus:sword/xp_boost",
-    "enchantplus:sword/poison_aspect",
-    "enchantplus:sword/life_steal",
-    "enchantplus:axe/timber",
-    "enchantplus:hoe/scyther",
-    "enchantplus:tools/auto_smelt"
+    {
+      "id": "enchantplus:helmet/bright_vision",
+      "required": false
+    },
+    {
+      "id": "enchantplus:chestplate/lifeplus",
+      "required": false
+    },
+    {
+      "id": "enchantplus:leggings/leaping",
+      "required": false
+    },
+    {
+      "id": "enchantplus:boots/agility",
+      "required": false
+    },
+    {
+      "id": "enchantplus:boots/sky_walk",
+      "required": false
+    },
+    {
+      "id": "enchantplus:bow/accuracy_shot",
+      "required": false
+    },
+    {
+      "id": "enchantplus:sword/attack_speed",
+      "required": false
+    },
+    {
+      "id": "enchantplus:sword/xp_boost",
+      "required": false
+    },
+    {
+      "id": "enchantplus:sword/poison_aspect",
+      "required": false
+    },
+    {
+      "id": "enchantplus:sword/life_steal",
+      "required": false
+    },
+    {
+      "id": "enchantplus:axe/timber",
+      "required": false
+    },
+    {
+      "id": "enchantplus:hoe/scyther",
+      "required": false
+    },
+    {
+      "id": "enchantplus:tools/auto_smelt",
+      "required": false
+    }
   ],
   "replace": false
 }

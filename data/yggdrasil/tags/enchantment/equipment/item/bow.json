@@ -1,7 +1,13 @@
 {
     "replace": false,
     "values": [
-        "enchantplus:bow/breezing_arrow",
-        "enchantplus:bow/explosive_arrow"
+        {
+            "id": "enchantplus:bow/breezing_arrow",
+            "required": false
+        },
+        {
+            "id": "enchantplus:bow/echo_shot",
+            "required": false
+        }
     ]
 }

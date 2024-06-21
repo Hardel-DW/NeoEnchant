@@ -1,12 +1,33 @@
 {
     "replace": false,
     "values": [
-        "enchantplus:pickaxe/spawner_touch",
-        "enchantplus:elytra/armored",
-        "enchantplus:helmet/voidless",
-        "enchantplus:sword/pull",
-        "enchantplus:trident/magical_water",
-        "enchantplus:bow/breezing_arrow",
-        "enchantplus:mace/wind_propulsion"
+        {
+            "id": "enchantplus:pickaxe/spawner_touch",
+            "required": false
+        },
+        {
+            "id": "enchantplus:elytra/armored",
+            "required": false
+        },
+        {
+            "id": "enchantplus:helmet/voidless",
+            "required": false
+        },
+        {
+            "id": "enchantplus:sword/pull",
+            "required": false
+        },
+        {
+            "id": "enchantplus:trident/magical_water",
+            "required": false
+        },
+        {
+            "id": "enchantplus:bow/breezing_arrow",
+            "required": false
+        },
+        {
+            "id": "enchantplus:mace/wind_propulsion",
+            "required": false
+        }
     ]
 }

@@ -1,6 +1,9 @@
 {
     "replace": false,
     "values": [
-        "enchantplus:chestplate/lifeplus"
+        {
+            "id": "enchantplus:chestplate/lifeplus",
+            "required": false
+        }
     ]
 }

@@ -1,17 +1,53 @@
 {
     "replace": false,
     "values": [
-        "enchantplus:boots/agility",
-        "enchantplus:boots/lava_walker",
-        "enchantplus:boots/step_assist",
-        "enchantplus:bow/accuracy_shot",
-        "enchantplus:bow/explosive_arrow",
-        "enchantplus:chestplate/anti_venom",
-        "enchantplus:chestplate/lifeplus",
-        "enchantplus:leggings/leaping",
-        "enchantplus:leggings/fast_swim",
-        "enchantplus:sword/poison_aspect",
-        "enchantplus:sword/attack_speed",
-        "enchantplus:sword/life_steal"
+        {
+            "id": "enchantplus:boots/agility",
+            "required": false
+        },
+        {
+            "id": "enchantplus:boots/lava_walker",
+            "required": false
+        },
+        {
+            "id": "enchantplus:boots/step_assist",
+            "required": false
+        },
+        {
+            "id": "enchantplus:bow/accuracy_shot",
+            "required": false
+        },
+        {
+            "id": "enchantplus:bow/explosive_arrow",
+            "required": false
+        },
+        {
+            "id": "enchantplus:chestplate/anti_venom",
+            "required": false
+        },
+        {
+            "id": "enchantplus:chestplate/lifeplus",
+            "required": false
+        },
+        {
+            "id": "enchantplus:leggings/leaping",
+            "required": false
+        },
+        {
+            "id": "enchantplus:leggings/fast_swim",
+            "required": false
+        },
+        {
+            "id": "enchantplus:sword/poison_aspect",
+            "required": false
+        },
+        {
+            "id": "enchantplus:sword/attack_speed",
+            "required": false
+        },
+        {
+            "id": "enchantplus:sword/life_steal",
+            "required": false
+        }
     ]
 }
