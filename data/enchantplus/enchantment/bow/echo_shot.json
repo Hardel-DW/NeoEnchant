@@ -1,7 +1,7 @@
 {
     "description": {
-        "translate": "enchantment.minecraft.explosive_arrow",
-        "fallback": "Explosive Arrow"
+        "translate": "enchantment.minecraft.echo_shot",
+        "fallback": "Echo Shot"
     },
     "exclusive_set": "#enchantplus:exclusive_set/bow",
     "supported_items": "#enchantplus:enchantable/bows",
@@ -21,6 +21,14 @@
         "offhand"
     ],
     "effects": {
+        "minecraft:projectile_spawned": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/echo_shot"
+                }
+            }
+        ],
         "minecraft:post_attack": [
             {
                 "enchanted": "attacker",
@@ -60,8 +68,8 @@
                             "damage_type": "minecraft:arrow",
                             "radius": {
                                 "type": "minecraft:linear",
-                                "base": 1,
-                                "per_level_above_first": 1.5
+                                "base": 2.5,
+                                "per_level_above_first": 3.5
                             },
                             "block_interaction": "mob",
                             "small_particle": {
