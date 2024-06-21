@@ -66,8 +66,6 @@ However, new enchantments have been added to the list to provide a fresh experie
 - **Haste**: Removed because Effiency exist
 
 ## New enchantments introduce in NE+
-
-- **Harvesting**: If you break any crop with this hoe (wheat, carrot, potato, beetroot or nether wart), it will break other crops around it.
 - **Scyther**: Allows you to transform dirt in farmland in x by z surface depending enchantment levels
 - **Step Assist**: Allows you to walk up blocks more easily.
 - **Reach**: Increase the range of your attack.
