@@ -1,24 +1,27 @@
-# NeoEnchant+ V5, The official Technical Enchant V4 successor 
-![enchant](https://github.com/Hardel-DW/NeoEnchant/assets/42413417/edfa5a06-e6e2-43ba-9c5e-a7d3c16b3bf0)
+# NeoEnchant+ V5 - Official Technical Enchant successor 
+![https://github.com/Hardel-DW/NeoEnchant/assets/42413417/edfa5a06-e6e2-43ba-9c5e-a7d3c16b3bf0](https://github.com/Hardel-DW/NeoEnchant/assets/42413417/edfa5a06-e6e2-43ba-9c5e-a7d3c16b3bf0)
 
 # NeoEnchant+ !
-NeoEnchant+ the official TechnicalEnchant+ update by Hardel. Introduces a new suite of enchantments Explore innovative ways to enhance your Minecraft experience. This new version now uses Minecraft's Data Driven Enchantments. Play like Modding !
-This project is the continuation of the updates introduced in Version 4 named Technical Enchant+. Version 5 (Neo) brings new levels of gameplay enhancements and enchantments that provide both utility and fun in your Minecraft world.
+NeoEnchant+ the official TechnicalEnchant+ update by Hardel. Introduces a new suite of enchantments. Explore innovative ways to enhance your Minecraft experience. 
+This project is the continuation of Technical Enchant+ (Version 4).
 
 # What news ?
+This new version has been completely rewritten to use Minecraft's data- driven enchantments, introduced with update 1.21. What does this mean? Lots of good things. An overview.
 
 ### Support Enchanting table and anvil
-This new version now uses Minecraft's internal system (Data Driven Enchantments), the entire pack was rewritten. Enchantments are available natively in the enchantment table. And the anvil works perfectly too, no need custom tables, custom anvil or throw items. 
+Enchantments are available natively in the enchantment table and also in the anvil, no need custom tables, custom anvil or throw items ! 
 
 ### Performances :
-Performance is identical to that of a Minecraft mod, or a native Mojang production. It uses almost exclusively the new internal systems introduce in 24w18a, with only 4 enchantments using "mcfunctions" files.
+Performance is identical to that of a Minecraft mod, or a native Mojang production. It uses almost exclusively the new internal systems introduced in the update 1.21.
 
 ### Modify enchantments as you wish.
-Enchantments are easy to modulate, you can edit maximum levels, items supported and even effects. No need for development knowledge, simply edit value on ".json" files. Also the management admins panel in game was removed.
-All removed enchantments will be properly disenchanted on items, whether in chests, inventories or anywhere else.
+Enchantments are easy to modulate. You can modify maximum levels, supported objects and even effects. No development skills are required, just edit the values in the ".json" files. The in-game admin panel has also been removed. All removed enchantments will be properly disenchanted on items, whether in chests, inventories or anywhere else.
 
-### Compatiblity and creative menu
-Compatiblity with for other mods (Forge/Fabric) or Vanilla Datapacks that add enchantments, and enchantments can be obtained from the creative menu, or with the /enchant command.
+### Compatiblity
+Compatiblity with for other mods (Forge/Fabric) or Vanilla Datapacks that add owns enchantments.
+
+### Enchantement in creative menu
+Enchantments can be obtained from the creative menu, or with the /enchant command.
 
 # From Official TE+ 
 TE+ Official  275,632 views and 45,977 downloads 
@@ -26,6 +29,7 @@ TTE+ Rewened Fork by Frektip - 293,986 views, 62,173 downloads
 
 ## Enchantments List
 Below is the list of enchantments included in this release. Check off the enchantments as you explore each one in your game:
+See in details with the Wiki [https://github.com/Hardel-DW/NeoEnchant/wiki/Custom-Enchantments](https://github.com/Hardel-DW/NeoEnchant/wiki/Custom-Enchantments)
 
 ## Enchantments from TE+
 - **Bright Vision**: Gives night vision to the player.
@@ -62,7 +66,6 @@ However, new enchantments have been added to the list to provide a fresh experie
 - **Haste**: Removed because Effiency exist
 
 ## New enchantments introduce in NE+
-- **Harvesting**: If you break any crop with this hoe (wheat, carrot, potato, beetroot or nether wart), it will break other crops around it.
 - **Scyther**: Allows you to transform dirt in farmland in x by z surface depending enchantment levels
 - **Step Assist**: Allows you to walk up blocks more easily.
 - **Reach**: Increase the range of your attack.
@@ -79,7 +82,7 @@ However, new enchantments have been added to the list to provide a fresh experie
 
 ## New experimental enchantments (Not available in the Survival)
 - **Bedrock Breaker**: Allows you to break bedrock, but consumes 200 durability per block.
-
+  
 # Yggdrasil - Structure
 ![yggdrasil](https://github.com/Hardel-DW/Yggdrasil-Structure/assets/42413417/b481d58c-a1f4-4d04-a884-6ac538c02bbd)
 
@@ -95,6 +98,16 @@ The NeoEnchant pack is not mandatory, it is designed to work with or without it!
 This mod/datapack allows you to break the traditional limits of enchantments, introducing unprecedented flexibility and power to your Minecraft experience. Enhance your gear beyond the vanilla constraints and explore new heights of gameplay.  
 [Modrinth BeyondEnchant](https://modrinth.com/datapack/beyondenchant)
 
+# Contributing & Support me on Patreon  
+If you like the work I produce, please don't hesitate to help me.   
+Every contribution means a lot to me and helps me continue creating exciting content for the Minecraft community.  
+  
+Join us on Patreon and help me make Minecraft an even more amazing experience for everyone! [Support me](https://www.patreon.com/hardel)  
+You can also contribute on the official Github. [Official Github](https://github.com/Hardel-DW/NeoEnchant)  
+An join the discord ! [Hardel Lab's Discord](https://discord.gg/mVpYB6kF93)  
+
+[![Patreon](https://github.com/Hardel-DW/NeoEnchant/assets/42413417/4fac417a-9c4c-40cd-95f3-fa908e4dd061)](https://www.patreon.com/hardel)
+
 ## License
 This project is licensed under the NeoEnchant License - see the LICENSE file for details.
 
@@ -105,11 +118,8 @@ Thanks to all the contributors who have helped in developing these enchantments 
 The pack has been completely rewritten, and bugs may appear, If you find any, report it on Github.
 [https://github.com/Hardel-DW/NeoEnchant/issues](https://github.com/Hardel-DW/NeoEnchant/issues)
 
-## Contributing
-You can contribute on the official Github. We welcome all contributions that help in enhancing this project and making Minecraft more enjoyable for everyone.
-You can also come on the discord ! [Hardel Lab's Discord](https://discord.gg/mVpYB6kF93)  
-
-[![discord_700](https://github.com/Hardel-DW/NeoEnchant/assets/42413417/d36d60d5-18f7-40e0-9d2d-dc610f6d42a5)](https://discord.gg/mVpYB6kF93)  
-
-If you see this run:
-`give @s minecraft:crossbow[minecraft:enchantments={"minecraft:multishot":120,"enchantplus:bow/explosive_arrow":120}]`
+## Minecraft Realms - Problem
+Experimental features, including enchantments, are not supported by Realms.
+In addition, a bug exists in Realms that makes it impossible for mcfunctions to work.
+To put it simply, the custom enchantments in this pack, or any other datapack adding enchantments, don't work on Realms.
+[https://bugs.mojang.com/browse/REALMS-11834](https://bugs.mojang.com/browse/REALMS-11834)
