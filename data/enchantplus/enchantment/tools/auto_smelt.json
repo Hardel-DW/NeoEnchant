@@ -4,6 +4,7 @@
         "translate": "enchantment.enchantplus.auto_smelt",
         "fallback": "Auto Smelt"
     },
+    "exclusive_set": "minecraft:silk_touch",
     "effects": {
         "minecraft:block_experience": [
             {
