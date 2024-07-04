@@ -41,6 +41,10 @@
       "required": false
     },
     {
+      "id": "enchantplus:leggings/fear",
+      "required": false
+    },
+    {
       "id": "enchantplus:axe/timber",
       "required": false
     },
