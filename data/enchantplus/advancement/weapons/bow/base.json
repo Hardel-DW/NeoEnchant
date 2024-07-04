@@ -36,6 +36,54 @@
         ]
       }
     },
+    "breezing_arrow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "enchantplus:bow/breezing_arrow"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "echo_shot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "enchantplus:bow/echo_shot"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "storm_arrow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "enchantplus:bow/storm_arrow"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
     "accuracy_shot": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {

@@ -5,7 +5,7 @@
     },
     "title": {
       "translate": "advancement.enchantplus.title.leggings",
-      "fallback": "Neo Helmet",
+      "fallback": "Neo Leggings",
       "color": "#FFE2A8"
     },
     "description": {

@@ -1,0 +1,150 @@
+{
+    "description": {
+        "translate": "enchantment.minecraft.strom_arrow",
+        "fallback": "Storm Arrows"
+    },
+    "exclusive_set": "#enchantplus:exclusive_set/bow",
+    "supported_items": "#enchantplus:enchantable/bows",
+    "weight": 2,
+    "max_level": 2,
+    "min_cost": {
+        "base": 50,
+        "per_level_above_first": 9
+    },
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 9
+    },
+    "anvil_cost": 6,
+    "slots": [
+        "mainhand",
+        "offhand"
+    ],
+    "effects": {
+        "minecraft:post_attack": [
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:summon_entity",
+                    "entity": "minecraft:lightning_bolt"
+                },
+                "requirements": [
+                    {
+                        "condition": "minecraft:weather_check",
+                        "thundering": true
+                    }
+                ]
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:summon_entity",
+                    "entity": "minecraft:lightning_bolt"
+                },
+                "requirements": [
+                    {
+                        "condition": "minecraft:weather_check",
+                        "thundering": false
+                    },
+                    {
+                        "condition": "minecraft:random_chance",
+                        "chance": {
+                            "type": "minecraft:enchantment_level",
+                            "amount": 0.2
+                        }
+                    }
+                ]
+            }
+        ],
+        "minecraft:hit_block": [
+            {
+                "effect": {
+                    "type": "minecraft:summon_entity",
+                    "entity": "minecraft:lightning_bolt"
+                },
+                "requirements": [
+                    {
+                        "condition": "minecraft:weather_check",
+                        "thundering": true
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "#minecraft:arrows"
+                        }
+                    }
+                ]
+            },
+            {
+                "effect": {
+                    "type": "minecraft:summon_entity",
+                    "entity": "minecraft:lightning_bolt"
+                },
+                "requirements": [
+                    {
+                        "condition": "minecraft:weather_check",
+                        "thundering": false
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "#minecraft:arrows"
+                        }
+                    },
+                    {
+                        "condition": "minecraft:random_chance",
+                        "chance": {
+                            "type": "minecraft:enchantment_level",
+                            "amount": 0.15
+                        }
+                    }
+                ]
+            }
+        ],
+        "minecraft:projectile_spawned": [
+            {
+                "effect": {
+                    "type": "minecraft:spawn_particles",
+                    "particle": {
+                        "type": "minecraft:flash"
+                    },
+                    "horizontal_position": {
+                        "type": "entity_position"
+                    },
+                    "vertical_position": {
+                        "type": "in_bounding_box"
+                    },
+                    "horizontal_velocity": {
+                        "base": 1,
+                        "movement_scale": 1
+                    },
+                    "vertical_velocity": {
+                        "base": 1,
+                        "movement_scale": 1
+                    },
+                    "speed": 0
+                }
+            },
+            {
+                "effect": {
+                    "type": "minecraft:play_sound",
+                    "sound": "minecraft:block.trial_spawner.spawn_item_begin",
+                    "volume": 0.25,
+                    "pitch": 2
+                }
+            }
+        ],
+        "minecraft:item_damage": [
+            {
+                "effect": {
+                    "type": "minecraft:add",
+                    "value": 50
+                }
+            }
+        ]
+    }
+}
