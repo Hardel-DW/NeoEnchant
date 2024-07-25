@@ -5,8 +5,11 @@
 NeoEnchant+ the official TechnicalEnchant+ update by Hardel. Introduces a new suite of enchantments. Explore innovative ways to enhance your Minecraft experience. 
 This project is the continuation of Technical Enchant+ (Version 4).
 
-# What news ?
-This new version has been completely rewritten to use Minecraft's data- driven enchantments, introduced with update 1.21. What does this mean? Lots of good things. An overview.
+<details>
+<summary>What news ?</summary>
+
+### Mojang System
+This new version has been completely rewritten to use Minecraft's data-driven enchantments, introduced with update 1.21. What does this mean? Lots of good things. An overview.
 
 ### Support Enchanting table and anvil
 Enchantments are available natively in the enchantment table and also in the anvil, no need custom tables, custom anvil or throw items ! 
@@ -22,6 +25,7 @@ Compatiblity with for other mods (Forge/Fabric) or Vanilla Datapacks that add ow
 
 ### Enchantement in creative menu
 Enchantments can be obtained from the creative menu, or with the /enchant command.
+</details>
 
 # From Official TE+ 
 TE+ Official  275,632 views and 45,977 downloads 
