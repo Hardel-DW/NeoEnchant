@@ -22,11 +22,15 @@
             "required": false
         },
         {
-            "id": "enchantplus:chestplate/anti_venom",
+            "id": "enchantplus:armor/venom_protection",
             "required": false
         },
         {
-            "id": "enchantplus:chestplate/lifeplus",
+            "id": "enchantplus:armor/lifeplus",
+            "required": false
+        },
+        {
+            "id": "enchantplus:armor/fury",
             "required": false
         },
         {
