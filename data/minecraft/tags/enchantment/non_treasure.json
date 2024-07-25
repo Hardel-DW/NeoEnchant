@@ -5,7 +5,11 @@
       "required": false
     },
     {
-      "id": "enchantplus:chestplate/lifeplus",
+      "id": "enchantplus:armor/lifeplus",
+      "required": false
+    },
+    {
+      "id": "enchantplus:armor/fury",
       "required": false
     },
     {
