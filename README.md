@@ -31,58 +31,67 @@ TTE+ Rewened Fork by Frektip - 293,986 views, 62,173 downloads
 Below is the list of enchantments included in this release. Check off the enchantments as you explore each one in your game:
 See in details with the Wiki [https://github.com/Hardel-DW/NeoEnchant/wiki/Custom-Enchantments](https://github.com/Hardel-DW/NeoEnchant/wiki/Custom-Enchantments)
 
-## Enchantments from TE+
-- **Bright Vision**: Gives night vision to the player.
-- **Fear**: Prevents Creeper and TNT explosions when this enchantment is applied.
-- **Auto-Feed**: Automatically feeds you every minute.
-- **Anti-Venom**: Provides protection against negative effects.
-- **Life+**: Gives the player extra hearts.
-- **Fast Swim**: Grants the player a dolphin Grace effect.
-- **Agility**: Increases player speed.
-- **Leaping**: Boosts the player.
-- **Lava Walker**: Allows the player to walk on lava.
-- **Poison Aspect**: Poisons the mob upon hitting it.
-- **Life Steal**: Drains health from the target and transfers it to the player.
-- **Auto-Smelt**: Automatically smelts items.
-- **Mining+**: Lets you mine a 3x3 area.
-- **Accuracy Shot**: Arrows fly straight.
-- **Explosive Arrow**: When arrow hit a block, create an explosion, the entity take damage.
-- **Attack Speed**: Increases your attack speed.
-- **Timber**: Cut down a tree with one strike.
-- **VeinMiner**: If you break a mineral block, all surrounding minerals also break.
-- **XpBoost**: Gain additional experience from killing mobs.
-- **SkyWalk**: Allows you to fly if there is a 4 blocks gap below your feet. To desced just crouch.
+## Enchantments from NE+
+- **Armor**:
+  - **Fury**: Decreases armor in percent and grants armor penetration and increased damage percentage on your hits.
+  - **Life+**: Gives the player extra hearts.
+  - **Venom Protection**: Provides protection against negative effects.
+    
+- **Helmet**:
+  - **Bright Vision**: Gives night vision to the player.
+  - **Auto-Feed**: Automatically feeds you every minute.
+  - **Voidless**: If you fall into the void, you briefly gain a levitation effect.
+    
+- **Chestplate**:
+  - **Builder Arms**: Allows you to place and break blocks from a longer distance.
+    
+- **Leggings**:
+  - **Fast Swim**: Grants the player a dolphin Grace effect.
+  - **Leaping**: Boosts the player.
+  - **Oversize**: Increase entity size
+  - **Dwarfed**: Decrease enity size
+    
+- **Boots**:
+  - **Step Assist**: Allows you to walk up blocks more easily.
+  - **SkyWalk**: Allows you to fly if there is a 4 blocks gap below your feet. To desced just crouch.
+  - **Lava Walker**: Allows the player to walk on lava.
+  - **Agility**: Increases player speed.
+    
+- **Elytra**:
+  - **Armored**: For elytra, reduce the damage taken.
+    
+- **Sword**:
+  - **Reach**: Increase the range of your attack.
+  - **XpBoost**: Gain additional experience from killing mobs.
+  - **Life Steal**: Drains health from the target and transfers it to the player.
+  - **Poison Aspect**: Poisons the mob upon hitting it.
+  - **Fear**: When you hit a creeper, increase delays their explosion by 12.5 seconds.
+  - **Pull** Allows you to retrieve a mob egg with a small probability when you kill a monster.
+    
+- **Mace**
+  - **Striker**: On mace, have a small chance to call the thunder, if the weather is stormy, the thunder will strike the mob at each hit and work also on lighting_rod. Also you are immune to damage thunder.
+  - **Wind Propulsion** When you striking with your mace the ground, you cause an explosion that sends you into the air, designed to be used in combination with "Wind Burst".
+    
+- **Tools**:
+  - **Auto-Smelt**: Automatically smelts items.
+    
+- **Axe**:
+  - **Timber**: Cut down a tree with one strike.
+    
+- **Pickaxe**:
+  - **Bedrock Breaker**: Allows you to break bedrock, but consumes 200 durability per block.
+  - **VeinMiner**: If you break a mineral block, all surrounding minerals also break.
+  - **Spawner Touch**: Allows your pickaxe to retrieve spawners.
+    
+- **Hoe**:
+  - **Scyther**: Allows you to transform dirt in farmland in x by z surface depending enchantment levels
+    
+- **Bow**:
+  - **Explosive Arrow**: When arrow hit a block, create an explosion, the entity take damage.
+  - **Accuracy Shot**: Arrows fly straight.
+  - **Breezing Arrow**: (Bow and Crossbow) Causes a repulsion effect and sends the hit target into the air. If arrows miss, it causes a repulsion effect on the ground.
 
-## Removed enchantments from TE+
-The following enchantments were removed, or were not pertinent. Either it duplicated existing elements Or simply too complex. However
-Depending on demand they can be reintroduced.
-However, new enchantments have been added to the list to provide a fresh experience for players.
 
-- **Anti-Knockback**: Removed because Netherite exist
-- **Bloody Blade**: Potion Effect was better.
-- **Last Life**: Maybe soon if Data Driven Potion Effect Comes.
-- **TimeBreaker**: Too strong 
-- **Magnet (Helmet)**: May return.
-- **Haste**: Removed because Effiency exist
-
-## New enchantments introduce in NE+
-- **Scyther**: Allows you to transform dirt in farmland in x by z surface depending enchantment levels
-- **Step Assist**: Allows you to walk up blocks more easily.
-- **Reach**: Increase the range of your attack.
-- **Builder Arms**: Allows you to place and break blocks from a longer distance.
-- **Armored**: For elytra, reduce the damage taken.
-- **Striker**: On mace, have a small chance to call the thunder, if the weather is stormy, the thunder will strike the mob at each hit and work also on lighting_rod. Also you are immune to damage thunder.
-
-## New enchantments introduce by Yggdrasil
-- **Voidless**: If you fall into the void, you briefly gain a levitation effect.
-- **Spawner Touch**: Allows your pickaxe to retrieve spawners.
-- **Pull** Allows you to retrieve a mob egg with a small probability when you kill a monster.
-- **Breezing Arrow**: (Bow and Crossbow) Causes a repulsion effect and sends the hit target into the air. If arrows miss, it causes a repulsion effect on the ground.
-- **Wind Propulsion** When you striking with your mace the ground, you cause an explosion that sends you into the air, designed to be used in combination with "Wind Burst".
-
-## New experimental enchantments (Not available in the Survival)
-- **Bedrock Breaker**: Allows you to break bedrock, but consumes 200 durability per block.
-  
 # Yggdrasil - Structure
 ![yggdrasil](https://github.com/Hardel-DW/Yggdrasil-Structure/assets/42413417/b481d58c-a1f4-4d04-a884-6ac538c02bbd)
 
