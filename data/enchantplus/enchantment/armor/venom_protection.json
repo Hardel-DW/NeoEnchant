@@ -1,9 +1,10 @@
 {
     "description": {
-        "translate": "enchantment.enchantplus.anti_venom",
-        "fallback": "Anti Venom"
+        "translate": "enchantment.enchantplus.venom_protection",
+        "fallback": "Venom Protection"
     },
-    "supported_items": "#minecraft:enchantable/chest_armor",
+    "exclusive_set": "#minecraft:exclusive_set/armor",
+    "supported_items": "#minecraft:enchantable/armor",
     "weight": 6,
     "max_level": 1,
     "min_cost": {
@@ -16,7 +17,7 @@
     },
     "anvil_cost": 2,
     "slots": [
-        "chest"
+        "armor"
     ],
     "effects": {
         "minecraft:tick": [

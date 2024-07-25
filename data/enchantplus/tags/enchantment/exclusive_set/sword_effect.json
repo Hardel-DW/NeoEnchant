@@ -1,0 +1,17 @@
+{
+    "values": [
+        {
+            "id": "enchantplus:sword/pull",
+            "required": false
+        },
+        {
+            "id": "enchantplus:sword/life_steal",
+            "required": false
+        },
+        {
+            "id": "enchantplus:sword/fear",
+            "required": false
+        }
+    ],
+    "replace": false
+}

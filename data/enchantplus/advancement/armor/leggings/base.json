@@ -36,7 +36,7 @@
         ]
       }
     },
-    "fear": {
+    "dwarfed": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -44,7 +44,7 @@
             "predicates": {
               "minecraft:enchantments": [
                 {
-                  "enchantments": "enchantplus:leggings/fear"
+                  "enchantments": "enchantplus:leggings/dwarfed"
                 }
               ]
             }
@@ -74,7 +74,7 @@
       "fast_swim"
     ],
     [
-      "fear"
+      "dwarfed"
     ],
     [
       "leaping"

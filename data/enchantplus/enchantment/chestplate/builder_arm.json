@@ -14,14 +14,14 @@
         "base": 65,
         "per_level_above_first": 9
     },
-    "anvil_cost": 4,
+    "anvil_cost": 2,
     "slots": [
         "chest"
     ],
     "effects": {
         "minecraft:attributes": [
             {
-                "id": "minecraft:nchantment.wonder_arm",
+                "id": "minecraft:enchantment.wonder_arm",
                 "attribute": "minecraft:player.block_interaction_range",
                 "amount": {
                     "type": "minecraft:linear",

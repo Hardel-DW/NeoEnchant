@@ -3,7 +3,8 @@
         "translate": "enchantment.enchantplus.lifeplus",
         "fallback": "Life+"
     },
-    "supported_items": "#minecraft:enchantable/chest_armor",
+    "exclusive_set": "#enchantplus:exclusive_set/armor",
+    "supported_items": "#minecraft:enchantable/armor",
     "weight": 8,
     "max_level": 5,
     "min_cost": {
@@ -16,7 +17,7 @@
     },
     "anvil_cost": 1,
     "slots": [
-        "chest"
+        "armor"
     ],
     "effects": {
         "minecraft:attributes": [

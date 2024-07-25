@@ -3,7 +3,7 @@
         "translate": "enchantment.enchantplus.pull",
         "fallback": "Pull"
     },
-    "exclusive_set": "#enchantplus:exclusive_set/aspect",
+    "exclusive_set": "#enchantplus:exclusive_set/sword_effect",
     "supported_items": "#minecraft:enchantable/weapon",
     "primary_items": "#minecraft:enchantable/sword",
     "weight": 1,
@@ -16,7 +16,7 @@
         "base": 50,
         "per_level_above_first": 15
     },
-    "anvil_cost": 10,
+    "anvil_cost": 6,
     "slots": [
         "mainhand"
     ],

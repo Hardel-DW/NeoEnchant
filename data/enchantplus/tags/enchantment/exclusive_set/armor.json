@@ -1,0 +1,14 @@
+{
+    "values": [
+        {
+            "id": "enchantplus:armor/lifeplus",
+            "required": false
+        },
+        {
+            "id": "enchantplus:armor/fury",
+            "required": false
+        },
+        "minecraft:protection"
+    ],
+    "replace": false
+}

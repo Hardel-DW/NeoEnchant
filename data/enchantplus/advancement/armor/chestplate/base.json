@@ -20,22 +20,6 @@
   },
   "parent": "enchantplus:armor/start",
   "criteria": {
-    "got_anti_venom": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "predicates": {
-              "minecraft:enchantments": [
-                {
-                  "enchantments": "enchantplus:chestplate/anti_venom"
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
     "got_builder_arm": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -51,33 +35,11 @@
           }
         ]
       }
-    },
-    "got_lifeplus": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "predicates": {
-              "minecraft:enchantments": [
-                {
-                  "enchantments": "enchantplus:chestplate/lifeplus"
-                }
-              ]
-            }
-          }
-        ]
-      }
     }
   },
   "requirements": [
     [
-      "got_anti_venom"
-    ],
-    [
       "got_builder_arm"
-    ],
-    [
-      "got_lifeplus"
     ]
   ]
 }

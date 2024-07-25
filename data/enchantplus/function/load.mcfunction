@@ -8,7 +8,6 @@
 
 # Create scoreboard objectives
 scoreboard objectives add enchantplus.data dummy
-scoreboard objectives add enchantplus.old_fuse dummy
 
 # Define loaded version for other datapacks to check
 scoreboard players set #enchantplus.major load.status 5

@@ -4,7 +4,7 @@
         "fallback": "Breezing Arrows"
     },
     "exclusive_set": "#enchantplus:exclusive_set/bow",
-    "supported_items": "#enchantplus:enchantable/bows",
+    "supported_items": "#voxel:enchantable/range",
     "weight": 2,
     "max_level": 3,
     "min_cost": {
@@ -54,6 +54,13 @@
                             0.75,
                             1.2
                         ]
+                    }
+                },
+                "requirements": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "direct_attacker",
+                    "predicate": {
+                        "type": "#minecraft:arrows"
                     }
                 }
             }

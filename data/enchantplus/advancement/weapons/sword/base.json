@@ -36,6 +36,22 @@
         ]
       }
     },
+    "fear": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "enchantplus:sword/fear"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
     "life_steal": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -129,6 +145,9 @@
     ],
     [
       "reach"
+    ],
+    [
+      "fear"
     ],
     [
       "xp_boost"

@@ -4,20 +4,20 @@
       "id": "minecraft:enchanted_book"
     },
     "title": {
-      "translate": "enchantment.enchantplus.title.fear",
-      "fallback": "Fear",
+      "translate": "enchantment.enchantplus.title.lifeplus",
+      "fallback": "Life Plus",
       "color": "#40E6FF"
     },
     "description": {
-      "translate": "advancement.enchantplus.description.fear",
-      "fallback": "Creeper hate you"
+      "translate": "advancement.enchantplus.description.lifeplus",
+      "fallback": "Basically double hearts"
     },
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "enchantplus:armor/leggings/leaping",
+  "parent": "enchantplus:armor/venom_protection",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",
@@ -27,7 +27,7 @@
             "predicates": {
               "minecraft:enchantments": [
                 {
-                  "enchantments": "enchantplus:leggings/fear"
+                  "enchantments": "enchantplus:armor/lifeplus"
                 }
               ]
             }

@@ -1,0 +1,10 @@
+{
+    "values": [
+        {
+            "id": "enchantplus:sword/xp_boost",
+            "required": false
+        },
+        "minecraft:mending"
+    ],
+    "replace": false
+}

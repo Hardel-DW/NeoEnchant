@@ -10,7 +10,7 @@
     "supported_items": "#minecraft:enchantable/foot_armor",
     "weight": 2,
     "max_level": 1,
-    "anvil_cost": 6,
+    "anvil_cost": 3,
     "min_cost": {
         "base": 25,
         "per_level_above_first": 9

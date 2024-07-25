@@ -30,6 +30,7 @@
     "slots": [
         "mainhand"
     ],
+    "exclusive_set": "#enchantplus:exclusive_set/sword_exp",
     "supported_items": "#minecraft:enchantable/sword",
     "weight": 2
 }

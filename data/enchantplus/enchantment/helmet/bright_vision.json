@@ -14,7 +14,7 @@
         "base": 42,
         "per_level_above_first": 0
     },
-    "anvil_cost": 4,
+    "anvil_cost": 2,
     "slots": [
         "head"
     ],

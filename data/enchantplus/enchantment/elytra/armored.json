@@ -37,6 +37,6 @@
   "slots": [
     "chest"
   ],
-  "supported_items": "minecraft:elytra",
+  "supported_items": "#voxel:enchantable/elytra",
   "weight": 1
 }

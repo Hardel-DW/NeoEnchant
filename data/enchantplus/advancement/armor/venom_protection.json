@@ -4,20 +4,20 @@
       "id": "minecraft:enchanted_book"
     },
     "title": {
-      "translate": "enchantment.enchantplus.title.builder_arm",
-      "fallback": "Builder Arm",
+      "translate": "enchantment.enchantplus.title.anti_venom",
+      "fallback": "Anti Venom",
       "color": "#40E6FF"
     },
     "description": {
-      "translate": "advancement.enchantplus.description.builder_arm",
-      "fallback": "When did I install Create ?"
+      "translate": "advancement.enchantplus.description.anti_venom",
+      "fallback": "Purify your body"
     },
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "enchantplus:armor/chestplate/base",
+  "parent": "enchantplus:armor/fury",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",
@@ -27,7 +27,7 @@
             "predicates": {
               "minecraft:enchantments": [
                 {
-                  "enchantments": "enchantplus:chestplate/builder_arm"
+                  "enchantments": "enchantplus:armor/venom_protection"
                 }
               ]
             }

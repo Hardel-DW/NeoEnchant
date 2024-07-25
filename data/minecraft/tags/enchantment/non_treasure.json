@@ -41,7 +41,11 @@
       "required": false
     },
     {
-      "id": "enchantplus:leggings/fear",
+      "id": "enchantplus:sword/fear",
+      "required": false
+    },
+    {
+      "id": "enchantplus:leggings/dwarfed",
       "required": false
     },
     {

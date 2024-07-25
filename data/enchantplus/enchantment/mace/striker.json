@@ -3,7 +3,7 @@
         "translate": "enchantment.minecraft.striker",
         "fallback": "Striker"
     },
-    "supported_items": "minecraft:mace",
+    "supported_items": "#minecraft:enchantable/mace",
     "weight": 1,
     "max_level": 2,
     "min_cost": {
@@ -14,7 +14,7 @@
         "base": 50,
         "per_level_above_first": 0
     },
-    "anvil_cost": 8,
+    "anvil_cost": 3,
     "slots": [
         "mainhand"
     ],
