@@ -75,8 +75,8 @@
                             "damage_type": "minecraft:arrow",
                             "radius": {
                                 "type": "minecraft:linear",
-                                "base": 2.5,
-                                "per_level_above_first": 3.5
+                                "base": 1.25,
+                                "per_level_above_first": 1.75
                             },
                             "block_interaction": "trigger",
                             "small_particle": {

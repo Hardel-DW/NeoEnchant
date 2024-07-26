@@ -15,7 +15,8 @@
         {
             "id": "enchantplus:bow/echo_shot",
             "required": false
-        }
+        },
+        "minecraft:quick_charge"
     ],
     "replace": false
 }
