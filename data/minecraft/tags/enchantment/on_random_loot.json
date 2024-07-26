@@ -9,6 +9,10 @@
       "required": false
     },
     {
+      "id": "enchantplus:bow/echo_shot",
+      "required": false
+    },
+    {
       "id": "enchantplus:chestplate/builder_arm",
       "required": false
     }

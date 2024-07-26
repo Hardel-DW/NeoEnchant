@@ -26,6 +26,7 @@
                 "enchanted": "attacker",
                 "affected": "victim",
                 "effect": {
+                    "attribute_to_user": true,
                     "type": "minecraft:explode",
                     "radius": 3.5,
                     "block_interaction": "trigger",

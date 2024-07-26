@@ -13,6 +13,10 @@
       "required": false
     },
     {
+      "id": "enchantplus:bow/echo_shot",
+      "required": false
+    },
+    {
       "id": "enchantplus:tools/auto_smelt",
       "required": false
     }
