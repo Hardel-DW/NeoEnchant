@@ -8,7 +8,7 @@
         "minecraft:attributes": [
             {
                 "id": "minecraft:enchantment.reach",
-                "attribute": "minecraft:player.entity_interaction_range",
+                "attribute": "minecraft:entity_interaction_range",
                 "amount": {
                     "type": "minecraft:linear",
                     "base": 1,

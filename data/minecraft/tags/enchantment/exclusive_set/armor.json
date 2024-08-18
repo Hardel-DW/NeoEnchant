@@ -3,10 +3,7 @@
         {
             "id": "enchantplus:armor/venom_protection",
             "required": false
-        },
-        "minecraft:blast_protection",
-        "minecraft:fire_protection",
-        "minecraft:projectile_protection"
+        }
     ],
-    "replace": true
+    "replace": false
 }

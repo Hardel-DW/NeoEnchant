@@ -23,7 +23,7 @@
         "minecraft:attributes": [
             {
                 "id": "minecraft:enchantment.drawf",
-                "attribute": "minecraft:generic.scale",
+                "attribute": "minecraft:scale",
                 "amount": {
                     "type": "minecraft:lookup",
                     "values": [

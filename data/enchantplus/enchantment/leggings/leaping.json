@@ -22,7 +22,7 @@
         "minecraft:attributes": [
             {
                 "id": "minecraft:enchantment.leaping_jump",
-                "attribute": "minecraft:generic.jump_strength",
+                "attribute": "minecraft:jump_strength",
                 "amount": {
                     "type": "minecraft:linear",
                     "base": 0.15,
@@ -32,7 +32,7 @@
             },
             {
                 "id": "minecraft:enchantment.leaping_safe",
-                "attribute": "minecraft:generic.safe_fall_distance",
+                "attribute": "minecraft:safe_fall_distance",
                 "amount": {
                     "type": "minecraft:linear",
                     "base": 0.15,

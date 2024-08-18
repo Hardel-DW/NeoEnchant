@@ -5,7 +5,7 @@
     },
     "exclusive_set": "#enchantplus:exclusive_set/armor",
     "supported_items": "#minecraft:enchantable/armor",
-    "weight": 3,
+    "weight": 8,
     "max_level": 4,
     "min_cost": {
         "base": 12,
@@ -35,7 +35,7 @@
         "minecraft:attributes": [
             {
                 "id": "minecraft:enchantment.fury",
-                "attribute": "minecraft:generic.attack_damage",
+                "attribute": "minecraft:attack_damage",
                 "amount": {
                     "type": "minecraft:linear",
                     "base": 0.065,
@@ -45,7 +45,7 @@
             },
             {
                 "id": "minecraft:enchantment.fury_descrease",
-                "attribute": "minecraft:generic.armor",
+                "attribute": "minecraft:armor",
                 "amount": {
                     "type": "minecraft:linear",
                     "base": -0.1,
