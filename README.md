@@ -18,7 +18,7 @@ Enchantments are available natively in the enchantment table and also in the anv
 Performance is identical to that of a Minecraft mod, or a native Mojang production. It uses almost exclusively the new internal systems introduced in the update 1.21.
 
 ### Modify enchantments as you wish.
-Enchantments are easy to modulate. You can modify maximum levels, supported objects and even effects. No development skills are required, just edit the values in the ".json" files. The in-game admin panel has also been removed. All removed enchantments will be properly disenchanted on items, whether in chests, inventories or anywhere else.
+Enchantments are easy to modulate. You can modify maximum levels, supported objects and even effects. No development skills are required. The in-game admin panel has also been removed. Instead you can use the [Enchantments Configurator](https://voxel.hardel.io/en-us/tools/enchant) it's infinitly better !
 
 ### Compatiblity
 Compatiblity with for other mods (Forge/Fabric) or Vanilla Datapacks that add owns enchantments.
@@ -28,14 +28,15 @@ Enchantments can be obtained from the creative menu, or with the /enchant comman
 </details>
 
 # From Official TE+ 
-TE+ Official  275,632 views and 45,977 downloads 
-TTE+ Rewened Fork by Frektip - 293,986 views, 62,173 downloads
+- TE+ Official  300,000 views and 45,977 downloads 
+- TTE+ Rewened Fork by Frektip - 293,986 views, 62,173 downloads
 
-## Enchantments List
-Below is the list of enchantments included in this release. Check off the enchantments as you explore each one in your game:
-See in details with the Wiki [https://github.com/Hardel-DW/NeoEnchant/wiki/Custom-Enchantments](https://github.com/Hardel-DW/NeoEnchant/wiki/Custom-Enchantments)
+## Website
+You can find all the enchantments in videos on the official website. [NeoEnchant+ Website (EN/FR)](https://voxel.hardel.io/en-us/datapacks/neoenchant) It is available in English and French.
 
-## Enchantments from NE+
+[![Website](https://cdn.modrinth.com/data/cached_images/30ffe66e8781de3745663c73750444b9813acdb9.png)](https://voxel.hardel.io/en-us/datapacks/neoenchant)
+
+## Neo Enchantments List
 - **Armor**:
   - **Fury**: Decreases armor in percent and grants armor penetration and increased damage percentage on your hits.
   - **Life+**: Gives the player extra hearts.
@@ -95,44 +96,36 @@ See in details with the Wiki [https://github.com/Hardel-DW/NeoEnchant/wiki/Custo
   - **Accuracy Shot**: Arrows fly straight.
   - **Breezing Arrow**: (Bow and Crossbow) Causes a repulsion effect and sends the hit target into the air. If arrows miss, it causes a repulsion effect on the ground.
 
+# Enchantment Configurator
+Customize your adventure with our online enchantment configurator. Adjust enchantments according to your preferences, creating a unique experience that perfectly matches your playstyle, available at this address Enchantment Configurator. [Enchantments Configurator](https://voxel.hardel.io/en-us/tools/enchant)
 
-# Yggdrasil - Structure
-![yggdrasil](https://github.com/Hardel-DW/Yggdrasil-Structure/assets/42413417/b481d58c-a1f4-4d04-a884-6ac538c02bbd)
+[![Website](https://cdn.modrinth.com/data/cached_images/dd5f34aa1cf0a79c5149eb556b19d885a50e7e13.webp)](https://voxel.hardel.io/en-us/tools/enchant)
 
-This pack adds **gigantic structures** that take hours to explore. Magnificent structures that spawn all over the world, and gives **unique rewards**, and combined with NeoEnchant it gets even better!
-An unprecedented difficulty for the end of the game, Exclusive enchantments to be found in this structure if you use the NeoEnchant pack.
-The NeoEnchant pack is not mandatory, it is designed to work with or without it!  
-[Modrinth Yggdrasil](https://modrinth.com/datapack/yggdrasil-structure)
+# The Neo-Ecosystem
+![Plop](https://cdn.modrinth.com/data/cached_images/f475cc4efe4d192c11c3e26c0ba72fc152a5a1fe.png)
+With all these enchantments, the game might become too easy, right?
+That’s why NeoEnchant+ isn’t just a pack—it’s an ecosystem introducing Yggdrasil and BeyondEnchant.
 
-# BeyondEnchant - Breaks vanilla limits
-![beyond](https://github.com/Hardel-DW/BeyondEnchant/assets/42413417/d107bc40-c48c-47b2-91eb-8a012a55c95c)
+- **[Yggdrasil on Modrinth](https://modrinth.com/datapack/yggdrasil-structure)** is a pack adding gigantic structures with unprecedented difficulty, unique rewards, and exclusive enchantments that you won’t find anywhere else. These structures make perfect use of the new enchantments, and the monsters have heard about them and won’t hesitate to use them against you.
 
-**BeyondEnchant** is the ultimate expansion for enchantments, developed by Hardel. 
-This mod/datapack allows you to break the traditional limits of enchantments, introducing unprecedented flexibility and power to your Minecraft experience. Enhance your gear beyond the vanilla constraints and explore new heights of gameplay.  
-[Modrinth BeyondEnchant](https://modrinth.com/datapack/beyondenchant)
+- **[Beyond Enchant on Modrinth](https://modrinth.com/datapack/beyondenchant)**, on the other hand, breaks the chains of vanilla limits. The levels of enchantments are increased, making them more powerful—the enchantments are more… well, you get the idea.
 
-# Contributing & Support me on Patreon  
-If you like the work I produce, please don't hesitate to help me.   
-Every contribution means a lot to me and helps me continue creating exciting content for the Minecraft community.  
-  
-Join us on Patreon and help me make Minecraft an even more amazing experience for everyone! [Support me](https://www.patreon.com/hardel)  
-You can also contribute on the official Github. [Official Github](https://github.com/Hardel-DW/NeoEnchant)  
-An join the discord ! [Hardel Lab's Discord](https://discord.gg/mVpYB6kF93)  
-
+## Contribute and Discord
 [![Patreon](https://github.com/Hardel-DW/NeoEnchant/assets/42413417/4fac417a-9c4c-40cd-95f3-fa908e4dd061)](https://www.patreon.com/hardel)
 
-## License
-This project is licensed under the NeoEnchant License - see the LICENSE file for details.
-
-## Acknowledgments
-Thanks to all the contributors who have helped in developing these enchantments and making this project successful. We look forward to further innovations in future releases.
-
-## Bugs
-The pack has been completely rewritten, and bugs may appear, If you find any, report it on Github.
+### Links
+- Join us on Patreon and help me make Minecraft an even more amazing experience for everyone! 
+[Support me](https://www.patreon.com/hardel)  
+- An join the discord ! [Hardel Lab's Discord](https://discord.gg/mVpYB6kF93)  
+- You can also contribute on the official Github. [Official Github](https://github.com/Hardel-DW/NeoEnchant)  
+- The pack has been completely rewritten, and bugs may appear, If you find any, report it on Github.
 [https://github.com/Hardel-DW/NeoEnchant/issues](https://github.com/Hardel-DW/NeoEnchant/issues)
+  
+## Acknowledgments & License
+This project is licensed under the NeoEnchant License - see the LICENSE file for details.
+Thanks to all the contributors who have helped in developing these enchantments and making this project successful. We look forward to further innovations in future releases.
 
 ## Minecraft Realms - Problem
 Experimental features, including enchantments, are not supported by Realms.
 In addition, a bug exists in Realms that makes it impossible for mcfunctions to work.
 To put it simply, the custom enchantments in this pack, or any other datapack adding enchantments, don't work on Realms.
-[https://bugs.mojang.com/browse/REALMS-11834](https://bugs.mojang.com/browse/REALMS-11834)
