@@ -8,8 +8,8 @@
       "fallback": "Weapons+"
     },
     "description": {
-      "translate": "advancement.enchantplus.title.swoweaponsrd",
-      "fallback": "Over 9 more enchantments",
+      "translate": "advancement.enchantplus.description.weapons",
+      "fallback": "Get every custom enchantment book for the weapons",
       "color": "#D97652"
     },
     "frame": "task",

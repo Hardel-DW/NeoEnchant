@@ -4,7 +4,7 @@
       "id": "minecraft:enchanted_book"
     },
     "title": {
-      "translate": "enchantment.enchantplus.title.lava_walker",
+      "translate": "enchantment.enchantplus.lava_walker",
       "fallback": "Lava Walker",
       "color": "#40E6FF"
     },

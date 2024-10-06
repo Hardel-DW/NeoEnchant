@@ -1,6 +1,6 @@
 {
     "description": {
-        "translate": "enchantment.minecraft.rebound",
+        "translate": "enchantment.enchantplus.rebound",
         "fallback": "(In developpement) Rebound"
     },
     "supported_items": "#voxel:enchantable/range",

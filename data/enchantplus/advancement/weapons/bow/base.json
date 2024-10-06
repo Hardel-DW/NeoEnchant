@@ -99,6 +99,38 @@
           }
         ]
       }
+    },
+    "eternal_frost": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "enchantplus:bow/eternal_frost"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "rebound": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "enchantplus:bow/rebound"
+                }
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -116,6 +148,12 @@
     ],
     [
       "storm_arrow"
+    ],
+    [
+      "eternal_frost"
+    ],
+    [
+      "rebound"
     ]
   ]
 }

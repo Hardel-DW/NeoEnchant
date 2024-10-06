@@ -4,7 +4,7 @@
       "id": "minecraft:enchanted_book"
     },
     "title": {
-      "translate": "enchantment.enchantplus.title.armored",
+      "translate": "enchantment.enchantplus.armored",
       "fallback": "Armored",
       "color": "#40E6FF"
     },

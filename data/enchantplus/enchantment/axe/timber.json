@@ -1,6 +1,6 @@
 {
     "description": {
-        "translate": "enchantment.enchantplus.hit_block.timber",
+        "translate": "enchantment.enchantplus.timber",
         "fallback": "Timber"
     },
     "supported_items": "#voxel:enchantable/axes",

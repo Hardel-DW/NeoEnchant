@@ -131,6 +131,22 @@
           }
         ]
       }
+    },
+    "tears_of_aslors": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "enchantplus:sword/tears_of_aslors"
+                }
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -154,6 +170,9 @@
     ],
     [
       "pull"
+    ],
+    [
+      "tears_of_aslors"
     ]
   ]
 }

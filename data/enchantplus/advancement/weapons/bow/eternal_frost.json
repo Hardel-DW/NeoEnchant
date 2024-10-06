@@ -4,20 +4,20 @@
             "id": "minecraft:enchanted_book"
         },
         "title": {
-            "translate": "enchantment.enchantplus.agility",
-            "fallback": "Agility",
+            "translate": "enchantment.enchantplus.eternal_frost",
+            "fallback": "Eternal Frost",
             "color": "#40E6FF"
         },
         "description": {
-            "translate": "advancement.enchantplus.description.agility",
-            "fallback": "I'm fast, too fast"
+            "translate": "advancement.enchantplus.description.eternal_frost",
+            "fallback": "Winter is coming"
         },
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false,
         "hidden": false
     },
-    "parent": "enchantplus:armor/boots/base",
+    "parent": "enchantplus:weapons/bow/storm_arrow",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:inventory_changed",
@@ -27,7 +27,7 @@
                         "predicates": {
                             "minecraft:enchantments": [
                                 {
-                                    "enchantments": "enchantplus:boots/agility"
+                                    "enchantments": "enchantplus:bow/eternal_frost"
                                 }
                             ]
                         }

@@ -1,6 +1,6 @@
 {
     "description": {
-        "translate": "enchantment.minecraft.explosive_arrow",
+        "translate": "enchantment.enchantplus.explosive_arrow",
         "fallback": "Explosive Arrow"
     },
     "exclusive_set": "#enchantplus:exclusive_set/bow",

@@ -1,6 +1,6 @@
 {
     "description": {
-        "translate": "enchantment.minecraft.echo_shot",
+        "translate": "enchantment.enchantplus.echo_shot",
         "fallback": "Echo Shot"
     },
     "exclusive_set": "#enchantplus:exclusive_set/bow",
@@ -66,10 +66,6 @@
                 "effect": {
                     "type": "minecraft:all_of",
                     "effects": [
-                        {
-                            "type": "minecraft:run_function",
-                            "function": "enchantplus:actions/echo_shot/on_shoot"
-                        },
                         {
                             "type": "minecraft:explode",
                             "damage_type": "minecraft:arrow",

@@ -4,7 +4,7 @@
       "id": "minecraft:enchanted_book"
     },
     "title": {
-      "translate": "enchantment.enchantplus.title.curse_of_breaking",
+      "translate": "enchantment.enchantplus.curse_of_breaking",
       "fallback": "Curse of Breaking",
       "color": "#40E6FF"
     },

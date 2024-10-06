@@ -1,6 +1,6 @@
 {
     "description": {
-        "translate": "enchantment.minecraft.accuracy_shot",
+        "translate": "enchantment.enchantplus.accuracy_shot",
         "fallback": "Accuracy Shot"
     },
     "supported_items": "#voxel:enchantable/range",

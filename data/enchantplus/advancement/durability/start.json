@@ -9,7 +9,7 @@
     },
     "description": {
       "translate": "advancement.enchantplus.description.durability",
-      "fallback": "Over 1 enchantments",
+      "fallback": "Get every custom enchantment book for the durability",
       "color": "#57BBD9"
     },
     "frame": "task",

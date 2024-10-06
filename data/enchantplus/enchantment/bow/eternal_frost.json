@@ -1,6 +1,6 @@
 {
     "description": {
-        "translate": "enchantment.minecraft.eternal_frost",
+        "translate": "enchantment.enchantplus.eternal_frost",
         "fallback": "Eternal Frost"
     },
     "exclusive_set": "#enchantplus:exclusive_set/bow",

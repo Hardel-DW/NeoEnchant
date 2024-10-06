@@ -4,7 +4,7 @@
             "id": "minecraft:enchanted_book"
         },
         "title": {
-            "translate": "enchantment.enchantplus.title.wind_propulsion",
+            "translate": "enchantment.enchantplus.wind_propulsion",
             "fallback": "Wind Propulsion",
             "color": "#40E6FF"
         },

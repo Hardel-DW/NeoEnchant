@@ -1,7 +1,7 @@
 {
     "description": {
-        "translate": "enchantment.enchantplus.curse_of_fragility",
-        "fallback": "Curse of Fragility"
+        "translate": "enchantment.enchantplus.curse_of_breaking",
+        "fallback": "Curse of Breaking"
     },
     "supported_items": "#minecraft:enchantable/weapon",
     "weight": 3,

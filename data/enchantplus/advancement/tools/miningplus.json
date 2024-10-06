@@ -4,12 +4,12 @@
       "id": "minecraft:enchanted_book"
     },
     "title": {
-      "translate": "enchantment.enchantplus.title.mininplus",
+      "translate": "enchantment.enchantplus.miningplus",
       "fallback": "Mining+",
       "color": "#40E6FF"
     },
     "description": {
-      "translate": "advancement.enchantplus.description.mininplus",
+      "translate": "advancement.enchantplus.description.miningplus",
       "fallback": "Welcome to paladium !"
     },
     "frame": "task",
@@ -17,7 +17,7 @@
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "enchantplus:tools/common/auto_smelt",
+  "parent": "enchantplus:tools/auto_smelt",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

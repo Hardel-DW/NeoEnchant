@@ -1,6 +1,6 @@
 {
     "description": {
-        "translate": "enchantment.enchantplus.hit_block.miningplus",
+        "translate": "enchantment.enchantplus.miningplus",
         "fallback": "Mining+"
     },
     "exclusive_set": "#enchantplus:exclusive_set/mining",

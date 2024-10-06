@@ -4,7 +4,7 @@
       "id": "minecraft:enchanted_book"
     },
     "title": {
-      "translate": "enchantment.enchantplus.title.timber",
+      "translate": "enchantment.enchantplus.timber",
       "fallback": "Timber",
       "color": "#40E6FF"
     },

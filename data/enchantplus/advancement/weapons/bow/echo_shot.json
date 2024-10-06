@@ -4,7 +4,7 @@
       "id": "minecraft:enchanted_book"
     },
     "title": {
-      "translate": "enchantment.enchantplus.title.echo_shot",
+      "translate": "enchantment.enchantplus.echo_shot",
       "fallback": "Echo Shot",
       "color": "#40E6FF"
     },

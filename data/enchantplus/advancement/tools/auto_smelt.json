@@ -4,7 +4,7 @@
       "id": "minecraft:enchanted_book"
     },
     "title": {
-      "translate": "enchantment.enchantplus.title.auto_smelt",
+      "translate": "enchantment.enchantplus.auto_smelt",
       "fallback": "Auto Smelt",
       "color": "#40E6FF"
     },
@@ -17,7 +17,7 @@
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "enchantplus:tools/common/base",
+  "parent": "enchantplus:tools/start",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

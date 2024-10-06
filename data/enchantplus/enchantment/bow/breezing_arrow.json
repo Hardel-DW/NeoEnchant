@@ -1,6 +1,6 @@
 {
     "description": {
-        "translate": "enchantment.minecraft.breezing_arrow",
+        "translate": "enchantment.enchantplus.breezing_arrow",
         "fallback": "Breezing Arrows"
     },
     "exclusive_set": "#enchantplus:exclusive_set/bow",

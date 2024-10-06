@@ -4,20 +4,20 @@
       "id": "minecraft:enchanted_book"
     },
     "title": {
-      "translate": "enchantment.enchantplus.explosive_arrow",
-      "fallback": "Explosive Arrow",
+      "translate": "enchantment.enchantplus.tears_of_aslors",
+      "fallback": "Tears of Aslors",
       "color": "#40E6FF"
     },
     "description": {
-      "translate": "advancement.enchantplus.description.explosive_arrow",
-      "fallback": "Try to use it with responsibility, ok?"
+      "translate": "advancement.enchantplus.description.tears_of_aslors",
+      "fallback": "Cry me a river"
     },
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "enchantplus:weapons/bow/base",
+  "parent": "enchantplus:weapons/mace/teluric_wave",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",
@@ -27,7 +27,7 @@
             "predicates": {
               "minecraft:enchantments": [
                 {
-                  "enchantments": "enchantplus:bow/explosive_arrow"
+                  "enchantments": "enchantplus:sword/tears_of_aslors"
                 }
               ]
             }

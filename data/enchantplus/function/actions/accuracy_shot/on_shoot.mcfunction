@@ -8,4 +8,5 @@
 
 data modify entity @s NoGravity set value 1b
 tag @s add enchantplus.accuracy_shot
-schedule function enchantplus:actions/accuracy_shot/schedule_handle 5s append
+execute store result score @s enchantplus.animation_gametime run time query gametime
+schedule function enchantplus:actions/accuracy_shot/schedule_handler 5s append

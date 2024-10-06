@@ -1,6 +1,6 @@
 {
     "description": {
-        "translate": "enchantment.minecraft.strom_arrow",
+        "translate": "enchantment.enchantplus.storm_arrow",
         "fallback": "Storm Arrows"
     },
     "exclusive_set": "#enchantplus:exclusive_set/bow",

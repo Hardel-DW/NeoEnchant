@@ -1,7 +1,7 @@
 {
   "anvil_cost": 10,
   "description": {
-    "translate": "enchantment.minecraft.armored",
+    "translate": "enchantment.enchantplus.armored",
     "fallback": "Armored"
   },
   "effects": {
