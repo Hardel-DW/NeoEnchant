@@ -1,7 +1,7 @@
 {
     "description": {
         "translate": "enchantment.enchantplus.teluric_wave",
-        "fallback": "(In developpement) Teluric Wave"
+        "fallback": "Teluric Wave"
     },
     "supported_items": "#minecraft:enchantable/mace",
     "weight": 2,

@@ -1,5 +1,6 @@
 function enchantplus:libs/animation/block_wave/start
 tag @s add enchantplus.marker.teluric_smash.origin
+execute as @e[distance=..2,type=!#enchantplus:teluric_blacklist] store result entity @s Motion[1] double 0.1 run scoreboard players get #teluric_motion enchantplus.data
 
 # Propagate forward
 execute if entity @s[tag=enchantplus.marker.teluric_smash.forward] if score @s enchantplus.teluric.radius matches 1.. positioned ~ ~ ~1 unless entity @e[type=marker,tag=enchantplus.marker.teluric_smash,limit=1,sort=nearest,distance=..0.1] summon marker run function enchantplus:actions/teluric_smash/direction/forward

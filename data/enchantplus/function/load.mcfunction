@@ -27,6 +27,7 @@ scoreboard objectives add enchantplus.teluric.radius dummy
 scoreboard players set #default enchantplus.teluric.side 5
 scoreboard players set #default enchantplus.teluric.long 12
 scoreboard players set #default enchantplus.teluric.radius 5
+scoreboard players set #teluric_motion enchantplus.data 9
 
 # Constante pour les calculs
 scoreboard players set #1 enchantplus.data 1
