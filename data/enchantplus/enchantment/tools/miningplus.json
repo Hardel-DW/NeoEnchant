@@ -1,6 +1,6 @@
 {
     "description": {
-        "translate": "enchantment.enchantplus.miningplus",
+        "translate": "enchantment.enchantplus.hit_block.miningplus",
         "fallback": "Mining+"
     },
     "exclusive_set": "#enchantplus:exclusive_set/mining",
@@ -24,7 +24,7 @@
             {
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:hit_block/miningplus/place_hit_block_marker"
+                    "function": "enchantplus:actions/miningplus/place_hit_block_marker"
                 }
             }
         ]

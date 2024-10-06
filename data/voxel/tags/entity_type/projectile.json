@@ -1,0 +1,23 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:fireball",
+        "minecraft:small_fireball",
+        "minecraft:wither_skull",
+        "minecraft:shulker_bullet",
+        "minecraft:llama_spit",
+        "minecraft:evoker_fangs",
+        "minecraft:dragon_fireball",
+        "minecraft:trident",
+        "minecraft:arrow",
+        "minecraft:spectral_arrow",
+        "minecraft:wind_charge",
+        "minecraft:egg",
+        "minecraft:ender_pearl",
+        "minecraft:experience_bottle",
+        "minecraft:potion",
+        "minecraft:firework_rocket",
+        "minecraft:breeze_wind_charge",
+        "minecraft:eye_of_ender"
+    ]
+}

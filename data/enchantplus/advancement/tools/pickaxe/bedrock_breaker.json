@@ -27,7 +27,7 @@
             "predicates": {
               "minecraft:enchantments": [
                 {
-                  "enchantments": "enchantplus:pickaxe/experimental_bedrock_breaker"
+                  "enchantments": "enchantplus:pickaxe/bedrock_breaker"
                 }
               ]
             }

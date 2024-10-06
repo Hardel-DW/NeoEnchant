@@ -2,5 +2,12 @@
     "pack": {
         "pack_format": 48,
         "description": "Add new enchants to minecraft - By Voxel Team"
+    },
+    "language": {
+        "fr_wr": {
+            "name": "Français (Funny)",
+            "region": "Français",
+            "bidirectional": false
+        }
     }
 }

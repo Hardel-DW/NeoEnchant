@@ -1,0 +1,14 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:armor_stand",
+        "minecraft:lightning_bolt",
+        "minecraft:painting",
+        "minecraft:item_frame",
+        "minecraft:experience_orb",
+        "minecraft:end_crystal",
+        "minecraft:falling_block",
+        "minecraft:item",
+        "minecraft:ominous_item_spawner"
+    ]
+}

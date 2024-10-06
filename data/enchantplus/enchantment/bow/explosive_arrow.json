@@ -60,7 +60,7 @@
                     "effects": [
                         {
                             "type": "minecraft:run_function",
-                            "function": "enchantplus:actions/self_kill"
+                            "function": "enchantplus:libs/self_kill"
                         },
                         {
                             "type": "minecraft:explode",

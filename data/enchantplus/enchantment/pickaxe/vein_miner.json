@@ -24,7 +24,7 @@
             {
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:hit_block/vein_miner/place_hit_block_marker"
+                    "function": "enchantplus:actions/vein_miner/place_hit_block_marker"
                 }
             }
         ]

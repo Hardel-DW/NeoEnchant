@@ -1,0 +1,41 @@
+{
+    "description": {
+        "translate": "enchantment.enchantplus.tears_of_aslors",
+        "fallback": "Tears of Aslors",
+        "color": "#ffcbfc"
+    },
+    "exclusive_set": "#enchantplus:exclusive_set/sword_attribute",
+    "supported_items": "#minecraft:enchantable/sword",
+    "weight": 4,
+    "max_level": 1,
+    "min_cost": {
+        "base": 8,
+        "per_level_above_first": 11
+    },
+    "max_cost": {
+        "base": 21,
+        "per_level_above_first": 9
+    },
+    "anvil_cost": 2,
+    "slots": [
+        "mainhand"
+    ],
+    "effects": {
+        "minecraft:item_damage": [
+            {
+                "effect": {
+                    "type": "minecraft:add",
+                    "value": 21470000
+                }
+            }
+        ],
+        "minecraft:damage": [
+            {
+                "effect": {
+                    "type": "minecraft:add",
+                    "value": 21470000
+                }
+            }
+        ]
+    }
+}

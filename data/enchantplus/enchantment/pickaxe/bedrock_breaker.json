@@ -1,0 +1,84 @@
+{
+    "description": {
+        "translate": "enchantment.enchantplus.bedrock_breaker",
+        "fallback": "Bedrock Breaker"
+    },
+    "exclusive_set": "#enchantplus:exclusive_set/mining",
+    "supported_items": "#voxel:enchantable/pickaxes",
+    "weight": 2,
+    "max_level": 1,
+    "min_cost": {
+        "base": 50,
+        "per_level_above_first": 9
+    },
+    "max_cost": {
+        "base": 80,
+        "per_level_above_first": 9
+    },
+    "anvil_cost": 5,
+    "slots": [
+        "mainhand"
+    ],
+    "effects": {
+        "minecraft:hit_block": [
+            {
+                "effect": {
+                    "type": "minecraft:all_of",
+                    "effects": [
+                        {
+                            "type": "minecraft:spawn_particles",
+                            "particle": {
+                                "type": "minecraft:explosion_emitter"
+                            },
+                            "horizontal_position": {
+                                "type": "in_bounding_box"
+                            },
+                            "vertical_position": {
+                                "type": "in_bounding_box"
+                            },
+                            "horizontal_velocity": {
+                                "base": 0.1,
+                                "movement_scale": 0.1
+                            },
+                            "vertical_velocity": {
+                                "base": 0.1,
+                                "movement_scale": 0.1
+                            },
+                            "speed": 0
+                        },
+                        {
+                            "type": "minecraft:play_sound",
+                            "sound": "minecraft:entity.breeze.death",
+                            "volume": 0.1,
+                            "pitch": 0.75
+                        },
+                        {
+                            "type": "minecraft:replace_block",
+                            "block_state": {
+                                "type": "minecraft:simple_state_provider",
+                                "state": {
+                                    "Name": "minecraft:air"
+                                }
+                            },
+                            "trigger_game_event": "minecraft:block_destroy"
+                        },
+                        {
+                            "type": "minecraft:damage_item",
+                            "amount": 150
+                        }
+                    ]
+                },
+                "requirements": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "#enchantplus:bedrock_breaker"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

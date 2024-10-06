@@ -3,8 +3,8 @@
         "translate": "enchantment.enchantplus.oversize",
         "fallback": "Oversize"
     },
-    "supported_items": "#minecraft:enchantable/leg_armor",
     "exclusive_set": "#enchantplus:exclusive_set/size",
+    "supported_items": "#minecraft:enchantable/leg_armor",
     "weight": 6,
     "max_level": 4,
     "min_cost": {
@@ -22,7 +22,7 @@
     "effects": {
         "minecraft:attributes": [
             {
-                "id": "minecraft:enchantment.drawf",
+                "id": "minecraft:enchantment.oversize.size",
                 "attribute": "minecraft:generic.scale",
                 "amount": {
                     "type": "minecraft:lookup",
@@ -32,9 +32,43 @@
                         0.65,
                         0.95
                     ],
-                    "fallback": 0.25
+                    "fallback": {
+                        "type": "minecraft:linear",
+                        "base": 0.25,
+                        "per_level_above_first": 0.25
+                    }
                 },
                 "operation": "add_multiplied_base"
+            },
+            {
+                "id": "minecraft:enchantment.oversize.step",
+                "attribute": "minecraft:generic.step_height",
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": 0.5,
+                    "per_level_above_first": 0.5
+                },
+                "operation": "add_value"
+            },
+            {
+                "id": "minecraft:enchantment.oversize.speed",
+                "attribute": "minecraft:generic.attack_speed",
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": -0.15,
+                    "per_level_above_first": -0.15
+                },
+                "operation": "add_multiplied_total"
+            },
+            {
+                "id": "minecraft:generic.speed",
+                "attribute": "minecraft:generic.movement_speed",
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": -0.125,
+                    "per_level_above_first": -0.125
+                },
+                "operation": "add_multiplied_total"
             }
         ]
     }
