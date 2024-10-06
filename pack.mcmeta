@@ -1,7 +1,10 @@
 {
     "pack": {
         "pack_format": 48,
-        "supported_formats": [34],
+        "supported_formats": {
+            "min_inclusive": 34,
+            "max_inclusive": 48
+        },
         "description": "Add new enchants to minecraft - By Voxel Team"
     },
     "language": {

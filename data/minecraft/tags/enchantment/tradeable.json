@@ -4,7 +4,8 @@
     "enchantplus:pickaxe/vein_miner",
     "enchantplus:tools/miningplus",
     "enchantplus:bow/echo_shot",
-    "enchantplus:tools/auto_smelt"
+    "enchantplus:tools/auto_smelt",
+    "enchantplus:bow/eternal_frost"
   ],
   "replace": false
 }

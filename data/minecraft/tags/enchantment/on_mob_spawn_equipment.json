@@ -1,10 +1,9 @@
 {
-    "replace": false,
     "values": [
-        "enchantplus:bow/breezing_arrow",
+        "enchantplus:sword/reach",
         "enchantplus:bow/echo_shot",
-        "enchantplus:bow/storm_arrow",
         "enchantplus:bow/eternal_frost",
         "enchantplus:bow/rebound"
-    ]
+    ],
+    "replace": false
 }

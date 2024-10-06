@@ -15,7 +15,9 @@
     "enchantplus:leggings/dwarfed",
     "enchantplus:axe/timber",
     "enchantplus:hoe/scyther",
-    "enchantplus:tools/auto_smelt"
+    "enchantplus:tools/auto_smelt",
+    "enchantplus:mace/wind_propulsion",
+    "enchantplus:trident/gungnir_spear"
   ],
   "replace": false
 }

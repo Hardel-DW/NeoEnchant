@@ -1,5 +1,6 @@
 {
     "values": [
-        "minecraft:mending"
+        "minecraft:mending",
+        "enchantplus:sword/tears_of_aslors"
     ]
 }
