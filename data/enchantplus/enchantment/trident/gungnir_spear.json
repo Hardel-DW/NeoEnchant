@@ -4,6 +4,7 @@
         "fallback": "Gungnir Spear"
     },
     "supported_items": "#minecraft:enchantable/trident",
+    "exclusive_set": "#enchantplus:exclusive_set/trident",
     "weight": 2,
     "max_level": 3,
     "min_cost": {

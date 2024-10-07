@@ -2,7 +2,8 @@
     "values": [
         "enchantplus:sword/pull",
         "enchantplus:sword/life_steal",
-        "enchantplus:sword/fear"
+        "enchantplus:sword/fear",
+        "enchantplus:sword/tears_of_aslors"
     ],
     "replace": false
 }

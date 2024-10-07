@@ -4,6 +4,7 @@
         "fallback": "(In developpement) Rebound"
     },
     "supported_items": "#voxel:enchantable/range",
+    "exclusive_set": "#enchantplus:exclusive_set/archery",
     "weight": 4,
     "max_level": 3,
     "min_cost": {

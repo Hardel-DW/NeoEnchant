@@ -4,6 +4,7 @@
         "enchantplus:bow/explosive_arrow",
         "enchantplus:bow/storm_arrow",
         "enchantplus:bow/echo_shot",
+        "enchantplus:bow/eternal_frost",
         "minecraft:quick_charge"
     ],
     "replace": false

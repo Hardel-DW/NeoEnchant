@@ -4,6 +4,7 @@
         "fallback": "Curse of Breaking"
     },
     "supported_items": "#minecraft:enchantable/weapon",
+    "exclusive_set": "#enchantplus:exclusive_set/durability",
     "weight": 3,
     "max_level": 5,
     "min_cost": {
