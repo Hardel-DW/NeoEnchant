@@ -17,7 +17,7 @@
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "enchantplus:weapons/mace/teluric_wave",
+  "parent": "enchantplus:weapons/sword/fear",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

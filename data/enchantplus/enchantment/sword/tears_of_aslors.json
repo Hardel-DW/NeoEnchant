@@ -7,7 +7,7 @@
     "exclusive_set": "#enchantplus:exclusive_set/sword_effect",
     "supported_items": "#minecraft:enchantable/sword",
     "weight": 4,
-    "max_level": 1,
+    "max_level": 4,
     "min_cost": {
         "base": 8,
         "per_level_above_first": 11
@@ -21,11 +21,25 @@
         "mainhand"
     ],
     "effects": {
-        "minecraft:item_damage": [
+        "minecraft:post_attack": [
             {
+                "enchanted": "attacker",
+                "affected": "attacker",
                 "effect": {
-                    "type": "minecraft:add",
-                    "value": 21470000
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/tears_of_aslors"
+                },
+                "requirements": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "attacker",
+                    "predicate": {
+                        "type_specific": {
+                            "type": "minecraft:player",
+                            "level": {
+                                "min": 5
+                            }
+                        }
+                    }
                 }
             }
         ],
@@ -33,7 +47,23 @@
             {
                 "effect": {
                     "type": "minecraft:add",
-                    "value": 21470000
+                    "value": {
+                        "type": "linear",
+                        "base": 3,
+                        "per_level_above_first": 1
+                    }
+                },
+                "requirements": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "attacker",
+                    "predicate": {
+                        "type_specific": {
+                            "type": "minecraft:player",
+                            "level": {
+                                "min": 5
+                            }
+                        }
+                    }
                 }
             }
         ]

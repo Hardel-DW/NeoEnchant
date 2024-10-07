@@ -71,11 +71,12 @@
     "advancement.enchantplus.description.poison_aspect": "Je suis Spider-Man",
     "advancement.enchantplus.description.pull": "La collection d'œufs de mobs commence",
     "advancement.enchantplus.description.reach": "Le nord !",
+    "advancement.enchantplus.description.last_hope": "Le dernier espoir de Aslors",
     "advancement.enchantplus.description.tears_of_aslors": "Les vestiges du temps",
     "advancement.enchantplus.description.xp_boost": "Je vois des orbes partout !",
     "advancement.enchantplus.description.auto_smelt": "Le meilleur enchantement de tous les temps !",
     "advancement.enchantplus.description.miningplus": "Bienvenue sur Paladium !",
-    "advancement.enchantplus.description.gungnir_spear": "L'arme préférée d'Odin",
+    "advancement.enchantplus.description.gungnir_breath": "L'arme préférée d'Odin",
     "enchantment.enchantplus.fury": "Fureur",
     "enchantment.enchantplus.lifeplus": "Vie+",
     "enchantment.enchantplus.venom_protection": "Protection contre le Venin",
@@ -109,6 +110,7 @@
     "enchantment.enchantplus.spawner_touch": "Toucher de monstre",
     "enchantment.enchantplus.vein_miner": "Mineur de Veine",
     "enchantment.enchantplus.attack_speed": "Vitesse d'Attaque",
+    "enchantment.enchantplus.last_hope": "Dernière Espoir",
     "enchantment.enchantplus.fear": "Peur",
     "enchantment.enchantplus.life_steal": "Vol de Vie",
     "enchantment.enchantplus.poison_aspect": "Aura Empoisonné",
@@ -118,5 +120,5 @@
     "enchantment.enchantplus.xp_boost": "Boost d'XP",
     "enchantment.enchantplus.auto_smelt": "Auto-Cuisson",
     "enchantment.enchantplus.miningplus": "Minage+",
-    "enchantment.enchantplus.gungnir_spear": "Lance de Gungnir"
+    "enchantment.enchantplus.gungnir_breath": "Lance de Gungnir"
 }

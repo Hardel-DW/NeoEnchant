@@ -1,7 +1,7 @@
 {
     "description": {
-        "translate": "enchantment.enchantplus.gungnir_spear",
-        "fallback": "Gungnir Spear"
+        "translate": "enchantment.enchantplus.gungnir_breath",
+        "fallback": "Gungnir Breath"
     },
     "supported_items": "#minecraft:enchantable/trident",
     "exclusive_set": "#enchantplus:exclusive_set/trident",
@@ -27,7 +27,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/gungnir_spear"
+                    "function": "enchantplus:actions/gungnir_breath"
                 }
             },
             {
@@ -113,7 +113,7 @@
             {
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/gungnir_spear"
+                    "function": "enchantplus:actions/gungnir_breath"
                 },
                 "requirements": {
                     "condition": "minecraft:entity_properties",

@@ -147,6 +147,22 @@
           }
         ]
       }
+    },
+    "last_hope": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "enchantplus:sword/last_hope"
+                }
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -173,6 +189,9 @@
     ],
     [
       "tears_of_aslors"
+    ],
+    [
+      "last_hope"
     ]
   ]
 }

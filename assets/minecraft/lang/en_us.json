@@ -73,11 +73,12 @@
     "advancement.enchantplus.description.poison_aspect": "Im spider man",
     "advancement.enchantplus.description.pull": "The mobs eggs collection begins",
     "advancement.enchantplus.description.reach": "I have hacked the game",
+    "advancement.enchantplus.description.last_hope": "The last hope of the Aslors",
     "advancement.enchantplus.description.tears_of_aslors": "Cry me a river",
     "advancement.enchantplus.description.xp_boost": "I see orb everywhere!",
     "advancement.enchantplus.description.auto_smelt": "The best enchantment ever !",
     "advancement.enchantplus.description.miningplus": "Welcome to paladium !",
-    "advancement.enchantplus.description.gungnir_spear": "Odin's favorite weapon",
+    "advancement.enchantplus.description.gungnir_breath": "Odin's favorite weapon",
     "enchantment.enchantplus.fury": "Fury",
     "enchantment.enchantplus.lifeplus": "Life+",
     "enchantment.enchantplus.venom_protection": "Venom Protection",
@@ -111,6 +112,7 @@
     "enchantment.enchantplus.spawner_touch": "Spawner Touch",
     "enchantment.enchantplus.vein_miner": "Vein Miner",
     "enchantment.enchantplus.attack_speed": "Attack Speed",
+    "enchantment.enchantplus.last_hope": "Last Hope",
     "enchantment.enchantplus.fear": "Fear",
     "enchantment.enchantplus.life_steal": "Life Steal",
     "enchantment.enchantplus.poison_aspect": "Poison Aspect",
@@ -120,5 +122,5 @@
     "enchantment.enchantplus.xp_boost": "Xp Boost",
     "enchantment.enchantplus.auto_smelt": "Auto Smelt",
     "enchantment.enchantplus.miningplus": "Mining+",
-    "enchantment.enchantplus.gungnir_spear": "Gungnir Spear"
+    "enchantment.enchantplus.gungnir_breath": "Gungnir Breath"
 }

@@ -4,20 +4,20 @@
             "id": "minecraft:enchanted_book"
         },
         "title": {
-            "translate": "enchantment.enchantplus.gungnir_spear",
-            "fallback": "Gungnir Spear",
+            "translate": "enchantment.enchantplus.last_hope",
+            "fallback": "Last Hope",
             "color": "#40E6FF"
         },
         "description": {
-            "translate": "advancement.enchantplus.description.gungnir_spear",
-            "fallback": "Odin's favorite weapon"
+            "translate": "advancement.enchantplus.description.last_hope",
+            "fallback": "The last hope of the Aslors"
         },
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false,
         "hidden": false
     },
-    "parent": "enchantplus:weapons/trident/base",
+    "parent": "enchantplus:weapons/sword/tears_of_aslors",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:inventory_changed",
@@ -27,7 +27,7 @@
                         "predicates": {
                             "minecraft:enchantments": [
                                 {
-                                    "enchantments": "enchantplus:trident/gungnir_spear"
+                                    "enchantments": "enchantplus:sword/last_hope"
                                 }
                             ]
                         }
