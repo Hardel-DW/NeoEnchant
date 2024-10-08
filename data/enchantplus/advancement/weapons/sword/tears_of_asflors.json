@@ -4,12 +4,12 @@
       "id": "minecraft:enchanted_book"
     },
     "title": {
-      "translate": "enchantment.enchantplus.tears_of_aslors",
-      "fallback": "Tears of Aslors",
+      "translate": "enchantment.enchantplus.tears_of_asflors",
+      "fallback": "Tears of Asflors",
       "color": "#40E6FF"
     },
     "description": {
-      "translate": "advancement.enchantplus.description.tears_of_aslors",
+      "translate": "advancement.enchantplus.description.tears_of_asflors",
       "fallback": "Cry me a river"
     },
     "frame": "task",
@@ -27,7 +27,7 @@
             "predicates": {
               "minecraft:enchantments": [
                 {
-                  "enchantments": "enchantplus:sword/tears_of_aslors"
+                  "enchantments": "enchantplus:sword/tears_of_asflors"
                 }
               ]
             }

@@ -1,7 +1,7 @@
 {
     "description": {
-        "translate": "enchantment.enchantplus.tears_of_aslors",
-        "fallback": "Tears of Aslors",
+        "translate": "enchantment.enchantplus.tears_of_asflors",
+        "fallback": "Tears of Asflors",
         "color": "#ffcbfc"
     },
     "exclusive_set": "#enchantplus:exclusive_set/sword_effect",
@@ -27,7 +27,7 @@
                 "affected": "attacker",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/tears_of_aslors"
+                    "function": "enchantplus:actions/tears_of_asflors"
                 },
                 "requirements": {
                     "condition": "minecraft:entity_properties",
