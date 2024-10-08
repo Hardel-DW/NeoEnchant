@@ -22,8 +22,8 @@
     "effects": {
         "minecraft:attributes": [
             {
-                "id": "minecraft:enchantment.oversize.size",
-                "attribute": "minecraft:generic.scale",
+                "id": "minecraft:enchantment.drawf",
+                "attribute": "minecraft:scale",
                 "amount": {
                     "type": "minecraft:lookup",
                     "values": [

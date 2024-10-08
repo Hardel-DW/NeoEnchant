@@ -5,5 +5,5 @@
         "minecraft:fire_protection",
         "minecraft:projectile_protection"
     ],
-    "replace": true
+    "replace": false
 }
