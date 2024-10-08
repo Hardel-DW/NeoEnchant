@@ -4,7 +4,7 @@
       "id": "minecraft:enchanted_book"
     },
     "title": {
-      "translate": "enchantment.enchantplus.title.sky_walk",
+      "translate": "enchantment.enchantplus.sky_walk",
       "fallback": "Sky Walk",
       "color": "#40E6FF"
     },

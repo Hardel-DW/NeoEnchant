@@ -4,7 +4,7 @@
       "id": "minecraft:enchanted_book"
     },
     "title": {
-      "translate": "enchantment.enchantplus.title.bright_vision",
+      "translate": "enchantment.enchantplus.bright_vision",
       "fallback": "Bright Vision",
       "color": "#40E6FF"
     },

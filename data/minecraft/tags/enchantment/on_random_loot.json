@@ -1,21 +1,11 @@
 {
   "values": [
-    {
-      "id": "enchantplus:helmet/auto_feed",
-      "required": false
-    },
-    {
-      "id": "enchantplus:bow/explosive_arrow",
-      "required": false
-    },
-    {
-      "id": "enchantplus:bow/echo_shot",
-      "required": false
-    },
-    {
-      "id": "enchantplus:chestplate/builder_arm",
-      "required": false
-    }
+    "enchantplus:durability/curse_of_breaking",
+    "enchantplus:helmet/auto_feed",
+    "enchantplus:bow/explosive_arrow",
+    "enchantplus:bow/echo_shot",
+    "enchantplus:chestplate/builder_arm",
+    "enchantplus:leggings/oversize"
   ],
   "replace": false
 }

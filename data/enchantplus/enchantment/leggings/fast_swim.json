@@ -1,7 +1,7 @@
 {
     "description": {
         "translate": "enchantment.enchantplus.fast_swim",
-        "fallback": "Fast swim"
+        "fallback": "Fast Swim"
     },
     "supported_items": "#minecraft:enchantable/leg_armor",
     "weight": 2,

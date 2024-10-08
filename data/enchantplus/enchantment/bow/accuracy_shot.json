@@ -1,6 +1,6 @@
 {
     "description": {
-        "translate": "enchantment.minecraft.accuracy_shot",
+        "translate": "enchantment.enchantplus.accuracy_shot",
         "fallback": "Accuracy Shot"
     },
     "supported_items": "#voxel:enchantable/range",
@@ -24,7 +24,7 @@
             {
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/no_gravity"
+                    "function": "enchantplus:actions/accuracy_shot/on_shoot"
                 }
             }
         ]

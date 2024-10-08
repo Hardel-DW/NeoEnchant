@@ -1,0 +1,1 @@
+execute as @e[tag=enchantplus.libs.hit_block] run function enchantplus:libs/hit_block/kill

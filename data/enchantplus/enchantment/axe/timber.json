@@ -23,7 +23,7 @@
             {
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:hit_block/timber/place_hit_block_marker"
+                    "function": "enchantplus:actions/timber/place_hit_block_marker"
                 }
             }
         ]

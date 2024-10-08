@@ -8,7 +8,7 @@
       "fallback": "A bunch of enchantments"
     },
     "description": {
-      "translate": "advancement.enchantplus.title.start",
+      "translate": "advancement.enchantplus.description.start",
       "fallback": "Obtain your first custom enchantment to see the other ones",
       "color": "dark_aqua"
     },

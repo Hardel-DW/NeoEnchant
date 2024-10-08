@@ -131,6 +131,38 @@
           }
         ]
       }
+    },
+    "tears_of_aslors": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "enchantplus:sword/tears_of_aslors"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "last_hope": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "enchantplus:sword/last_hope"
+                }
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -154,6 +186,12 @@
     ],
     [
       "pull"
+    ],
+    [
+      "tears_of_aslors"
+    ],
+    [
+      "last_hope"
     ]
   ]
 }

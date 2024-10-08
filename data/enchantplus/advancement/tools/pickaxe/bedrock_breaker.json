@@ -4,7 +4,7 @@
       "id": "minecraft:enchanted_book"
     },
     "title": {
-      "translate": "enchantment.enchantplus.title.bedrock_breaker",
+      "translate": "enchantment.enchantplus.bedrock_breaker",
       "fallback": "Bedrock Breaker",
       "color": "#40E6FF"
     },
@@ -27,7 +27,7 @@
             "predicates": {
               "minecraft:enchantments": [
                 {
-                  "enchantments": "enchantplus:pickaxe/experimental_bedrock_breaker"
+                  "enchantments": "enchantplus:pickaxe/bedrock_breaker"
                 }
               ]
             }

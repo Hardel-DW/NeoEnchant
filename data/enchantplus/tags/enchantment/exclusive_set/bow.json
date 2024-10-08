@@ -1,21 +1,10 @@
 {
     "values": [
-        {
-            "id": "enchantplus:bow/breezing_arrow",
-            "required": false
-        },
-        {
-            "id": "enchantplus:bow/explosive_arrow",
-            "required": false
-        },
-        {
-            "id": "enchantplus:bow/storm_arrow",
-            "required": false
-        },
-        {
-            "id": "enchantplus:bow/echo_shot",
-            "required": false
-        },
+        "enchantplus:bow/breezing_arrow",
+        "enchantplus:bow/explosive_arrow",
+        "enchantplus:bow/storm_arrow",
+        "enchantplus:bow/echo_shot",
+        "enchantplus:bow/eternal_frost",
         "minecraft:quick_charge"
     ],
     "replace": false

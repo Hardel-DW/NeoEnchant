@@ -4,7 +4,7 @@
       "id": "minecraft:enchanted_book"
     },
     "title": {
-      "translate": "enchantment.enchantplus.title.pull",
+      "translate": "enchantment.enchantplus.pull",
       "fallback": "Pull",
       "color": "#40E6FF"
     },

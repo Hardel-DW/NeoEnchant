@@ -4,7 +4,7 @@
       "id": "minecraft:enchanted_book"
     },
     "title": {
-      "translate": "enchantment.enchantplus.title.auto_feed",
+      "translate": "enchantment.enchantplus.auto_feed",
       "fallback": "Auto Feed",
       "color": "#40E6FF"
     },

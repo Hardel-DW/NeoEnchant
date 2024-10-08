@@ -3,8 +3,8 @@
         "translate": "enchantment.enchantplus.dwarfed",
         "fallback": "Dwarfed"
     },
-    "supported_items": "#minecraft:enchantable/leg_armor",
     "exclusive_set": "#enchantplus:exclusive_set/size",
+    "supported_items": "#minecraft:enchantable/leg_armor",
     "weight": 6,
     "max_level": 4,
     "min_cost": {
@@ -32,9 +32,33 @@
                         -0.35,
                         -0.5
                     ],
-                    "fallback": -0.15
+                    "fallback": {
+                        "type": "minecraft:linear",
+                        "base": -0.15,
+                        "per_level_above_first": -0.15
+                    }
                 },
                 "operation": "add_multiplied_base"
+            },
+            {
+                "id": "minecraft:enchantment.drawfed.attack",
+                "attribute": "minecraft:generic.attack_damage",
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": -2,
+                    "per_level_above_first": -1
+                },
+                "operation": "add_value"
+            },
+            {
+                "id": "minecraft:enchantment.drawfed.reach",
+                "attribute": "minecraft:player.entity_interaction_range",
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": -0.15,
+                    "per_level_above_first": -0.15
+                },
+                "operation": "add_multiplied_total"
             }
         ]
     }

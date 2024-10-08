@@ -1,13 +1,7 @@
 {
     "values": [
-        {
-            "id": "enchantplus:leggings/oversize",
-            "required": false
-        },
-        {
-            "id": "enchantplus:leggings/dwarfed",
-            "required": false
-        }
+        "enchantplus:leggings/oversize",
+        "enchantplus:leggings/dwarfed"
     ],
     "replace": false
 }

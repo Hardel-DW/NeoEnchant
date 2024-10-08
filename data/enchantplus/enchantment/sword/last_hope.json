@@ -1,0 +1,62 @@
+{
+    "description": {
+        "translate": "enchantment.enchantplus.last_hope",
+        "fallback": "Last Hope"
+    },
+    "exclusive_set": "#enchantplus:exclusive_set/sword_effect",
+    "supported_items": "#minecraft:enchantable/sword",
+    "weight": 4,
+    "max_level": 1,
+    "min_cost": {
+        "base": 8,
+        "per_level_above_first": 11
+    },
+    "max_cost": {
+        "base": 21,
+        "per_level_above_first": 9
+    },
+    "anvil_cost": 2,
+    "slots": [
+        "mainhand"
+    ],
+    "effects": {
+        "minecraft:post_attack": [
+            {
+                "affected": "attacker",
+                "enchanted": "attacker",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/last_hope"
+                },
+                "requirements": {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "attacking_player",
+                        "predicate": {
+                            "type": "#enchantplus:last_hope_blacklist"
+                        }
+                    }
+                }
+            }
+        ],
+        "minecraft:damage": [
+            {
+                "effect": {
+                    "type": "minecraft:add",
+                    "value": 21470000
+                },
+                "requirements": {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "attacking_player",
+                        "predicate": {
+                            "type": "#enchantplus:last_hope_blacklist"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

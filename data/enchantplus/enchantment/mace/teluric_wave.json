@@ -1,0 +1,51 @@
+{
+    "description": {
+        "translate": "enchantment.enchantplus.teluric_wave",
+        "fallback": "Teluric Wave"
+    },
+    "supported_items": "#minecraft:enchantable/mace",
+    "exclusive_set": "#enchantplus:exclusive_set/mace",
+    "weight": 2,
+    "max_level": 1,
+    "min_cost": {
+        "base": 15,
+        "per_level_above_first": 10
+    },
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 10
+    },
+    "anvil_cost": 6,
+    "slots": [
+        "mainhand"
+    ],
+    "effects": {
+        "minecraft:post_attack": [
+            {
+                "affected": "victim",
+                "enchanted": "attacker",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/teluric_smash/start"
+                }
+            }
+        ],
+        "minecraft:hit_block": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/teluric_wave/start"
+                },
+                "requirements": {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "flags": {
+                            "is_sneaking": true
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

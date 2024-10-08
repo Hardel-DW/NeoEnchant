@@ -4,7 +4,7 @@
       "id": "minecraft:enchanted_book"
     },
     "title": {
-      "translate": "enchantment.enchantplus.title.fury",
+      "translate": "enchantment.enchantplus.fury",
       "fallback": "Fury",
       "color": "#40E6FF"
     },

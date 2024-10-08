@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:area_effect_cloud",
+        "minecraft:marker",
+        "minecraft:interaction",
+        "minecraft:item_display",
+        "minecraft:block_display",
+        "minecraft:text_display"
+    ]
+}

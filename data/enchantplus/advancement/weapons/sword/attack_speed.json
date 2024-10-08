@@ -4,7 +4,7 @@
       "id": "minecraft:enchanted_book"
     },
     "title": {
-      "translate": "enchantment.enchantplus.title.attack_speed",
+      "translate": "enchantment.enchantplus.attack_speed",
       "fallback": "Attack Speed",
       "color": "#40E6FF"
     },

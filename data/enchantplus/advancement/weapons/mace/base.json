@@ -35,11 +35,30 @@
           }
         ]
       }
+    },
+    "teluric_wave": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "enchantplus:mace/teluric_wave"
+                }
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   "requirements": [
     [
       "striker"
+    ],
+    [
+      "teluric_wave"
     ]
   ]
 }

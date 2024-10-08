@@ -1,57 +1,20 @@
 {
     "replace": false,
     "values": [
-        {
-            "id": "enchantplus:boots/agility",
-            "required": false
-        },
-        {
-            "id": "enchantplus:boots/lava_walker",
-            "required": false
-        },
-        {
-            "id": "enchantplus:boots/step_assist",
-            "required": false
-        },
-        {
-            "id": "enchantplus:bow/accuracy_shot",
-            "required": false
-        },
-        {
-            "id": "enchantplus:bow/explosive_arrow",
-            "required": false
-        },
-        {
-            "id": "enchantplus:armor/venom_protection",
-            "required": false
-        },
-        {
-            "id": "enchantplus:armor/lifeplus",
-            "required": false
-        },
-        {
-            "id": "enchantplus:armor/fury",
-            "required": false
-        },
-        {
-            "id": "enchantplus:leggings/leaping",
-            "required": false
-        },
-        {
-            "id": "enchantplus:leggings/fast_swim",
-            "required": false
-        },
-        {
-            "id": "enchantplus:sword/poison_aspect",
-            "required": false
-        },
-        {
-            "id": "enchantplus:sword/attack_speed",
-            "required": false
-        },
-        {
-            "id": "enchantplus:sword/life_steal",
-            "required": false
-        }
+        "enchantplus:durability/curse_of_breaking",
+        "enchantplus:boots/agility",
+        "enchantplus:boots/lava_walker",
+        "enchantplus:boots/step_assist",
+        "enchantplus:bow/accuracy_shot",
+        "enchantplus:bow/explosive_arrow",
+        "enchantplus:armor/venom_protection",
+        "enchantplus:armor/lifeplus",
+        "enchantplus:armor/fury",
+        "enchantplus:leggings/leaping",
+        "enchantplus:leggings/fast_swim",
+        "enchantplus:sword/poison_aspect",
+        "enchantplus:sword/attack_speed",
+        "enchantplus:sword/life_steal",
+        "enchantplus:trident/gungnir_breath"
     ]
 }

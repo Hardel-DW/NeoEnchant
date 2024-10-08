@@ -4,7 +4,7 @@
       "id": "minecraft:enchanted_book"
     },
     "title": {
-      "translate": "enchantment.enchantplus.title.builder_arm",
+      "translate": "enchantment.enchantplus.builder_arm",
       "fallback": "Builder Arm",
       "color": "#40E6FF"
     },

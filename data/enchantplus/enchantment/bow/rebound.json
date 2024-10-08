@@ -1,0 +1,47 @@
+{
+    "description": {
+        "translate": "enchantment.enchantplus.rebound",
+        "fallback": "(In developpement) Rebound"
+    },
+    "supported_items": "#voxel:enchantable/range",
+    "exclusive_set": "#enchantplus:exclusive_set/archery",
+    "weight": 4,
+    "max_level": 3,
+    "min_cost": {
+        "base": 7,
+        "per_level_above_first": 9
+    },
+    "max_cost": {
+        "base": 12,
+        "per_level_above_first": 9
+    },
+    "anvil_cost": 2,
+    "slots": [
+        "mainhand",
+        "offhand"
+    ],
+    "effects": {
+        "minecraft:projectile_piercing": [
+            {
+                "effect": {
+                    "type": "minecraft:add",
+                    "value": {
+                        "type": "minecraft:linear",
+                        "base": 20,
+                        "per_level_above_first": 1
+                    }
+                }
+            }
+        ],
+        "minecraft:post_attack": [
+            {
+                "affected": "victim",
+                "enchanted": "attacker",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/rebound/on_shoot"
+                }
+            }
+        ]
+    }
+}

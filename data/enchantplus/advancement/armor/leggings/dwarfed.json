@@ -4,13 +4,13 @@
       "id": "minecraft:enchanted_book"
     },
     "title": {
-      "translate": "enchantment.enchantplus.title.dwarfed",
+      "translate": "enchantment.enchantplus.dwarfed",
       "fallback": "Dwarfed",
       "color": "#40E6FF"
     },
     "description": {
       "translate": "advancement.enchantplus.description.dwarfed",
-      "fallback": "Ring of the Dwarf"
+      "fallback": "Size doesn't matter"
     },
     "frame": "task",
     "show_toast": false,

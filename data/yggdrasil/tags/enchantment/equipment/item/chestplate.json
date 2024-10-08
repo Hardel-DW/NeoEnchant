@@ -1,13 +1,7 @@
 {
     "replace": false,
     "values": [
-        {
-            "id": "enchantplus:armor/fury",
-            "required": false
-        },
-        {
-            "id": "enchantplus:armor/lifeplus",
-            "required": false
-        }
+        "enchantplus:armor/fury",
+        "enchantplus:armor/lifeplus"
     ]
 }

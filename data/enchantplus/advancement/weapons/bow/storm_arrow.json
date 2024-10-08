@@ -4,7 +4,7 @@
       "id": "minecraft:enchanted_book"
     },
     "title": {
-      "translate": "enchantment.enchantplus.title.storm_arrow",
+      "translate": "enchantment.enchantplus.storm_arrow",
       "fallback": "Storm Arrow",
       "color": "#40E6FF"
     },
