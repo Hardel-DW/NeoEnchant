@@ -63,7 +63,7 @@
                             "trigger_game_event": "minecraft:block_destroy"
                         },
                         {
-                            "type": "minecraft:damage_item",
+                            "type": "minecraft:change_item_damage",
                             "amount": 150
                         }
                     ]

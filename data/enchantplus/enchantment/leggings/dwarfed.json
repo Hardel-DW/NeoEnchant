@@ -42,7 +42,7 @@
             },
             {
                 "id": "minecraft:enchantment.drawfed.attack",
-                "attribute": "minecraft:generic.attack_damage",
+                "attribute": "minecraft:attack_damage",
                 "amount": {
                     "type": "minecraft:linear",
                     "base": -2,
@@ -52,7 +52,7 @@
             },
             {
                 "id": "minecraft:enchantment.drawfed.reach",
-                "attribute": "minecraft:player.entity_interaction_range",
+                "attribute": "minecraft:entity_interaction_range",
                 "amount": {
                     "type": "minecraft:linear",
                     "base": -0.15,

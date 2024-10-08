@@ -42,7 +42,7 @@
             },
             {
                 "id": "minecraft:enchantment.oversize.step",
-                "attribute": "minecraft:generic.step_height",
+                "attribute": "minecraft:step_height",
                 "amount": {
                     "type": "minecraft:linear",
                     "base": 0.5,
@@ -51,8 +51,8 @@
                 "operation": "add_value"
             },
             {
-                "id": "minecraft:enchantment.oversize.speed",
-                "attribute": "minecraft:generic.attack_speed",
+                "id": "minecraft:enchantment.oversize.attack_speed",
+                "attribute": "minecraft:attack_speed",
                 "amount": {
                     "type": "minecraft:linear",
                     "base": -0.15,
@@ -61,8 +61,8 @@
                 "operation": "add_multiplied_total"
             },
             {
-                "id": "minecraft:generic.speed",
-                "attribute": "minecraft:generic.movement_speed",
+                "id": "minecraft:enchantment.oversize.speed",
+                "attribute": "minecraft:movement_speed",
                 "amount": {
                     "type": "minecraft:linear",
                     "base": -0.125,
