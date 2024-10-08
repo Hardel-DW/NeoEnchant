@@ -32,7 +32,7 @@
                     "condition": "minecraft:inverted",
                     "term": {
                         "condition": "minecraft:entity_properties",
-                        "entity": "attacking_player",
+                        "entity": "this",
                         "predicate": {
                             "type": "#enchantplus:last_hope_blacklist"
                         }
@@ -50,7 +50,7 @@
                     "condition": "minecraft:inverted",
                     "term": {
                         "condition": "minecraft:entity_properties",
-                        "entity": "attacking_player",
+                        "entity": "this",
                         "predicate": {
                             "type": "#enchantplus:last_hope_blacklist"
                         }

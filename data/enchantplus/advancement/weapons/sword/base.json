@@ -132,7 +132,7 @@
         ]
       }
     },
-    "tears_of_aslors": {
+    "tears_of_asflors": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -140,7 +140,7 @@
             "predicates": {
               "minecraft:enchantments": [
                 {
-                  "enchantments": "enchantplus:sword/tears_of_aslors"
+                  "enchantments": "enchantplus:sword/tears_of_asflors"
                 }
               ]
             }
@@ -188,7 +188,7 @@
       "pull"
     ],
     [
-      "tears_of_aslors"
+      "tears_of_asflors"
     ],
     [
       "last_hope"

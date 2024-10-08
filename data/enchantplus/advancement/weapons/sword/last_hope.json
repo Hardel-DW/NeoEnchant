@@ -10,14 +10,14 @@
         },
         "description": {
             "translate": "advancement.enchantplus.description.last_hope",
-            "fallback": "The last hope of the Aslors"
+            "fallback": "The last hope of the Asflors"
         },
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false,
         "hidden": false
     },
-    "parent": "enchantplus:weapons/sword/tears_of_aslors",
+    "parent": "enchantplus:weapons/sword/tears_of_asflors",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:inventory_changed",
