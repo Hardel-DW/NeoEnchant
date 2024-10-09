@@ -1,5 +1,5 @@
 tag @s add enchantplus.rebound
-execute store result score @s enchantplus.animation_gametime run time query gametime
+execute store result score @s enchantplus.gametime run time query gametime
 
 # Stocker la position de la flèche
 execute as @n[distance=..3,type=arrow] run function enchantplus:actions/rebound/store_arrow_position
