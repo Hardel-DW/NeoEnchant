@@ -3,7 +3,7 @@
         "translate": "enchantment.enchantplus.curse_of_breaking",
         "fallback": "Curse of Breaking"
     },
-    "supported_items": "#minecraft:enchantable/weapon",
+    "supported_items": "#minecraft:enchantable/durability",
     "exclusive_set": "#enchantplus:exclusive_set/durability",
     "weight": 3,
     "max_level": 5,
