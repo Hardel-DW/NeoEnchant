@@ -23,6 +23,14 @@
         "minecraft:hit_block": [
             {
                 "effect": {
+                    "type": "play_sound",
+                    "volume": 1,
+                    "pitch": 2,
+                    "sound": "minecraft:entity.generic.explode"
+                }
+            },
+            {
+                "effect": {
                     "type": "minecraft:all_of",
                     "effects": [
                         {

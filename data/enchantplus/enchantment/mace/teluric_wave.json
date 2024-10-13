@@ -33,17 +33,102 @@
         "minecraft:hit_block": [
             {
                 "effect": {
+                    "type": "change_item_damage",
+                    "amount": 5
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "flags": {
+                                    "is_sneaking": true
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "effects": {
+                                        "minecraft:slowness": {}
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "effect": {
                     "type": "minecraft:run_function",
                     "function": "enchantplus:actions/teluric_wave/start"
                 },
                 "requirements": {
-                    "condition": "entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                        "flags": {
-                            "is_sneaking": true
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "flags": {
+                                    "is_sneaking": true
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "effects": {
+                                        "minecraft:slowness": {}
+                                    }
+                                }
+                            }
                         }
-                    }
+                    ]
+                }
+            },
+            {
+                "effect": {
+                    "type": "apply_mob_effect",
+                    "min_duration": 5,
+                    "max_duration": 5,
+                    "min_amplifier": 0,
+                    "max_amplifier": 0,
+                    "to_apply": "slowness"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "flags": {
+                                    "is_sneaking": true
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "effects": {
+                                        "minecraft:slowness": {}
+                                    }
+                                }
+                            }
+                        }
+                    ]
                 }
             }
         ]
