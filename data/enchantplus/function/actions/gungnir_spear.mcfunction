@@ -1,0 +1,1 @@
+execute positioned ~ ~0.25 ~ run function enchantplus:libs/animation/freeze_pic/start

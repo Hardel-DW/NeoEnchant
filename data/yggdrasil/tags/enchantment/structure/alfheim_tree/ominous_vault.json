@@ -1,0 +1,11 @@
+{
+	"replace": false,
+	"values": [
+		"enchantplus:elytra/armored",
+		"enchantplus:boots/lava_walker",
+		"enchantplus:boots/step_assist",
+		"enchantplus:helmet/voidless",
+		"enchantplus:bow/accuracy_shot",
+		"enchantplus:bow/breezing_arrow"
+	]
+}

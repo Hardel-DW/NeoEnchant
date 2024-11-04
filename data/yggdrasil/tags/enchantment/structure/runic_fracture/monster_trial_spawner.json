@@ -1,0 +1,8 @@
+{
+	"replace": false,
+	"values": [
+		"enchantplus:pickaxe/spawner_touch",
+		"enchantplus:sword/pull",
+		"enchantplus:bow/breezing_arrow"
+	]
+}

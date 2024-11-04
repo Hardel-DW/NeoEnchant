@@ -1,0 +1,39 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:enchanted_book"
+		},
+		"title": {
+			"translate": "enchantment.enchantplus.curse_of_enchant",
+			"fallback": "Curse of Enchant",
+			"color": "#40E6FF"
+		},
+		"description": {
+			"translate": "advancement.enchantplus.description.curse_of_enchant",
+			"fallback": "Not this time..."
+		},
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"parent": "enchantplus:durability/start",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"minecraft:enchantments": [
+								{
+									"enchantments": "enchantplus:durability/curse_of_enchant"
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

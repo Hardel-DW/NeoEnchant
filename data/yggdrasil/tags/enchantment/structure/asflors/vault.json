@@ -1,6 +1,4 @@
 {
-    "replace": true,
-    "values": [
-        "enchantplus:sword/tears_of_asflors"
-    ]
+	"replace": true,
+	"values": ["enchantplus:sword/tears_of_asflors"]
 }
