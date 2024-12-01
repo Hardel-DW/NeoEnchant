@@ -27,7 +27,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/allay"
+                    "function": "enchantplus:actions/pull/allay"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -51,7 +51,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/armadillo"
+                    "function": "enchantplus:actions/pull/armadillo"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -75,7 +75,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/axolotl"
+                    "function": "enchantplus:actions/pull/axolotl"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -99,7 +99,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/bat"
+                    "function": "enchantplus:actions/pull/bat"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -123,7 +123,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/bee"
+                    "function": "enchantplus:actions/pull/bee"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -147,7 +147,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/blaze"
+                    "function": "enchantplus:actions/pull/blaze"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -171,7 +171,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/bogged"
+                    "function": "enchantplus:actions/pull/bogged"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -195,7 +195,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/breeze"
+                    "function": "enchantplus:actions/pull/breeze"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -219,7 +219,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/camel"
+                    "function": "enchantplus:actions/pull/camel"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -243,7 +243,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/cat"
+                    "function": "enchantplus:actions/pull/cat"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -267,7 +267,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/cave_spider"
+                    "function": "enchantplus:actions/pull/cave_spider"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -291,7 +291,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/chicken"
+                    "function": "enchantplus:actions/pull/chicken"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -315,7 +315,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/cod"
+                    "function": "enchantplus:actions/pull/cod"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -339,7 +339,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/cow"
+                    "function": "enchantplus:actions/pull/cow"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -363,7 +363,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/creeper"
+                    "function": "enchantplus:actions/pull/creeper"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -387,7 +387,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/dolphin"
+                    "function": "enchantplus:actions/pull/dolphin"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -411,7 +411,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/donkey"
+                    "function": "enchantplus:actions/pull/donkey"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -435,7 +435,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/drowned"
+                    "function": "enchantplus:actions/pull/drowned"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -459,7 +459,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/egg"
+                    "function": "enchantplus:actions/pull/egg"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -483,7 +483,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/elder_guardian"
+                    "function": "enchantplus:actions/pull/elder_guardian"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -507,7 +507,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/enderman"
+                    "function": "enchantplus:actions/pull/enderman"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -531,7 +531,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/endermite"
+                    "function": "enchantplus:actions/pull/endermite"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -555,7 +555,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/ender_dragon"
+                    "function": "enchantplus:actions/pull/ender_dragon"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -579,7 +579,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/evoker"
+                    "function": "enchantplus:actions/pull/evoker"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -603,7 +603,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/fox"
+                    "function": "enchantplus:actions/pull/fox"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -627,7 +627,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/frog"
+                    "function": "enchantplus:actions/pull/frog"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -651,7 +651,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/ghast"
+                    "function": "enchantplus:actions/pull/ghast"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -675,7 +675,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/giant"
+                    "function": "enchantplus:actions/pull/giant"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -699,7 +699,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/glow_squid"
+                    "function": "enchantplus:actions/pull/glow_squid"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -723,7 +723,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/goat"
+                    "function": "enchantplus:actions/pull/goat"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -747,7 +747,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/guardian"
+                    "function": "enchantplus:actions/pull/guardian"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -771,7 +771,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/hoglin"
+                    "function": "enchantplus:actions/pull/hoglin"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -795,7 +795,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/horse"
+                    "function": "enchantplus:actions/pull/horse"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -819,7 +819,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/husk"
+                    "function": "enchantplus:actions/pull/husk"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -843,7 +843,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/illusioner"
+                    "function": "enchantplus:actions/pull/illusioner"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -867,7 +867,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/iron_golem"
+                    "function": "enchantplus:actions/pull/iron_golem"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -891,7 +891,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/llama"
+                    "function": "enchantplus:actions/pull/llama"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -915,7 +915,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/magma_cube"
+                    "function": "enchantplus:actions/pull/magma_cube"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -939,7 +939,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/mooshroom"
+                    "function": "enchantplus:actions/pull/mooshroom"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -963,7 +963,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/mule"
+                    "function": "enchantplus:actions/pull/mule"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -987,7 +987,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/ocelot"
+                    "function": "enchantplus:actions/pull/ocelot"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1011,7 +1011,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/panda"
+                    "function": "enchantplus:actions/pull/panda"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1035,7 +1035,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/parrot"
+                    "function": "enchantplus:actions/pull/parrot"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1059,7 +1059,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/phantom"
+                    "function": "enchantplus:actions/pull/phantom"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1083,7 +1083,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/pig"
+                    "function": "enchantplus:actions/pull/pig"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1107,7 +1107,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/piglin"
+                    "function": "enchantplus:actions/pull/piglin"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1131,7 +1131,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/piglin_brute"
+                    "function": "enchantplus:actions/pull/piglin_brute"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1155,7 +1155,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/pillager"
+                    "function": "enchantplus:actions/pull/pillager"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1179,7 +1179,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/polar_bear"
+                    "function": "enchantplus:actions/pull/polar_bear"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1203,7 +1203,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/pufferfish"
+                    "function": "enchantplus:actions/pull/pufferfish"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1227,7 +1227,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/rabbit"
+                    "function": "enchantplus:actions/pull/rabbit"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1251,7 +1251,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/ravager"
+                    "function": "enchantplus:actions/pull/ravager"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1275,7 +1275,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/salmon"
+                    "function": "enchantplus:actions/pull/salmon"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1299,7 +1299,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/sheep"
+                    "function": "enchantplus:actions/pull/sheep"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1323,7 +1323,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/shulker"
+                    "function": "enchantplus:actions/pull/shulker"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1347,7 +1347,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/silverfish"
+                    "function": "enchantplus:actions/pull/silverfish"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1371,7 +1371,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/skeleton"
+                    "function": "enchantplus:actions/pull/skeleton"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1395,7 +1395,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/skeleton_horse"
+                    "function": "enchantplus:actions/pull/skeleton_horse"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1419,7 +1419,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/slime"
+                    "function": "enchantplus:actions/pull/slime"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1443,7 +1443,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/sniffer"
+                    "function": "enchantplus:actions/pull/sniffer"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1467,7 +1467,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/snow_golem"
+                    "function": "enchantplus:actions/pull/snow_golem"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1491,7 +1491,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/spider"
+                    "function": "enchantplus:actions/pull/spider"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1515,7 +1515,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/squid"
+                    "function": "enchantplus:actions/pull/squid"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1539,7 +1539,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/stray"
+                    "function": "enchantplus:actions/pull/stray"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1563,7 +1563,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/strider"
+                    "function": "enchantplus:actions/pull/strider"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1587,7 +1587,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/tadpole"
+                    "function": "enchantplus:actions/pull/tadpole"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1611,7 +1611,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/trader_llama"
+                    "function": "enchantplus:actions/pull/trader_llama"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1635,7 +1635,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/tropical_fish"
+                    "function": "enchantplus:actions/pull/tropical_fish"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1659,7 +1659,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/turtle"
+                    "function": "enchantplus:actions/pull/turtle"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1683,7 +1683,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/vex"
+                    "function": "enchantplus:actions/pull/vex"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1707,7 +1707,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/villager"
+                    "function": "enchantplus:actions/pull/villager"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1731,7 +1731,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/vindicator"
+                    "function": "enchantplus:actions/pull/vindicator"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1755,7 +1755,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/wandering_trader"
+                    "function": "enchantplus:actions/pull/wandering_trader"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1779,7 +1779,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/warden"
+                    "function": "enchantplus:actions/pull/warden"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1803,7 +1803,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/wind_charge"
+                    "function": "enchantplus:actions/pull/wind_charge"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1827,7 +1827,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/witch"
+                    "function": "enchantplus:actions/pull/witch"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1851,7 +1851,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/wither"
+                    "function": "enchantplus:actions/pull/wither"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1875,7 +1875,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/wither_skeleton"
+                    "function": "enchantplus:actions/pull/wither_skeleton"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1899,7 +1899,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/wolf"
+                    "function": "enchantplus:actions/pull/wolf"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1923,7 +1923,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/zoglin"
+                    "function": "enchantplus:actions/pull/zoglin"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1947,7 +1947,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/zombie"
+                    "function": "enchantplus:actions/pull/zombie"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1971,7 +1971,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/zombie_horse"
+                    "function": "enchantplus:actions/pull/zombie_horse"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -1995,7 +1995,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/zombie_villager"
+                    "function": "enchantplus:actions/pull/zombie_villager"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -2019,7 +2019,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/egg/zombified_piglin"
+                    "function": "enchantplus:actions/pull/zombified_piglin"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
