@@ -57,3 +57,8 @@ scoreboard players set #26 enchantplus.data 26
 scoreboard players set #64 enchantplus.data 64
 scoreboard players set #100 enchantplus.data 100
 scoreboard players set #1000 enchantplus.data 1000
+
+# New scoreboards for the rebound system
+scoreboard objectives add enchantplus.rebound_vx dummy
+scoreboard objectives add enchantplus.rebound_vy dummy
+scoreboard objectives add enchantplus.rebound_vz dummy

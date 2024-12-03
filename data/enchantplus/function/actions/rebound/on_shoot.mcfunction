@@ -1,21 +1,12 @@
 tag @s add enchantplus.rebound
-execute store result score @s enchantplus.gametime run time query gametime
+execute as @s run data modify entity @s SoundEvent set value "minecraft:block.amethyst_block.hit"
+particle minecraft:end_rod ~ ~ ~ 0.05 0.05 0.05 0.05 2 force
 
-# Stocker la position de la flèche
-execute as @n[distance=..3,type=arrow] run function enchantplus:actions/rebound/store_arrow_position
+execute store result score @s enchantplus.rebound_vx run data get entity @s Motion[0] 100
+execute store result score @s enchantplus.rebound_vy run data get entity @s Motion[1] 100
+execute store result score @s enchantplus.rebound_vz run data get entity @s Motion[2] 100
 
-# Stocker la position de l'entité cible
-execute as @n[distance=..20,type=!#enchantplus:rebound_blacklist,tag=!enchantplus.rebound] run function enchantplus:actions/rebound/store_target_position
+# log the score
+#tellraw @a [{"text":"[Rebound] ","color":"green"},{"text":"VX: ","color":"white"},{"score":{"name":"@s","objective":"enchantplus.rebound_vx"},"color":"yellow"},{"text":" VY: ","color":"white"},{"score":{"name":"@s","objective":"enchantplus.rebound_vy"},"color":"yellow"},{"text":" VZ: ","color":"white"},{"score":{"name":"@s","objective":"enchantplus.rebound_vz"},"color":"yellow"}]
 
-# Calculer la différence de position
-scoreboard players operation #dx enchantplus.data = #bx enchantplus.data
-scoreboard players operation #dx enchantplus.data -= #ax enchantplus.data
-scoreboard players operation #dy enchantplus.data = #by enchantplus.data
-scoreboard players operation #dy enchantplus.data -= #ay enchantplus.data
-scoreboard players operation #dz enchantplus.data = #bz enchantplus.data
-scoreboard players operation #dz enchantplus.data -= #az enchantplus.data
-
-# Appliquer la motion à la flèche avec un facteur de puissance
-execute as @n[distance=..3,type=arrow] run function enchantplus:actions/rebound/apply_arrow_motion
-
-schedule function enchantplus:actions/rebound/schedule_handler 1s append
+schedule function enchantplus:actions/rebound/on_hit 1t append
