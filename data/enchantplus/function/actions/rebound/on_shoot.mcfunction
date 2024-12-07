@@ -7,6 +7,6 @@ execute store result score @s enchantplus.rebound_vy run data get entity @s Moti
 execute store result score @s enchantplus.rebound_vz run data get entity @s Motion[2] 100
 
 # log the score
-#tellraw @a [{"text":"[Rebound] ","color":"green"},{"text":"VX: ","color":"white"},{"score":{"name":"@s","objective":"enchantplus.rebound_vx"},"color":"yellow"},{"text":" VY: ","color":"white"},{"score":{"name":"@s","objective":"enchantplus.rebound_vy"},"color":"yellow"},{"text":" VZ: ","color":"white"},{"score":{"name":"@s","objective":"enchantplus.rebound_vz"},"color":"yellow"}]
+tellraw @a [{"text":"[Rebound] ","color":"green"},{"text":"VX: ","color":"white"},{"score":{"name":"@s","objective":"enchantplus.rebound_vx"},"color":"yellow"},{"text":" VY: ","color":"white"},{"score":{"name":"@s","objective":"enchantplus.rebound_vy"},"color":"yellow"},{"text":" VZ: ","color":"white"},{"score":{"name":"@s","objective":"enchantplus.rebound_vz"},"color":"yellow"}]
 
-schedule function enchantplus:actions/rebound/on_hit 1t append
+schedule function enchantplus:actions/rebound/on_hit 1t append 
