@@ -1,35 +1,33 @@
 {
-    "description": {
-        "translate": "enchantment.enchantplus.builder_arm",
-        "fallback": "Builder Arm"
-    },
-    "supported_items": "#minecraft:enchantable/chest_armor",
-    "weight": 2,
-    "max_level": 5,
-    "min_cost": {
-        "base": 45,
-        "per_level_above_first": 9
-    },
-    "max_cost": {
-        "base": 65,
-        "per_level_above_first": 9
-    },
-    "anvil_cost": 2,
-    "slots": [
-        "chest"
-    ],
-    "effects": {
-        "minecraft:attributes": [
-            {
-                "id": "minecraft:enchantment.wonder_arm",
-                "attribute": "minecraft:block_interaction_range",
-                "amount": {
-                    "type": "minecraft:linear",
-                    "base": 1,
-                    "per_level_above_first": 1.5
-                },
-                "operation": "add_value"
-            }
-        ]
-    }
+	"description": {
+		"translate": "enchantment.enchantplus.builder_arm",
+		"fallback": "Builder Arm"
+	},
+	"supported_items": "#minecraft:enchantable/chest_armor",
+	"weight": 2,
+	"max_level": 5,
+	"min_cost": {
+		"base": 45,
+		"per_level_above_first": 9
+	},
+	"max_cost": {
+		"base": 65,
+		"per_level_above_first": 9
+	},
+	"anvil_cost": 2,
+	"slots": ["chest"],
+	"effects": {
+		"minecraft:attributes": [
+			{
+				"id": "minecraft:enchantment.wonder_arm",
+				"attribute": "minecraft:block_interaction_range",
+				"amount": {
+					"type": "minecraft:linear",
+					"base": 1,
+					"per_level_above_first": 2
+				},
+				"operation": "add_value"
+			}
+		]
+	}
 }

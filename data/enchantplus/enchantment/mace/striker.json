@@ -1,172 +1,170 @@
 {
-    "description": {
-        "translate": "enchantment.minecraft.striker",
-        "fallback": "Striker"
-    },
-    "supported_items": "#minecraft:enchantable/mace",
-    "weight": 1,
-    "max_level": 2,
-    "min_cost": {
-        "base": 25,
-        "per_level_above_first": 0
-    },
-    "max_cost": {
-        "base": 50,
-        "per_level_above_first": 0
-    },
-    "anvil_cost": 3,
-    "slots": [
-        "mainhand"
-    ],
-    "effects": {
-        "minecraft:damage_immunity": [
-            {
-                "effect": {},
-                "requirements": {
-                    "condition": "minecraft:damage_source_properties",
-                    "predicate": {
-                        "tags": [
-                            {
-                                "id": "minecraft:is_lightning",
-                                "expected": true
-                            }
-                        ]
-                    }
-                }
-            }
-        ],
-        "minecraft:tick": [
-            {
-                "effect": {
-                    "type": "minecraft:spawn_particles",
-                    "particle": {
-                        "type": "minecraft:electric_spark"
-                    },
-                    "horizontal_position": {
-                        "type": "in_bounding_box"
-                    },
-                    "vertical_position": {
-                        "type": "entity_position",
-                        "offset": 0.2
-                    },
-                    "horizontal_velocity": {
-                        "movement_scale": 0.6
-                    },
-                    "vertical_velocity": {
-                        "base": 0.4
-                    },
-                    "speed": 0.45
-                },
-                "requirements": {
-                    "condition": "minecraft:weather_check",
-                    "thundering": true
-                }
-            }
-        ],
-        "minecraft:hit_block": [
-            {
-                "effect": {
-                    "type": "minecraft:all_of",
-                    "effects": [
-                        {
-                            "type": "minecraft:summon_entity",
-                            "entity": "minecraft:lightning_bolt"
-                        },
-                        {
-                            "type": "minecraft:play_sound",
-                            "sound": "minecraft:item.trident.thunder",
-                            "volume": 5,
-                            "pitch": 1
-                        }
-                    ]
-                },
-                "requirements": {
-                    "condition": "minecraft:all_of",
-                    "terms": [
-                        {
-                            "condition": "minecraft:weather_check",
-                            "thundering": true
-                        },
-                        {
-                            "condition": "minecraft:location_check",
-                            "predicate": {
-                                "block": {
-                                    "blocks": "minecraft:lightning_rod"
-                                }
-                            }
-                        }
-                    ]
-                }
-            }
-        ],
-        "minecraft:post_attack": [
-            {
-                "enchanted": "attacker",
-                "affected": "victim",
-                "effect": {
-                    "type": "minecraft:all_of",
-                    "effects": [
-                        {
-                            "type": "minecraft:summon_entity",
-                            "entity": "minecraft:lightning_bolt"
-                        },
-                        {
-                            "type": "minecraft:play_sound",
-                            "sound": "minecraft:item.trident.thunder",
-                            "volume": 5,
-                            "pitch": 1
-                        }
-                    ]
-                },
-                "requirements": {
-                    "condition": "minecraft:any_of",
-                    "terms": [
-                        {
-                            "condition": "minecraft:all_of",
-                            "terms": [
-                                {
-                                    "condition": "minecraft:weather_check",
-                                    "thundering": true
-                                },
-                                {
-                                    "condition": "minecraft:entity_properties",
-                                    "entity": "this",
-                                    "predicate": {
-                                        "location": {
-                                            "can_see_sky": true
-                                        }
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "condition": "minecraft:all_of",
-                            "terms": [
-                                {
-                                    "condition": "minecraft:random_chance",
-                                    "chance": {
-                                        "type": "minecraft:enchantment_level",
-                                        "amount": {
-                                            "type": "minecraft:linear",
-                                            "base": 0.1,
-                                            "per_level_above_first": 0.05
-                                        }
-                                    }
-                                },
-                                {
-                                    "condition": "minecraft:entity_properties",
-                                    "entity": "this",
-                                    "predicate": {
-                                        "location": {
-                                            "can_see_sky": true
-                                        }
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                }
-            }
-        ]
-    }
+	"description": {
+		"translate": "enchantment.minecraft.striker",
+		"fallback": "Striker"
+	},
+	"supported_items": "#minecraft:enchantable/mace",
+	"weight": 1,
+	"max_level": 2,
+	"min_cost": {
+		"base": 25,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 50,
+		"per_level_above_first": 0
+	},
+	"anvil_cost": 4,
+	"slots": ["mainhand"],
+	"effects": {
+		"minecraft:damage_immunity": [
+			{
+				"effect": {},
+				"requirements": {
+					"condition": "minecraft:damage_source_properties",
+					"predicate": {
+						"tags": [
+							{
+								"id": "minecraft:is_lightning",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		],
+		"minecraft:tick": [
+			{
+				"effect": {
+					"type": "minecraft:spawn_particles",
+					"particle": {
+						"type": "minecraft:electric_spark"
+					},
+					"horizontal_position": {
+						"type": "in_bounding_box"
+					},
+					"vertical_position": {
+						"type": "entity_position",
+						"offset": 0.2
+					},
+					"horizontal_velocity": {
+						"movement_scale": 0.6
+					},
+					"vertical_velocity": {
+						"base": 0.4
+					},
+					"speed": 0.45
+				},
+				"requirements": {
+					"condition": "minecraft:weather_check",
+					"thundering": true
+				}
+			}
+		],
+		"minecraft:hit_block": [
+			{
+				"effect": {
+					"type": "minecraft:all_of",
+					"effects": [
+						{
+							"type": "minecraft:summon_entity",
+							"entity": "minecraft:lightning_bolt"
+						},
+						{
+							"type": "minecraft:play_sound",
+							"sound": "minecraft:item.trident.thunder",
+							"volume": 5,
+							"pitch": 1
+						}
+					]
+				},
+				"requirements": {
+					"condition": "minecraft:all_of",
+					"terms": [
+						{
+							"condition": "minecraft:weather_check",
+							"thundering": true
+						},
+						{
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"block": {
+									"blocks": "minecraft:lightning_rod"
+								}
+							}
+						}
+					]
+				}
+			}
+		],
+		"minecraft:post_attack": [
+			{
+				"enchanted": "attacker",
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:all_of",
+					"effects": [
+						{
+							"type": "minecraft:summon_entity",
+							"entity": "minecraft:lightning_bolt"
+						},
+						{
+							"type": "minecraft:play_sound",
+							"sound": "minecraft:item.trident.thunder",
+							"volume": 5,
+							"pitch": 1
+						}
+					]
+				},
+				"requirements": {
+					"condition": "minecraft:any_of",
+					"terms": [
+						{
+							"condition": "minecraft:all_of",
+							"terms": [
+								{
+									"condition": "minecraft:weather_check",
+									"thundering": true
+								},
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"location": {
+											"can_see_sky": true
+										}
+									}
+								}
+							]
+						},
+						{
+							"condition": "minecraft:all_of",
+							"terms": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": {
+										"type": "minecraft:enchantment_level",
+										"amount": {
+											"type": "minecraft:linear",
+											"base": 0.1,
+											"per_level_above_first": 0.05
+										}
+									}
+								},
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"location": {
+											"can_see_sky": true
+										}
+									}
+								}
+							]
+						}
+					]
+				}
+			}
+		]
+	}
 }

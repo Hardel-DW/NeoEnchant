@@ -1,83 +1,73 @@
 {
-    "description": {
-        "translate": "enchantment.enchantplus.sky_walk",
-        "fallback": "Sky Walk"
-    },
-    "exclusive_set": "#minecraft:exclusive_set/boots",
-    "supported_items": "#minecraft:enchantable/foot_armor",
-    "weight": 2,
-    "max_level": 3,
-    "min_cost": {
-        "base": 15,
-        "per_level_above_first": 9
-    },
-    "max_cost": {
-        "base": 20,
-        "per_level_above_first": 9
-    },
-    "anvil_cost": 2,
-    "slots": [
-        "feet"
-    ],
-    "effects": {
-        "minecraft:attributes": [
-            {
-                "attribute": "minecraft:safe_fall_distance",
-                "operation": "add_value",
-                "amount": {
-                    "type": "minecraft:linear",
-                    "base": 2,
-                    "per_level_above_first": 1
-                },
-                "id": "enchantplus.sky_walk.fall_distance"
-            }
-        ],
-        "minecraft:tick": [
-            {
-                "effect": {
-                    "type": "minecraft:explode",
-                    "radius": 0.1,
-                    "offset": [
-                        0,
-                        0.1,
-                        0
-                    ],
-                    "block_interaction": "none",
-                    "small_particle": {
-                        "type": "minecraft:white_smoke"
-                    },
-                    "large_particle": {
-                        "type": "minecraft:white_smoke"
-                    },
-                    "sound": "minecraft:entity.breeze.idle_air",
-                    "knockback_multiplier": {
-                        "type": "lookup",
-                        "values": [
-                            0.185,
-                            0.215,
-                            0.265
-                        ],
-                        "fallback": {
-                            "type": "minecraft:linear",
-                            "base": 0.185,
-                            "per_level_above_first": 0.03
-                        }
-                    },
-                    "create_fire": false
-                },
-                "requirements": {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                        "type_specific": {
-                            "type": "minecraft:player",
-                            "input": {
-                                "sneak": true
-                            }
-                        }
-                    }
-                }
-            }
-        ]
-    }
+	"description": {
+		"translate": "enchantment.enchantplus.sky_walk",
+		"fallback": "Sky Walk"
+	},
+	"exclusive_set": "#minecraft:exclusive_set/boots",
+	"supported_items": "#minecraft:enchantable/foot_armor",
+	"weight": 2,
+	"max_level": 3,
+	"min_cost": {
+		"base": 15,
+		"per_level_above_first": 9
+	},
+	"max_cost": {
+		"base": 20,
+		"per_level_above_first": 9
+	},
+	"anvil_cost": 2,
+	"slots": ["feet"],
+	"effects": {
+		"minecraft:attributes": [
+			{
+				"attribute": "minecraft:safe_fall_distance",
+				"operation": "add_value",
+				"amount": {
+					"type": "minecraft:linear",
+					"base": 2,
+					"per_level_above_first": 1
+				},
+				"id": "enchantplus.sky_walk.fall_distance"
+			}
+		],
+		"minecraft:tick": [
+			{
+				"effect": {
+					"type": "minecraft:explode",
+					"radius": 0.1,
+					"offset": [0, 0.1, 0],
+					"block_interaction": "none",
+					"small_particle": {
+						"type": "minecraft:white_smoke"
+					},
+					"large_particle": {
+						"type": "minecraft:white_smoke"
+					},
+					"sound": "minecraft:entity.breeze.idle_air",
+					"knockback_multiplier": {
+						"type": "lookup",
+						"values": [0.165, 0.215, 0.245],
+						"fallback": {
+							"type": "minecraft:linear",
+							"base": 0.185,
+							"per_level_above_first": 0.03
+						}
+					},
+					"create_fire": false
+				},
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type_specific": {
+							"type": "minecraft:player",
+							"input": {
+								"sneak": true
+							}
+						}
+					}
+				}
+			}
+		]
+	}
 }
