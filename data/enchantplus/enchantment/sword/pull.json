@@ -457,30 +457,6 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/pull/pull"
-                },
-                "requirements": {
-                    "condition": "minecraft:all_of",
-                    "terms": [
-                        {
-                            "condition": "minecraft:entity_properties",
-                            "entity": "this",
-                            "predicate": {
-                                "type": "minecraft:pull"
-                            }
-                        },
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.01
-                        }
-                    ]
-                }
-            },
-            {
-                "enchanted": "attacker",
-                "affected": "victim",
-                "effect": {
-                    "type": "minecraft:run_function",
                     "function": "enchantplus:actions/pull/elder_guardian"
                 },
                 "requirements": {
