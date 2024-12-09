@@ -27,7 +27,7 @@
 						"type_specific": {
 							"type": "minecraft:player",
 							"input": {
-								"sprint": false
+								"sneak": false
 							}
 						}
 					}
