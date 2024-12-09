@@ -20,6 +20,10 @@
 	"effects": {
 		"minecraft:hit_block": [
 			{
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "enchantplus:actions/miningplus/place_hit_block_marker"
+				},
 				"requirements": {
 					"condition": "minecraft:entity_properties",
 					"entity": "this",
@@ -31,10 +35,6 @@
 							}
 						}
 					}
-				},
-				"effect": {
-					"type": "minecraft:run_function",
-					"function": "enchantplus:actions/miningplus/place_hit_block_marker"
 				}
 			}
 		]
