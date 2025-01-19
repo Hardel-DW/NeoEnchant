@@ -1,0 +1,39 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:enchanted_book"
+		},
+		"title": {
+			"translate": "enchantment.enchantplus.critical",
+			"fallback": "Critical",
+			"color": "#40E6FF"
+		},
+		"description": {
+			"translate": "advancement.enchantplus.description.critical",
+			"fallback": "Chance to pierce through armor"
+		},
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"parent": "enchantplus:weapons/sword/dimensional_hit",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"minecraft:enchantments": [
+								{
+									"enchantments": "enchantplus:sword/critical"
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

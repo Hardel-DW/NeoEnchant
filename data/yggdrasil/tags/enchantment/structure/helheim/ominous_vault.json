@@ -1,0 +1,13 @@
+{
+	"replace": false,
+	"values": [
+		"enchantplus:elytra/kinetic_protection",
+		"enchantplus:sword/critical",
+		"enchantplus:sword/dimensional_hit",
+		"enchantplus:sword/runic_despair",
+		"enchantplus:sword/death_touch",
+		"enchantplus:pickaxe/bedrock_breaker",
+		"enchantplus:pickaxe/spawner_touch",
+		"enchantplus:sword/pull"
+	]
+}

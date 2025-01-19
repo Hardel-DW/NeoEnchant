@@ -1,44 +1,20 @@
 {
-    "description": {
-        "translate": "enchantment.enchantplus.bright_vision",
-        "fallback": "Bright Vision"
-    },
-    "supported_items": "#minecraft:enchantable/head_armor",
-    "weight": 2,
-    "max_level": 1,
-    "min_cost": {
-        "base": 12,
-        "per_level_above_first": 0
-    },
-    "max_cost": {
-        "base": 42,
-        "per_level_above_first": 0
-    },
-    "anvil_cost": 2,
-    "slots": [
-        "head"
-    ],
-    "effects": {
-        "minecraft:tick": [
-            {
-                "effect": {
-                    "type": "minecraft:apply_mob_effect",
-                    "to_apply": "minecraft:night_vision",
-                    "min_duration": 30,
-                    "max_duration": 30,
-                    "min_amplifier": 0,
-                    "max_amplifier": 0
-                },
-                "requirements": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "periodic_tick": 200
-                        }
-                    }
-                ]
-            }
-        ]
-    }
+	"description": {
+		"translate": "enchantment.enchantplus.bright_vision",
+		"fallback": "Bright Vision"
+	},
+	"supported_items": "#minecraft:enchantable/head_armor",
+	"weight": 2,
+	"max_level": 1,
+	"min_cost": {
+		"base": 12,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 42,
+		"per_level_above_first": 0
+	},
+	"anvil_cost": 2,
+	"slots": ["head"],
+	"effects": {}
 }

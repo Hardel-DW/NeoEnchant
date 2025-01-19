@@ -20,6 +20,10 @@ scoreboard objectives add enchantplus.animation_state dummy
 scoreboard objectives add enchantplus.gametime dummy
 scoreboard objectives add enchantplus.gametime.temp dummy
 scoreboard objectives add enchantplus.teluric.radius dummy
+scoreboard objectives add enchantplus.striker.countdown dummy
+scoreboard objectives add enchantplus.striker.gametime dummy
+scoreboard objectives add enchantplus.harvest.size dummy
+scoreboard objectives add enchantplus.harvest.type dummy
 
 # Default values for the area size (modifiable)
 scoreboard players set #default enchantplus.teluric.side 5
@@ -28,6 +32,8 @@ scoreboard players set #default enchantplus.teluric.radius 5
 scoreboard players set #teluric_motion enchantplus.data 9
 
 # Constants for calculations
+scoreboard players set #-1 enchantplus.data -1
+scoreboard players set #0 enchantplus.data 0
 scoreboard players set #1 enchantplus.data 1
 scoreboard players set #2 enchantplus.data 2
 scoreboard players set #3 enchantplus.data 3

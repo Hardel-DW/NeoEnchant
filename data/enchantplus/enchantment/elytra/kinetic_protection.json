@@ -1,0 +1,58 @@
+{
+	"anvil_cost": 1,
+	"description": {
+		"translate": "enchantment.enchantplus.kinetic_protection",
+		"fallback": "Kinetic Protection"
+	},
+	"max_cost": {
+		"base": 12,
+		"per_level_above_first": 11
+	},
+	"max_level": 4,
+	"min_cost": {
+		"base": 1,
+		"per_level_above_first": 11
+	},
+	"slots": ["chest"],
+	"supported_items": "#voxel:enchantable/elytra",
+	"weight": 1,
+	"effects": {
+		"minecraft:damage_protection": [
+			{
+				"effect": {
+					"type": "minecraft:add",
+					"value": {
+						"type": "minecraft:linear",
+						"base": 6,
+						"per_level_above_first": 6
+					}
+				},
+				"requirements": {
+					"condition": "minecraft:all_of",
+					"terms": [
+						{
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"flags": {
+									"is_flying": true
+								}
+							}
+						},
+						{
+							"condition": "minecraft:damage_source_properties",
+							"predicate": {
+								"tags": [
+									{
+										"id": "minecraft:fly_into_wall",
+										"expected": false
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		]
+	}
+}

@@ -1,7 +1,9 @@
 {
-    "values": [
-        "enchantplus:sword/attack_speed",
-        "enchantplus:sword/reach"
-    ],
-    "replace": false
+	"values": [
+		"enchantplus:sword/attack_speed",
+		"enchantplus:sword/reach",
+		"enchantplus:sword/runic_despair",
+		"enchantplus:sword/dimensional_hit"
+	],
+	"replace": false
 }

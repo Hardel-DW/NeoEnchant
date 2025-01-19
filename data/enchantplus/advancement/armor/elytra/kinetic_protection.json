@@ -1,0 +1,39 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:enchanted_book"
+		},
+		"title": {
+			"translate": "enchantment.enchantplus.kinetic_protection",
+			"fallback": "Kinetic Protection",
+			"color": "#40E6FF"
+		},
+		"description": {
+			"translate": "advancement.enchantplus.description.kinetic_protection",
+			"fallback": "You're not talented"
+		},
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"parent": "enchantplus:armor/elytra/armored",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"minecraft:enchantments": [
+								{
+									"enchantments": "enchantplus:elytra/kinetic_protection"
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

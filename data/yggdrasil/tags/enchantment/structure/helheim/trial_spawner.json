@@ -1,0 +1,11 @@
+{
+	"replace": false,
+	"values": [
+		"#minecraft:non_treasure",
+		"enchantplus:sword/reach",
+		"enchantplus:sword/xp_boost",
+		"enchantplus:helmet/auto_feed",
+		"enchantplus:bow/eternal_frost",
+		"enchantplus:mace/wind_propulsion"
+	]
+}

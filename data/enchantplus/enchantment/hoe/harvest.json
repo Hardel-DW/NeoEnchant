@@ -1,0 +1,20 @@
+{
+	"description": {
+		"translate": "enchantment.enchantplus.harvest",
+		"fallback": "Harvest"
+	},
+	"supported_items": "#voxel:enchantable/hoes",
+	"weight": 7,
+	"max_level": 3,
+	"min_cost": {
+		"base": 6,
+		"per_level_above_first": 9
+	},
+	"max_cost": {
+		"base": 14,
+		"per_level_above_first": 12
+	},
+	"anvil_cost": 2,
+	"slots": ["mainhand"],
+	"effects": {}
+}

@@ -24,6 +24,7 @@
 		"per_level_above_first": 0
 	},
 	"slots": ["mainhand"],
+	"exclusive_set": "#enchantplus:exclusive_set/mining_alteration",
 	"supported_items": "#minecraft:enchantable/mining_loot",
 	"weight": 2
 }

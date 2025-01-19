@@ -1,6 +1,4 @@
 {
-    "replace": true,
-    "values": [
-        "enchantplus:sword/last_hope"
-    ]
+	"replace": true,
+	"values": ["enchantplus:sword/last_hope"]
 }

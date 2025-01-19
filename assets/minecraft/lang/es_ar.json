@@ -168,5 +168,25 @@
 	"enchantment.enchantplus.eternal_frost.desc": "Congela bloques y ralentiza objetivos.",
 	"enchantment.enchantplus.rebound.desc": "Las flechas rebotan en las paredes.",
 	"enchantment.enchantplus.storm_arrow.desc": "Invoca rayos al impactar.",
-	"enchantment.enchantplus.gungnir_breath.desc": "Congela el agua y ralentiza objetivos."
+	"enchantment.enchantplus.gungnir_breath.desc": "Congela el agua y ralentiza objetivos.",
+
+	"enchantment.enchantplus.kinetic_protection": "Protección Cinética",
+	"enchantment.enchantplus.harvest": "Cosecha",
+	"enchantment.enchantplus.dimensional_hit": "Golpe Dimensional",
+	"enchantment.enchantplus.critical": "Crítico",
+	"enchantment.enchantplus.runic_despair": "Desesperación Rúnica",
+	"enchantment.enchantplus.death_touch": "Toque de Muerte",
+
+	"enchantment.enchantplus.kinetic_protection.desc": "Te protege del daño por colisión con élitros",
+	"enchantment.enchantplus.harvest.desc": "Permite plantar en área",
+	"enchantment.enchantplus.dimensional_hit.desc": "Aumenta el daño en otras dimensiones",
+	"enchantment.enchantplus.critical.desc": "Probabilidad de infligir daño verdadero",
+	"enchantment.enchantplus.runic_despair.desc": "Aumenta el daño en la Dimensión Rúnica",
+	"enchantment.enchantplus.death_touch.desc": "Otorga Oscuridad a los enemigos",
+
+	"advancement.enchantplus.description.critical": "Probabilidad de atravesar armadura",
+	"advancement.enchantplus.description.dimensional_hit": "Más fuerte en otras dimensiones",
+	"advancement.enchantplus.description.runic_despair": "Desata el poder rúnico",
+	"advancement.enchantplus.description.kinetic_protection": "No sos talentoso",
+	"advancement.enchantplus.description.harvest": "¿¿¿Es un Plantador de Semillas???"
 }

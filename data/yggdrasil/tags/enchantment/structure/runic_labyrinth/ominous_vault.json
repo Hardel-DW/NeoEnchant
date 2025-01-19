@@ -1,20 +1,15 @@
 {
 	"values": [
-		"enchantplus:axe/timber",
 		"enchantplus:pickaxe/spawner_touch",
 		"enchantplus:pickaxe/vein_miner",
 		"enchantplus:sword/pull",
-		"enchantplus:mace/striker",
 		"enchantplus:bow/rebound",
 		"enchantplus:bow/eternal_frost",
 		"enchantplus:bow/echo_shot",
-		"enchantplus:bow/eternal_frost",
-		"enchantplus:leggings/dwarfed",
-		"enchantplus:leggings/oversize",
-		"enchantplus:bow/explosive_arrow",
 		"enchantplus:bow/storm_arrow",
-		"enchantplus:bow/breezing_arrow",
 		"enchantplus:helmet/voidless",
-		"enchantplus:elytra/armored"
+		"enchantplus:elytra/armored",
+		"enchantplus:sword/dimensional_hit",
+		"enchantplus:sword/runic_despair"
 	]
 }

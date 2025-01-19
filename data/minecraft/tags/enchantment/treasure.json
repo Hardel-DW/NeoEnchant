@@ -1,8 +1,10 @@
 {
-  "values": [
-    "enchantplus:chestplate/builder_arm",
-    "enchantplus:armor/venom_protection",
-    "enchantplus:leggings/fast_swim"
-  ],
-  "replace": false
+	"values": [
+		"enchantplus:chestplate/builder_arm",
+		"enchantplus:armor/venom_protection",
+		"enchantplus:leggings/fast_swim",
+		"enchantplus:hoe/harvest",
+		"enchantplus:elytra/kinetic_protection"
+	],
+	"replace": false
 }
