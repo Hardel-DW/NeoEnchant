@@ -8,11 +8,6 @@
 # @description	Try to mine the block with the player's main hand
 #
 
-# If the block is not minable by the enchantment, stop the function
 execute if block ~ ~ ~ #enchantplus:miningplus run return fail
-execute if entity @n[type=minecraft:marker,tag=enchantplus.hit_block.miningplus] run kill @n[type=minecraft:marker,tag=enchantplus.hit_block.miningplus]
-
-# Else, mine the block with the player's main hand
 loot spawn ~ ~ ~ mine ~ ~ ~ mainhand
 setblock ~ ~ ~ air
-
