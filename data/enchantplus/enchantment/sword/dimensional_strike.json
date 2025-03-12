@@ -1,7 +1,7 @@
 {
 	"description": {
-		"translate": "enchantment.enchantplus.dimensional_hit",
-		"fallback": "Dimensional Hit"
+		"translate": "enchantment.enchantplus.dimensional_strike",
+		"fallback": "Dimensional Strike"
 	},
 	"exclusive_set": "#enchantplus:exclusive_set/sword_attribute",
 	"supported_items": "#minecraft:enchantable/sword",
@@ -18,22 +18,24 @@
 	"anvil_cost": 2,
 	"slots": ["mainhand"],
 	"effects": {
-		"minecraft:armor_effectiveness": [
+		"minecraft:damage": [
 			{
 				"requirements": {
-					"condition": "minecraft:random_chance",
-					"chance": {
-						"type": "minecraft:enchantment_level",
-						"amount": {
-							"type": "minecraft:linear",
-							"base": 0.04,
-							"per_level_above_first": 0.04
+					"condition": "minecraft:inverted",
+					"term": {
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"dimension": "minecraft:overworld"
 						}
 					}
 				},
 				"effect": {
-					"type": "minecraft:multiply",
-					"factor": -0.25
+					"type": "minecraft:add",
+					"value": {
+						"type": "minecraft:linear",
+						"base": 2,
+						"per_level_above_first": 1
+					}
 				}
 			}
 		]

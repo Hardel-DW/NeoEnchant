@@ -172,20 +172,20 @@
 
 	"enchantment.enchantplus.kinetic_protection": "Кинетическая Защита",
 	"enchantment.enchantplus.harvest": "Сбор Урожая",
-	"enchantment.enchantplus.dimensional_hit": "Межпространственный Удар",
-	"enchantment.enchantplus.critical": "Критический Удар",
+	"enchantment.enchantplus.dimensional_strike": "Межпространственный Удар",
+	"enchantment.enchantplus.critical_hit": "Критический Удар",
 	"enchantment.enchantplus.runic_despair": "Руническое Отчаяние",
 	"enchantment.enchantplus.death_touch": "Прикосновение Смерти",
 
 	"enchantment.enchantplus.kinetic_protection.desc": "Защищает от урона при столкновении с элитрами",
 	"enchantment.enchantplus.harvest.desc": "Позволяет сажать растения в области",
-	"enchantment.enchantplus.dimensional_hit.desc": "Увеличивает урон в других измерениях",
-	"enchantment.enchantplus.critical.desc": "Шанс нанести чистый урон",
+	"enchantment.enchantplus.dimensional_strike.desc": "Увеличивает урон в других измерениях",
+	"enchantment.enchantplus.critical_hit.desc": "Шанс нанести чистый урон",
 	"enchantment.enchantplus.runic_despair.desc": "Увеличивает урон в Руническом измерении",
 	"enchantment.enchantplus.death_touch.desc": "Накладывает Темноту на врагов",
 
-	"advancement.enchantplus.description.critical": "Шанс пробить броню",
-	"advancement.enchantplus.description.dimensional_hit": "Сильнее в других измерениях",
+	"advancement.enchantplus.description.critical_hit": "Шанс пробить броню",
+	"advancement.enchantplus.description.dimensional_strike": "Сильнее в других измерениях",
 	"advancement.enchantplus.description.runic_despair": "Высвободите руническую силу",
 	"advancement.enchantplus.description.kinetic_protection": "Ты не очень талантлив",
 	"advancement.enchantplus.description.harvest": "Это что, сеялка???"

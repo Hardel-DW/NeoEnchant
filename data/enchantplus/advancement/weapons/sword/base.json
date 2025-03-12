@@ -164,7 +164,7 @@
 				]
 			}
 		},
-		"dimensional_hit": {
+		"dimensional_strike": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
@@ -172,7 +172,7 @@
 						"predicates": {
 							"minecraft:enchantments": [
 								{
-									"enchantments": "enchantplus:sword/dimensional_hit"
+									"enchantments": "enchantplus:sword/dimensional_strike"
 								}
 							]
 						}
@@ -180,7 +180,7 @@
 				]
 			}
 		},
-		"critical": {
+		"critical_hit": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
@@ -188,7 +188,7 @@
 						"predicates": {
 							"minecraft:enchantments": [
 								{
-									"enchantments": "enchantplus:sword/critical"
+									"enchantments": "enchantplus:sword/critical_hit"
 								}
 							]
 						}
@@ -223,8 +223,8 @@
 		["pull"],
 		["tears_of_asflors"],
 		["last_hope"],
-		["dimensional_hit"],
-		["critical"],
+		["dimensional_strike"],
+		["critical_hit"],
 		["runic_despair"]
 	]
 }

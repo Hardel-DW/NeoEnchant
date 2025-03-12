@@ -172,20 +172,20 @@
 
 	"enchantment.enchantplus.kinetic_protection": "運動エネルギー保護",
 	"enchantment.enchantplus.harvest": "収穫",
-	"enchantment.enchantplus.dimensional_hit": "次元の一撃",
-	"enchantment.enchantplus.critical": "クリティカル",
+	"enchantment.enchantplus.dimensional_strike": "次元の一撃",
+	"enchantment.enchantplus.critical_hit": "クリティカルヒット",
 	"enchantment.enchantplus.runic_despair": "ルーンの絶望",
 	"enchantment.enchantplus.death_touch": "死の接触",
 
 	"enchantment.enchantplus.kinetic_protection.desc": "エリトラの衝突ダメージから保護します",
 	"enchantment.enchantplus.harvest.desc": "範囲内に作物を植えることができます",
-	"enchantment.enchantplus.dimensional_hit.desc": "他の次元でのダメージが増加します",
-	"enchantment.enchantplus.critical.desc": "確率で貫通ダメージを与えます",
+	"enchantment.enchantplus.dimensional_strike.desc": "他の次元でのダメージが増加します",
+	"enchantment.enchantplus.critical_hit.desc": "確率で貫通ダメージを与えます",
 	"enchantment.enchantplus.runic_despair.desc": "ルーン次元でのダメージが増加します",
 	"enchantment.enchantplus.death_touch.desc": "敵に暗闇を付与します",
 
-	"advancement.enchantplus.description.critical": "防具を貫通するチャンス",
-	"advancement.enchantplus.description.dimensional_hit": "他の次元でより強力に",
+	"advancement.enchantplus.description.critical_hit": "防具を貫通するチャンス",
+	"advancement.enchantplus.description.dimensional_strike": "他の次元でより強力に",
 	"advancement.enchantplus.description.runic_despair": "ルーンの力を解き放て",
 	"advancement.enchantplus.description.kinetic_protection": "才能がないんだね",
 	"advancement.enchantplus.description.harvest": "これって種まき機？？？"
