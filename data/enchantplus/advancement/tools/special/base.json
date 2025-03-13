@@ -1,0 +1,41 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:stick"
+		},
+		"title": {
+			"translate": "advancement.enchantplus.title.special",
+			"fallback": "Neo Special",
+			"color": "#FFE2A8"
+		},
+		"description": {
+			"translate": "advancement.enchantplus.description.special",
+			"fallback": "Get every custom enchantment book for special tools",
+			"color": "green"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"parent": "enchantplus:tools/start",
+	"criteria": {
+		"midas_touch": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"minecraft:enchantments": [
+								{
+									"enchantments": "enchantplus:midas_touch"
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [["midas_touch"]]
+}

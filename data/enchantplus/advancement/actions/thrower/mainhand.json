@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"mainhand_thrower": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"predicates": {
+								"minecraft:enchantments": [
+									{
+										"enchantments": "enchantplus:sword/thrower",
+										"levels": {
+											"min": 1
+										}
+									}
+								]
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [["mainhand_thrower"]],
+	"rewards": {
+		"function": "enchantplus:unused/thrower/mainhand"
+	}
+}

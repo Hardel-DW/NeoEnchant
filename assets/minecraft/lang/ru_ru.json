@@ -80,6 +80,19 @@
 	"advancement.enchantplus.description.auto_smelt": "Лучшее зачарование в мире!",
 	"advancement.enchantplus.description.miningplus": "Добро пожаловать в паладиум!",
 	"advancement.enchantplus.description.gungnir_breath": "Любимое оружие Одина",
+	"advancement.enchantplus.description.critical": "Шанс пробить броню",
+	"advancement.enchantplus.description.dimensional_hit": "Сильнее в других измерениях",
+	"advancement.enchantplus.description.runic_despair": "Высвободите руническую силу",
+	"advancement.enchantplus.description.kinetic_protection": "Ты не очень талантлив",
+	"advancement.enchantplus.description.harvest": "Это что, сеялка???",
+	"advancement.enchantplus.description.ethereal_leap": "Твоя лошадь изображает кенгуру!",
+	"advancement.enchantplus.description.velocity": "Я скорость! Ка-чау!",
+	"advancement.enchantplus.description.steel_fang": "Кому нужен меч, когда у тебя есть лошадь с зубами?",
+	"advancement.enchantplus.description.cavalier_egis": "Твоя лошадь думает, что она танк!",
+	"advancement.enchantplus.description.magnet": "Подбирать не нагибаясь",
+	"advancement.enchantplus.description.midas_touch": "Использовать умеренно",
+	"advancement.enchantplus.description.mounted": "Получи все книги уникальных зачарований для верховых животных",
+	"advancement.enchantplus.description.special": "Получи все книги уникальных зачарований для особых инструментов",
 
 	"enchantment.enchantplus.fury": "Ярость",
 	"enchantment.enchantplus.lifeplus": "Жизнь+",
@@ -126,6 +139,12 @@
 	"enchantment.enchantplus.auto_smelt": "Авто-плавка",
 	"enchantment.enchantplus.miningplus": "Добыча+",
 	"enchantment.enchantplus.gungnir_breath": "Дыхание Гунгнира",
+	"enchantment.enchantplus.ethereal_leap": "Эфирный Прыжок",
+	"enchantment.enchantplus.velocity": "Скорость",
+	"enchantment.enchantplus.steel_fang": "Стальной Клык",
+	"enchantment.enchantplus.cavalier_egis": "Эгида Всадника",
+	"enchantment.enchantplus.magnet": "Магнит",
+	"enchantment.enchantplus.midas_touch": "Прикосновение Мидаса",
 
 	"enchantment.enchantplus.fury.desc": "Уменьшает броню, увеличивает пробивание и урон.",
 	"enchantment.enchantplus.lifeplus.desc": "Даёт дополнительные сердца.",
@@ -169,6 +188,12 @@
 	"enchantment.enchantplus.rebound.desc": "Стрелы отскакивают от стен.",
 	"enchantment.enchantplus.storm_arrow.desc": "Призывает молнии при попадании.",
 	"enchantment.enchantplus.gungnir_breath.desc": "Замораживает воду и замедляет цели.",
+	"enchantment.enchantplus.ethereal_leap.desc": "Увеличивает высоту прыжка вашего ездового животного и уменьшает урон от падения.",
+	"enchantment.enchantplus.velocity.desc": "Увеличивает скорость передвижения вашего ездового животного.",
+	"enchantment.enchantplus.steel_fang.desc": "Позволяет вашему ездовому животному наносить больше урона при атаке.",
+	"enchantment.enchantplus.cavalier_egis.desc": "Уменьшает получаемый урон при езде верхом.",
+	"enchantment.enchantplus.magnet.desc": "Автоматически притягивает ближайшие предметы.",
+	"enchantment.enchantplus.midas_touch.desc": "Превращает блоки в золото или золотую руду.",
 
 	"enchantment.enchantplus.kinetic_protection": "Кинетическая Защита",
 	"enchantment.enchantplus.harvest": "Сбор Урожая",
@@ -182,11 +207,5 @@
 	"enchantment.enchantplus.dimensional_hit.desc": "Увеличивает урон в других измерениях",
 	"enchantment.enchantplus.critical.desc": "Шанс нанести чистый урон",
 	"enchantment.enchantplus.runic_despair.desc": "Увеличивает урон в Руническом измерении",
-	"enchantment.enchantplus.death_touch.desc": "Накладывает Темноту на врагов",
-
-	"advancement.enchantplus.description.critical": "Шанс пробить броню",
-	"advancement.enchantplus.description.dimensional_hit": "Сильнее в других измерениях",
-	"advancement.enchantplus.description.runic_despair": "Высвободите руническую силу",
-	"advancement.enchantplus.description.kinetic_protection": "Ты не очень талантлив",
-	"advancement.enchantplus.description.harvest": "Это что, сеялка???"
+	"enchantment.enchantplus.death_touch.desc": "Накладывает Темноту на врагов"
 }

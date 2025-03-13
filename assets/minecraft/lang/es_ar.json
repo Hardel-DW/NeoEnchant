@@ -184,9 +184,34 @@
 	"enchantment.enchantplus.runic_despair.desc": "Aumenta el daño en la Dimensión Rúnica",
 	"enchantment.enchantplus.death_touch.desc": "Otorga Oscuridad a los enemigos",
 
-	"advancement.enchantplus.description.critical": "Probabilidad de atravesar armadura",
+	"advancement.enchantplus.description.critical": "Posibilidad de atravesar la armadura",
 	"advancement.enchantplus.description.dimensional_hit": "Más fuerte en otras dimensiones",
 	"advancement.enchantplus.description.runic_despair": "Desata el poder rúnico",
-	"advancement.enchantplus.description.kinetic_protection": "No sos talentoso",
-	"advancement.enchantplus.description.harvest": "¿¿¿Es un Plantador de Semillas???"
+	"advancement.enchantplus.description.kinetic_protection": "No eres talentoso",
+	"advancement.enchantplus.description.harvest": "¿¿¿Es un plantador de semillas???",
+	"advancement.enchantplus.description.ethereal_leap": "¡Tu caballo imita a un canguro!",
+	"advancement.enchantplus.description.velocity": "¡Soy velocidad! ¡Ka-chow!",
+	"advancement.enchantplus.description.steel_fang": "¿Quién necesita una espada cuando tienes un caballo con dientes?",
+	"advancement.enchantplus.description.cavalier_egis": "¡Tu caballo piensa que es un tanque ahora!",
+	"advancement.enchantplus.description.magnet": "Recoger sin agacharse",
+	"advancement.enchantplus.description.midas_touch": "Usar con moderación",
+
+	"advancement.enchantplus.title.mounted": "Neo Montado",
+	"advancement.enchantplus.description.mounted": "Obtén todos los libros de encantamiento personalizados para criaturas montadas",
+	"advancement.enchantplus.title.special": "Neo Especial",
+	"advancement.enchantplus.description.special": "Obtén todos los libros de encantamiento personalizados para herramientas especiales",
+
+	"enchantment.enchantplus.ethereal_leap": "Salto Etéreo",
+	"enchantment.enchantplus.velocity": "Velocidad",
+	"enchantment.enchantplus.steel_fang": "Colmillo de Acero",
+	"enchantment.enchantplus.cavalier_egis": "Égida del Caballero",
+	"enchantment.enchantplus.magnet": "Imán",
+	"enchantment.enchantplus.midas_touch": "Toque de Midas",
+
+	"enchantment.enchantplus.ethereal_leap.desc": "Aumenta la altura de salto de tu montura y reduce el daño por caída.",
+	"enchantment.enchantplus.velocity.desc": "Aumenta la velocidad de movimiento de tu montura.",
+	"enchantment.enchantplus.steel_fang.desc": "Permite que tu montura cause más daño al atacar.",
+	"enchantment.enchantplus.cavalier_egis.desc": "Reduce el daño recibido cuando montas una criatura.",
+	"enchantment.enchantplus.magnet.desc": "Atrae automáticamente los objetos cercanos.",
+	"enchantment.enchantplus.midas_touch.desc": "Transforma bloques en oro o mineral de oro."
 }

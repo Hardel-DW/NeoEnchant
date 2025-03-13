@@ -1,16 +1,15 @@
 {
+	"replace": false,
 	"values": [
+		"#minecraft:non_treasure",
 		"enchantplus:sword/reach",
-		"enchantplus:pickaxe/vein_miner",
-		"enchantplus:tools/miningplus",
-		"enchantplus:bow/echo_shot",
-		"enchantplus:tools/auto_smelt",
+		"enchantplus:sword/xp_boost",
+		"enchantplus:helmet/auto_feed",
 		"enchantplus:bow/eternal_frost",
-		"enchantplus:hoe/harvest",
+		"enchantplus:mace/wind_propulsion",
 		"enchantplus:mounted/velocity",
 		"enchantplus:mounted/ethereal_leap",
 		"enchantplus:mounted/steel_fang",
 		"enchantplus:mounted/cavalier_egis"
-	],
-	"replace": false
+	]
 }
