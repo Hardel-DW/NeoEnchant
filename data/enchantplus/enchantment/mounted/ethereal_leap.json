@@ -15,7 +15,7 @@
 		"per_level_above_first": 9
 	},
 	"anvil_cost": 2,
-	"slots": ["armor", "body"],
+	"slots": ["body"],
 	"effects": {
 		"minecraft:attributes": [
 			{
@@ -23,8 +23,8 @@
 				"attribute": "minecraft:jump_strength",
 				"amount": {
 					"type": "minecraft:linear",
-					"base": 0.75,
-					"per_level_above_first": 0.75
+					"base": 0.5,
+					"per_level_above_first": 0.25
 				},
 				"operation": "add_multiplied_total"
 			},
@@ -33,8 +33,8 @@
 				"attribute": "minecraft:safe_fall_distance",
 				"amount": {
 					"type": "minecraft:linear",
-					"base": 0.75,
-					"per_level_above_first": 0.75
+					"base": 0.5,
+					"per_level_above_first": 0.5
 				},
 				"operation": "add_multiplied_total"
 			}
