@@ -10,8 +10,8 @@
 		"enchantplus:hoe/harvest",
 		"enchantplus:helmet/auto_feed",
 		"enchantplus:bow/eternal_frost",
-		"enchantplus:sword/critical_hit",
-		"enchantplus:sword/dimensional_strike",
+		"enchantplus:sword/critical",
+		"enchantplus:sword/dimensional_hit",
 		"enchantplus:sword/death_touch"
 	]
 }

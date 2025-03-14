@@ -17,7 +17,7 @@
 		"enchantplus:hoe/scyther",
 		"enchantplus:tools/auto_smelt",
 		"enchantplus:mace/wind_propulsion",
-		"enchantplus:sword/critical_hit",
+		"enchantplus:sword/critical",
 		"enchantplus:elytra/kinetic_protection"
 	],
 	"replace": false

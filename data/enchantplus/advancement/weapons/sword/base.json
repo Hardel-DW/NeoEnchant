@@ -172,7 +172,7 @@
 						"predicates": {
 							"minecraft:enchantments": [
 								{
-									"enchantments": "enchantplus:sword/dimensional_strike"
+									"enchantments": "enchantplus:sword/dimensional_hit"
 								}
 							]
 						}
@@ -188,7 +188,7 @@
 						"predicates": {
 							"minecraft:enchantments": [
 								{
-									"enchantments": "enchantplus:sword/critical_hit"
+									"enchantments": "enchantplus:sword/critical"
 								}
 							]
 						}

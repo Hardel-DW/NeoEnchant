@@ -27,7 +27,7 @@
 						"predicates": {
 							"minecraft:enchantments": [
 								{
-									"enchantments": "enchantplus:sword/dimensional_strike"
+									"enchantments": "enchantplus:sword/dimensional_hit"
 								}
 							]
 						}
