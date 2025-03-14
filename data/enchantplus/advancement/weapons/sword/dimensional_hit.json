@@ -4,12 +4,12 @@
 			"id": "minecraft:enchanted_book"
 		},
 		"title": {
-			"translate": "enchantment.enchantplus.dimensional_hit",
-			"fallback": "Dimensional Hit",
+			"translate": "enchantment.enchantplus.dimensional_strike",
+			"fallback": "Dimensional Strike",
 			"color": "#40E6FF"
 		},
 		"description": {
-			"translate": "advancement.enchantplus.description.dimensional_hit",
+			"translate": "advancement.enchantplus.description.dimensional_strike",
 			"fallback": "Stronger in other dimensions"
 		},
 		"frame": "task",
