@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:item_display,tag=enchantplus.thrower] at @s run function enchantplus:actions/thrower/process_thrown
+execute if entity @e[type=minecraft:item_display,tag=enchantplus.thrower,limit=1] run schedule function enchantplus:actions/thrower/process_all 1t replace

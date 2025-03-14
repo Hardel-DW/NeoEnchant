@@ -1,0 +1,39 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:enchanted_book"
+		},
+		"title": {
+			"translate": "enchantment.enchantplus.harvest",
+			"fallback": "Harvest",
+			"color": "#40E6FF"
+		},
+		"description": {
+			"translate": "advancement.enchantplus.description.harvest",
+			"fallback": "It's a Seed Planter ???"
+		},
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"parent": "enchantplus:tools/hoe/scyther",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"minecraft:enchantments": [
+								{
+									"enchantments": "enchantplus:hoe/harvest"
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

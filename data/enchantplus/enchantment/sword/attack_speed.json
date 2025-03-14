@@ -8,7 +8,7 @@
         "minecraft:attributes": [
             {
                 "id": "minecraft:enchantment.attack_speed",
-                "attribute": "minecraft:generic.attack_speed",
+                "attribute": "minecraft:attack_speed",
                 "amount": {
                     "type": "minecraft:linear",
                     "base": 0.15,
@@ -22,7 +22,7 @@
         "base": 21,
         "per_level_above_first": 9
     },
-    "max_level": 3,
+    "max_level": 2,
     "min_cost": {
         "base": 8,
         "per_level_above_first": 11
@@ -30,7 +30,7 @@
     "slots": [
         "mainhand"
     ],
-    "exclusive_set": "#enchantplus:exclusive_set/sword_melee",
+    "exclusive_set": "#enchantplus:exclusive_set/sword_attribute",
     "supported_items": "#minecraft:enchantable/sword",
     "weight": 4
 }

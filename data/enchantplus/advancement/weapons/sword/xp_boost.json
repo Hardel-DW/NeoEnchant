@@ -4,7 +4,7 @@
       "id": "minecraft:enchanted_book"
     },
     "title": {
-      "translate": "enchantment.enchantplus.title.xp_boost",
+      "translate": "enchantment.enchantplus.xp_boost",
       "fallback": "Xp Boost",
       "color": "#40E6FF"
     },

@@ -1,35 +1,46 @@
 {
-    "anvil_cost": 4,
-    "description": {
-        "translate": "enchantment.enchantplus.xp_boost",
-        "fallback": "Xp Boost"
-    },
-    "effects": {
-        "minecraft:mob_experience": [
-            {
-                "effect": {
-                    "type": "minecraft:multiply",
-                    "factor": {
-                        "type": "minecraft:linear",
-                        "base": 1.5,
-                        "per_level_above_first": 0.75
-                    }
-                }
-            }
-        ]
-    },
-    "max_cost": {
-        "base": 19,
-        "per_level_above_first": 6
-    },
-    "max_level": 3,
-    "min_cost": {
-        "base": 5,
-        "per_level_above_first": 7
-    },
-    "slots": [
-        "mainhand"
-    ],
-    "supported_items": "#minecraft:enchantable/sword",
-    "weight": 2
+	"anvil_cost": 4,
+	"description": {
+		"translate": "enchantment.enchantplus.xp_boost",
+		"fallback": "Xp Boost"
+	},
+	"effects": {
+		"minecraft:mob_experience": [
+			{
+				"effect": {
+					"type": "minecraft:multiply",
+					"factor": {
+						"type": "minecraft:linear",
+						"base": 1.5,
+						"per_level_above_first": 0.75
+					}
+				}
+			}
+		],
+		"minecraft:block_experience": [
+			{
+				"effect": {
+					"type": "minecraft:multiply",
+					"factor": {
+						"type": "minecraft:linear",
+						"base": 1.5,
+						"per_level_above_first": 0.75
+					}
+				}
+			}
+		]
+	},
+	"max_cost": {
+		"base": 19,
+		"per_level_above_first": 6
+	},
+	"max_level": 3,
+	"min_cost": {
+		"base": 5,
+		"per_level_above_first": 7
+	},
+	"slots": ["mainhand"],
+	"exclusive_set": "#enchantplus:exclusive_set/experience",
+	"supported_items": "#voxel:enchantable/mining_and_damage",
+	"weight": 2
 }

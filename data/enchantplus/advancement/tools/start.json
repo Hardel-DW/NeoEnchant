@@ -4,10 +4,12 @@
       "id": "minecraft:yellow_wool"
     },
     "title": {
-      "translate": "Tools+"
+      "translate": "advancement.enchantplus.title.tools",
+      "fallback": "Tools+"
     },
     "description": {
-      "translate": "Over 5 more enchantments",
+      "translate": "enchantment.enchantplus.description.tools",
+      "fallback": "Get every custom enchantment book for the tools",
       "color": "#C4B96C"
     },
     "frame": "task",

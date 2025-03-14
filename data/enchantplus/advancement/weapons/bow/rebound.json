@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:enchanted_book"
+        },
+        "title": {
+            "translate": "enchantment.enchantplus.rebound",
+            "fallback": "Rebound",
+            "color": "#40E6FF"
+        },
+        "description": {
+            "translate": "advancement.enchantplus.description.rebound",
+            "fallback": "Boing boing boing"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "enchantplus:weapons/bow/eternal_frost",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "minecraft:enchantments": [
+                                {
+                                    "enchantments": "enchantplus:bow/rebound"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

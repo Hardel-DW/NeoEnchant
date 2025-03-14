@@ -1,0 +1,51 @@
+{
+	"criteria": {
+		"inventory_check": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"slots": {
+						"armor.*": {
+							"predicates": {
+								"minecraft:enchantments": [
+									{
+										"enchantments": "enchantplus:helmet/bright_vision",
+										"levels": {
+											"min": 1
+										}
+									}
+								]
+							}
+						}
+					},
+					"periodic_tick": 300
+				}
+			}
+		},
+		"on_change": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": {
+					"slots": {
+						"armor.*": {
+							"predicates": {
+								"minecraft:enchantments": [
+									{
+										"enchantments": "enchantplus:helmet/bright_vision",
+										"levels": {
+											"min": 1
+										}
+									}
+								]
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [["inventory_check", "on_change"]],
+	"rewards": {
+		"function": "enchantplus:actions/bright_vision"
+	}
+}

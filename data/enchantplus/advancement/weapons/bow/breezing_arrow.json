@@ -4,7 +4,7 @@
       "id": "minecraft:enchanted_book"
     },
     "title": {
-      "translate": "enchantment.enchantplus.title.breezing_arrow",
+      "translate": "enchantment.enchantplus.breezing_arrow",
       "fallback": "Breezing Arrow",
       "color": "#40E6FF"
     },

@@ -1,45 +1,43 @@
 {
-    "description": {
-        "translate": "enchantment.enchantplus.leaping",
-        "fallback": "Leaping"
-    },
-    "weight": 2,
-    "max_level": 2,
-    "min_cost": {
-        "base": 15,
-        "per_level_above_first": 9
-    },
-    "max_cost": {
-        "base": 65,
-        "per_level_above_first": 9
-    },
-    "anvil_cost": 4,
-    "slots": [
-        "legs"
-    ],
-    "supported_items": "#minecraft:enchantable/leg_armor",
-    "effects": {
-        "minecraft:attributes": [
-            {
-                "id": "minecraft:enchantment.leaping_jump",
-                "attribute": "minecraft:generic.jump_strength",
-                "amount": {
-                    "type": "minecraft:linear",
-                    "base": 0.15,
-                    "per_level_above_first": 0.25
-                },
-                "operation": "add_multiplied_total"
-            },
-            {
-                "id": "minecraft:enchantment.leaping_safe",
-                "attribute": "minecraft:generic.safe_fall_distance",
-                "amount": {
-                    "type": "minecraft:linear",
-                    "base": 0.15,
-                    "per_level_above_first": 0.25
-                },
-                "operation": "add_multiplied_total"
-            }
-        ]
-    }
+	"description": {
+		"translate": "enchantment.enchantplus.leaping",
+		"fallback": "Leaping"
+	},
+	"weight": 2,
+	"max_level": 3,
+	"min_cost": {
+		"base": 15,
+		"per_level_above_first": 9
+	},
+	"max_cost": {
+		"base": 65,
+		"per_level_above_first": 9
+	},
+	"anvil_cost": 2,
+	"slots": ["legs"],
+	"supported_items": "#minecraft:enchantable/leg_armor",
+	"effects": {
+		"minecraft:attributes": [
+			{
+				"id": "minecraft:enchantment.leaping_jump",
+				"attribute": "minecraft:jump_strength",
+				"amount": {
+					"type": "minecraft:linear",
+					"base": 0.15,
+					"per_level_above_first": 0.25
+				},
+				"operation": "add_multiplied_total"
+			},
+			{
+				"id": "minecraft:enchantment.leaping_safe",
+				"attribute": "minecraft:safe_fall_distance",
+				"amount": {
+					"type": "minecraft:linear",
+					"base": 0.15,
+					"per_level_above_first": 0.25
+				},
+				"operation": "add_multiplied_total"
+			}
+		]
+	}
 }

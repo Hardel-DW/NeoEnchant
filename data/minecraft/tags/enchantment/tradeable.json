@@ -1,21 +1,16 @@
 {
-  "values": [
-    {
-      "id": "enchantplus:sword/reach",
-      "required": false
-    },
-    {
-      "id": "enchantplus:pickaxe/vein_miner",
-      "required": false
-    },
-    {
-      "id": "enchantplus:tools/miningplus",
-      "required": false
-    },
-    {
-      "id": "enchantplus:tools/auto_smelt",
-      "required": false
-    }
-  ],
-  "replace": false
+	"values": [
+		"enchantplus:sword/reach",
+		"enchantplus:pickaxe/vein_miner",
+		"enchantplus:tools/miningplus",
+		"enchantplus:bow/echo_shot",
+		"enchantplus:tools/auto_smelt",
+		"enchantplus:bow/eternal_frost",
+		"enchantplus:hoe/harvest",
+		"enchantplus:mounted/velocity",
+		"enchantplus:mounted/ethereal_leap",
+		"enchantplus:mounted/steel_fang",
+		"enchantplus:mounted/cavalier_egis"
+	],
+	"replace": false
 }

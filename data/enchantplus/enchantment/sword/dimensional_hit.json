@@ -1,0 +1,43 @@
+{
+	"description": {
+		"translate": "enchantment.enchantplus.dimensional_strike",
+		"fallback": "Dimensional Strike"
+	},
+	"exclusive_set": "#enchantplus:exclusive_set/sword_attribute",
+	"supported_items": "#minecraft:enchantable/sword",
+	"weight": 4,
+	"max_level": 5,
+	"min_cost": {
+		"base": 8,
+		"per_level_above_first": 11
+	},
+	"max_cost": {
+		"base": 21,
+		"per_level_above_first": 9
+	},
+	"anvil_cost": 2,
+	"slots": ["mainhand"],
+	"effects": {
+		"minecraft:damage": [
+			{
+				"requirements": {
+					"condition": "minecraft:inverted",
+					"term": {
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"dimension": "minecraft:overworld"
+						}
+					}
+				},
+				"effect": {
+					"type": "minecraft:add",
+					"value": {
+						"type": "minecraft:linear",
+						"base": 2,
+						"per_level_above_first": 1
+					}
+				}
+			}
+		]
+	}
+}

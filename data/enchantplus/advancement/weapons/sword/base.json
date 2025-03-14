@@ -1,140 +1,230 @@
 {
-  "display": {
-    "icon": {
-      "id": "minecraft:netherite_sword"
-    },
-    "title": {
-      "translate": "advancement.enchantplus.title.sword",
-      "fallback": "Neo Sword",
-      "color": "#FFE2A8"
-    },
-    "description": {
-      "translate": "advancement.enchantplus.description.sword",
-      "fallback": "Get every custom enchantment book for the sword",
-      "color": "green"
-    },
-    "frame": "goal",
-    "show_toast": true,
-    "announce_to_chat": false,
-    "hidden": false
-  },
-  "parent": "enchantplus:weapons/start",
-  "criteria": {
-    "attack_speed": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "predicates": {
-              "minecraft:enchantments": [
-                {
-                  "enchantments": "enchantplus:sword/attack_speed"
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
-    "life_steal": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "predicates": {
-              "minecraft:enchantments": [
-                {
-                  "enchantments": "enchantplus:sword/life_steal"
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
-    "poison_aspect": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "predicates": {
-              "minecraft:enchantments": [
-                {
-                  "enchantments": "enchantplus:sword/poison_aspect"
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
-    "reach": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "predicates": {
-              "minecraft:enchantments": [
-                {
-                  "enchantments": "enchantplus:sword/reach"
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
-    "xp_boost": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "predicates": {
-              "minecraft:enchantments": [
-                {
-                  "enchantments": "enchantplus:sword/xp_boost"
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
-    "pull": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "predicates": {
-              "minecraft:enchantments": [
-                {
-                  "enchantments": "enchantplus:sword/pull"
-                }
-              ]
-            }
-          }
-        ]
-      }
-    }
-  },
-  "requirements": [
-    [
-      "attack_speed"
-    ],
-    [
-      "life_steal"
-    ],
-    [
-      "poison_aspect"
-    ],
-    [
-      "reach"
-    ],
-    [
-      "xp_boost"
-    ],
-    [
-      "pull"
-    ]
-  ]
+	"display": {
+		"icon": {
+			"id": "minecraft:netherite_sword"
+		},
+		"title": {
+			"translate": "advancement.enchantplus.title.sword",
+			"fallback": "Neo Sword",
+			"color": "#FFE2A8"
+		},
+		"description": {
+			"translate": "advancement.enchantplus.description.sword",
+			"fallback": "Get every custom enchantment book for the sword",
+			"color": "green"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"parent": "enchantplus:weapons/start",
+	"criteria": {
+		"attack_speed": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"minecraft:enchantments": [
+								{
+									"enchantments": "enchantplus:sword/attack_speed"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"fear": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"minecraft:enchantments": [
+								{
+									"enchantments": "enchantplus:sword/fear"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"life_steal": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"minecraft:enchantments": [
+								{
+									"enchantments": "enchantplus:sword/life_steal"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"poison_aspect": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"minecraft:enchantments": [
+								{
+									"enchantments": "enchantplus:sword/poison_aspect"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"reach": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"minecraft:enchantments": [
+								{
+									"enchantments": "enchantplus:sword/reach"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"xp_boost": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"minecraft:enchantments": [
+								{
+									"enchantments": "enchantplus:sword/xp_boost"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"pull": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"minecraft:enchantments": [
+								{
+									"enchantments": "enchantplus:sword/pull"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"tears_of_asflors": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"minecraft:enchantments": [
+								{
+									"enchantments": "enchantplus:sword/tears_of_asflors"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"last_hope": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"minecraft:enchantments": [
+								{
+									"enchantments": "enchantplus:sword/last_hope"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"dimensional_strike": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"minecraft:enchantments": [
+								{
+									"enchantments": "enchantplus:sword/dimensional_hit"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"critical_hit": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"minecraft:enchantments": [
+								{
+									"enchantments": "enchantplus:sword/critical"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"runic_despair": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"minecraft:enchantments": [
+								{
+									"enchantments": "enchantplus:sword/runic_despair"
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		["attack_speed"],
+		["life_steal"],
+		["poison_aspect"],
+		["reach"],
+		["fear"],
+		["xp_boost"],
+		["pull"],
+		["tears_of_asflors"],
+		["last_hope"],
+		["dimensional_strike"],
+		["critical_hit"],
+		["runic_despair"]
+	]
 }

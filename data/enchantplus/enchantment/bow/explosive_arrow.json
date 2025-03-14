@@ -1,87 +1,107 @@
 {
-    "description": {
-        "translate": "enchantment.minecraft.explosive_arrow",
-        "fallback": "Explosive Arrow"
-    },
-    "exclusive_set": "#enchantplus:exclusive_set/bow",
-    "supported_items": "#enchantplus:enchantable/bows",
-    "weight": 2,
-    "max_level": 3,
-    "min_cost": {
-        "base": 50,
-        "per_level_above_first": 9
-    },
-    "max_cost": {
-        "base": 50,
-        "per_level_above_first": 9
-    },
-    "anvil_cost": 6,
-    "slots": [
-        "mainhand",
-        "offhand"
-    ],
-    "effects": {
-        "minecraft:post_attack": [
-            {
-                "enchanted": "attacker",
-                "affected": "victim",
-                "effect": {
-                    "type": "minecraft:explode",
-                    "damage_type": "minecraft:arrow",
-                    "radius": {
-                        "type": "minecraft:linear",
-                        "base": 0.5,
-                        "per_level_above_first": 0.5
-                    },
-                    "block_interaction": "mob",
-                    "small_particle": {
-                        "type": "minecraft:ash"
-                    },
-                    "large_particle": {
-                        "type": "minecraft:explosion_emitter"
-                    },
-                    "immune_blocks": "#enchantplus:all",
-                    "sound": "minecraft:entity.generic.explode",
-                    "knockback_multiplier": 0
-                }
-            }
-        ],
-        "minecraft:hit_block": [
-            {
-                "effect": {
-                    "type": "minecraft:all_of",
-                    "effects": [
-                        {
-                            "type": "minecraft:run_function",
-                            "function": "enchantplus:actions/self_kill"
-                        },
-                        {
-                            "type": "minecraft:explode",
-                            "damage_type": "minecraft:arrow",
-                            "radius": {
-                                "type": "minecraft:linear",
-                                "base": 1,
-                                "per_level_above_first": 1.5
-                            },
-                            "block_interaction": "mob",
-                            "small_particle": {
-                                "type": "minecraft:ash"
-                            },
-                            "large_particle": {
-                                "type": "minecraft:explosion_emitter"
-                            },
-                            "sound": "minecraft:entity.generic.explode"
-                        }
-                    ]
-                },
-                "requirements": {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                        "type": "#minecraft:arrows"
-                    }
-                }
-            }
-        ]
-    }
+	"description": {
+		"translate": "enchantment.enchantplus.explosive_arrow",
+		"fallback": "Explosive Arrow"
+	},
+	"exclusive_set": "#enchantplus:exclusive_set/bow",
+	"supported_items": "#voxel:enchantable/range",
+	"weight": 2,
+	"max_level": 4,
+	"min_cost": {
+		"base": 50,
+		"per_level_above_first": 9
+	},
+	"max_cost": {
+		"base": 50,
+		"per_level_above_first": 9
+	},
+	"anvil_cost": 6,
+	"slots": ["mainhand", "offhand"],
+	"effects": {
+		"minecraft:post_attack": [
+			{
+				"enchanted": "attacker",
+				"affected": "victim",
+				"effect": {
+					"attribute_to_user": true,
+					"type": "minecraft:explode",
+					"damage_type": "minecraft:arrow",
+					"radius": {
+						"type": "minecraft:linear",
+						"base": 0.5,
+						"per_level_above_first": 0.5
+					},
+					"block_interaction": "trigger",
+					"small_particle": {
+						"type": "minecraft:explosion_emitter"
+					},
+					"large_particle": {
+						"type": "minecraft:explosion_emitter"
+					},
+					"sound": "minecraft:entity.generic.explode",
+					"knockback_multiplier": 0
+				},
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "direct_attacker",
+					"predicate": {
+						"type": "#minecraft:arrows"
+					}
+				}
+			}
+		],
+		"minecraft:hit_block": [
+			{
+				"effect": {
+					"type": "minecraft:all_of",
+					"effects": [
+						{
+							"type": "minecraft:run_function",
+							"function": "enchantplus:libs/self_kill"
+						},
+						{
+							"type": "minecraft:explode",
+							"damage_type": "minecraft:arrow",
+							"radius": {
+								"type": "minecraft:linear",
+								"base": 1,
+								"per_level_above_first": 1.5
+							},
+							"block_interaction": "mob",
+							"small_particle": {
+								"type": "minecraft:explosion_emitter"
+							},
+							"large_particle": {
+								"type": "minecraft:explosion_emitter"
+							},
+							"sound": "minecraft:entity.generic.explode"
+						}
+					]
+				},
+				"requirements": {
+					"condition": "minecraft:all_of",
+					"terms": [
+						{
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type": "#minecraft:arrows"
+							}
+						},
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:location_check",
+								"predicate": {
+									"block": {
+										"blocks": "#enchantplus:non-solid"
+									}
+								}
+							}
+						}
+					]
+				}
+			}
+		]
+	}
 }

@@ -1,0 +1,39 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:enchanted_book"
+		},
+		"title": {
+			"translate": "enchantment.enchantplus.steel_fang",
+			"fallback": "Steel Fang",
+			"color": "#40E6FF"
+		},
+		"description": {
+			"translate": "advancement.enchantplus.description.steel_fang",
+			"fallback": "Who needs a sword when you have a dog with teeth?"
+		},
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"parent": "enchantplus:mounted/velocity",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"minecraft:enchantments": [
+								{
+									"enchantments": "enchantplus:mounted/steel_fang"
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

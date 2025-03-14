@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		"enchantplus:pickaxe/vein_miner",
+		"enchantplus:tools/auto_smelt",
+		"enchantplus:tools/miningplus",
+		"enchantplus:sword/xp_boost",
+		"enchantplus:chestplate/builder_arm",
+		"enchantplus:axe/timber",
+		"enchantplus:hoe/harvest",
+		"enchantplus:helmet/auto_feed",
+		"enchantplus:bow/eternal_frost",
+		"enchantplus:sword/critical",
+		"enchantplus:sword/dimensional_hit",
+		"enchantplus:sword/death_touch"
+	]
+}

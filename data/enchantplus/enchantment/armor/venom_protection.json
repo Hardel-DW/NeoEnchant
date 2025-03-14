@@ -1,0 +1,35 @@
+{
+	"description": {
+		"translate": "enchantment.enchantplus.venom_protection",
+		"fallback": "Venom Protection"
+	},
+	"exclusive_set": "#minecraft:exclusive_set/armor",
+	"supported_items": "#minecraft:enchantable/armor",
+	"weight": 6,
+	"max_level": 1,
+	"min_cost": {
+		"base": 8,
+		"per_level_above_first": 12
+	},
+	"max_cost": {
+		"base": 21,
+		"per_level_above_first": 9
+	},
+	"anvil_cost": 2,
+	"slots": ["armor"],
+	"effects": {
+		"minecraft:tick": [
+			{
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "enchantplus:actions/anti_venom"
+				},
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {}
+				}
+			}
+		]
+	}
+}

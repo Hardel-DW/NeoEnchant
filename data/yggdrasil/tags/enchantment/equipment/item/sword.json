@@ -1,17 +1,9 @@
 {
     "replace": false,
     "values": [
-        {
-            "id": "enchantplus:sword/reach",
-            "required": false
-        },
-        {
-            "id": "enchantplus:sword/poison_aspect",
-            "required": false
-        },
-        {
-            "id": "enchantplus:sword/attack_speed",
-            "required": false
-        }
+        "enchantplus:sword/reach",
+        "enchantplus:sword/poison_aspect",
+        "enchantplus:sword/attack_speed",
+        "enchantplus:trident/gungnir_breath"
     ]
 }

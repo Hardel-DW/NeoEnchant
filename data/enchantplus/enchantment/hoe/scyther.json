@@ -3,7 +3,7 @@
         "translate": "enchantment.enchantplus.scyther",
         "fallback": "Scyther"
     },
-    "supported_items": "#minecraft:hoes",
+    "supported_items": "#voxel:enchantable/hoes",
     "weight": 6,
     "max_level": 3,
     "min_cost": {
@@ -14,7 +14,7 @@
         "base": 29,
         "per_level_above_first": 5
     },
-    "anvil_cost": 3,
+    "anvil_cost": 2,
     "slots": [
         "mainhand"
     ],

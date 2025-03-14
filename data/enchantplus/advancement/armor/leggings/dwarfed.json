@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_book"
+    },
+    "title": {
+      "translate": "enchantment.enchantplus.dwarfed",
+      "fallback": "Dwarfed",
+      "color": "#40E6FF"
+    },
+    "description": {
+      "translate": "advancement.enchantplus.description.dwarfed",
+      "fallback": "Size doesn't matter"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "enchantplus:armor/leggings/leaping",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "enchantplus:leggings/dwarfed"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

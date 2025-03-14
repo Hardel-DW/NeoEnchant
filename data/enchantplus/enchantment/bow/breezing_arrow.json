@@ -1,104 +1,93 @@
 {
-    "description": {
-        "translate": "enchantment.minecraft.breezing_arrow",
-        "fallback": "Breezing Arrows"
-    },
-    "exclusive_set": "#enchantplus:exclusive_set/bow",
-    "supported_items": "#enchantplus:enchantable/bows",
-    "weight": 2,
-    "max_level": 3,
-    "min_cost": {
-        "base": 50,
-        "per_level_above_first": 9
-    },
-    "max_cost": {
-        "base": 50,
-        "per_level_above_first": 9
-    },
-    "anvil_cost": 6,
-    "slots": [
-        "mainhand",
-        "offhand"
-    ],
-    "effects": {
-        "minecraft:post_attack": [
-            {
-                "enchanted": "attacker",
-                "affected": "victim",
-                "effect": {
-                    "type": "minecraft:explode",
-                    "radius": 3.5,
-                    "block_interaction": "trigger",
-                    "offset": [
-                        0,
-                        0.5,
-                        0
-                    ],
-                    "small_particle": {
-                        "type": "minecraft:gust_emitter_small"
-                    },
-                    "large_particle": {
-                        "type": "minecraft:gust_emitter_large"
-                    },
-                    "sound": "minecraft:entity.wind_charge.wind_burst",
-                    "immune_blocks": "#minecraft:blocks_wind_charge_explosions",
-                    "knockback_multiplier": {
-                        "type": "minecraft:lookup",
-                        "fallback": {
-                            "type": "minecraft:linear",
-                            "base": 1,
-                            "per_level_above_first": 0.35
-                        },
-                        "values": [
-                            0.5,
-                            0.75,
-                            1.2
-                        ]
-                    }
-                }
-            }
-        ],
-        "minecraft:hit_block": [
-            {
-                "effect": {
-                    "type": "minecraft:explode",
-                    "radius": 3.5,
-                    "block_interaction": "trigger",
-                    "offset": [
-                        0,
-                        0.5,
-                        0
-                    ],
-                    "small_particle": {
-                        "type": "minecraft:gust_emitter_small"
-                    },
-                    "large_particle": {
-                        "type": "minecraft:gust_emitter_large"
-                    },
-                    "sound": "minecraft:entity.wind_charge.wind_burst",
-                    "immune_blocks": "#minecraft:blocks_wind_charge_explosions",
-                    "knockback_multiplier": {
-                        "type": "minecraft:lookup",
-                        "fallback": {
-                            "type": "minecraft:linear",
-                            "base": 1.5,
-                            "per_level_above_first": 0.35
-                        },
-                        "values": [
-                            1,
-                            1.5,
-                            2
-                        ]
-                    }
-                },
-                "requirements": {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                        "type": "#minecraft:arrows"
-                    }
-                }
-            }
-        ]
-    }
+	"description": {
+		"translate": "enchantment.enchantplus.breezing_arrow",
+		"fallback": "Breezing Arrows"
+	},
+	"exclusive_set": "#enchantplus:exclusive_set/bow",
+	"supported_items": "#voxel:enchantable/range",
+	"weight": 2,
+	"max_level": 2,
+	"min_cost": {
+		"base": 50,
+		"per_level_above_first": 9
+	},
+	"max_cost": {
+		"base": 50,
+		"per_level_above_first": 9
+	},
+	"anvil_cost": 6,
+	"slots": ["mainhand", "offhand"],
+	"effects": {
+		"minecraft:post_attack": [
+			{
+				"enchanted": "attacker",
+				"affected": "victim",
+				"effect": {
+					"attribute_to_user": true,
+					"type": "minecraft:explode",
+					"radius": 3.5,
+					"block_interaction": "trigger",
+					"offset": [0, 0.5, 0],
+					"small_particle": {
+						"type": "minecraft:gust_emitter_small"
+					},
+					"large_particle": {
+						"type": "minecraft:gust_emitter_large"
+					},
+					"sound": "minecraft:entity.wind_charge.wind_burst",
+					"immune_blocks": "#minecraft:blocks_wind_charge_explosions",
+					"knockback_multiplier": {
+						"type": "minecraft:lookup",
+						"fallback": {
+							"type": "minecraft:linear",
+							"base": 1,
+							"per_level_above_first": 0.35
+						},
+						"values": [0.5, 0.75, 1.2]
+					}
+				},
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "direct_attacker",
+					"predicate": {
+						"type": "#minecraft:arrows"
+					}
+				}
+			}
+		],
+		"minecraft:hit_block": [
+			{
+				"effect": {
+					"type": "minecraft:explode",
+					"radius": 3.5,
+					"block_interaction": "trigger",
+					"offset": [0, 0.5, 0],
+					"small_particle": {
+						"type": "minecraft:gust_emitter_small"
+					},
+					"large_particle": {
+						"type": "minecraft:gust_emitter_large"
+					},
+					"sound": "minecraft:entity.wind_charge.wind_burst",
+					"immune_blocks": "#minecraft:blocks_wind_charge_explosions",
+					"knockback_multiplier": {
+						"type": "minecraft:lookup",
+						"fallback": {
+							"type": "minecraft:linear",
+							"base": 1.5,
+							"per_level_above_first": 0.35
+						},
+						"values": [1, 1.5, 2]
+					}
+				},
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type": "#minecraft:arrows"
+					}
+				}
+			}
+		]
+	}
 }

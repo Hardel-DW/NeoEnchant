@@ -6,7 +6,6 @@
     "slots": [
         "feet"
     ],
-    "exclusive_set": "#minecraft:exclusive_set/boots",
     "supported_items": "#minecraft:enchantable/foot_armor",
     "weight": 8,
     "max_level": 5,
@@ -18,12 +17,12 @@
         "base": 25,
         "per_level_above_first": 9
     },
-    "anvil_cost": 2,
+    "anvil_cost": 1,
     "effects": {
         "minecraft:attributes": [
             {
                 "id": "minecraft:enchantment.agility",
-                "attribute": "minecraft:generic.movement_speed",
+                "attribute": "minecraft:movement_speed",
                 "amount": {
                     "type": "minecraft:linear",
                     "base": 0.2,

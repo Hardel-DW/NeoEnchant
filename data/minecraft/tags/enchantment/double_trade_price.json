@@ -1,0 +1,9 @@
+{
+	"values": [
+		"enchantplus:pickaxe/vein_miner",
+		"enchantplus:bow/echo_shot",
+		"enchantplus:bow/eternal_frost",
+		"enchantplus:hoe/harvest"
+	],
+	"replace": false
+}

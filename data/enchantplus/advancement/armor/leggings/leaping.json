@@ -4,7 +4,7 @@
       "id": "minecraft:enchanted_book"
     },
     "title": {
-      "translate": "enchantment.enchantplus.title.leaping",
+      "translate": "enchantment.enchantplus.leaping",
       "fallback": "Leaping",
       "color": "#40E6FF"
     },

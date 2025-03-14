@@ -1,0 +1,1 @@
+execute as @e[tag=enchantplus.striker.countdown] at @s run function enchantplus:unused/chained/reset_gametime

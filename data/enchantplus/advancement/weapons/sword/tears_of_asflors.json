@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_book"
+    },
+    "title": {
+      "translate": "enchantment.enchantplus.tears_of_asflors",
+      "fallback": "Tears of Asflors",
+      "color": "#40E6FF"
+    },
+    "description": {
+      "translate": "advancement.enchantplus.description.tears_of_asflors",
+      "fallback": "Cry me a river"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "enchantplus:weapons/sword/fear",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "enchantplus:sword/tears_of_asflors"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

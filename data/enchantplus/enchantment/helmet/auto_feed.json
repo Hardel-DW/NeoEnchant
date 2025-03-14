@@ -1,7 +1,7 @@
 {
     "anvil_cost": 6,
     "description": {
-        "translate": "enchantment.minecraft.auto_feed",
+        "translate": "enchantment.enchantplus.auto_feed",
         "fallback": "Auto Feed"
     },
     "effects": {
@@ -20,7 +20,7 @@
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "periodic_tick": 200
+                            "periodic_tick": 3600
                         }
                     }
                 ]

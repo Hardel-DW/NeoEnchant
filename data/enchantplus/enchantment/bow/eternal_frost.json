@@ -1,0 +1,130 @@
+{
+	"description": {
+		"translate": "enchantment.enchantplus.eternal_frost",
+		"fallback": "Eternal Frost"
+	},
+	"exclusive_set": "#enchantplus:exclusive_set/bow",
+	"supported_items": "#voxel:enchantable/range",
+	"weight": 2,
+	"max_level": 1,
+	"min_cost": {
+		"base": 50,
+		"per_level_above_first": 9
+	},
+	"max_cost": {
+		"base": 50,
+		"per_level_above_first": 9
+	},
+	"anvil_cost": 6,
+	"slots": ["mainhand", "offhand"],
+	"effects": {
+		"minecraft:post_attack": [
+			{
+				"enchanted": "attacker",
+				"affected": "damaging_entity",
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "enchantplus:actions/eternal_frost"
+				},
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "direct_attacker",
+					"predicate": {
+						"type": "#minecraft:arrows"
+					}
+				}
+			},
+			{
+				"enchanted": "attacker",
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:apply_mob_effect",
+					"to_apply": "minecraft:slowness",
+					"min_duration": {
+						"type": "minecraft:linear",
+						"base": 3,
+						"per_level_above_first": 3
+					},
+					"max_duration": {
+						"type": "minecraft:linear",
+						"base": 5,
+						"per_level_above_first": 3
+					},
+					"min_amplifier": {
+						"type": "minecraft:linear",
+						"base": 1,
+						"per_level_above_first": 1
+					},
+					"max_amplifier": {
+						"type": "minecraft:linear",
+						"base": 2,
+						"per_level_above_first": 1
+					}
+				}
+			}
+		],
+		"minecraft:hit_block": [
+			{
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "enchantplus:actions/eternal_frost"
+				},
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type": "#minecraft:arrows"
+					}
+				}
+			},
+			{
+				"effect": {
+					"type": "minecraft:replace_disk",
+					"block_state": {
+						"type": "minecraft:simple_state_provider",
+						"state": {
+							"Name": "minecraft:frosted_ice",
+							"Properties": {
+								"age": "0"
+							}
+						}
+					},
+					"predicate": {
+						"type": "minecraft:all_of",
+						"predicates": [
+							{
+								"type": "minecraft:matching_blocks",
+								"blocks": "minecraft:air",
+								"offset": [0, 1, 0]
+							},
+							{
+								"type": "minecraft:matching_blocks",
+								"blocks": "minecraft:water"
+							}
+						]
+					},
+					"offset": [0, 5, 0],
+					"height": -10,
+					"radius": {
+						"type": "minecraft:clamped",
+						"max": 16.0,
+						"min": 0.0,
+						"value": {
+							"type": "minecraft:linear",
+							"base": 4.0,
+							"per_level_above_first": 2.0
+						}
+					},
+					"trigger_game_event": "minecraft:block_place"
+				},
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type": "#minecraft:arrows"
+					}
+				}
+			}
+		]
+	}
+}

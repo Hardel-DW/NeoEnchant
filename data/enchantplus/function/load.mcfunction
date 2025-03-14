@@ -1,4 +1,3 @@
-
 #> enchantplus:load
 #
 # @within		#load:load
@@ -8,10 +7,89 @@
 
 # Create scoreboard objectives
 scoreboard objectives add enchantplus.data dummy
-scoreboard objectives add enchantplus.old_fuse dummy
 
 # Define loaded version for other datapacks to check
 scoreboard players set #enchantplus.major load.status 5
 scoreboard players set #enchantplus.minor load.status 0
 scoreboard players set #enchantplus.patch load.status 0
 
+# New scoreboards for the Teluric Wave area
+scoreboard objectives add enchantplus.teluric.side dummy
+scoreboard objectives add enchantplus.teluric.long dummy
+scoreboard objectives add enchantplus.animation_state dummy
+scoreboard objectives add enchantplus.gametime dummy
+scoreboard objectives add enchantplus.gametime.temp dummy
+scoreboard objectives add enchantplus.teluric.radius dummy
+scoreboard objectives add enchantplus.striker.countdown dummy
+scoreboard objectives add enchantplus.striker.gametime dummy
+
+scoreboard objectives add enchantplus.transformation.w dummy
+scoreboard objectives add enchantplus.transformation.x dummy
+scoreboard objectives add enchantplus.transformation.y dummy
+scoreboard objectives add enchantplus.transformation.z dummy
+
+# New scoreboards for the Thrower enchantment
+scoreboard objectives add enchantplus.timer dummy
+scoreboard objectives add enchantplus.rot dummy
+scoreboard objectives add enchantplus.motion dummy
+scoreboard objectives add enchantplus.var dummy
+
+# Default values for thrower
+scoreboard players set #default enchantplus.motion 1
+
+# Default values for the area size (modifiable)
+scoreboard players set #default enchantplus.teluric.side 5
+scoreboard players set #default enchantplus.teluric.long 12
+scoreboard players set #default enchantplus.teluric.radius 5
+scoreboard players set #teluric_motion enchantplus.data 9
+
+# Constants for calculations
+scoreboard players set #-1 enchantplus.data -1
+scoreboard players set #0 enchantplus.data 0
+scoreboard players set #1 enchantplus.data 1
+scoreboard players set #2 enchantplus.data 2
+scoreboard players set #3 enchantplus.data 3
+scoreboard players set #4 enchantplus.data 4
+scoreboard players set #5 enchantplus.data 5
+scoreboard players set #6 enchantplus.data 6
+scoreboard players set #7 enchantplus.data 7
+scoreboard players set #8 enchantplus.data 8
+scoreboard players set #9 enchantplus.data 9
+scoreboard players set #10 enchantplus.data 10
+scoreboard players set #11 enchantplus.data 11
+scoreboard players set #12 enchantplus.data 12
+scoreboard players set #13 enchantplus.data 13
+scoreboard players set #14 enchantplus.data 14
+scoreboard players set #15 enchantplus.data 15
+scoreboard players set #16 enchantplus.data 16
+scoreboard players set #17 enchantplus.data 17
+scoreboard players set #18 enchantplus.data 18
+scoreboard players set #19 enchantplus.data 19
+scoreboard players set #20 enchantplus.data 20
+scoreboard players set #21 enchantplus.data 21
+scoreboard players set #22 enchantplus.data 22
+scoreboard players set #23 enchantplus.data 23
+scoreboard players set #24 enchantplus.data 24
+scoreboard players set #25 enchantplus.data 25
+scoreboard players set #26 enchantplus.data 26
+scoreboard players set #27 enchantplus.data 27
+scoreboard players set #28 enchantplus.data 28
+scoreboard players set #29 enchantplus.data 29
+scoreboard players set #30 enchantplus.data 30
+scoreboard players set #36 enchantplus.data 36
+scoreboard players set #40 enchantplus.data 40 
+scoreboard players set #45 enchantplus.data 45
+scoreboard players set #50 enchantplus.data 50
+scoreboard players set #60 enchantplus.data 60
+scoreboard players set #64 enchantplus.data 64
+scoreboard players set #70 enchantplus.data 70
+scoreboard players set #80 enchantplus.data 80
+scoreboard players set #90 enchantplus.data 90
+scoreboard players set #100 enchantplus.data 100
+scoreboard players set #360 enchantplus.data 360
+scoreboard players set #1000 enchantplus.data 1000
+
+# New scoreboards for the rebound system
+scoreboard objectives add enchantplus.rebound_vx dummy
+scoreboard objectives add enchantplus.rebound_vy dummy
+scoreboard objectives add enchantplus.rebound_vz dummy

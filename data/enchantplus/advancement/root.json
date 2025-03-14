@@ -8,7 +8,7 @@
       "fallback": "NeoEnchant+"
     },
     "description": {
-      "translate": "advancement.enchantplus.title.root",
+      "translate": "advancement.enchantplus.description.root",
       "fallback": "Discover a new power of enchantments",
       "color": "aqua"
     },

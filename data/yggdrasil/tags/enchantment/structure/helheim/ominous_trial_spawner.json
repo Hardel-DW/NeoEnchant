@@ -1,0 +1,12 @@
+{
+	"replace": false,
+	"values": [
+		"#minecraft:treasure",
+		"#minecraft:non_treasure",
+		"enchantplus:armor/fury",
+		"enchantplus:elytra/kinetic_protection",
+		"enchantplus:sword/critical",
+		"enchantplus:pickaxe/bedrock_breaker",
+		"enchantplus:pickaxe/spawner_touch"
+	]
+}

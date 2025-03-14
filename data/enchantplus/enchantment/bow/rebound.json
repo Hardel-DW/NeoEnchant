@@ -1,0 +1,29 @@
+{
+    "description": {
+        "translate": "enchantment.enchantplus.rebound",
+        "fallback": "Rebound"
+    },
+    "supported_items": "#voxel:enchantable/range",
+    "weight": 4,
+    "max_level": 3,
+    "min_cost": {
+        "base": 7,
+        "per_level_above_first": 9
+    },
+    "max_cost": {
+        "base": 12,
+        "per_level_above_first": 9
+    },
+    "anvil_cost": 2,
+    "slots": ["mainhand", "offhand"],
+    "effects": {
+        "minecraft:hit_block": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/rebound/on_shoot"
+                }
+            }
+        ]
+    }
+}

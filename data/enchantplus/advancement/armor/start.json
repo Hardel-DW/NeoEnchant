@@ -9,7 +9,7 @@
     },
     "description": {
       "translate": "advancement.enchantplus.description.armor",
-      "fallback": "Over 11 enchantments",
+      "fallback": "Get every custom enchantment book for the armor",
       "color": "#57BBD9"
     },
     "frame": "task",

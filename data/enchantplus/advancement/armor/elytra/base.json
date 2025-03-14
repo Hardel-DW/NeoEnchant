@@ -1,45 +1,57 @@
 {
-  "display": {
-    "icon": {
-      "id": "minecraft:elytra"
-    },
-    "title": {
-      "translate": "advancement.enchantplus.title.elytra",
-      "fallback": "Neo Elytra",
-      "color": "#FFE2A8"
-    },
-    "description": {
-      "translate": "advancement.enchantplus.description.elytra",
-      "fallback": "Get every custom enchantment book for the elytra",
-      "color": "green"
-    },
-    "frame": "goal",
-    "show_toast": true,
-    "announce_to_chat": false,
-    "hidden": false
-  },
-  "parent": "enchantplus:armor/start",
-  "criteria": {
-    "armored": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "predicates": {
-              "minecraft:enchantments": [
-                {
-                  "enchantments": "enchantplus:elytra/armored"
-                }
-              ]
-            }
-          }
-        ]
-      }
-    }
-  },
-  "requirements": [
-    [
-      "armored"
-    ]
-  ]
+	"display": {
+		"icon": {
+			"id": "minecraft:elytra"
+		},
+		"title": {
+			"translate": "advancement.enchantplus.title.elytra",
+			"fallback": "Neo Elytra",
+			"color": "#FFE2A8"
+		},
+		"description": {
+			"translate": "advancement.enchantplus.description.elytra",
+			"fallback": "Get every custom enchantment book for the elytra",
+			"color": "green"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"parent": "enchantplus:armor/start",
+	"criteria": {
+		"armored": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"minecraft:enchantments": [
+								{
+									"enchantments": "enchantplus:elytra/armored"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"kinetic_protection": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"minecraft:enchantments": [
+								{
+									"enchantments": "enchantplus:elytra/kinetic_protection"
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [["armored"], ["kinetic_protection"]]
 }

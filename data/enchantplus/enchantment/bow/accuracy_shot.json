@@ -1,9 +1,9 @@
 {
     "description": {
-        "translate": "enchantment.minecraft.accuracy_shot",
+        "translate": "enchantment.enchantplus.accuracy_shot",
         "fallback": "Accuracy Shot"
     },
-    "supported_items": "#enchantplus:enchantable/bows",
+    "supported_items": "#voxel:enchantable/range",
     "weight": 2,
     "max_level": 1,
     "min_cost": {
@@ -24,7 +24,7 @@
             {
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/no_gravity"
+                    "function": "enchantplus:actions/accuracy_shot/on_shoot"
                 }
             }
         ]

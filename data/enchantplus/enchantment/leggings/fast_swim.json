@@ -1,7 +1,7 @@
 {
     "description": {
         "translate": "enchantment.enchantplus.fast_swim",
-        "fallback": "Fast swim"
+        "fallback": "Fast Swim"
     },
     "supported_items": "#minecraft:enchantable/leg_armor",
     "weight": 2,
@@ -14,7 +14,7 @@
         "base": 65,
         "per_level_above_first": 9
     },
-    "anvil_cost": 4,
+    "anvil_cost": 3,
     "slots": [
         "legs"
     ],

@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:enchanted_book"
+        },
+        "title": {
+            "translate": "enchantment.enchantplus.eternal_frost",
+            "fallback": "Eternal Frost",
+            "color": "#40E6FF"
+        },
+        "description": {
+            "translate": "advancement.enchantplus.description.eternal_frost",
+            "fallback": "Winter is coming"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "enchantplus:weapons/bow/storm_arrow",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "minecraft:enchantments": [
+                                {
+                                    "enchantments": "enchantplus:bow/eternal_frost"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

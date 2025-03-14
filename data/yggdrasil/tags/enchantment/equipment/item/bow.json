@@ -1,13 +1,10 @@
 {
     "replace": false,
     "values": [
-        {
-            "id": "enchantplus:bow/breezing_arrow",
-            "required": false
-        },
-        {
-            "id": "enchantplus:bow/echo_shot",
-            "required": false
-        }
+        "enchantplus:bow/breezing_arrow",
+        "enchantplus:bow/echo_shot",
+        "enchantplus:bow/storm_arrow",
+        "enchantplus:bow/eternal_frost",
+        "enchantplus:bow/rebound"
     ]
 }

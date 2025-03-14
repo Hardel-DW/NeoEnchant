@@ -1,0 +1,33 @@
+{
+	"description": {
+		"translate": "enchantment.enchantplus.velocity",
+		"fallback": "Velocity"
+	},
+	"supported_items": "#enchantplus:enchantable/mounted",
+	"weight": 5,
+	"max_level": 4,
+	"min_cost": {
+		"base": 2,
+		"per_level_above_first": 11
+	},
+	"max_cost": {
+		"base": 9,
+		"per_level_above_first": 9
+	},
+	"anvil_cost": 2,
+	"slots": ["body"],
+	"effects": {
+		"minecraft:attributes": [
+			{
+				"id": "minecraft:enchantment.velocity",
+				"attribute": "minecraft:movement_speed",
+				"amount": {
+					"type": "minecraft:linear",
+					"base": 0.55,
+					"per_level_above_first": 0.3
+				},
+				"operation": "add_multiplied_total"
+			}
+		]
+	}
+}

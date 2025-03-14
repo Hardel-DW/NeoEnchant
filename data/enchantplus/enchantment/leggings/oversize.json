@@ -1,0 +1,48 @@
+{
+	"description": {
+		"translate": "enchantment.enchantplus.oversize",
+		"fallback": "Oversize"
+	},
+	"exclusive_set": "#enchantplus:exclusive_set/size",
+	"supported_items": "#minecraft:enchantable/leg_armor",
+	"weight": 5,
+	"max_level": 4,
+	"min_cost": {
+		"base": 8,
+		"per_level_above_first": 12
+	},
+	"max_cost": {
+		"base": 35,
+		"per_level_above_first": 8
+	},
+	"anvil_cost": 1,
+	"slots": ["legs"],
+	"effects": {
+		"minecraft:attributes": [
+			{
+				"id": "minecraft:enchantment.drawf",
+				"attribute": "minecraft:scale",
+				"amount": {
+					"type": "minecraft:lookup",
+					"values": [0.25, 0.35, 0.65, 0.95],
+					"fallback": {
+						"type": "minecraft:linear",
+						"base": 0.25,
+						"per_level_above_first": 0.35
+					}
+				},
+				"operation": "add_multiplied_base"
+			},
+			{
+				"id": "minecraft:enchantment.oversize.step",
+				"attribute": "minecraft:step_height",
+				"amount": {
+					"type": "minecraft:linear",
+					"base": 0.5,
+					"per_level_above_first": 0.5
+				},
+				"operation": "add_value"
+			}
+		]
+	}
+}

@@ -42,14 +42,23 @@
                         "type": "minecraft:lookup",
                         "fallback": {
                             "type": "minecraft:linear",
-                            "base": 0.5,
-                            "per_level_above_first": 0.5
+                            "base": 1.25,
+                            "per_level_above_first": 0.35
                         },
                         "values": [
-                            0.85,
                             1.25,
-                            1.55
+                            1.65,
+                            2.25
                         ]
+                    }
+                },
+                "requirements": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "flags": {
+                            "is_on_ground": true
+                        }
                     }
                 }
             }

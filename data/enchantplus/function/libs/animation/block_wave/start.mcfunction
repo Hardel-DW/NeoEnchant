@@ -1,0 +1,2 @@
+execute as @a[distance=..15] run playsound minecraft:block.amethyst_block.step block @s ~0.5 ~0.5 ~0.5 0.7 1.8
+execute align xyz positioned ~0.5 ~0.5 ~0.5 summon minecraft:item_display run function enchantplus:libs/animation/block_wave/set_id

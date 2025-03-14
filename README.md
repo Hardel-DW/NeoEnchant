@@ -15,7 +15,7 @@ Enchantments are available natively in the enchantment table and also in the anv
 Performance is identical to that of a Minecraft mod, or a native Mojang production. It uses almost exclusively the new internal systems introduced in the update 1.21.
 
 ### Modify enchantments as you wish.
-Enchantments are easy to modulate. You can modify maximum levels, supported objects and even effects. No development skills are required, just edit the values in the ".json" files. The in-game admin panel has also been removed. All removed enchantments will be properly disenchanted on items, whether in chests, inventories or anywhere else.
+Enchantments are easy to modulate. You can modify maximum levels, supported objects and even effects. No development skills are required. The in-game admin panel has also been removed. Instead you can use the [Enchantments Configurator](https://voxel.hardel.io/en-us/tools/enchant) it's infinitly better !
 
 ### Compatiblity
 Compatiblity with for other mods (Forge/Fabric) or Vanilla Datapacks that add owns enchantments.
@@ -24,99 +24,102 @@ Compatiblity with for other mods (Forge/Fabric) or Vanilla Datapacks that add ow
 Enchantments can be obtained from the creative menu, or with the /enchant command.
 
 # From Official TE+ 
-TE+ Official  275,632 views and 45,977 downloads 
-TTE+ Rewened Fork by Frektip - 293,986 views, 62,173 downloads
+- TE+ Official  300,000 views and 45,977 downloads 
+- TTE+ Rewened Fork by Frektip - 293,986 views, 62,173 downloads
 
-## Enchantments List
-Below is the list of enchantments included in this release. Check off the enchantments as you explore each one in your game:
-See in details with the Wiki [https://github.com/Hardel-DW/NeoEnchant/wiki/Custom-Enchantments](https://github.com/Hardel-DW/NeoEnchant/wiki/Custom-Enchantments)
+## Website
+You can find all the enchantments in videos on the official website. [NeoEnchant+ Website (EN/FR)](https://voxel.hardel.io/en-us/datapacks/neoenchant) It is available in English and French.
 
-## Enchantments from TE+
-- **Bright Vision**: Gives night vision to the player.
-- **Fear**: Prevents Creeper and TNT explosions when this enchantment is applied.
-- **Auto-Feed**: Automatically feeds you every minute.
-- **Anti-Venom**: Provides protection against negative effects.
-- **Life+**: Gives the player extra hearts.
-- **Fast Swim**: Grants the player a dolphin Grace effect.
-- **Agility**: Increases player speed.
-- **Leaping**: Boosts the player.
-- **Lava Walker**: Allows the player to walk on lava.
-- **Poison Aspect**: Poisons the mob upon hitting it.
-- **Life Steal**: Drains health from the target and transfers it to the player.
-- **Auto-Smelt**: Automatically smelts items.
-- **Mining+**: Lets you mine a 3x3 area.
-- **Accuracy Shot**: Arrows fly straight.
-- **Explosive Arrow**: When arrow hit a block, create an explosion, the entity take damage.
-- **Attack Speed**: Increases your attack speed.
-- **Timber**: Cut down a tree with one strike.
-- **VeinMiner**: If you break a mineral block, all surrounding minerals also break.
-- **XpBoost**: Gain additional experience from killing mobs.
-- **SkyWalk**: Allows you to fly if there is a 4 blocks gap below your feet. To desced just crouch.
+[![Website](https://cdn.modrinth.com/data/cached_images/30ffe66e8781de3745663c73750444b9813acdb9.png)](https://voxel.hardel.io/en-us/datapacks/neoenchant)
 
-## Removed enchantments from TE+
-The following enchantments were removed, or were not pertinent. Either it duplicated existing elements Or simply too complex. However
-Depending on demand they can be reintroduced.
-However, new enchantments have been added to the list to provide a fresh experience for players.
+## Neo Enchantments List
+- **Armor**:
+  - **Fury**: Decreases armor in percent and grants armor penetration and increased damage percentage on your hits.
+  - **Life+**: Gives the player extra hearts.
+  - **Venom Protection**: Provides protection against negative effects.
+    
+- **Helmet**:
+  - **Bright Vision**: Gives night vision to the player.
+  - **Auto-Feed**: Automatically feeds you every minute.
+  - **Voidless**: If you fall into the void, you briefly gain a levitation effect.
+    
+- **Chestplate**:
+  - **Builder Arms**: Allows you to place and break blocks from a longer distance.
+    
+- **Leggings**:
+  - **Fast Swim**: Grants the player a dolphin Grace effect.
+  - **Leaping**: Boosts the player.
+  - **Oversize**: Increase entity size
+  - **Dwarfed**: Decrease enity size
+    
+- **Boots**:
+  - **Step Assist**: Allows you to walk up blocks more easily.
+  - **SkyWalk**: Allows you to fly if there is a 4 blocks gap below your feet. To desced just crouch.
+  - **Lava Walker**: Allows the player to walk on lava.
+  - **Agility**: Increases player speed.
+    
+- **Elytra**:
+  - **Armored**: For elytra, reduce the damage taken.
+    
+- **Sword**:
+  - **Reach**: Increase the range of your attack.
+  - **XpBoost**: Gain additional experience from killing mobs.
+  - **Life Steal**: Drains health from the target and transfers it to the player.
+  - **Poison Aspect**: Poisons the mob upon hitting it.
+  - **Fear**: When you hit a creeper, increase delays their explosion by 12.5 seconds.
+  - **Pull** Allows you to retrieve a mob egg with a small probability when you kill a monster.
+    
+- **Mace**
+  - **Striker**: On mace, have a small chance to call the thunder, if the weather is stormy, the thunder will strike the mob at each hit and work also on lighting_rod. Also you are immune to damage thunder.
+  - **Wind Propulsion** When you striking with your mace the ground, you cause an explosion that sends you into the air, designed to be used in combination with "Wind Burst".
+    
+- **Tools**:
+  - **Auto-Smelt**: Automatically smelts items.
+    
+- **Axe**:
+  - **Timber**: Cut down a tree with one strike.
+    
+- **Pickaxe**:
+  - **Bedrock Breaker**: Allows you to break bedrock, but consumes 200 durability per block.
+  - **VeinMiner**: If you break a mineral block, all surrounding minerals also break.
+  - **Spawner Touch**: Allows your pickaxe to retrieve spawners.
+    
+- **Hoe**:
+  - **Scyther**: Allows you to transform dirt in farmland in x by z surface depending enchantment levels
+    
+- **Bow**:
+  - **Explosive Arrow**: When arrow hit a block, create an explosion, the entity take damage.
+  - **Accuracy Shot**: Arrows fly straight.
+  - **Breezing Arrow**: (Bow and Crossbow) Causes a repulsion effect and sends the hit target into the air. If arrows miss, it causes a repulsion effect on the ground.
 
-- **Anti-Knockback**: Removed because Netherite exist
-- **Bloody Blade**: Potion Effect was better.
-- **Last Life**: Maybe soon if Data Driven Potion Effect Comes.
-- **TimeBreaker**: Too strong 
-- **Magnet (Helmet)**: May return.
-- **Haste**: Removed because Effiency exist
+# Enchantment Configurator
+Customize your adventure with our online enchantment configurator. Adjust enchantments according to your preferences, creating a unique experience that perfectly matches your playstyle, available at this address Enchantment Configurator. [Enchantments Configurator](https://voxel.hardel.io/en-us/tools/enchant)
 
-## New enchantments introduce in NE+
-- **Scyther**: Allows you to transform dirt in farmland in x by z surface depending enchantment levels
-- **Step Assist**: Allows you to walk up blocks more easily.
-- **Reach**: Increase the range of your attack.
-- **Builder Arms**: Allows you to place and break blocks from a longer distance.
-- **Armored**: For elytra, reduce the damage taken.
-- **Striker**: On mace, have a small chance to call the thunder, if the weather is stormy, the thunder will strike the mob at each hit and work also on lighting_rod. Also you are immune to damage thunder.
+[![Website](https://cdn.modrinth.com/data/cached_images/dd5f34aa1cf0a79c5149eb556b19d885a50e7e13.webp)](https://voxel.hardel.io/en-us/tools/enchant)
 
-## New enchantments introduce by Yggdrasil
-- **Voidless**: If you fall into the void, you briefly gain a levitation effect.
-- **Spawner Touch**: Allows your pickaxe to retrieve spawners.
-- **Pull** Allows you to retrieve a mob egg with a small probability when you kill a monster.
-- **Breezing Arrow**: (Bow and Crossbow) Causes a repulsion effect and sends the hit target into the air. If arrows miss, it causes a repulsion effect on the ground.
-- **Wind Propulsion** When you striking with your mace the ground, you cause an explosion that sends you into the air, designed to be used in combination with "Wind Burst".
+# The Neo-Ecosystem
+![Plop](https://cdn.modrinth.com/data/cached_images/f475cc4efe4d192c11c3e26c0ba72fc152a5a1fe.png)
+With all these enchantments, the game might become too easy, right?
+That’s why NeoEnchant+ isn’t just a pack—it’s an ecosystem introducing Yggdrasil and BeyondEnchant.
 
-## New experimental enchantments (Not available in the Survival)
-- **Bedrock Breaker**: Allows you to break bedrock, but consumes 200 durability per block.
-  
-# Yggdrasil - Structure
-![yggdrasil](https://github.com/Hardel-DW/Yggdrasil-Structure/assets/42413417/b481d58c-a1f4-4d04-a884-6ac538c02bbd)
+- **[Yggdrasil on Modrinth](https://modrinth.com/datapack/yggdrasil-structure)** is a pack adding gigantic structures with unprecedented difficulty, unique rewards, and exclusive enchantments that you won’t find anywhere else. These structures make perfect use of the new enchantments, and the monsters have heard about them and won’t hesitate to use them against you.
 
-This pack adds **gigantic structures** that take hours to explore. Magnificent structures that spawn all over the world, and gives **unique rewards**, and combined with NeoEnchant it gets even better!
-An unprecedented difficulty for the end of the game, Exclusive enchantments to be found in this structure if you use the NeoEnchant pack.
-The NeoEnchant pack is not mandatory, it is designed to work with or without it!  
-[Modrinth Yggdrasil](https://modrinth.com/datapack/yggdrasil-structure)
+- **[Beyond Enchant on Modrinth](https://modrinth.com/datapack/beyondenchant)**, on the other hand, breaks the chains of vanilla limits. The levels of enchantments are increased, making them more powerful—the enchantments are more… well, you get the idea.
 
-# BeyondEnchant - Breaks vanilla limits
-![beyond](https://github.com/Hardel-DW/BeyondEnchant/assets/42413417/d107bc40-c48c-47b2-91eb-8a012a55c95c)
-
-**BeyondEnchant** is the ultimate expansion for enchantments, developed by Hardel. 
-This mod/datapack allows you to break the traditional limits of enchantments, introducing unprecedented flexibility and power to your Minecraft experience. Enhance your gear beyond the vanilla constraints and explore new heights of gameplay.  
-[Modrinth BeyondEnchant](https://modrinth.com/datapack/beyondenchant)
-
-# Contributing & Support me on Patreon  
-If you like the work I produce, please don't hesitate to help me.   
-Every contribution means a lot to me and helps me continue creating exciting content for the Minecraft community.  
-  
-Join us on Patreon and help me make Minecraft an even more amazing experience for everyone! [Support me](https://www.patreon.com/hardel)  
-You can also contribute on the official Github. [Official Github](https://github.com/Hardel-DW/NeoEnchant)  
-An join the discord ! [Hardel Lab's Discord](https://discord.gg/mVpYB6kF93)  
-
+## Contribute and Discord
 [![Patreon](https://github.com/Hardel-DW/NeoEnchant/assets/42413417/4fac417a-9c4c-40cd-95f3-fa908e4dd061)](https://www.patreon.com/hardel)
 
-## License
-This project is licensed under the NeoEnchant License - see the LICENSE file for details.
-
-## Acknowledgments
-Thanks to all the contributors who have helped in developing these enchantments and making this project successful. We look forward to further innovations in future releases.
-
-## Bugs
-The pack has been completely rewritten, and bugs may appear, If you find any, report it on Github.
+### Links
+- Join us on Patreon and help me make Minecraft an even more amazing experience for everyone! 
+[Support me](https://www.patreon.com/hardel)  
+- An join the discord ! [Hardel Lab's Discord](https://discord.gg/mVpYB6kF93)  
+- You can also contribute on the official Github. [Official Github](https://github.com/Hardel-DW/NeoEnchant)  
+- The pack has been completely rewritten, and bugs may appear, If you find any, report it on Github.
 [https://github.com/Hardel-DW/NeoEnchant/issues](https://github.com/Hardel-DW/NeoEnchant/issues)
+  
+## Acknowledgments & License
+This project is licensed under the NeoEnchant License - see the LICENSE file for details.
+Thanks to all the contributors who have helped in developing these enchantments and making this project successful. We look forward to further innovations in future releases.
 
 ## Minecraft Realms - Problem
 Experimental features, including enchantments, are not supported by Realms.

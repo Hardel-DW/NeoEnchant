@@ -1,0 +1,41 @@
+{
+	"description": {
+		"translate": "enchantment.enchantplus.critical_hit",
+		"fallback": "Critical Hit"
+	},
+	"exclusive_set": "#enchantplus:exclusive_set/sword_attribute",
+	"supported_items": "#minecraft:enchantable/sword",
+	"weight": 4,
+	"max_level": 4,
+	"min_cost": {
+		"base": 8,
+		"per_level_above_first": 11
+	},
+	"max_cost": {
+		"base": 21,
+		"per_level_above_first": 9
+	},
+	"anvil_cost": 2,
+	"slots": ["mainhand"],
+	"effects": {
+		"minecraft:armor_effectiveness": [
+			{
+				"requirements": {
+					"condition": "minecraft:random_chance",
+					"chance": {
+						"type": "minecraft:enchantment_level",
+						"amount": {
+							"type": "minecraft:linear",
+							"base": 0.04,
+							"per_level_above_first": 0.04
+						}
+					}
+				},
+				"effect": {
+					"type": "minecraft:multiply",
+					"factor": -0.25
+				}
+			}
+		]
+	}
+}

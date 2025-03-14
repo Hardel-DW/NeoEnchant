@@ -4,7 +4,7 @@
       "id": "minecraft:enchanted_book"
     },
     "title": {
-      "translate": "enchantment.enchantplus.title.fast_swim",
+      "translate": "enchantment.enchantplus.fast_swim",
       "fallback": "Fast Swim",
       "color": "#40E6FF"
     },

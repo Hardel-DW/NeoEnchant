@@ -1,0 +1,10 @@
+{
+	"values": [
+		"#minecraft:non_treasure",
+		"enchantplus:durability/curse_of_breaking",
+		"enchantplus:bow/breezing_arrow",
+		"enchantplus:bow/accuracy_shot",
+		"enchantplus:chestplate/builder_arm",
+		"enchantplus:leggings/oversize"
+	]
+}

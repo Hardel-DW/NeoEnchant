@@ -36,6 +36,54 @@
         ]
       }
     },
+    "breezing_arrow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "enchantplus:bow/breezing_arrow"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "echo_shot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "enchantplus:bow/echo_shot"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "storm_arrow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "enchantplus:bow/storm_arrow"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
     "accuracy_shot": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -51,6 +99,38 @@
           }
         ]
       }
+    },
+    "eternal_frost": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "enchantplus:bow/eternal_frost"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "rebound": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "enchantplus:bow/rebound"
+                }
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -59,6 +139,21 @@
     ],
     [
       "accuracy_shot"
+    ],
+    [
+      "breezing_arrow"
+    ],
+    [
+      "echo_shot"
+    ],
+    [
+      "storm_arrow"
+    ],
+    [
+      "eternal_frost"
+    ],
+    [
+      "rebound"
     ]
   ]
 }

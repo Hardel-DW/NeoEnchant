@@ -1,87 +1,82 @@
 {
-    "anvil_cost": 2,
-    "description": {
-        "translate": "enchantment.enchantplus.poison_aspect",
-        "fallback": "Poison Aspect"
-    },
-    "effects": {
-        "minecraft:post_attack": [
-            {
-                "affected": "victim",
-                "enchanted": "attacker",
-                "effect": {
-                    "type": "minecraft:apply_mob_effect",
-                    "max_duration": {
-                        "type": "minecraft:linear",
-                        "base": 3.25,
-                        "per_level_above_first": 1.25
-                    },
-                    "max_amplifier": {
-                        "type": "minecraft:linear",
-                        "base": 2,
-                        "per_level_above_first": 1
-                    },
-                    "min_duration": 3.25,
-                    "min_amplifier": 2,
-                    "to_apply": "minecraft:wither"
-                },
-                "requirements": {
-                    "condition": "minecraft:inverted",
-                    "term": {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "type": "minecraft:player"
-                        }
-                    }
-                }
-            },
-            {
-                "affected": "victim",
-                "enchanted": "attacker",
-                "effect": {
-                    "type": "minecraft:apply_mob_effect",
-                    "max_duration": {
-                        "type": "minecraft:linear",
-                        "base": 3.25,
-                        "per_level_above_first": 1.25
-                    },
-                    "max_amplifier": {
-                        "type": "minecraft:linear",
-                        "base": 2,
-                        "per_level_above_first": 1
-                    },
-                    "min_duration": 3.25,
-                    "min_amplifier": 2,
-                    "to_apply": "minecraft:poison"
-                },
-                "requirements": {
-                    "condition": "minecraft:inverted",
-                    "term": {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "type": "minecraft:player"
-                        }
-                    }
-                }
-            }
-        ]
-    },
-    "max_cost": {
-        "base": 25,
-        "per_level_above_first": 15
-    },
-    "max_level": 4,
-    "min_cost": {
-        "base": 15,
-        "per_level_above_first": 15
-    },
-    "primary_items": "#minecraft:enchantable/sword",
-    "slots": [
-        "mainhand"
-    ],
-    "exclusive_set": "#enchantplus:exclusive_set/aspect",
-    "supported_items": "#minecraft:enchantable/weapon",
-    "weight": 3
+	"anvil_cost": 2,
+	"description": {
+		"translate": "enchantment.enchantplus.poison_aspect",
+		"fallback": "Poison Aspect"
+	},
+	"effects": {
+		"minecraft:post_attack": [
+			{
+				"affected": "victim",
+				"enchanted": "attacker",
+				"effect": {
+					"type": "minecraft:apply_mob_effect",
+					"max_duration": {
+						"type": "minecraft:linear",
+						"base": 3.25,
+						"per_level_above_first": 1.25
+					},
+					"max_amplifier": {
+						"type": "minecraft:linear",
+						"base": 2,
+						"per_level_above_first": 1
+					},
+					"min_duration": 3.25,
+					"min_amplifier": 2,
+					"to_apply": "minecraft:wither"
+				},
+				"requirements": {
+					"condition": "minecraft:inverted",
+					"term": {
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:player"
+						}
+					}
+				}
+			},
+			{
+				"affected": "victim",
+				"enchanted": "attacker",
+				"effect": {
+					"type": "minecraft:apply_mob_effect",
+					"max_duration": {
+						"type": "minecraft:linear",
+						"base": 3.25,
+						"per_level_above_first": 1.25
+					},
+					"max_amplifier": {
+						"type": "minecraft:linear",
+						"base": 2,
+						"per_level_above_first": 1
+					},
+					"min_duration": 3.25,
+					"min_amplifier": 2,
+					"to_apply": "minecraft:poison"
+				},
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type": "minecraft:player"
+					}
+				}
+			}
+		]
+	},
+	"max_cost": {
+		"base": 25,
+		"per_level_above_first": 15
+	},
+	"max_level": 3,
+	"min_cost": {
+		"base": 15,
+		"per_level_above_first": 15
+	},
+	"primary_items": "#minecraft:enchantable/sword",
+	"slots": ["mainhand"],
+	"exclusive_set": "#enchantplus:exclusive_set/aspect",
+	"supported_items": "#minecraft:enchantable/weapon",
+	"weight": 3
 }

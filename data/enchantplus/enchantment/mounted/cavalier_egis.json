@@ -1,0 +1,44 @@
+{
+	"description": {
+		"translate": "enchantment.enchantplus.cavalier_egis",
+		"fallback": "Rider Egis"
+	},
+	"supported_items": "#enchantplus:enchantable/mounted",
+	"weight": 4,
+	"max_level": 5,
+	"min_cost": {
+		"base": 8,
+		"per_level_above_first": 11
+	},
+	"max_cost": {
+		"base": 21,
+		"per_level_above_first": 9
+	},
+	"anvil_cost": 2,
+	"slots": ["body"],
+	"effects": {
+		"minecraft:damage_protection": [
+			{
+				"effect": {
+					"type": "minecraft:add",
+					"value": {
+						"type": "minecraft:linear",
+						"base": 1,
+						"per_level_above_first": 1
+					}
+				},
+				"requirements": {
+					"condition": "minecraft:damage_source_properties",
+					"predicate": {
+						"tags": [
+							{
+								"expected": false,
+								"id": "minecraft:bypasses_invulnerability"
+							}
+						]
+					}
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,37 @@
+{
+	"description": {
+		"translate": "enchantment.enchantplus.death_touch",
+		"fallback": "Death Touch"
+	},
+	"exclusive_set": "#enchantplus:exclusive_set/sword_effect",
+	"supported_items": "#minecraft:enchantable/weapon",
+	"primary_items": "#minecraft:enchantable/sword",
+	"weight": 1,
+	"max_level": 1,
+	"min_cost": {
+		"base": 40,
+		"per_level_above_first": 15
+	},
+	"max_cost": {
+		"base": 50,
+		"per_level_above_first": 15
+	},
+	"anvil_cost": 6,
+	"slots": ["mainhand"],
+	"effects": {
+		"minecraft:post_attack": [
+			{
+				"enchanted": "attacker",
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "enchantplus:actions/death_touch"
+				},
+				"requirements": {
+					"condition": "minecraft:random_chance",
+					"chance": 0.5
+				}
+			}
+		]
+	}
+}

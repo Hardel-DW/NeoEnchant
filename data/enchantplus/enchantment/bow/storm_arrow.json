@@ -1,0 +1,195 @@
+{
+	"description": {
+		"translate": "enchantment.enchantplus.storm_arrow",
+		"fallback": "Storm Arrows"
+	},
+	"exclusive_set": "#enchantplus:exclusive_set/bow",
+	"supported_items": "#voxel:enchantable/range",
+	"weight": 2,
+	"max_level": 1,
+	"min_cost": {
+		"base": 50,
+		"per_level_above_first": 9
+	},
+	"max_cost": {
+		"base": 50,
+		"per_level_above_first": 9
+	},
+	"anvil_cost": 6,
+	"slots": ["mainhand", "offhand"],
+	"effects": {
+		"minecraft:post_attack": [
+			{
+				"enchanted": "attacker",
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:summon_entity",
+					"entity": "minecraft:lightning_bolt"
+				},
+				"requirements": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"can_see_sky": true
+							}
+						}
+					},
+					{
+						"condition": "minecraft:weather_check",
+						"thundering": true
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "direct_attacker",
+						"predicate": {
+							"type": "#minecraft:arrows"
+						}
+					}
+				]
+			},
+			{
+				"enchanted": "attacker",
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:summon_entity",
+					"entity": "minecraft:lightning_bolt"
+				},
+				"requirements": [
+					{
+						"condition": "minecraft:weather_check",
+						"thundering": false
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"can_see_sky": true
+							}
+						}
+					},
+					{
+						"condition": "minecraft:random_chance",
+						"chance": {
+							"type": "minecraft:enchantment_level",
+							"amount": 0.2
+						}
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "direct_attacker",
+						"predicate": {
+							"type": "#minecraft:arrows"
+						}
+					}
+				]
+			}
+		],
+		"minecraft:hit_block": [
+			{
+				"effect": {
+					"type": "minecraft:summon_entity",
+					"entity": "minecraft:lightning_bolt"
+				},
+				"requirements": [
+					{
+						"condition": "minecraft:weather_check",
+						"thundering": true
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"can_see_sky": true
+							}
+						}
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "#minecraft:arrows"
+						}
+					}
+				]
+			},
+			{
+				"effect": {
+					"type": "minecraft:summon_entity",
+					"entity": "minecraft:lightning_bolt"
+				},
+				"requirements": [
+					{
+						"condition": "minecraft:weather_check",
+						"thundering": false
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"can_see_sky": true
+							}
+						}
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "#minecraft:arrows"
+						}
+					},
+					{
+						"condition": "minecraft:random_chance",
+						"chance": {
+							"type": "minecraft:enchantment_level",
+							"amount": 0.15
+						}
+					}
+				]
+			}
+		],
+		"minecraft:projectile_spawned": [
+			{
+				"effect": {
+					"type": "minecraft:change_item_damage",
+					"amount": 10
+				}
+			},
+			{
+				"effect": {
+					"type": "minecraft:spawn_particles",
+					"particle": {
+						"type": "minecraft:flash"
+					},
+					"horizontal_position": {
+						"type": "entity_position"
+					},
+					"vertical_position": {
+						"type": "in_bounding_box"
+					},
+					"horizontal_velocity": {
+						"base": 1,
+						"movement_scale": 1
+					},
+					"vertical_velocity": {
+						"base": 1,
+						"movement_scale": 1
+					},
+					"speed": 0
+				}
+			},
+			{
+				"effect": {
+					"type": "minecraft:play_sound",
+					"sound": "minecraft:block.trial_spawner.spawn_item_begin",
+					"volume": 0.25,
+					"pitch": 2
+				}
+			}
+		]
+	}
+}

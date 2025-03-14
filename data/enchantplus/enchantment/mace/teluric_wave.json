@@ -1,0 +1,136 @@
+{
+    "description": {
+        "translate": "enchantment.enchantplus.teluric_wave",
+        "fallback": "Teluric Wave"
+    },
+    "supported_items": "#minecraft:enchantable/mace",
+    "exclusive_set": "#enchantplus:exclusive_set/mace",
+    "weight": 2,
+    "max_level": 1,
+    "min_cost": {
+        "base": 15,
+        "per_level_above_first": 10
+    },
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 10
+    },
+    "anvil_cost": 6,
+    "slots": [
+        "mainhand"
+    ],
+    "effects": {
+        "minecraft:post_attack": [
+            {
+                "affected": "victim",
+                "enchanted": "attacker",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/teluric_smash/start"
+                }
+            }
+        ],
+        "minecraft:hit_block": [
+            {
+                "effect": {
+                    "type": "change_item_damage",
+                    "amount": 5
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "flags": {
+                                    "is_sneaking": true
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "effects": {
+                                        "minecraft:slowness": {}
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/teluric_wave/start"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "flags": {
+                                    "is_sneaking": true
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "effects": {
+                                        "minecraft:slowness": {}
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "effect": {
+                    "type": "apply_mob_effect",
+                    "min_duration": 5,
+                    "max_duration": 5,
+                    "min_amplifier": 0,
+                    "max_amplifier": 0,
+                    "to_apply": "slowness"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "flags": {
+                                    "is_sneaking": true
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "effects": {
+                                        "minecraft:slowness": {}
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -4,7 +4,7 @@
       "id": "minecraft:enchanted_book"
     },
     "title": {
-      "translate": "enchantment.enchantplus.title.step_assist",
+      "translate": "enchantment.enchantplus.step_assist",
       "fallback": "Step Assist",
       "color": "#40E6FF"
     },

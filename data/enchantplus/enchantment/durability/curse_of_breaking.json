@@ -1,0 +1,47 @@
+{
+    "description": {
+        "translate": "enchantment.enchantplus.curse_of_breaking",
+        "fallback": "Curse of Breaking"
+    },
+    "supported_items": "#minecraft:enchantable/durability",
+    "exclusive_set": "#enchantplus:exclusive_set/durability",
+    "weight": 3,
+    "max_level": 5,
+    "min_cost": {
+        "base": 5,
+        "per_level_above_first": 4
+    },
+    "max_cost": {
+        "base": 11,
+        "per_level_above_first": 4
+    },
+    "anvil_cost": 1,
+    "slots": [
+        "any"
+    ],
+    "effects": {
+        "minecraft:item_damage": [
+            {
+                "effect": {
+                    "type": "minecraft:add",
+                    "value": {
+                        "type": "minecraft:linear",
+                        "base": 1,
+                        "per_level_above_first": 1
+                    }
+                },
+                "requirements": {
+                    "condition": "minecraft:random_chance",
+                    "chance": {
+                        "type": "minecraft:enchantment_level",
+                        "amount": {
+                            "type": "minecraft:linear",
+                            "base": 0.15,
+                            "per_level_above_first": 0.15
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
