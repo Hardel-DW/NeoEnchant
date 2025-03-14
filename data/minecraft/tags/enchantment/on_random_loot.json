@@ -6,7 +6,11 @@
 		"enchantplus:bow/explosive_arrow",
 		"enchantplus:bow/echo_shot",
 		"enchantplus:chestplate/builder_arm",
-		"enchantplus:leggings/oversize"
+		"enchantplus:leggings/oversize",
+		"enchantplus:mounted/velocity",
+		"enchantplus:mounted/ethereal_leap",
+		"enchantplus:mounted/steel_fang",
+		"enchantplus:mounted/cavalier_egis"
 	],
 	"replace": false
 }

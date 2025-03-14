@@ -6,7 +6,11 @@
 		"enchantplus:bow/echo_shot",
 		"enchantplus:tools/auto_smelt",
 		"enchantplus:bow/eternal_frost",
-		"enchantplus:hoe/harvest"
+		"enchantplus:hoe/harvest",
+		"enchantplus:mounted/velocity",
+		"enchantplus:mounted/ethereal_leap",
+		"enchantplus:mounted/steel_fang",
+		"enchantplus:mounted/cavalier_egis"
 	],
 	"replace": false
 }

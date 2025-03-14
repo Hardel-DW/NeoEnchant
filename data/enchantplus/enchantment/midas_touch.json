@@ -1,0 +1,60 @@
+{
+	"description": {
+		"translate": "enchantment.enchantplus.midas_touch",
+		"fallback": "Midas Touch"
+	},
+	"supported_items": "minecraft:stick",
+	"weight": 2,
+	"max_level": 5,
+	"min_cost": {
+		"base": 15,
+		"per_level_above_first": 8
+	},
+	"max_cost": {
+		"base": 60,
+		"per_level_above_first": 10
+	},
+	"anvil_cost": 3,
+	"slots": ["mainhand"],
+	"effects": {
+		"minecraft:hit_block": [
+			{
+				"effect": {
+					"type": "minecraft:replace_block",
+					"block_state": {
+						"type": "minecraft:weighted_state_provider",
+						"entries": [
+							{
+								"weight": 10,
+								"data": {
+									"Name": "minecraft:gold_block"
+								}
+							},
+							{
+								"weight": 90,
+								"data": {
+									"Name": "minecraft:gold_ore"
+								}
+							}
+						]
+					}
+				},
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type_specific": {
+							"type": "minecraft:player"
+						}
+					}
+				}
+			},
+			{
+				"effect": {
+					"type": "minecraft:change_item_damage",
+					"amount": 50
+				}
+			}
+		]
+	}
+}

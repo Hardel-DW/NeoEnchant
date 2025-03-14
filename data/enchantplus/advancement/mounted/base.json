@@ -1,0 +1,94 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:saddle"
+		},
+		"title": {
+			"translate": "advancement.enchantplus.title.mounted",
+			"fallback": "Neo Mounted",
+			"color": "#FFE2A8"
+		},
+		"description": {
+			"translate": "advancement.enchantplus.description.mounted",
+			"fallback": "Get every custom enchantment book for mounted creatures",
+			"color": "green"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"parent": "enchantplus:tools/start",
+	"criteria": {
+		"ethereal_leap": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"minecraft:enchantments": [
+								{
+									"enchantments": "enchantplus:mounted/ethereal_leap"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"velocity": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"minecraft:enchantments": [
+								{
+									"enchantments": "enchantplus:mounted/velocity"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"steel_fang": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"minecraft:enchantments": [
+								{
+									"enchantments": "enchantplus:mounted/steel_fang"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"cavalier_egis": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"minecraft:enchantments": [
+								{
+									"enchantments": "enchantplus:mounted/cavalier_egis"
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		["ethereal_leap"],
+		["velocity"],
+		["steel_fang"],
+		["cavalier_egis"]
+	]
+}

@@ -6,7 +6,7 @@
 	"exclusive_set": "#enchantplus:exclusive_set/size",
 	"supported_items": "#minecraft:enchantable/leg_armor",
 	"weight": 5,
-	"max_level": 4,
+	"max_level": 5,
 	"min_cost": {
 		"base": 8,
 		"per_level_above_first": 12

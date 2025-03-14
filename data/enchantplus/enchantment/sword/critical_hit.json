@@ -6,7 +6,7 @@
 	"exclusive_set": "#enchantplus:exclusive_set/sword_attribute",
 	"supported_items": "#minecraft:enchantable/sword",
 	"weight": 4,
-	"max_level": 5,
+	"max_level": 4,
 	"min_cost": {
 		"base": 8,
 		"per_level_above_first": 11
