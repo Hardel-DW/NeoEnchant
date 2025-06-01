@@ -84,14 +84,11 @@
 	"advancement.enchantplus.description.velocity": "我是速度！嘎嘎！",
 	"advancement.enchantplus.description.steel_fang": "当你有一匹带牙的马时，谁还需要剑？",
 	"advancement.enchantplus.description.cavalier_egis": "你的马现在以为自己是辆坦克！",
-	"advancement.enchantplus.description.magnet": "不弯腰就能拾取物品",
 	"advancement.enchantplus.description.midas_touch": "适度使用",
-
 	"advancement.enchantplus.title.mounted": "新骑乘",
 	"advancement.enchantplus.description.mounted": "获得所有骑乘生物的自定义附魔书",
 	"advancement.enchantplus.title.special": "新特殊",
 	"advancement.enchantplus.description.special": "获得所有特殊工具的自定义附魔书",
-
 	"enchantment.enchantplus.fury": "狂怒",
 	"enchantment.enchantplus.lifeplus": "生命+",
 	"enchantment.enchantplus.venom_protection": "毒素防护",
@@ -141,9 +138,7 @@
 	"enchantment.enchantplus.velocity": "速度",
 	"enchantment.enchantplus.steel_fang": "钢牙",
 	"enchantment.enchantplus.cavalier_egis": "骑士守护",
-	"enchantment.enchantplus.magnet": "磁铁",
 	"enchantment.enchantplus.midas_touch": "点金术",
-
 	"enchantment.enchantplus.fury.desc": "降低护甲，提高穿透和伤害。",
 	"enchantment.enchantplus.lifeplus.desc": "获得额外生命值。",
 	"enchantment.enchantplus.venom_protection.desc": "防护负面效果。",
@@ -186,21 +181,18 @@
 	"enchantment.enchantplus.rebound.desc": "箭矢会在墙壁上反弹。",
 	"enchantment.enchantplus.storm_arrow.desc": "击中时召唤闪电。",
 	"enchantment.enchantplus.gungnir_breath.desc": "冻结水并减缓目标。",
-
 	"enchantment.enchantplus.kinetic_protection": "动能保护",
 	"enchantment.enchantplus.harvest": "收获",
 	"enchantment.enchantplus.dimensional_strike": "维度打击",
 	"enchantment.enchantplus.critical_hit": "暴击",
 	"enchantment.enchantplus.runic_despair": "符文绝望",
 	"enchantment.enchantplus.death_touch": "死亡之触",
-
 	"enchantment.enchantplus.kinetic_protection.desc": "保护你免受鞘翅碰撞伤害",
 	"enchantment.enchantplus.harvest.desc": "允许在区域内种植",
 	"enchantment.enchantplus.dimensional_strike.desc": "在其他维度造成更多伤害",
 	"enchantment.enchantplus.critical_hit.desc": "有几率造成真实伤害",
 	"enchantment.enchantplus.runic_despair.desc": "在符文维度造成更多伤害",
 	"enchantment.enchantplus.death_touch.desc": "给予敌人黑暗效果",
-
 	"advancement.enchantplus.description.critical_hit": "有几率穿透护甲",
 	"advancement.enchantplus.description.dimensional_strike": "在其他维度更强大",
 	"advancement.enchantplus.description.runic_despair": "释放符文之力",
