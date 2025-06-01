@@ -180,7 +180,7 @@
 				]
 			}
 		},
-		"critical_hit": {
+		"critical": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
@@ -214,17 +214,41 @@
 		}
 	},
 	"requirements": [
-		["attack_speed"],
-		["life_steal"],
-		["poison_aspect"],
-		["reach"],
-		["fear"],
-		["xp_boost"],
-		["pull"],
-		["tears_of_asflors"],
-		["last_hope"],
-		["dimensional_strike"],
-		["critical_hit"],
-		["runic_despair"]
+		[
+			"attack_speed"
+		],
+		[
+			"life_steal"
+		],
+		[
+			"poison_aspect"
+		],
+		[
+			"reach"
+		],
+		[
+			"fear"
+		],
+		[
+			"xp_boost"
+		],
+		[
+			"pull"
+		],
+		[
+			"tears_of_asflors"
+		],
+		[
+			"last_hope"
+		],
+		[
+			"dimensional_strike"
+		],
+		[
+			"critical"
+		],
+		[
+			"runic_despair"
+		]
 	]
 }

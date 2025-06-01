@@ -80,7 +80,6 @@
 	"advancement.enchantplus.description.auto_smelt": "最高だぜ",
 	"advancement.enchantplus.description.miningplus": "パラディウムへようこそ",
 	"advancement.enchantplus.description.gungnir_breath": "オーディンの愛用武器",
-
 	"enchantment.enchantplus.fury": "激怒",
 	"enchantment.enchantplus.lifeplus": "生命力+",
 	"enchantment.enchantplus.venom_protection": "毒耐性",
@@ -126,7 +125,6 @@
 	"enchantment.enchantplus.auto_smelt": "自動精錬",
 	"enchantment.enchantplus.miningplus": "採掘+",
 	"enchantment.enchantplus.gungnir_breath": "グングニルの息吹",
-
 	"enchantment.enchantplus.fury.desc": "防御力を低下させますが、貫通力とダメージが増加します。",
 	"enchantment.enchantplus.lifeplus.desc": "追加のハートを付与します。",
 	"enchantment.enchantplus.venom_protection.desc": "毒を無効化します。",
@@ -169,21 +167,18 @@
 	"enchantment.enchantplus.rebound.desc": "矢が壁に跳ね返るようになります。",
 	"enchantment.enchantplus.storm_arrow.desc": "衝突時に雷を召喚します。",
 	"enchantment.enchantplus.gungnir_breath.desc": "水を凍結させ、対象を減速させます。",
-
 	"enchantment.enchantplus.kinetic_protection": "運動エネルギー保護",
 	"enchantment.enchantplus.harvest": "収穫",
 	"enchantment.enchantplus.dimensional_strike": "次元の一撃",
 	"enchantment.enchantplus.critical_hit": "クリティカルヒット",
 	"enchantment.enchantplus.runic_despair": "ルーンの絶望",
 	"enchantment.enchantplus.death_touch": "死の接触",
-
 	"enchantment.enchantplus.kinetic_protection.desc": "エリトラの衝突ダメージから保護します",
 	"enchantment.enchantplus.harvest.desc": "範囲内に作物を植えることができます",
 	"enchantment.enchantplus.dimensional_strike.desc": "他の次元でのダメージが増加します",
 	"enchantment.enchantplus.critical_hit.desc": "確率で貫通ダメージを与えます",
 	"enchantment.enchantplus.runic_despair.desc": "ルーン次元でのダメージが増加します",
 	"enchantment.enchantplus.death_touch.desc": "敵に暗闇を付与します",
-
 	"advancement.enchantplus.description.critical_hit": "防具を貫通するチャンス",
 	"advancement.enchantplus.description.dimensional_strike": "他の次元でより強力に",
 	"advancement.enchantplus.description.runic_despair": "ルーンの力を解き放て",
@@ -193,25 +188,19 @@
 	"advancement.enchantplus.description.velocity": "俺はスピードだ！カチャウ！",
 	"advancement.enchantplus.description.steel_fang": "牙のある馬がいれば、剣なんかいらない",
 	"advancement.enchantplus.description.cavalier_egis": "あなたの馬は今や戦車と思っている！",
-	"advancement.enchantplus.description.magnet": "かがまずに拾う",
 	"advancement.enchantplus.description.midas_touch": "適度に使用してください",
-
 	"advancement.enchantplus.title.mounted": "ネオ騎乗",
 	"advancement.enchantplus.description.mounted": "騎乗生物用のすべてのカスタムエンチャント本を入手",
 	"advancement.enchantplus.title.special": "ネオ特殊",
 	"advancement.enchantplus.description.special": "特殊ツール用のすべてのカスタムエンチャント本を入手",
-
 	"enchantment.enchantplus.ethereal_leap": "幽玄跳躍",
 	"enchantment.enchantplus.velocity": "速度",
 	"enchantment.enchantplus.steel_fang": "鋼の牙",
 	"enchantment.enchantplus.cavalier_egis": "騎士の守り",
-	"enchantment.enchantplus.magnet": "マグネット",
 	"enchantment.enchantplus.midas_touch": "ミダスの手",
-
 	"enchantment.enchantplus.ethereal_leap.desc": "乗り物のジャンプ高さを上げ、落下ダメージを軽減。",
 	"enchantment.enchantplus.velocity.desc": "乗り物の移動速度を上げる。",
 	"enchantment.enchantplus.steel_fang.desc": "乗り物が与えるダメージを増加させる。",
 	"enchantment.enchantplus.cavalier_egis.desc": "騎乗中に受けるダメージを軽減する。",
-	"enchantment.enchantplus.magnet.desc": "近くのアイテムを自動的に引き寄せる。",
 	"enchantment.enchantplus.midas_touch.desc": "ブロックを金や金鉱石に変える。"
 }

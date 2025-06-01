@@ -17,7 +17,7 @@
 		"announce_to_chat": false,
 		"hidden": false
 	},
-	"parent": "enchantplus:weapons/sword/critical_hit",
+	"parent": "enchantplus:weapons/sword/critical",
 	"criteria": {
 		"requirement": {
 			"trigger": "minecraft:inventory_changed",

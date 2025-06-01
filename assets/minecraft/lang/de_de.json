@@ -84,7 +84,6 @@
 	"advancement.enchantplus.description.auto_smelt": "Die beste Verzauberung aller Zeiten!",
 	"advancement.enchantplus.description.miningplus": "Willkommen in Paladium!",
 	"advancement.enchantplus.description.gungnir_breath": "Odins Lieblingswaffe",
-
 	"enchantment.enchantplus.fury": "Raserei",
 	"enchantment.enchantplus.lifeplus": "Leben+",
 	"enchantment.enchantplus.venom_protection": "Giftschutz",
@@ -130,7 +129,6 @@
 	"enchantment.enchantplus.auto_smelt": "Auto-Schmelzen",
 	"enchantment.enchantplus.miningplus": "Bergbau+",
 	"enchantment.enchantplus.gungnir_breath": "Gungnirs Atem",
-
 	"enchantment.enchantplus.fury.desc": "Reduziert Rüstung, erhöht Durchdringung und Schaden.",
 	"enchantment.enchantplus.lifeplus.desc": "Gewährt zusätzliche Herzen.",
 	"enchantment.enchantplus.venom_protection.desc": "Schützt vor negativen Effekten.",
@@ -173,21 +171,18 @@
 	"enchantment.enchantplus.rebound.desc": "Pfeile prallen von Wänden ab.",
 	"enchantment.enchantplus.storm_arrow.desc": "Beschwört Blitze beim Einschlag.",
 	"enchantment.enchantplus.gungnir_breath.desc": "Gefriert Wasser und verlangsamt Ziele.",
-
 	"enchantment.enchantplus.kinetic_protection": "Kinetischer Schutz",
 	"enchantment.enchantplus.harvest": "Ernte",
 	"enchantment.enchantplus.dimensional_strike": "Dimensionaler Schlag",
 	"enchantment.enchantplus.critical_hit": "Kritischer Treffer",
 	"enchantment.enchantplus.runic_despair": "Runische Verzweiflung",
 	"enchantment.enchantplus.death_touch": "Todesberührung",
-
 	"enchantment.enchantplus.kinetic_protection.desc": "Schützt dich vor Elytra-Aufprallschaden",
 	"enchantment.enchantplus.harvest.desc": "Ermöglicht das Pflanzen in einem Bereich",
 	"enchantment.enchantplus.dimensional_strike.desc": "Erhöht den Schaden in anderen Dimensionen",
 	"enchantment.enchantplus.critical_hit.desc": "Chance auf echten Schaden",
 	"enchantment.enchantplus.runic_despair.desc": "Erhöht den Schaden in der Runischen Dimension",
 	"enchantment.enchantplus.death_touch.desc": "Fügt Gegnern Dunkelheit zu",
-
 	"advancement.enchantplus.description.critical_hit": "Chance, Rüstung zu durchdringen",
 	"advancement.enchantplus.description.dimensional_strike": "Stärker in anderen Dimensionen",
 	"advancement.enchantplus.description.runic_despair": "Entfessle runische Macht",
@@ -197,20 +192,15 @@
 	"advancement.enchantplus.description.velocity": "Ich bin schnell, zu schnell!",
 	"advancement.enchantplus.description.steel_fang": "Wer braucht ein Schwert, wenn man ein Pferd mit Zähnen hat?",
 	"advancement.enchantplus.description.cavalier_egis": "Dein Pferd denkt, es ist ein Panzer!",
-	"advancement.enchantplus.description.magnet": "Aufheben ohne sich zu bücken",
 	"advancement.enchantplus.description.midas_touch": "Mit Vorsicht zu genießen",
-
 	"enchantment.enchantplus.ethereal_leap": "Ätherischer Sprung",
 	"enchantment.enchantplus.velocity": "Geschwindigkeit",
 	"enchantment.enchantplus.steel_fang": "Stahlfang",
 	"enchantment.enchantplus.cavalier_egis": "Reiteregide",
-	"enchantment.enchantplus.magnet": "Magnet",
 	"enchantment.enchantplus.midas_touch": "Midas-Berührung",
-
 	"enchantment.enchantplus.ethereal_leap.desc": "Erhöht die Sprunghöhe deines Reittiers und reduziert Fallschaden.",
 	"enchantment.enchantplus.velocity.desc": "Erhöht die Bewegungsgeschwindigkeit deines Reittiers.",
 	"enchantment.enchantplus.steel_fang.desc": "Ermöglicht deinem Reittier, mehr Schaden anzurichten.",
 	"enchantment.enchantplus.cavalier_egis.desc": "Reduziert erlittenen Schaden beim Reiten eines Reittiers.",
-	"enchantment.enchantplus.magnet.desc": "Zieht automatisch Gegenstände in der Nähe an.",
 	"enchantment.enchantplus.midas_touch.desc": "Verwandelt Blöcke in Gold oder Golderz."
 }

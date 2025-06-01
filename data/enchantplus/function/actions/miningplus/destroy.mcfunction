@@ -7,5 +7,4 @@
 #
 
 execute as @p[predicate=enchantplus:enchantments/miningplus] run function enchantplus:actions/miningplus/break/starting
-kill @s
-
+kill @s[type=minecraft:marker]
