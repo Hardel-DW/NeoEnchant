@@ -3,7 +3,7 @@
 		"translate": "enchantment.enchantplus.explosive_arrow",
 		"fallback": "Explosive Arrow"
 	},
-	"exclusive_set": "#enchantplus:exclusive_set/bow",
+	"exclusive_set": "#enchantplus:exclusive_set/explosive",
 	"supported_items": "#voxel:enchantable/range",
 	"weight": 2,
 	"max_level": 4,
@@ -16,7 +16,10 @@
 		"per_level_above_first": 9
 	},
 	"anvil_cost": 6,
-	"slots": ["mainhand", "offhand"],
+	"slots": [
+		"mainhand",
+		"offhand"
+	],
 	"effects": {
 		"minecraft:post_attack": [
 			{
