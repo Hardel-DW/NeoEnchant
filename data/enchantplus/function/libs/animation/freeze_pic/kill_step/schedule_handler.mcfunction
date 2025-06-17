@@ -1,0 +1,2 @@
+execute store result score #global enchantplus.gametime run time query gametime
+execute as @e[type=block_display,tag=enchantplus.block_display.freezing,scores={enchantplus.animation_state=2}] run function enchantplus:libs/animation/freeze_pic/kill_step/entry
