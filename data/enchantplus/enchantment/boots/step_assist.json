@@ -20,16 +20,29 @@
     },
     "anvil_cost": 3,
     "effects": {
-        "minecraft:attributes": [
+        "minecraft:location_changed": [
             {
-                "id": "minecraft:enchantment.step_assist",
-                "attribute": "minecraft:step_height",
-                "amount": {
-                    "type": "minecraft:linear",
-                    "base": 0.4,
-                    "per_level_above_first": 1
+                "effect": {
+                    "type": "minecraft:attribute",
+                    "id": "minecraft:enchantment.step_assist",
+                    "attribute": "minecraft:step_height",
+                    "amount": {
+                        "type": "minecraft:linear",
+                        "base": 0.4,
+                        "per_level_above_first": 1
+                    },
+                    "operation": "add_value"
                 },
-                "operation": "add_value"
+                "requirements": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "flags": {
+                            "is_sneaking": false,
+                            "is_on_ground": true
+                        }
+                    }
+                }
             }
         ]
     }
