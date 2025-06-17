@@ -16,7 +16,9 @@
 		"per_level_above_first": 9
 	},
 	"anvil_cost": 2,
-	"slots": ["mainhand"],
+	"slots": [
+		"mainhand"
+	],
 	"effects": {
 		"minecraft:armor_effectiveness": [
 			{

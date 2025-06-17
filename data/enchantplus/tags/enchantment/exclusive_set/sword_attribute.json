@@ -3,7 +3,8 @@
 		"enchantplus:sword/attack_speed",
 		"enchantplus:sword/reach",
 		"enchantplus:sword/runic_despair",
-		"enchantplus:sword/dimensional_hit"
+		"enchantplus:sword/dimensional_hit",
+		"enchantplus:sword/critical"
 	],
 	"replace": false
 }
