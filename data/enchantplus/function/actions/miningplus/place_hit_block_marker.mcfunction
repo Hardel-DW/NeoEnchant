@@ -6,7 +6,6 @@
 # @description	Summon a miningplus marker
 #
 
-execute align xyz run summon marker ~ ~ ~ {Tags: ["enchantplus.libs.hit_block", "enchantplus.hit_block.miningplus"]}
-execute store result score @n[type=minecraft:marker,tag=enchantplus.hit_block.miningplus] enchantplus.gametime run time query gametime
+execute align xyz summon marker run function enchantplus:actions/miningplus/summon_marker
 schedule function enchantplus:libs/hit_block/schedule_handler 5s append
 function enchantplus:actions/miningplus/process_markers

@@ -6,7 +6,7 @@
 	"exclusive_set": "#enchantplus:exclusive_set/bow",
 	"supported_items": "#voxel:enchantable/range",
 	"weight": 2,
-	"max_level": 3,
+	"max_level": 4,
 	"min_cost": {
 		"base": 50,
 		"per_level_above_first": 9

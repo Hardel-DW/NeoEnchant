@@ -1,12 +1,12 @@
 {
 	"description": {
-		"translate": "enchantment.enchantplus.dimensional_hit",
-		"fallback": "Dimensional Hit"
+		"translate": "enchantment.enchantplus.critical_hit",
+		"fallback": "Critical Hit"
 	},
 	"exclusive_set": "#enchantplus:exclusive_set/sword_attribute",
 	"supported_items": "#minecraft:enchantable/sword",
 	"weight": 4,
-	"max_level": 5,
+	"max_level": 4,
 	"min_cost": {
 		"base": 8,
 		"per_level_above_first": 11

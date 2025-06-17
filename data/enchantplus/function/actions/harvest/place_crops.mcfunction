@@ -1,2 +1,0 @@
-particle composter ~ ~ ~ 0 0 0 0 100
-execute if score @s enchantplus.harvest.type matches 1.. if block ~ ~-1 ~ farmland if block ~ ~ ~ air if predicate enchantplus:harvest/has_crops run function enchantplus:actions/harvest/place_enum

@@ -1,0 +1,33 @@
+{
+	"description": {
+		"translate": "enchantment.enchantplus.steel_fang",
+		"fallback": "Steel Fang"
+	},
+	"supported_items": "#enchantplus:enchantable/dog",
+	"weight": 2,
+	"max_level": 3,
+	"min_cost": {
+		"base": 6,
+		"per_level_above_first": 17
+	},
+	"max_cost": {
+		"base": 20,
+		"per_level_above_first": 17
+	},
+	"anvil_cost": 2,
+	"slots": ["body"],
+	"effects": {
+		"minecraft:damage": [
+			{
+				"effect": {
+					"type": "minecraft:add",
+					"value": {
+						"type": "minecraft:linear",
+						"base": 0.5,
+						"per_level_above_first": 0.5
+					}
+				}
+			}
+		]
+	}
+}

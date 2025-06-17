@@ -28,7 +28,7 @@
 					"fallback": {
 						"type": "minecraft:linear",
 						"base": 0.25,
-						"per_level_above_first": 0.25
+						"per_level_above_first": 0.35
 					}
 				},
 				"operation": "add_multiplied_base"
@@ -42,26 +42,6 @@
 					"per_level_above_first": 0.5
 				},
 				"operation": "add_value"
-			},
-			{
-				"id": "minecraft:enchantment.oversize.attack_speed",
-				"attribute": "minecraft:attack_speed",
-				"amount": {
-					"type": "minecraft:linear",
-					"base": -0.1,
-					"per_level_above_first": -0.1
-				},
-				"operation": "add_multiplied_total"
-			},
-			{
-				"id": "minecraft:enchantment.oversize.speed",
-				"attribute": "minecraft:movement_speed",
-				"amount": {
-					"type": "minecraft:linear",
-					"base": -0.1,
-					"per_level_above_first": -0.75
-				},
-				"operation": "add_multiplied_total"
 			}
 		]
 	}

@@ -1,7 +1,7 @@
 {
 	"description": {
-		"translate": "enchantment.enchantplus.dimensional_hit",
-		"fallback": "Dimensional Hit"
+		"translate": "enchantment.enchantplus.dimensional_strike",
+		"fallback": "Dimensional Strike"
 	},
 	"exclusive_set": "#enchantplus:exclusive_set/sword_attribute",
 	"supported_items": "#minecraft:enchantable/sword",

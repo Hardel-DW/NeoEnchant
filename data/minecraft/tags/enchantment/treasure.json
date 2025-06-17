@@ -4,7 +4,11 @@
 		"enchantplus:armor/venom_protection",
 		"enchantplus:leggings/fast_swim",
 		"enchantplus:hoe/harvest",
-		"enchantplus:elytra/kinetic_protection"
+		"enchantplus:elytra/kinetic_protection",
+		"enchantplus:mounted/velocity",
+		"enchantplus:mounted/ethereal_leap",
+		"enchantplus:mounted/steel_fang",
+		"enchantplus:mounted/cavalier_egis"
 	],
 	"replace": false
 }
