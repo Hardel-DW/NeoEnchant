@@ -205,5 +205,8 @@
 	"enchantment.enchantplus.midas_touch.desc": "Verwandelt Blöcke in Gold oder Golderz.",
 	"enchantment.enchantplus.happy_boost": "Fröhlicher Schub",
 	"enchantment.enchantplus.happy_boost.desc": "Erhöht die Fluggeschwindigkeit deines Fröhlichen Ghasts.",
-	"advancement.enchantplus.description.happy_boost": "Lass deinen Fröhlichen Ghast noch fröhlicher fliegen!"
+	"advancement.enchantplus.description.happy_boost": "Lass deinen Fröhlichen Ghast noch fröhlicher fliegen!",
+	"enchantment.enchantplus.curse_of_clumsiness": "Fluch der Dünenlosigkeit",
+	"enchantment.enchantplus.curse_of_clumsiness.desc": "Ein Fluch, der deine Klinge schwächt.",
+	"advancement.enchantplus.description.curse_of_clumsiness": "Ein Fluch, der deine Klinge schwächt!"
 }

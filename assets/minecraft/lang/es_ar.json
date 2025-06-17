@@ -205,5 +205,8 @@
 	"enchantment.enchantplus.midas_touch.desc": "Transforma bloques en oro o mineral de oro.",
 	"enchantment.enchantplus.happy_boost": "Impulso Feliz",
 	"enchantment.enchantplus.happy_boost.desc": "Aumenta la velocidad de vuelo de tu Happy Ghast.",
-	"advancement.enchantplus.description.happy_boost": "¡Hacé que tu Happy Ghast vuele aún más feliz!"
+	"advancement.enchantplus.description.happy_boost": "¡Hacé que tu Happy Ghast vuele aún más feliz!",
+	"enchantment.enchantplus.curse_of_clumsiness": "Maldición Sin Dunas",
+	"enchantment.enchantplus.curse_of_clumsiness.desc": "Una maldición que debilita tu espada.",
+	"advancement.enchantplus.description.curse_of_clumsiness": "¡Una maldición que debilita tu espada!"
 }

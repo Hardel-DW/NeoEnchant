@@ -205,5 +205,8 @@
 	"enchantment.enchantplus.midas_touch.desc": "ブロックを金や金鉱石に変える。",
 	"enchantment.enchantplus.happy_boost": "ハッピーブースト",
 	"enchantment.enchantplus.happy_boost.desc": "ハッピーガストの飛行速度を向上させます。",
-	"advancement.enchantplus.description.happy_boost": "あなたのハッピーガストをもっと嬉しく飛ばそう！"
+	"advancement.enchantplus.description.happy_boost": "あなたのハッピーガストをもっと嬉しく飛ばそう！",
+	"enchantment.enchantplus.curse_of_clumsiness": "砂丘なしの呪い",
+	"enchantment.enchantplus.curse_of_clumsiness.desc": "あなたの刃を弱くする呪いです。",
+	"advancement.enchantplus.description.curse_of_clumsiness": "あなたの刃を弱くする呪い！"
 }

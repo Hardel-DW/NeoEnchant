@@ -205,5 +205,8 @@
 	"advancement.enchantplus.description.harvest": "It's a Seed Planter ???",
 	"enchantment.enchantplus.happy_boost": "Happy Boost",
 	"enchantment.enchantplus.happy_boost.desc": "Increases the flying speed of your Happy Ghast.",
-	"advancement.enchantplus.description.happy_boost": "Make your Happy Ghast fly even happier!"
+	"advancement.enchantplus.description.happy_boost": "Make your Happy Ghast fly even happier!",
+	"enchantment.enchantplus.curse_of_duneless": "Curse of Duneless",
+	"enchantment.enchantplus.curse_of_duneless.desc": "A curse that weakens your blade.",
+	"advancement.enchantplus.description.curse_of_duneless": "A curse that weakens your blade!"
 }

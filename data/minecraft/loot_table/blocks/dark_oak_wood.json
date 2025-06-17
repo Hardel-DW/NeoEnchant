@@ -28,36 +28,6 @@
 							}
 						}
 					]
-				},
-				{
-					"function": "minecraft:set_components",
-					"components": {
-						"minecraft:custom_data": {
-							"ne_auto_smelt_drops_xp": true,
-							"ne_auto_smelt_xp": 1
-						}
-					},
-					"conditions": [
-						{
-							"condition": "minecraft:match_tool",
-							"predicate": {
-								"predicates": {
-									"minecraft:enchantments": [
-										{
-											"enchantments": "enchantplus:tools/auto_smelt",
-											"levels": {
-												"min": 1
-											}
-										}
-									]
-								}
-							}
-						},
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.15
-						}
-					]
 				}
 			],
 			"entries": [
@@ -71,3 +41,5 @@
 	],
 	"random_sequence": "minecraft:blocks/dark_oak_wood"
 }
+
+

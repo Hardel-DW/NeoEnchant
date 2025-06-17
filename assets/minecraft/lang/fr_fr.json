@@ -203,5 +203,8 @@
 	"advancement.enchantplus.description.midas_touch": "À consommer avec modération",
 	"enchantment.enchantplus.happy_boost": "Boost Joyeux",
 	"enchantment.enchantplus.happy_boost.desc": "Augmente la vitesse de vol de votre Happy Ghast.",
-	"advancement.enchantplus.description.happy_boost": "Faites voler votre Happy Ghast encore plus joyeusement !"
+	"advancement.enchantplus.description.happy_boost": "Faites voler votre Happy Ghast encore plus joyeusement !",
+	"enchantment.enchantplus.curse_of_clumsiness": "Malédiction des Dunes",
+	"enchantment.enchantplus.curse_of_clumsiness.desc": "Une malédiction qui affaiblit votre lame.",
+	"advancement.enchantplus.description.curse_of_clumsiness": "Une malédiction qui affaiblit votre lame !"
 }

@@ -205,5 +205,8 @@
 	"advancement.enchantplus.description.harvest": "Это что, сеялка???",
 	"enchantment.enchantplus.happy_boost": "Счастливый Разгон",
 	"enchantment.enchantplus.happy_boost.desc": "Увеличивает скорость полёта вашего Счастливого Гаста.",
-	"advancement.enchantplus.description.happy_boost": "Пусть ваш Счастливый Гаст летает ещё радостнее!"
+	"advancement.enchantplus.description.happy_boost": "Пусть ваш Счастливый Гаст летает ещё радостнее!",
+	"enchantment.enchantplus.curse_of_clumsiness": "Проклятие Бездюнности",
+	"enchantment.enchantplus.curse_of_clumsiness.desc": "Проклятие, которое ослабляет ваш клинок.",
+	"advancement.enchantplus.description.curse_of_clumsiness": "Проклятие, которое ослабляет ваш клинок!"
 }

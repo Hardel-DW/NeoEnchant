@@ -200,5 +200,8 @@
 	"advancement.enchantplus.description.harvest": "这是个播种机？？？",
 	"enchantment.enchantplus.happy_boost": "快乐增幅",
 	"enchantment.enchantplus.happy_boost.desc": "增加你的快乐恶魂的飞行速度。",
-	"advancement.enchantplus.description.happy_boost": "让你的快乐恶魂飞得更开心！"
+	"advancement.enchantplus.description.happy_boost": "让你的快乐恶魂飞得更开心！",
+	"enchantment.enchantplus.curse_of_clumsiness": "无沙丘诅咒",
+	"enchantment.enchantplus.curse_of_clumsiness.desc": "一个削弱你的剑刃的诅咒。",
+	"advancement.enchantplus.description.curse_of_clumsiness": "一个削弱你的剑刃的诅咒！"
 }
