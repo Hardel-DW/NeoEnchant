@@ -202,5 +202,8 @@
 	"enchantment.enchantplus.velocity.desc": "Erhöht die Bewegungsgeschwindigkeit deines Reittiers.",
 	"enchantment.enchantplus.steel_fang.desc": "Ermöglicht deinem Reittier, mehr Schaden anzurichten.",
 	"enchantment.enchantplus.cavalier_egis.desc": "Reduziert erlittenen Schaden beim Reiten eines Reittiers.",
-	"enchantment.enchantplus.midas_touch.desc": "Verwandelt Blöcke in Gold oder Golderz."
+	"enchantment.enchantplus.midas_touch.desc": "Verwandelt Blöcke in Gold oder Golderz.",
+	"enchantment.enchantplus.happy_boost": "Fröhlicher Schub",
+	"enchantment.enchantplus.happy_boost.desc": "Erhöht die Fluggeschwindigkeit deines Fröhlichen Ghasts.",
+	"advancement.enchantplus.description.happy_boost": "Lass deinen Fröhlichen Ghast noch fröhlicher fliegen!"
 }

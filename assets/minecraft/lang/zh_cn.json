@@ -197,5 +197,8 @@
 	"advancement.enchantplus.description.dimensional_strike": "在其他维度更强大",
 	"advancement.enchantplus.description.runic_despair": "释放符文之力",
 	"advancement.enchantplus.description.kinetic_protection": "你不太擅长这个",
-	"advancement.enchantplus.description.harvest": "这是个播种机？？？"
+	"advancement.enchantplus.description.harvest": "这是个播种机？？？",
+	"enchantment.enchantplus.happy_boost": "快乐增幅",
+	"enchantment.enchantplus.happy_boost.desc": "增加你的快乐恶魂的飞行速度。",
+	"advancement.enchantplus.description.happy_boost": "让你的快乐恶魂飞得更开心！"
 }

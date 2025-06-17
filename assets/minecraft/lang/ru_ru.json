@@ -82,9 +82,6 @@
 	"advancement.enchantplus.description.gungnir_breath": "Любимое оружие Одина",
 	"advancement.enchantplus.description.critical": "Шанс пробить броню",
 	"advancement.enchantplus.description.dimensional_hit": "Сильнее в других измерениях",
-	"advancement.enchantplus.description.runic_despair": "Высвободите руническую силу",
-	"advancement.enchantplus.description.kinetic_protection": "Ты не очень талантлив",
-	"advancement.enchantplus.description.harvest": "Это что, сеялка???",
 	"advancement.enchantplus.description.ethereal_leap": "Твоя лошадь изображает кенгуру!",
 	"advancement.enchantplus.description.velocity": "Я скорость! Ка-чау!",
 	"advancement.enchantplus.description.steel_fang": "Кому нужен меч, когда у тебя есть лошадь с зубами?",
@@ -205,5 +202,8 @@
 	"advancement.enchantplus.description.dimensional_strike": "Сильнее в других измерениях",
 	"advancement.enchantplus.description.runic_despair": "Высвободите руническую силу",
 	"advancement.enchantplus.description.kinetic_protection": "Ты не очень талантлив",
-	"advancement.enchantplus.description.harvest": "Это что, сеялка???"
+	"advancement.enchantplus.description.harvest": "Это что, сеялка???",
+	"enchantment.enchantplus.happy_boost": "Счастливый Разгон",
+	"enchantment.enchantplus.happy_boost.desc": "Увеличивает скорость полёта вашего Счастливого Гаста.",
+	"advancement.enchantplus.description.happy_boost": "Пусть ваш Счастливый Гаст летает ещё радостнее!"
 }

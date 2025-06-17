@@ -83,12 +83,39 @@
 					}
 				]
 			}
+		},
+		"happy_boost": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"minecraft:enchantments": [
+								{
+									"enchantments": "enchantplus:mounted/happy_boost"
+								}
+							]
+						}
+					}
+				]
+			}
 		}
 	},
 	"requirements": [
-		["ethereal_leap"],
-		["velocity"],
-		["steel_fang"],
-		["cavalier_egis"]
+		[
+			"ethereal_leap"
+		],
+		[
+			"velocity"
+		],
+		[
+			"steel_fang"
+		],
+		[
+			"cavalier_egis"
+		],
+		[
+			"happy_boost"
+		]
 	]
 }

@@ -1,0 +1,35 @@
+{
+    "description": {
+        "translate": "enchantment.enchantplus.happy_boost",
+        "fallback": "Happy Boost"
+    },
+    "supported_items": "#minecraft:harnesses",
+    "weight": 2,
+    "max_level": 4,
+    "max_cost": {
+        "base": 13,
+        "per_level_above_first": 8
+    },
+    "min_cost": {
+        "base": 5,
+        "per_level_above_first": 8
+    },
+    "anvil_cost": 1,
+    "slots": [
+        "body"
+    ],
+    "effects": {
+        "minecraft:attributes": [
+            {
+                "attribute": "minecraft:flying_speed",
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": 0.5,
+                    "per_level_above_first": 0.3
+                },
+                "id": "enchantplus:happy_boost",
+                "operation": "add_multiplied_total"
+            }
+        ]
+    }
+}

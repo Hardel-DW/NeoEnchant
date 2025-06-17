@@ -202,5 +202,8 @@
 	"enchantment.enchantplus.velocity.desc": "乗り物の移動速度を上げる。",
 	"enchantment.enchantplus.steel_fang.desc": "乗り物が与えるダメージを増加させる。",
 	"enchantment.enchantplus.cavalier_egis.desc": "騎乗中に受けるダメージを軽減する。",
-	"enchantment.enchantplus.midas_touch.desc": "ブロックを金や金鉱石に変える。"
+	"enchantment.enchantplus.midas_touch.desc": "ブロックを金や金鉱石に変える。",
+	"enchantment.enchantplus.happy_boost": "ハッピーブースト",
+	"enchantment.enchantplus.happy_boost.desc": "ハッピーガストの飛行速度を向上させます。",
+	"advancement.enchantplus.description.happy_boost": "あなたのハッピーガストをもっと嬉しく飛ばそう！"
 }

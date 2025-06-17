@@ -200,5 +200,8 @@
 	"advancement.enchantplus.description.runic_despair": "Libérez le pouvoir runique",
 	"advancement.enchantplus.description.kinetic_protection": "Tu n'es pas doué",
 	"advancement.enchantplus.description.harvest": "C'est un Planteur de Graines ???",
-	"advancement.enchantplus.description.midas_touch": "À consommer avec modération"
+	"advancement.enchantplus.description.midas_touch": "À consommer avec modération",
+	"enchantment.enchantplus.happy_boost": "Boost Joyeux",
+	"enchantment.enchantplus.happy_boost.desc": "Augmente la vitesse de vol de votre Happy Ghast.",
+	"advancement.enchantplus.description.happy_boost": "Faites voler votre Happy Ghast encore plus joyeusement !"
 }

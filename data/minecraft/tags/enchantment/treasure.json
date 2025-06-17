@@ -8,7 +8,8 @@
 		"enchantplus:mounted/velocity",
 		"enchantplus:mounted/ethereal_leap",
 		"enchantplus:mounted/steel_fang",
-		"enchantplus:mounted/cavalier_egis"
+		"enchantplus:mounted/cavalier_egis",
+		"enchantplus:mounted/happy_boost"
 	],
 	"replace": false
 }

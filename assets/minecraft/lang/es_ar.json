@@ -202,5 +202,8 @@
 	"enchantment.enchantplus.velocity.desc": "Aumenta la velocidad de movimiento de tu montura.",
 	"enchantment.enchantplus.steel_fang.desc": "Permite que tu montura cause más daño al atacar.",
 	"enchantment.enchantplus.cavalier_egis.desc": "Reduce el daño recibido cuando montas una criatura.",
-	"enchantment.enchantplus.midas_touch.desc": "Transforma bloques en oro o mineral de oro."
+	"enchantment.enchantplus.midas_touch.desc": "Transforma bloques en oro o mineral de oro.",
+	"enchantment.enchantplus.happy_boost": "Impulso Feliz",
+	"enchantment.enchantplus.happy_boost.desc": "Aumenta la velocidad de vuelo de tu Happy Ghast.",
+	"advancement.enchantplus.description.happy_boost": "¡Hacé que tu Happy Ghast vuele aún más feliz!"
 }

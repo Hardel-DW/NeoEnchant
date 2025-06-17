@@ -202,5 +202,8 @@
 	"advancement.enchantplus.description.dimensional_strike": "Stronger in other dimensions",
 	"advancement.enchantplus.description.runic_despair": "Unleash runic power",
 	"advancement.enchantplus.description.kinetic_protection": "You're not talented",
-	"advancement.enchantplus.description.harvest": "It's a Seed Planter ???"
+	"advancement.enchantplus.description.harvest": "It's a Seed Planter ???",
+	"enchantment.enchantplus.happy_boost": "Happy Boost",
+	"enchantment.enchantplus.happy_boost.desc": "Increases the flying speed of your Happy Ghast.",
+	"advancement.enchantplus.description.happy_boost": "Make your Happy Ghast fly even happier!"
 }
