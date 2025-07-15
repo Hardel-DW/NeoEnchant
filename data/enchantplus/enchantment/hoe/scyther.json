@@ -44,16 +44,16 @@
                         "per_level_above_first": 1
                     },
                     "height": 1
+                },
+                "requirements": {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                        "block": {
+                            "blocks": "#minecraft:dirt"
+                        }
+                    }
                 }
             }
         ]
-    },
-    "requirements": {
-        "condition": "minecraft:location_check",
-        "predicate": {
-            "block": {
-                "blocks": "#minecraft:dirt"
-            }
-        }
     }
 }

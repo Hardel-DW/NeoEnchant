@@ -17,9 +17,59 @@
         "per_level_above_first": 15
     },
     "anvil_cost": 6,
-    "slots": ["mainhand"],
+    "slots": [
+        "mainhand"
+    ],
     "effects": {
         "minecraft:post_attack": [
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/pull/happy_ghast"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:happy_ghast"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/pull/creaking"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:creaking"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            },
             {
                 "enchanted": "attacker",
                 "affected": "victim",
@@ -649,30 +699,6 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/pull/giant"
-                },
-                "requirements": {
-                    "condition": "minecraft:all_of",
-                    "terms": [
-                        {
-                            "condition": "minecraft:entity_properties",
-                            "entity": "this",
-                            "predicate": {
-                                "type": "minecraft:giant"
-                            }
-                        },
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.01
-                        }
-                    ]
-                }
-            },
-            {
-                "enchanted": "attacker",
-                "affected": "victim",
-                "effect": {
-                    "type": "minecraft:run_function",
                     "function": "enchantplus:actions/pull/glow_squid"
                 },
                 "requirements": {
@@ -803,30 +829,6 @@
                             "entity": "this",
                             "predicate": {
                                 "type": "minecraft:husk"
-                            }
-                        },
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.01
-                        }
-                    ]
-                }
-            },
-            {
-                "enchanted": "attacker",
-                "affected": "victim",
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/pull/illusioner"
-                },
-                "requirements": {
-                    "condition": "minecraft:all_of",
-                    "terms": [
-                        {
-                            "condition": "minecraft:entity_properties",
-                            "entity": "this",
-                            "predicate": {
-                                "type": "minecraft:illusioner"
                             }
                         },
                         {
@@ -1763,30 +1765,6 @@
                             "entity": "this",
                             "predicate": {
                                 "type": "minecraft:warden"
-                            }
-                        },
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.01
-                        }
-                    ]
-                }
-            },
-            {
-                "enchanted": "attacker",
-                "affected": "victim",
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "enchantplus:actions/pull/wind_charge"
-                },
-                "requirements": {
-                    "condition": "minecraft:all_of",
-                    "terms": [
-                        {
-                            "condition": "minecraft:entity_properties",
-                            "entity": "this",
-                            "predicate": {
-                                "type": "minecraft:wind_charge"
                             }
                         },
                         {
