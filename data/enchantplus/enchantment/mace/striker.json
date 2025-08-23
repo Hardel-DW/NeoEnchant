@@ -1,6 +1,6 @@
 {
 	"description": {
-		"translate": "enchantment.minecraft.striker",
+		"translate": "enchantment.enchantplus.striker",
 		"fallback": "Striker"
 	},
 	"supported_items": "#minecraft:enchantable/mace",
