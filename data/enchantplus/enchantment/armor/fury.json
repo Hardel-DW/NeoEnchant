@@ -6,7 +6,7 @@
 	"exclusive_set": "#enchantplus:exclusive_set/armor",
 	"supported_items": "#minecraft:enchantable/armor",
 	"weight": 8,
-	"max_level": 3,
+	"max_level": 15,
 	"min_cost": {
 		"base": 12,
 		"per_level_above_first": 12
@@ -16,7 +16,9 @@
 		"per_level_above_first": 9
 	},
 	"anvil_cost": 3,
-	"slots": ["armor"],
+	"slots": [
+		"armor"
+	],
 	"effects": {
 		"minecraft:armor_effectiveness": [
 			{
