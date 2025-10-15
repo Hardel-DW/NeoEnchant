@@ -16,7 +16,10 @@
 		"per_level_above_first": 9
 	},
 	"anvil_cost": 6,
-	"slots": ["mainhand", "offhand"],
+	"slots": [
+		"mainhand",
+		"offhand"
+	],
 	"effects": {
 		"minecraft:post_attack": [
 			{
@@ -163,7 +166,8 @@
 				"effect": {
 					"type": "minecraft:spawn_particles",
 					"particle": {
-						"type": "minecraft:flash"
+						"type": "minecraft:flash",
+						"color": 16777215
 					},
 					"horizontal_position": {
 						"type": "entity_position"
