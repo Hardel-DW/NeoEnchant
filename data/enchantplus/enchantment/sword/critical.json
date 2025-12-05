@@ -4,7 +4,7 @@
 		"fallback": "Critical Hit"
 	},
 	"exclusive_set": "#enchantplus:exclusive_set/sword_attribute",
-	"supported_items": "#minecraft:enchantable/sword",
+	"supported_items": "#minecraft:enchantable/melee_weapon",
 	"weight": 4,
 	"max_level": 4,
 	"min_cost": {

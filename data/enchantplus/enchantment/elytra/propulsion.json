@@ -1,0 +1,101 @@
+{
+    "anvil_cost": 1,
+    "description": {
+        "translate": "enchantment.enchantplus.propulsion",
+        "fallback": "Propulsion"
+    },
+    "max_cost": {
+        "base": 15,
+        "per_level_above_first": 10
+    },
+    "max_level": 3,
+    "min_cost": {
+        "base": 5,
+        "per_level_above_first": 10
+    },
+    "slots": [
+        "chest"
+    ],
+    "supported_items": "#voxel:enchantable/elytra",
+    "weight": 1,
+    "effects": {
+        "minecraft:tick": [
+            {
+                "effect": {
+                    "type": "minecraft:all_of",
+                    "effects": [
+                        {
+                            "type": "minecraft:apply_exhaustion",
+                            "amount": {
+                                "type": "minecraft:linear",
+                                "base": 1,
+                                "per_level_above_first": 1
+                            }
+                        },
+                        {
+                            "type": "minecraft:apply_impulse",
+                            "direction": [
+                                0,
+                                0,
+                                1
+                            ],
+                            "coordinate_scale": [
+                                0.5,
+                                1,
+                                0.5
+                            ],
+                            "magnitude": {
+                                "type": "minecraft:linear",
+                                "base": 1,
+                                "per_level_above_first": 1
+                            }
+                        },
+                        {
+                            "type": "minecraft:play_sound",
+                            "pitch": 1,
+                            "sound": [
+                                "minecraft:item.spear.lunge_1",
+                                "minecraft:item.spear.lunge_2",
+                                "minecraft:item.spear.lunge_3"
+                            ],
+                            "volume": 1
+                        }
+                    ]
+                },
+                "requirements": [
+                    {
+                        "condition": "minecraft:all_of",
+                        "terms": [
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "type_specific": {
+                                        "type": "minecraft:player",
+                                        "input": {
+                                            "jump": true
+                                        }
+                                    },
+                                    "flags": {
+                                        "is_flying": true
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "movement": {
+                                "speed": {
+                                    "max": 35
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

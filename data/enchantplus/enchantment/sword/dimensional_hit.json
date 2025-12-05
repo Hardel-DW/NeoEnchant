@@ -4,7 +4,7 @@
 		"fallback": "Dimensional Strike"
 	},
 	"exclusive_set": "#enchantplus:exclusive_set/sword_attribute",
-	"supported_items": "#minecraft:enchantable/sword",
+	"supported_items": "#minecraft:enchantable/melee_weapon",
 	"weight": 4,
 	"max_level": 5,
 	"min_cost": {
@@ -16,7 +16,9 @@
 		"per_level_above_first": 9
 	},
 	"anvil_cost": 2,
-	"slots": ["mainhand"],
+	"slots": [
+		"mainhand"
+	],
 	"effects": {
 		"minecraft:damage": [
 			{

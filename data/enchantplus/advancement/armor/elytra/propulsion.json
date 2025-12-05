@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:enchanted_book"
+        },
+        "title": {
+            "translate": "enchantment.enchantplus.propulsion",
+            "fallback": "Propulsion",
+            "color": "#40E6FF"
+        },
+        "description": {
+            "translate": "advancement.enchantplus.description.propulsion",
+            "fallback": "Who needs fireworks anyway?"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "enchantplus:armor/elytra/kinetic_protection",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "minecraft:enchantments": [
+                                {
+                                    "enchantments": "enchantplus:elytra/propulsion"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

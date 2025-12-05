@@ -13,7 +13,9 @@
 		"base": 1,
 		"per_level_above_first": 11
 	},
-	"slots": ["chest"],
+	"slots": [
+		"chest"
+	],
 	"supported_items": "#voxel:enchantable/elytra",
 	"weight": 1,
 	"effects": {
