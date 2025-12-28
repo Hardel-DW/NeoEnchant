@@ -14,7 +14,7 @@ curseforge:
     enabled: true
     project_id: 1135663
     java_versions:
-      - Java 21
+      - Java 17
     environments:
       - server
 package_as_mod:
