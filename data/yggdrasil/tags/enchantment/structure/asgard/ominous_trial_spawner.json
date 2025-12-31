@@ -7,7 +7,6 @@
 		"enchantplus:elytra/kinetic_protection",
 		"enchantplus:sword/critical",
 		"enchantplus:pickaxe/bedrock_breaker",
-		"enchantplus:pickaxe/spawner_touch",
-		"enchantplus:elytra/propulsion"
+		"enchantplus:pickaxe/spawner_touch"
 	]
 }

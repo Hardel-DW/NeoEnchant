@@ -20,7 +20,7 @@
 		"minecraft:attributes": [
 			{
 				"id": "minecraft:enchantment.velocity",
-				"attribute": "minecraft:movement_speed",
+				"attribute": "minecraft:generic.movement_speed",
 				"amount": {
 					"type": "minecraft:linear",
 					"base": 0.55,

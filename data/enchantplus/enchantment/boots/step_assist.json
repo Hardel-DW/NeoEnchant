@@ -1,49 +1,34 @@
 {
-    "description": {
-        "translate": "enchantment.enchantplus.step_assist",
-        "fallback": "Step Assist"
-    },
-    "slots": [
-        "feet"
-    ],
-    "exclusive_set": "#minecraft:exclusive_set/boots",
-    "supported_items": "#minecraft:enchantable/foot_armor",
-    "weight": 1,
-    "max_level": 3,
-    "min_cost": {
-        "base": 65,
-        "per_level_above_first": 9
-    },
-    "max_cost": {
-        "base": 65,
-        "per_level_above_first": 9
-    },
-    "anvil_cost": 3,
-    "effects": {
-        "minecraft:location_changed": [
-            {
-                "effect": {
-                    "type": "minecraft:attribute",
-                    "id": "minecraft:enchantment.step_assist",
-                    "attribute": "minecraft:step_height",
-                    "amount": {
-                        "type": "minecraft:linear",
-                        "base": 0.4,
-                        "per_level_above_first": 1
-                    },
-                    "operation": "add_value"
-                },
-                "requirements": {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                        "flags": {
-                            "is_sneaking": false,
-                            "is_on_ground": true
-                        }
-                    }
-                }
-            }
-        ]
-    }
+	"description": {
+		"translate": "enchantment.enchantplus.step_assist",
+		"fallback": "Step Assist"
+	},
+	"slots": ["feet"],
+	"exclusive_set": "#minecraft:exclusive_set/boots",
+	"supported_items": "#minecraft:enchantable/foot_armor",
+	"weight": 1,
+	"max_level": 3,
+	"min_cost": {
+		"base": 65,
+		"per_level_above_first": 9
+	},
+	"max_cost": {
+		"base": 65,
+		"per_level_above_first": 9
+	},
+	"anvil_cost": 3,
+	"effects": {
+		"minecraft:attributes": [
+			{
+				"id": "minecraft:enchantment.step_assist",
+				"attribute": "minecraft:generic.step_height",
+				"amount": {
+					"type": "minecraft:linear",
+					"base": 0.4,
+					"per_level_above_first": 1
+				},
+				"operation": "add_value"
+			}
+		]
+	}
 }

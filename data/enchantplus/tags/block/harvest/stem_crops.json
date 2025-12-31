@@ -1,6 +1,3 @@
 {
-    "values": [
-        "minecraft:melon_stem",
-        "minecraft:pumpkin_stem"
-    ]
+	"values": ["minecraft:melon_stem", "minecraft:pumpkin_stem"]
 }

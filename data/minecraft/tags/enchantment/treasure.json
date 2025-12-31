@@ -8,13 +8,7 @@
 		"enchantplus:mounted/velocity",
 		"enchantplus:mounted/ethereal_leap",
 		"enchantplus:mounted/steel_fang",
-		"enchantplus:mounted/cavalier_egis",
-		"enchantplus:mounted/happy_boost",
-		"enchantplus:sword/pull",
-		"enchantplus:sword/last_hope",
-		"enchantplus:sword/dimensional_hit",
-		"enchantplus:mace/teluric_wave",
-		"enchantplus:helmet/voidless"
+		"enchantplus:mounted/cavalier_egis"
 	],
 	"replace": false
 }

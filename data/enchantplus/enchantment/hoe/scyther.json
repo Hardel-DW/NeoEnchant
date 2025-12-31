@@ -1,59 +1,45 @@
 {
-    "description": {
-        "translate": "enchantment.enchantplus.scyther",
-        "fallback": "Scyther"
-    },
-    "supported_items": "#voxel:enchantable/hoes",
-    "weight": 6,
-    "max_level": 3,
-    "min_cost": {
-        "base": 12,
-        "per_level_above_first": 9
-    },
-    "max_cost": {
-        "base": 29,
-        "per_level_above_first": 5
-    },
-    "anvil_cost": 2,
-    "slots": [
-        "mainhand"
-    ],
-    "effects": {
-        "minecraft:hit_block": [
-            {
-                "effect": {
-                    "type": "minecraft:replace_disk",
-                    "block_state": {
-                        "type": "minecraft:simple_state_provider",
-                        "state": {
-                            "Name": "minecraft:farmland"
-                        }
-                    },
-                    "predicate": {
-                        "type": "minecraft:matching_blocks",
-                        "offset": [
-                            0,
-                            0,
-                            0
-                        ],
-                        "blocks": "#minecraft:dirt"
-                    },
-                    "radius": {
-                        "type": "minecraft:linear",
-                        "base": 2,
-                        "per_level_above_first": 1
-                    },
-                    "height": 1
-                },
-                "requirements": {
-                    "condition": "minecraft:location_check",
-                    "predicate": {
-                        "block": {
-                            "blocks": "#minecraft:dirt"
-                        }
-                    }
-                }
-            }
-        ]
-    }
+	"description": {
+		"translate": "enchantment.enchantplus.scyther",
+		"fallback": "Scyther"
+	},
+	"supported_items": "#voxel:enchantable/hoes",
+	"weight": 6,
+	"max_level": 3,
+	"min_cost": {
+		"base": 12,
+		"per_level_above_first": 9
+	},
+	"max_cost": {
+		"base": 29,
+		"per_level_above_first": 5
+	},
+	"anvil_cost": 2,
+	"slots": ["mainhand"],
+	"effects": {
+		"minecraft:hit_block": [
+			{
+				"effect": {
+					"type": "minecraft:replace_disk",
+					"block_state": {
+						"type": "minecraft:simple_state_provider",
+						"state": {
+							"Name": "minecraft:farmland"
+						}
+					},
+					"predicate": {
+						"type": "minecraft:matching_blocks",
+						"offset": [0, 0, 0],
+						"blocks": "#minecraft:dirt"
+					},
+					"radius": {
+						"type": "minecraft:linear",
+						"base": 2,
+						"per_level_above_first": 1
+					},
+					"height": 1
+				}
+			}
+		]
+	}
 }

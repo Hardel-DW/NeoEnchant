@@ -12,7 +12,7 @@
       "fallback": "Discover a new power of enchantments",
       "color": "aqua"
     },
-    "background": "minecraft:block/quartz_block_side",
+    "background": "minecraft:textures/block/quartz_block_side.png",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

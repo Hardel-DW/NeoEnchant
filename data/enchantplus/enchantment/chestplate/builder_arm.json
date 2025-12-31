@@ -20,7 +20,7 @@
 		"minecraft:attributes": [
 			{
 				"id": "minecraft:enchantment.wonder_arm",
-				"attribute": "minecraft:block_interaction_range",
+				"attribute": "minecraft:player.block_interaction_range",
 				"amount": {
 					"type": "minecraft:linear",
 					"base": 1,

@@ -9,3 +9,4 @@
 tag @s add enchantplus.start_breaking
 execute as @p[predicate=enchantplus:enchantments/vein_miner] run function enchantplus:actions/vein_miner/propagate
 kill @s
+

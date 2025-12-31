@@ -16,27 +16,13 @@
 		"per_level_above_first": 9
 	},
 	"anvil_cost": 4,
-	"slots": [
-		"mainhand"
-	],
+	"slots": ["mainhand"],
 	"effects": {
 		"minecraft:hit_block": [
 			{
 				"effect": {
 					"type": "minecraft:run_function",
 					"function": "enchantplus:actions/vein_miner/place_hit_block_marker"
-				},
-				"requirements": {
-					"condition": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"type_specific": {
-							"type": "minecraft:player",
-							"input": {
-								"sneak": false
-							}
-						}
-					}
 				}
 			}
 		]

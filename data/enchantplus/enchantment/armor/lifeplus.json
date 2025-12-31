@@ -21,7 +21,7 @@
 		"minecraft:attributes": [
 			{
 				"id": "minecraft:enchantment.lifeplus",
-				"attribute": "minecraft:max_health",
+				"attribute": "minecraft:generic.max_health",
 				"amount": {
 					"type": "minecraft:linear",
 					"base": 2,

@@ -10,11 +10,7 @@
 		"enchantplus:mounted/velocity",
 		"enchantplus:mounted/ethereal_leap",
 		"enchantplus:mounted/steel_fang",
-		"enchantplus:mounted/cavalier_egis",
-		"enchantplus:mounted/happy_boost",
-		"enchantplus:boots/step_assist",
-		"enchantplus:pickaxe/spawner_touch",
-		"enchantplus:pickaxe/bedrock_breaker"
+		"enchantplus:mounted/cavalier_egis"
 	],
 	"replace": false
 }

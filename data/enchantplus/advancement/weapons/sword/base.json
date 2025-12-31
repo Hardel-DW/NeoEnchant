@@ -164,7 +164,7 @@
 				]
 			}
 		},
-		"dimensional_strike": {
+		"dimensional_hit": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
@@ -211,63 +211,20 @@
 					}
 				]
 			}
-		},
-		"curse_of_clumsiness": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"predicates": {
-							"minecraft:enchantments": [
-								{
-									"enchantments": "enchantplus:sword/curse_of_clumsiness"
-								}
-							]
-						}
-					}
-				]
-			}
 		}
 	},
 	"requirements": [
-		[
-			"attack_speed"
-		],
-		[
-			"life_steal"
-		],
-		[
-			"poison_aspect"
-		],
-		[
-			"reach"
-		],
-		[
-			"fear"
-		],
-		[
-			"xp_boost"
-		],
-		[
-			"pull"
-		],
-		[
-			"tears_of_asflors"
-		],
-		[
-			"last_hope"
-		],
-		[
-			"dimensional_strike"
-		],
-		[
-			"critical"
-		],
-		[
-			"runic_despair"
-		],
-		[
-			"curse_of_clumsiness"
-		]
+		["attack_speed"],
+		["life_steal"],
+		["poison_aspect"],
+		["reach"],
+		["fear"],
+		["xp_boost"],
+		["pull"],
+		["tears_of_asflors"],
+		["last_hope"],
+		["dimensional_hit"],
+		["critical"],
+		["runic_despair"]
 	]
 }

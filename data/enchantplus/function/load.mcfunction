@@ -23,20 +23,6 @@ scoreboard objectives add enchantplus.teluric.radius dummy
 scoreboard objectives add enchantplus.striker.countdown dummy
 scoreboard objectives add enchantplus.striker.gametime dummy
 
-scoreboard objectives add enchantplus.transformation.w dummy
-scoreboard objectives add enchantplus.transformation.x dummy
-scoreboard objectives add enchantplus.transformation.y dummy
-scoreboard objectives add enchantplus.transformation.z dummy
-
-# New scoreboards for the Thrower enchantment
-scoreboard objectives add enchantplus.timer dummy
-scoreboard objectives add enchantplus.rot dummy
-scoreboard objectives add enchantplus.motion dummy
-scoreboard objectives add enchantplus.var dummy
-
-# Default values for thrower
-scoreboard players set #default enchantplus.motion 1
-
 # Default values for the area size (modifiable)
 scoreboard players set #default enchantplus.teluric.side 5
 scoreboard players set #default enchantplus.teluric.long 12
@@ -72,21 +58,8 @@ scoreboard players set #23 enchantplus.data 23
 scoreboard players set #24 enchantplus.data 24
 scoreboard players set #25 enchantplus.data 25
 scoreboard players set #26 enchantplus.data 26
-scoreboard players set #27 enchantplus.data 27
-scoreboard players set #28 enchantplus.data 28
-scoreboard players set #29 enchantplus.data 29
-scoreboard players set #30 enchantplus.data 30
-scoreboard players set #36 enchantplus.data 36
-scoreboard players set #40 enchantplus.data 40 
-scoreboard players set #45 enchantplus.data 45
-scoreboard players set #50 enchantplus.data 50
-scoreboard players set #60 enchantplus.data 60
 scoreboard players set #64 enchantplus.data 64
-scoreboard players set #70 enchantplus.data 70
-scoreboard players set #80 enchantplus.data 80
-scoreboard players set #90 enchantplus.data 90
 scoreboard players set #100 enchantplus.data 100
-scoreboard players set #360 enchantplus.data 360
 scoreboard players set #1000 enchantplus.data 1000
 
 # New scoreboards for the rebound system

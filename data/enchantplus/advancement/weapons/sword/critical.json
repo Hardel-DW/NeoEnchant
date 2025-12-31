@@ -4,12 +4,12 @@
 			"id": "minecraft:enchanted_book"
 		},
 		"title": {
-			"translate": "enchantment.enchantplus.critical_hit",
-			"fallback": "Critical Hit",
+			"translate": "enchantment.enchantplus.critical",
+			"fallback": "Critical",
 			"color": "#40E6FF"
 		},
 		"description": {
-			"translate": "advancement.enchantplus.description.critical_hit",
+			"translate": "advancement.enchantplus.description.critical",
 			"fallback": "Chance to pierce through armor"
 		},
 		"frame": "task",

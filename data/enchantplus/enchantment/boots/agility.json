@@ -1,35 +1,33 @@
 {
-    "description": {
-        "translate": "enchantment.enchantplus.agility",
-        "fallback": "Agility"
-    },
-    "slots": [
-        "feet"
-    ],
-    "supported_items": "#minecraft:enchantable/foot_armor",
-    "weight": 8,
-    "max_level": 5,
-    "min_cost": {
-        "base": 1,
-        "per_level_above_first": 11
-    },
-    "max_cost": {
-        "base": 25,
-        "per_level_above_first": 9
-    },
-    "anvil_cost": 1,
-    "effects": {
-        "minecraft:attributes": [
-            {
-                "id": "minecraft:enchantment.agility",
-                "attribute": "minecraft:movement_speed",
-                "amount": {
-                    "type": "minecraft:linear",
-                    "base": 0.2,
-                    "per_level_above_first": 0.2
-                },
-                "operation": "add_multiplied_total"
-            }
-        ]
-    }
+	"description": {
+		"translate": "enchantment.enchantplus.agility",
+		"fallback": "Agility"
+	},
+	"slots": ["feet"],
+	"supported_items": "#minecraft:enchantable/foot_armor",
+	"weight": 8,
+	"max_level": 5,
+	"min_cost": {
+		"base": 1,
+		"per_level_above_first": 11
+	},
+	"max_cost": {
+		"base": 25,
+		"per_level_above_first": 9
+	},
+	"anvil_cost": 1,
+	"effects": {
+		"minecraft:attributes": [
+			{
+				"id": "minecraft:enchantment.agility",
+				"attribute": "minecraft:generic.movement_speed",
+				"amount": {
+					"type": "minecraft:linear",
+					"base": 0.2,
+					"per_level_above_first": 0.2
+				},
+				"operation": "add_multiplied_total"
+			}
+		]
+	}
 }

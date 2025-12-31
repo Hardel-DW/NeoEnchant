@@ -20,7 +20,7 @@
 		"minecraft:attributes": [
 			{
 				"id": "minecraft:enchantment.ethereal_leap",
-				"attribute": "minecraft:jump_strength",
+				"attribute": "minecraft:generic.jump_strength",
 				"amount": {
 					"type": "minecraft:linear",
 					"base": 0.5,
@@ -30,7 +30,7 @@
 			},
 			{
 				"id": "minecraft:enchantment.ethereal_leap_safe",
-				"attribute": "minecraft:safe_fall_distance",
+				"attribute": "minecraft:generic.safe_fall_distance",
 				"amount": {
 					"type": "minecraft:linear",
 					"base": 0.5,

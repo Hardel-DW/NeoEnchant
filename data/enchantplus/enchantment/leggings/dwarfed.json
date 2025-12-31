@@ -21,7 +21,7 @@
 		"minecraft:attributes": [
 			{
 				"id": "minecraft:enchantment.drawf",
-				"attribute": "minecraft:scale",
+				"attribute": "minecraft:generic.scale",
 				"amount": {
 					"type": "minecraft:lookup",
 					"values": [-0.15, -0.25, -0.35, -0.5],
@@ -35,7 +35,7 @@
 			},
 			{
 				"id": "minecraft:enchantment.drawfed.attack",
-				"attribute": "minecraft:attack_damage",
+				"attribute": "minecraft:generic.attack_damage",
 				"amount": {
 					"type": "minecraft:linear",
 					"base": -1,
@@ -45,7 +45,7 @@
 			},
 			{
 				"id": "minecraft:enchantment.drawfed.reach",
-				"attribute": "minecraft:entity_interaction_range",
+				"attribute": "minecraft:player.entity_interaction_range",
 				"amount": {
 					"type": "minecraft:linear",
 					"base": -0.15,
