@@ -1,6 +1,6 @@
 {
     "description": {
-        "translate": "enchantment.enchantplus.wind_propulsion",
+        "translate": "enchantment.minecraft.wind_propulsion",
         "fallback": "Wind Propulsion"
     },
     "supported_items": "#minecraft:enchantable/mace",

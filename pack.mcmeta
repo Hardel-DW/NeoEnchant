@@ -1,9 +1,10 @@
 {
     "pack": {
-        "min_format": 94,
-        "max_format": 94,
-        "description": {
-            "text": "Add new enchants to minecraft - By Voxel Team"
-        }
+        "pack_format": 71,
+        "supported_formats": {
+            "min_inclusive": 46,
+            "max_inclusive": 71
+        },
+        "description": "Add new enchants to minecraft - By Voxel Team"
     }
 }

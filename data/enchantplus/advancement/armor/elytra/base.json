@@ -51,33 +51,7 @@
 					}
 				]
 			}
-		},
-		"propulsion": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"predicates": {
-							"minecraft:enchantments": [
-								{
-									"enchantments": "enchantplus:elytra/propulsion"
-								}
-							]
-						}
-					}
-				]
-			}
 		}
 	},
-	"requirements": [
-		[
-			"armored"
-		],
-		[
-			"kinetic_protection"
-		],
-		[
-			"propulsion"
-		]
-	]
+	"requirements": [["armored"], ["kinetic_protection"]]
 }

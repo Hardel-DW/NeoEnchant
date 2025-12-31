@@ -24,8 +24,8 @@ execute if score @s enchantplus.rot matches 15..19 run data modify entity @s tra
 tp @s ^ ^ ^1
 
 # Check for collisions with blocks or entities
-execute unless block ~ ~ ~ #enchantplus:passable run function enchantplus:unused/thrower/hit_block
-execute if entity @e[type=!minecraft:item_display,type=!minecraft:player,distance=..1] run function enchantplus:unused/thrower/hit_entity
+execute unless block ~ ~ ~ #enchantplus:passable run function enchantplus:actions/thrower/hit_block
+execute if entity @e[type=!minecraft:item_display,type=!minecraft:player,distance=..1] run function enchantplus:actions/thrower/hit_entity
 
 # Kill if timer expires
 #execute if score @s enchantplus.timer matches ..0 run kill @s

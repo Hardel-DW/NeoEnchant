@@ -211,22 +211,6 @@
 					}
 				]
 			}
-		},
-		"curse_of_clumsiness": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"predicates": {
-							"minecraft:enchantments": [
-								{
-									"enchantments": "enchantplus:sword/curse_of_clumsiness"
-								}
-							]
-						}
-					}
-				]
-			}
 		}
 	},
 	"requirements": [
@@ -265,9 +249,6 @@
 		],
 		[
 			"runic_despair"
-		],
-		[
-			"curse_of_clumsiness"
 		]
 	]
 }

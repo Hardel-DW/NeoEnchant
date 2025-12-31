@@ -11,3 +11,4 @@
 execute if block ~ ~ ~ #enchantplus:miningplus run return fail
 loot spawn ~ ~ ~ mine ~ ~ ~ mainhand
 setblock ~ ~ ~ air
+execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{ne_auto_smelt_drops_xp:true}}}},distance=..1] at @s run function enchantplus:actions/auto_smelt_xp

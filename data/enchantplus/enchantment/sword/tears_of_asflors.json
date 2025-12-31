@@ -5,7 +5,7 @@
 		"color": "#ffcbfc"
 	},
 	"exclusive_set": "#enchantplus:exclusive_set/sword_effect",
-	"supported_items": "#minecraft:enchantable/melee_weapon",
+	"supported_items": "#minecraft:enchantable/sword",
 	"weight": 4,
 	"max_level": 3,
 	"min_cost": {
@@ -17,9 +17,7 @@
 		"per_level_above_first": 9
 	},
 	"anvil_cost": 2,
-	"slots": [
-		"mainhand"
-	],
+	"slots": ["mainhand"],
 	"effects": {
 		"minecraft:post_attack": [
 			{

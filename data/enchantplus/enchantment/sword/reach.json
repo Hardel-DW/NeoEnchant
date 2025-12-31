@@ -31,6 +31,6 @@
         "mainhand"
     ],
     "exclusive_set": "#enchantplus:exclusive_set/sword_attribute",
-    "supported_items": "#minecraft:enchantable/melee_weapon",
+    "supported_items": "#minecraft:enchantable/sword",
     "weight": 2
 }
