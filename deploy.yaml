@@ -1,0 +1,45 @@
+project:
+  version: 5.12.1
+  name: NeoEnchant
+  filename: NeoEnchant
+modrinth:
+  enabled: true
+  project_id: BynmO8IO
+  featured: false
+curseforge:
+  datapack:
+    enabled: false
+    project_id: null
+  mod:
+    enabled: true
+    project_id: 1135663
+    java_versions:
+      - Java 17
+    environments:
+      - server
+package_as_mod:
+  enabled: true
+  loaders:
+    - fabric
+    - forge
+    - neoforge
+    - quilt
+  id: mr_neoenchant
+  authors:
+    - Hardel
+    - Voxel Teams
+  filename: NeoEnchant
+  homepage: https://hardels-organization.gitbook.io/voxel
+  sources: https://github.com/Hardel-DW/NeoEnchant
+  issues: https://github.com/Hardel-DW/NeoEnchant/issues
+build:
+  exclude:
+    - .git
+    - .github
+    - .changeset
+    - .vscode
+    - .cursor
+    - node_modules
+    - README.md
+    - .gitignore
+    - deploy.yaml
