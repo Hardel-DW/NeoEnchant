@@ -1,5 +1,5 @@
 project:
-  version: 5.12.1
+  version: 5.12.2
   name: NeoEnchant
   filename: NeoEnchant
 modrinth:
@@ -14,7 +14,7 @@ curseforge:
     enabled: true
     project_id: 1135663
     java_versions:
-      - Java 21
+      - Java 17
     environments:
       - server
 package_as_mod:
