@@ -2,6 +2,11 @@
 	"values": [
 		"enchantplus:bow/eternal_frost",
 		"enchantplus:trident/gungnir_breath",
-		"enchantplus:hoe/harvest"
+		"enchantplus:hoe/harvest",
+		"enchantplus:boots/step_assist",
+		"enchantplus:bow/breezing_arrow",
+		"enchantplus:bow/storm_arrow",
+		"enchantplus:sword/death_touch",
+		"enchantplus:sword/dimensional_hit"
 	]
 }
