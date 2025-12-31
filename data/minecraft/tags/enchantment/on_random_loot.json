@@ -10,7 +10,9 @@
 		"enchantplus:mounted/velocity",
 		"enchantplus:mounted/ethereal_leap",
 		"enchantplus:mounted/steel_fang",
-		"enchantplus:mounted/cavalier_egis"
+		"enchantplus:mounted/cavalier_egis",
+		"enchantplus:boots/lava_walker",
+		"enchantplus:elytra/armored"
 	],
 	"replace": false
 }
