@@ -8,8 +8,7 @@
 		"enchantplus:bow/eternal_frost",
 		"enchantplus:mace/striker",
 		"enchantplus:hoe/harvest",
-		"enchantplus:boots/step_assist",
-		"enchantplus:chestplate/magnet"
+		"enchantplus:boots/step_assist"
 	],
 	"replace": false
 }
