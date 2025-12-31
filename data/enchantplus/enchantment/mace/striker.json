@@ -1,6 +1,6 @@
 {
 	"description": {
-		"translate": "enchantment.minecraft.striker",
+		"translate": "enchantment.enchantplus.striker",
 		"fallback": "Striker"
 	},
 	"supported_items": "#minecraft:enchantable/mace",
@@ -15,7 +15,9 @@
 		"per_level_above_first": 0
 	},
 	"anvil_cost": 4,
-	"slots": ["mainhand"],
+	"slots": [
+		"mainhand"
+	],
 	"effects": {
 		"minecraft:damage_immunity": [
 			{
