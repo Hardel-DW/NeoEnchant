@@ -3,8 +3,7 @@
 		"enchantplus:leggings/dwarfed",
 		"enchantplus:leggings/oversize",
 		"enchantplus:durability/curse_of_breaking",
-		"enchantplus:durability/curse_of_enchant",
-		"enchantplus:sword/curse_of_clumsiness"
+		"enchantplus:durability/curse_of_enchant"
 	],
 	"replace": false
 }

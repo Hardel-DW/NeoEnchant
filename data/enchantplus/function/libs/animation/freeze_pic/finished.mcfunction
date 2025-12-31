@@ -1,0 +1,1 @@
+kill @e[tag=enchantplus.block_display.animation.finished]

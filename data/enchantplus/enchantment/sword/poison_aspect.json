@@ -74,10 +74,8 @@
 		"base": 15,
 		"per_level_above_first": 15
 	},
-	"primary_items": "#minecraft:enchantable/melee_weapon",
-	"slots": [
-		"mainhand"
-	],
+	"primary_items": "#minecraft:enchantable/sword",
+	"slots": ["mainhand"],
 	"exclusive_set": "#enchantplus:exclusive_set/aspect",
 	"supported_items": "#minecraft:enchantable/weapon",
 	"weight": 3

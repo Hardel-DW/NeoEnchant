@@ -8,7 +8,6 @@
 		"enchantplus:sword/death_touch",
 		"enchantplus:pickaxe/bedrock_breaker",
 		"enchantplus:pickaxe/spawner_touch",
-		"enchantplus:sword/pull",
-		"enchantplus:elytra/propulsion"
+		"enchantplus:sword/pull"
 	]
 }
