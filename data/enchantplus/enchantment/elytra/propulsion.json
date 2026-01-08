@@ -78,7 +78,9 @@
                                         }
                                     },
                                     "flags": {
-                                        "is_flying": true
+                                        "is_flying": true,
+                                        "is_sneaking": false
+                                
                                     }
                                 }
                             }
