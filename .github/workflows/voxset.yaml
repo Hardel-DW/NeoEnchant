@@ -304,7 +304,8 @@ jobs:
                   print(f"✗ Minecraft version NOT FOUND: {version}")
           
           if modloader_type:
-              for loader in [l.capitalize() for l in loaders]:
+              loader_map = {'fabric': 'Fabric', 'forge': 'Forge', 'neoforge': 'NeoForge', 'quilt': 'Quilt'}
+              for loader in [loader_map.get(l.lower(), l.capitalize()) for l in loaders]:
                   if modloader_type in by_type and loader in by_type[modloader_type]:
                       ids.append(by_type[modloader_type][loader])
                       print(f"✓ Loader {loader} -> ID {by_type[modloader_type][loader]}")
