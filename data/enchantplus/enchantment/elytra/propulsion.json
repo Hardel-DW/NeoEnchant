@@ -64,29 +64,6 @@
                 },
                 "requirements": [
                     {
-                        "condition": "minecraft:all_of",
-                        "terms": [
-                            {
-                                "condition": "minecraft:entity_properties",
-                                "entity": "this",
-                                "predicate": {
-                                    "type_specific": {
-                                        "type": "minecraft:player",
-                                        "input": {
-                                            "jump": true,
-                                            "sneak": false
-                                        }
-                                    },
-                                    "flags": {
-                                        "is_flying": true,
-                                        "is_sneaking": false
-                                
-                                    }
-                                }
-                            }
-                        ]
-                    },
-                    {
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
@@ -94,8 +71,88 @@
                                 "speed": {
                                     "max": 35
                                 }
+                            },
+                            "type_specific": {
+                                "type": "minecraft:player",
+                                "level": {
+                                    "min": 7
+                                },
+                                "input": {
+                                    "jump": true,
+                                    "sneak": false
+                                }
+                            },
+                            "flags": {
+                                "is_fall_flying": true,
+                                "is_in_water": false,
+                                "is_sneaking": false
                             }
                         }
+                    },
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type_specific": {
+                                    "type": "minecraft:player",
+                                    "gamemode": [
+                                        "creative"
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:all_of",
+                        "terms": [
+                            {
+                                "condition": "minecraft:location_check",
+                                "offsetY": -1,
+                                "predicate": {
+                                    "block": {
+                                        "blocks": "#minecraft:replaceable"
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:location_check",
+                                "offsetY": -2,
+                                "predicate": {
+                                    "block": {
+                                        "blocks": "#minecraft:replaceable"
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:location_check",
+                                "offsetY": -3,
+                                "predicate": {
+                                    "block": {
+                                        "blocks": "#minecraft:replaceable"
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:location_check",
+                                "offsetY": -4,
+                                "predicate": {
+                                    "block": {
+                                        "blocks": "#minecraft:replaceable"
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:location_check",
+                                "offsetY": -5,
+                                "predicate": {
+                                    "block": {
+                                        "blocks": "#minecraft:replaceable"
+                                    }
+                                }
+                            }
+                        ]
                     }
                 ]
             }
