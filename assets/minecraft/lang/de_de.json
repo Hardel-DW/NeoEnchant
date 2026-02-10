@@ -63,6 +63,7 @@
 	"advancement.enchantplus.description.rebound": "Boing boing boing",
 	"advancement.enchantplus.description.storm_arrow": "Die Ruhe vor dem Sturm",
 	"advancement.enchantplus.description.scyther": "Du bist ein wahrer Farmer",
+	"advancement.enchantplus.description.seiors_oblivion": "Architekt der Natur",
 	"advancement.enchantplus.description.dwarfed": "Größe ist nicht wichtig",
 	"advancement.enchantplus.description.oversize": "Fi-Fa-Fo-Fum!",
 	"advancement.enchantplus.description.striker": "Thors Hammer",
@@ -235,6 +236,7 @@
 	"enchantment.enchantplus.voidless.desc": "Kurze Levitation beim Fall in die Leere.",
 	"enchantment.enchantplus.harvest.desc": "Ermöglicht das Pflanzen in einem Bereich.",
 	"enchantment.enchantplus.scyther.desc": "Pflügt größere Bereiche basierend auf Verzauberungsstufe.",
+	"enchantment.enchantplus.seiors_oblivion.desc": "Ersetzt Blöcke unter dir mit natürlichem Terrain.",
 	"enchantment.enchantplus.dwarfed.desc": "Verringert Größe und Geschwindigkeit, fügt Schrittassistenz hinzu.",
 	"enchantment.enchantplus.fast_swim.desc": "Gewährt den Delfin-Anmut-Effekt.",
 	"enchantment.enchantplus.leaping.desc": "Verbessert die Sprungfähigkeit.",
@@ -268,16 +270,5 @@
 	"enchantment.enchantplus.miningplus.desc": "Baut in einem 3x3 Bereich ab.",
 	"enchantment.enchantplus.gungnir_breath.desc": "Gefriert Wasser und verlangsamt Ziele.",
 	"enchantment.enchantplus.timber.desc": "Fällt ganze Bäume auf einmal.",
-	"enchantment.enchantplus.propulsion.desc": "Beschleunigt beim Fliegen mit Elytren.",
-	"enchantment.enchantplus.sky_walk": "Himmelsgang",
-	"enchantment.enchantplus.magnet": "Magnet",
-	"advancement.enchantplus.description.magnet": "Aufheben ohne sich zu bücken",
-	"advancement.enchantplus.description.sky_walk": "Flieg, Vögelchen, Flieg!",
-	"enchantment.enchantplus.sky_walk.desc": "Begrenzter Flug während des Schleichens.",
-	"enchantment.enchantplus.dimensional_strike.desc": "Erhöht den Schaden in anderen Dimensionen",
-	"enchantment.enchantplus.critical_hit.desc": "Chance auf echten Schaden",
-	"enchantment.enchantplus.magnet.desc": "Zieht automatisch Gegenstände in der Nähe an.",
-	"enchantment.enchantplus.chestplate/magnet.desc": "Zieht automatisch Gegenstände in der Nähe an.",
-	"enchantment.enchantplus.sword/dimensional_strike.desc": "Erhöht den Schaden in anderen Dimensionen",
-	"enchantment.enchantplus.booots/sky_walk.desc": "Begrenzter Flug während des Schleichens."
+	"enchantment.enchantplus.propulsion.desc": "Beschleunigt beim Fliegen mit Elytren."
 }

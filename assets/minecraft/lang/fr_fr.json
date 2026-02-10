@@ -63,6 +63,7 @@
 	"advancement.enchantplus.description.rebound": "Boing boing boing",
 	"advancement.enchantplus.description.storm_arrow": "Le calme avant la tempête",
 	"advancement.enchantplus.description.scyther": "Une houe en Netherite, ta plus grande fierté",
+	"advancement.enchantplus.description.seiors_oblivion": "L'architecte de la nature",
 	"advancement.enchantplus.description.dwarfed": "C'est pas la taille qui compte",
 	"advancement.enchantplus.description.oversize": "Oh un champignon et si je marchais dessus ?",
 	"advancement.enchantplus.description.striker": "Le marteau de Thor",
@@ -235,6 +236,7 @@
 	"enchantment.enchantplus.voidless.desc": "Lévitation brève en tombant dans le vide.",
 	"enchantment.enchantplus.harvest.desc": "Permet de planter sur une zone.",
 	"enchantment.enchantplus.scyther.desc": "Laboure une zone étendue.",
+	"enchantment.enchantplus.seiors_oblivion.desc": "Remplace les blocs sous vos pieds par du terrain naturel.",
 	"enchantment.enchantplus.dwarfed.desc": "Réduit la taille et la vitesse, ajoute une assistance de pas.",
 	"enchantment.enchantplus.fast_swim.desc": "Accorde l'effet Grâce du dauphin.",
 	"enchantment.enchantplus.leaping.desc": "Améliore les sauts du joueur.",
@@ -268,16 +270,5 @@
 	"enchantment.enchantplus.miningplus.desc": "Permet de casser des blocs en 3x3.",
 	"enchantment.enchantplus.gungnir_breath.desc": "Gèle l'eau et ralentit les cibles.",
 	"enchantment.enchantplus.timber.desc": "Abat un arbre entier.",
-	"enchantment.enchantplus.propulsion.desc": "Propulse vers l'avant en volant avec des élytres.",
-	"enchantment.enchantplus.sky_walk": "Marche Céleste",
-	"enchantment.enchantplus.magnet": "Aimant",
-	"advancement.enchantplus.description.magnet": "Ramasser sans se baisser",
-	"advancement.enchantplus.description.sky_walk": "Vole, petit oiseau, vole !",
-	"enchantment.enchantplus.sky_walk.desc": "Vol limité en s'accroupissant.",
-	"enchantment.enchantplus.dimensional_strike.desc": "Augmente les dégâts dans d'autres dimensions",
-	"enchantment.enchantplus.critical_hit.desc": "Chance de dégâts critiques réels",
-	"enchantment.enchantplus.magnet.desc": "Attire automatiquement les objets proches.",
-	"enchantment.enchantplus.chestplate/magnet.desc": "Attire automatiquement les objets proches.",
-	"enchantment.enchantplus.sword/dimensional_strike.desc": "Augmente les dégâts dans d'autres dimensions",
-	"enchantment.enchantplus.booots/sky_walk.desc": "Vol limité en s'accroupissant."
+	"enchantment.enchantplus.propulsion.desc": "Propulse vers l'avant en volant avec des élytres."
 }
