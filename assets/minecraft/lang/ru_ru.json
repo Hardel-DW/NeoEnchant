@@ -59,6 +59,7 @@
 	"advancement.enchantplus.description.rebound": "Бойнг-бойнг-бойнг",
 	"advancement.enchantplus.description.storm_arrow": "Затишье перед бурей",
 	"advancement.enchantplus.description.scyther": "Вы настоящий фермер",
+	"advancement.enchantplus.description.seiors_oblivion": "Архитектор природы",
 	"advancement.enchantplus.description.dwarfed": "Размер не имеет значения",
 	"advancement.enchantplus.description.oversize": "Фи-фай-фо-фам!",
 	"advancement.enchantplus.description.striker": "Молот Тора",
@@ -235,6 +236,7 @@
 	"enchantment.enchantplus.voidless.desc": "Кратковременная левитация при падении в пустоту.",
 	"enchantment.enchantplus.harvest.desc": "Позволяет сажать растения в области.",
 	"enchantment.enchantplus.scyther.desc": "Вспахивает большие области в зависимости от уровня зачарования.",
+	"enchantment.enchantplus.seiors_oblivion.desc": "Заменяет блоки под вами на природный ландшафт.",
 	"enchantment.enchantplus.dwarfed.desc": "Уменьшает размер и скорость, добавляет помощь при ходьбе.",
 	"enchantment.enchantplus.fast_swim.desc": "Даёт эффект Грации Дельфина.",
 	"enchantment.enchantplus.leaping.desc": "Улучшает способность прыгать.",
@@ -268,16 +270,5 @@
 	"enchantment.enchantplus.miningplus.desc": "Добывает в области 3x3.",
 	"enchantment.enchantplus.gungnir_breath.desc": "Замораживает воду и замедляет цели.",
 	"enchantment.enchantplus.timber.desc": "Срубает целые деревья за раз.",
-	"enchantment.enchantplus.propulsion.desc": "Ускоряет полёт на элитрах вперёд.",
-	"enchantment.enchantplus.sky_walk": "Небесная Походка",
-	"enchantment.enchantplus.magnet": "Магнит",
-	"advancement.enchantplus.description.magnet": "Подбирать не нагибаясь",
-	"advancement.enchantplus.description.sky_walk": "Лети, птичка, лети!",
-	"enchantment.enchantplus.sky_walk.desc": "Ограниченный полёт при приседании.",
-	"enchantment.enchantplus.dimensional_strike.desc": "Увеличивает урон в других измерениях",
-	"enchantment.enchantplus.critical_hit.desc": "Шанс нанести истинный критический урон",
-	"enchantment.enchantplus.magnet.desc": "Автоматически притягивает ближайшие предметы.",
-	"enchantment.enchantplus.chestplate/magnet.desc": "Автоматически притягивает ближайшие предметы.",
-	"enchantment.enchantplus.sword/dimensional_strike.desc": "Увеличивает урон в других измерениях",
-	"enchantment.enchantplus.booots/sky_walk.desc": "Ограниченный полёт при приседании."
+	"enchantment.enchantplus.propulsion.desc": "Ускоряет полёт на элитрах вперёд."
 }
