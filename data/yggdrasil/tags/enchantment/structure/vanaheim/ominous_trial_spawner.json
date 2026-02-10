@@ -1,0 +1,15 @@
+{
+	"replace": false,
+	"values": [
+		"#minecraft:treasure",
+		"#minecraft:non_treasure",
+		"minecraft:fortune",
+		"enchantplus:hoe/seiors_oblivion",
+		"enchantplus:axe/timber",
+		"enchantplus:armor/lifeplus",
+		"enchantplus:helmet/bright_vision",
+		"enchantplus:bow/eternal_frost",
+		"enchantplus:mace/wind_propulsion",
+		"enchantplus:mounted/ethereal_leap"
+	]
+}

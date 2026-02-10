@@ -1,0 +1,16 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:fortune",
+		"enchantplus:hoe/seiors_oblivion",
+		"enchantplus:hoe/harvest",
+		"enchantplus:axe/timber",
+		"enchantplus:pickaxe/vein_miner",
+		"enchantplus:helmet/bright_vision",
+		"enchantplus:bow/eternal_frost",
+		"enchantplus:bow/breezing_arrow",
+		"enchantplus:armor/lifeplus",
+		"enchantplus:leggings/leaping",
+		"enchantplus:mounted/ethereal_leap"
+	]
+}

@@ -1,0 +1,19 @@
+{
+    "values": [
+        "#minecraft:base_stone_overworld",
+        "#minecraft:dirt",
+        "#minecraft:sand",
+        "#minecraft:terracotta",
+        "#minecraft:soul_speed_blocks",
+        "#minecraft:snow",
+        "minecraft:gravel",
+        "minecraft:packed_ice",
+        "minecraft:ice",
+        "minecraft:frosted_ice",
+        "minecraft:netherrack",
+        "minecraft:end_stone",
+        "minecraft:crimson_nylium",
+        "minecraft:warped_nylium",
+        "minecraft:sculk"
+    ]
+}
