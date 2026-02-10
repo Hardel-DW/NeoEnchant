@@ -1,0 +1,12 @@
+{
+	"values": [
+		"#minecraft:non_treasure",
+		"minecraft:fortune",
+		"enchantplus:hoe/harvest",
+		"enchantplus:axe/timber",
+		"enchantplus:bow/eternal_frost",
+		"enchantplus:mace/striker",
+		"enchantplus:armor/lifeplus",
+		"enchantplus:leggings/leaping"
+	]
+}

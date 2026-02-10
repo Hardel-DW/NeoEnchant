@@ -1,0 +1,40 @@
+{
+    "description": {
+        "translate": "enchantment.enchantplus.seiors_oblivion",
+        "fallback": "Seior's Oblivion"
+    },
+    "supported_items": "#voxel:enchantable/hoes",
+    "weight": 2,
+    "max_level": 1,
+    "min_cost": {
+        "base": 12,
+        "per_level_above_first": 9
+    },
+    "max_cost": {
+        "base": 29,
+        "per_level_above_first": 5
+    },
+    "anvil_cost": 2,
+    "slots": [
+        "mainhand"
+    ],
+    "effects": {
+        "minecraft:location_changed": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantplus:actions/seiors_oblivion"
+                },
+                "requirements": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "flags": {
+                            "is_on_ground": true
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
