@@ -59,6 +59,7 @@
 	"advancement.enchantplus.description.rebound": "Boing boing boing",
 	"advancement.enchantplus.description.storm_arrow": "La calma antes de la tormenta",
 	"advancement.enchantplus.description.scyther": "Sos un verdadero granjero",
+	"advancement.enchantplus.description.seiors_oblivion": "El arquitecto de la naturaleza",
 	"advancement.enchantplus.description.dwarfed": "El tamaño no importa",
 	"advancement.enchantplus.description.oversize": "¡Fi-fa-fo-fum!",
 	"advancement.enchantplus.description.striker": "El martillo de Thor",
@@ -235,6 +236,7 @@
 	"enchantment.enchantplus.voidless.desc": "Breve levitación al caer al vacío.",
 	"enchantment.enchantplus.harvest.desc": "Permite plantar en área.",
 	"enchantment.enchantplus.scyther.desc": "Ara áreas más grandes según el nivel de encantamiento.",
+	"enchantment.enchantplus.seiors_oblivion.desc": "Reemplaza los bloques debajo de vos con terreno natural.",
 	"enchantment.enchantplus.dwarfed.desc": "Reduce el tamaño y la velocidad, agrega asistencia de paso.",
 	"enchantment.enchantplus.fast_swim.desc": "Otorga el efecto Gracia del Delfín.",
 	"enchantment.enchantplus.leaping.desc": "Mejora la capacidad de salto.",
@@ -268,16 +270,5 @@
 	"enchantment.enchantplus.miningplus.desc": "Mina en un área de 3x3.",
 	"enchantment.enchantplus.gungnir_breath.desc": "Congela el agua y ralentiza objetivos.",
 	"enchantment.enchantplus.timber.desc": "Tala árboles enteros de una vez.",
-	"enchantment.enchantplus.propulsion.desc": "Impulsa hacia adelante mientras vuelas con élitros.",
-	"enchantment.enchantplus.sky_walk": "Camino Celestial",
-	"enchantment.enchantplus.magnet": "Imán",
-	"advancement.enchantplus.description.magnet": "Recoger sin agacharse",
-	"advancement.enchantplus.description.sky_walk": "¡Vuela, pajarito, vuela!",
-	"enchantment.enchantplus.sky_walk.desc": "Vuelo limitado mientras te agachas.",
-	"enchantment.enchantplus.dimensional_strike.desc": "Aumenta el daño en otras dimensiones",
-	"enchantment.enchantplus.critical_hit.desc": "Probabilidad de daño crítico real",
-	"enchantment.enchantplus.magnet.desc": "Atrae automáticamente objetos cercanos.",
-	"enchantment.enchantplus.chestplate/magnet.desc": "Atrae automáticamente objetos cercanos.",
-	"enchantment.enchantplus.sword/dimensional_strike.desc": "Aumenta el daño en otras dimensiones",
-	"enchantment.enchantplus.booots/sky_walk.desc": "Vuelo limitado mientras te agachas."
+	"enchantment.enchantplus.propulsion.desc": "Impulsa hacia adelante mientras vuelas con élitros."
 }

@@ -59,6 +59,7 @@
 	"advancement.enchantplus.description.rebound": "ボヨヨーーン",
 	"advancement.enchantplus.description.storm_arrow": "嵐の前の静けさ",
 	"advancement.enchantplus.description.scyther": "真の農夫",
+	"advancement.enchantplus.description.seiors_oblivion": "自然の建築家",
 	"advancement.enchantplus.description.dwarfed": "サイズなんか関係ない",
 	"advancement.enchantplus.description.oversize": "でっかいやつ",
 	"advancement.enchantplus.description.striker": "トールのハンマー",
@@ -235,6 +236,7 @@
 	"enchantment.enchantplus.voidless.desc": "奈落に落ちた時に一時的な浮遊効果を付与します。",
 	"enchantment.enchantplus.harvest.desc": "範囲内に作物を植えることができます。",
 	"enchantment.enchantplus.scyther.desc": "エンチャントレベルに応じてより広い範囲を耕します。",
+	"enchantment.enchantplus.seiors_oblivion.desc": "足元のブロックを自然の地形に置き換えます。",
 	"enchantment.enchantplus.dwarfed.desc": "サイズと速度を減少させ、段差補助を追加します。",
 	"enchantment.enchantplus.fast_swim.desc": "イルカの好意を付与します。",
 	"enchantment.enchantplus.leaping.desc": "ジャンプ力を向上させます。",
@@ -268,16 +270,5 @@
 	"enchantment.enchantplus.miningplus.desc": "3x3の範囲を採掘します。",
 	"enchantment.enchantplus.gungnir_breath.desc": "水を凍結させ、対象を減速させます。",
 	"enchantment.enchantplus.timber.desc": "木を一度に全て伐採します。",
-	"enchantment.enchantplus.propulsion.desc": "エリトラで飛行中に前方へ加速します。",
-	"enchantment.enchantplus.sky_walk": "天空歩行",
-	"enchantment.enchantplus.magnet": "マグネット",
-	"advancement.enchantplus.description.magnet": "かがまずに拾う",
-	"advancement.enchantplus.description.sky_walk": "飛べ、小鳥よ、飛べ！",
-	"enchantment.enchantplus.sky_walk.desc": "スニーク中に限定飛行が可能。",
-	"enchantment.enchantplus.dimensional_strike.desc": "他の次元でダメージが増加",
-	"enchantment.enchantplus.critical_hit.desc": "真のクリティカルダメージの確率",
-	"enchantment.enchantplus.magnet.desc": "近くのアイテムを自動的に引き寄せます。",
-	"enchantment.enchantplus.chestplate/magnet.desc": "近くのアイテムを自動的に引き寄せます。",
-	"enchantment.enchantplus.sword/dimensional_strike.desc": "他の次元でダメージが増加",
-	"enchantment.enchantplus.booots/sky_walk.desc": "スニーク中に限定飛行が可能。"
+	"enchantment.enchantplus.propulsion.desc": "エリトラで飛行中に前方へ加速します。"
 }

@@ -59,6 +59,7 @@
 	"advancement.enchantplus.description.rebound": "弹弹弹",
 	"advancement.enchantplus.description.storm_arrow": "暴风雨前的宁静",
 	"advancement.enchantplus.description.scyther": "你是真正的农夫",
+	"advancement.enchantplus.description.seiors_oblivion": "自然的建筑师",
 	"advancement.enchantplus.description.dwarfed": "大小不重要",
 	"advancement.enchantplus.description.oversize": "费费佛佛！",
 	"advancement.enchantplus.description.striker": "雷神之锤",
@@ -235,6 +236,7 @@
 	"enchantment.enchantplus.voidless.desc": "掉入虚空时短暂漂浮。",
 	"enchantment.enchantplus.harvest.desc": "允许在区域内种植。",
 	"enchantment.enchantplus.scyther.desc": "根据附魔等级耕种更大的区域。",
+	"enchantment.enchantplus.seiors_oblivion.desc": "将你脚下的方块替换为自然地形。",
 	"enchantment.enchantplus.dwarfed.desc": "减小体型和速度，增加步行辅助。",
 	"enchantment.enchantplus.fast_swim.desc": "获得海豚的恩惠效果。",
 	"enchantment.enchantplus.leaping.desc": "提高跳跃能力。",
@@ -268,16 +270,5 @@
 	"enchantment.enchantplus.miningplus.desc": "在3x3范围内挖掘。",
 	"enchantment.enchantplus.gungnir_breath.desc": "冻结水并减缓目标。",
 	"enchantment.enchantplus.timber.desc": "一次性砍倒整棵树。",
-	"enchantment.enchantplus.propulsion.desc": "使用鞘翅飞行时向前加速。",
-	"enchantment.enchantplus.sky_walk": "天空漫步",
-	"enchantment.enchantplus.magnet": "磁铁",
-	"advancement.enchantplus.description.magnet": "无需弯腰即可拾取",
-	"advancement.enchantplus.description.sky_walk": "飞吧，小鸟，飞吧！",
-	"enchantment.enchantplus.sky_walk.desc": "潜行时可进行有限飞行。",
-	"enchantment.enchantplus.dimensional_strike.desc": "在其他维度增加伤害",
-	"enchantment.enchantplus.critical_hit.desc": "有几率造成真实暴击伤害",
-	"enchantment.enchantplus.magnet.desc": "自动吸引附近的物品。",
-	"enchantment.enchantplus.chestplate/magnet.desc": "自动吸引附近的物品。",
-	"enchantment.enchantplus.sword/dimensional_strike.desc": "在其他维度增加伤害",
-	"enchantment.enchantplus.booots/sky_walk.desc": "潜行时可进行有限飞行。"
+	"enchantment.enchantplus.propulsion.desc": "使用鞘翅飞行时向前加速。"
 }

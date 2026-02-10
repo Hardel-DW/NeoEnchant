@@ -51,7 +51,23 @@
 					}
 				]
 			}
+		},
+		"seiors_oblivion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"minecraft:enchantments": [
+								{
+									"enchantments": "enchantplus:hoe/seiors_oblivion"
+								}
+							]
+						}
+					}
+				]
+			}
 		}
 	},
-	"requirements": [["scyther"], ["harvest"]]
+	"requirements": [["scyther"], ["harvest"], ["seiors_oblivion"]]
 }
