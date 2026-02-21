@@ -1,4 +1,4 @@
-﻿---
+---
 game_versions:
   - 1.21.5
 version_type: release
