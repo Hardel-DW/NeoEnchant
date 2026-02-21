@@ -1,0 +1,20 @@
+{
+	"values": [
+		"enchantplus:sword/reach",
+		"enchantplus:pickaxe/vein_miner",
+		"enchantplus:tools/miningplus",
+		"enchantplus:bow/echo_shot",
+		"enchantplus:tools/auto_smelt",
+		"enchantplus:bow/eternal_frost",
+		"enchantplus:hoe/harvest",
+		"enchantplus:mounted/velocity",
+		"enchantplus:mounted/ethereal_leap",
+		"enchantplus:mounted/steel_fang",
+		"enchantplus:mounted/cavalier_egis",
+		"enchantplus:mounted/happy_boost",
+		"enchantplus:boots/step_assist",
+		"enchantplus:pickaxe/spawner_touch",
+		"enchantplus:pickaxe/bedrock_breaker"
+	],
+	"replace": true
+}
