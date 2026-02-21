@@ -58,10 +58,14 @@ jobs:
           
           frontmatter = yaml.safe_load(match.group(1))
           changelog = match.group(2).strip()
+          game_versions = [str(v) for v in frontmatter.get('game_versions', [])]
+          loaders = frontmatter.get('loaders')
+          if loaders:
+              loaders = [str(v) for v in loaders]
           
           with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
-              f.write(f"game_versions={json.dumps(frontmatter.get('game_versions', []))}\n")
-              f.write(f"loaders={json.dumps(frontmatter.get('loaders', None)) if frontmatter.get('loaders') else 'null'}\n")
+              f.write(f"game_versions={json.dumps(game_versions)}\n")
+              f.write(f"loaders={json.dumps(loaders) if loaders else 'null'}\n")
               f.write(f"version_type={frontmatter.get('version_type', 'release')}\n")
               f.write(f"version_bump={frontmatter.get('version_bump', 'patch')}\n")
               f.write(f"changelog<<EOF\n{changelog}\nEOF\n")
@@ -72,10 +76,137 @@ jobs:
         if: steps.changeset.outputs.found == 'true'
         run: |
           python - <<'EOF'
-          import yaml, json, os
+          import json, os
+
+          def normalize_modrinth_dependencies(raw):
+              allowed = {"required", "optional", "incompatible", "embedded"}
+              aliases = {"imcompatible": "incompatible"}
+              if raw is None:
+                  return []
+              if not isinstance(raw, list):
+                  raise ValueError("modrinth dependencies must be a list")
+
+              out = []
+              for i, dep in enumerate(raw, start=1):
+                  if not isinstance(dep, dict):
+                      raise ValueError(f"modrinth dependency #{i} must be an object")
+
+                  dep_id = dep.get("id")
+                  if dep_id is None or str(dep_id).strip() == "":
+                      raise ValueError(f"modrinth dependency #{i} is missing id")
+
+                  relation = str(dep.get("relation", "required")).strip().lower()
+                  relation = aliases.get(relation, relation)
+                  if relation not in allowed:
+                      raise ValueError(
+                          f"modrinth dependency #{i} has invalid relation '{relation}' "
+                          f"(allowed: {sorted(allowed)})"
+                      )
+
+                  scope = str(dep.get("scope", "project")).strip().lower()
+                  if scope not in {"project", "version"}:
+                      raise ValueError(
+                          f"modrinth dependency #{i} has invalid scope '{scope}' "
+                          f"(allowed: ['project', 'version'])"
+                      )
+
+                  item = {"dependency_type": relation}
+                  if scope == "version":
+                      item["version_id"] = str(dep_id)
+                  else:
+                      item["project_id"] = str(dep_id)
+
+                  file_name = dep.get("file_name")
+                  if file_name:
+                      item["file_name"] = str(file_name)
+
+                  out.append(item)
+              return out
+
+          def normalize_curseforge_dependencies(raw):
+              allowed = {
+                  "embeddedLibrary",
+                  "incompatible",
+                  "optionalDependency",
+                  "requiredDependency",
+                  "tool",
+              }
+              aliases = {
+                  "required": "requiredDependency",
+                  "optional": "optionalDependency",
+                  "embedded": "embeddedLibrary",
+                  "embeded": "embeddedLibrary",
+                  "incompatible": "incompatible",
+                  "imcompatible": "incompatible",
+                  "tool": "tool",
+                  "requireddependency": "requiredDependency",
+                  "optionaldependency": "optionalDependency",
+                  "embeddedlibrary": "embeddedLibrary",
+              }
+
+              if raw is None:
+                  return []
+              if not isinstance(raw, list):
+                  raise ValueError("curseforge dependencies must be a list")
+
+              out = []
+              for i, dep in enumerate(raw, start=1):
+                  if not isinstance(dep, dict):
+                      raise ValueError(f"curseforge dependency #{i} must be an object")
+
+                  dep_id = dep.get("id")
+                  if dep_id is None or str(dep_id).strip() == "":
+                      raise ValueError(f"curseforge dependency #{i} is missing id")
+                  try:
+                      dep_id = int(dep_id)
+                  except (TypeError, ValueError):
+                      raise ValueError(
+                          f"curseforge dependency #{i} has invalid id '{dep_id}' "
+                          "(expected integer)"
+                      )
+
+                  relation_key = str(dep.get("relation", "requiredDependency")).strip()
+                  relation = aliases.get(relation_key.lower(), relation_key)
+                  if relation not in allowed:
+                      raise ValueError(
+                          f"curseforge dependency #{i} has invalid relation '{relation}' "
+                          f"(allowed: {sorted(allowed)})"
+                      )
+
+                  item = {
+                      "projectID": dep_id,
+                      "type": relation,
+                  }
+
+                  slug = dep.get("slug")
+                  if slug is None or str(slug).strip() == "":
+                      raise ValueError(
+                          f"curseforge dependency #{i} is missing slug "
+                          "(required by CurseForge upload API)"
+                      )
+                  item["slug"] = str(slug).strip()
+
+                  out.append(item)
+              return out
           
-          with open('deploy.yaml', 'r') as f:
-              config = yaml.safe_load(f)
+          with open('deploy.json', 'r') as f:
+              config = json.load(f)
+
+          modrinth_dependencies_raw = config.get('modrinth', {}).get('dependencies', [])
+          if isinstance(modrinth_dependencies_raw, dict):
+              # Backward compatibility with the old {"datapack": [], "mod": []} format.
+              modrinth_dependencies = normalize_modrinth_dependencies(
+                  modrinth_dependencies_raw.get('mod', modrinth_dependencies_raw.get('datapack', []))
+              )
+          else:
+              modrinth_dependencies = normalize_modrinth_dependencies(modrinth_dependencies_raw)
+
+          curseforge_datapack_dependencies = normalize_curseforge_dependencies(
+              config.get('curseforge', {}).get('datapack', {}).get('dependencies', [])
+          )
+          curseforge_mod_dependencies = normalize_curseforge_dependencies(
+              config.get('curseforge', {}).get('mod', {}).get('dependencies', [])
+          )
           
           with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
               f.write(f"current_version={config['project']['version']}\n")
@@ -95,6 +226,9 @@ jobs:
               f.write(f"package_as_mod_id={config['package_as_mod']['id']}\n")
               f.write(f"package_as_mod_filename={config['package_as_mod'].get('filename', config['package_as_mod']['id'])}\n")
               f.write(f"package_as_mod_authors={json.dumps(config['package_as_mod']['authors'])}\n")
+              f.write(f"modrinth_dependencies={json.dumps(modrinth_dependencies)}\n")
+              f.write(f"curseforge_datapack_dependencies={json.dumps(curseforge_datapack_dependencies)}\n")
+              f.write(f"curseforge_mod_dependencies={json.dumps(curseforge_mod_dependencies)}\n")
               f.write(f"exclude_patterns={json.dumps(config.get('build', {}).get('exclude', []))}\n")
           EOF
 
@@ -304,7 +438,8 @@ jobs:
                   print(f"✗ Minecraft version NOT FOUND: {version}")
           
           if modloader_type:
-              for loader in [l.capitalize() for l in loaders]:
+              loader_map = {'fabric': 'Fabric', 'forge': 'Forge', 'neoforge': 'NeoForge', 'quilt': 'Quilt'}
+              for loader in [loader_map.get(l.lower(), l.capitalize()) for l in loaders]:
                   if modloader_type in by_type and loader in by_type[modloader_type]:
                       ids.append(by_type[modloader_type][loader])
                       print(f"✓ Loader {loader} -> ID {by_type[modloader_type][loader]}")
@@ -330,98 +465,119 @@ jobs:
 
       - name: Upload to Modrinth (Datapack)
         if: steps.changeset.outputs.found == 'true' && steps.config.outputs.modrinth_enabled == 'true'
+        env:
+          CHANGELOG: ${{ steps.parse.outputs.changelog }}
         run: |
           FILENAME="${{ steps.config.outputs.project_filename }}-${{ steps.version.outputs.version }}.zip"
+
+          printf '%s' "$CHANGELOG" > changelog.txt
 
           DATA=$(jq -n \
             --arg pid "${{ steps.config.outputs.modrinth_project_id }}" \
             --arg name "v${{ steps.version.outputs.version }} (Datapack)" \
             --arg ver "${{ steps.version.outputs.version }}" \
             --arg type "${{ steps.parse.outputs.version_type }}" \
-            --arg log "${{ steps.parse.outputs.changelog }}" \
+            --rawfile log changelog.txt \
             --argjson gv '${{ steps.game_versions.outputs.json }}' \
             --argjson loaders '["datapack"]' \
+            --argjson deps '${{ steps.config.outputs.modrinth_dependencies }}' \
             --argjson featured ${{ steps.config.outputs.modrinth_featured || 'false' }} \
-            '{name:$name, version_number:$ver, changelog:$log, game_versions:$gv, loaders:$loaders, project_id:$pid, version_type:$type, dependencies:[], featured:$featured, file_parts:["file"], primary_file:"file"}'
+            '{name:$name, version_number:$ver, changelog:$log, game_versions:$gv, loaders:$loaders, project_id:$pid, version_type:$type, dependencies:$deps, featured:$featured, file_parts:["file"], primary_file:"file"}'
           )
-          
+
           curl -sS -o resp.json -w "%{http_code}" \
             -X POST "https://api.modrinth.com/v2/version" \
             -H "Authorization: ${{ secrets.MODRINTH_TOKEN }}" \
             -H "User-Agent: ${{ github.repository }}" \
             -F "data=${DATA};type=application/json" \
             -F "file=@dist/${FILENAME};filename=${FILENAME}" | tee code.txt
-          
+
           cat resp.json | jq .
           [ $(cat code.txt) -ge 200 ] && [ $(cat code.txt) -lt 300 ] || exit 1
 
       - name: Upload to Modrinth (Mod)
         if: steps.changeset.outputs.found == 'true' && steps.config.outputs.modrinth_enabled == 'true' && steps.config.outputs.package_as_mod_enabled == 'true'
+        env:
+          CHANGELOG: ${{ steps.parse.outputs.changelog }}
         run: |
           FILENAME="${{ steps.config.outputs.package_as_mod_filename }}-${{ steps.version.outputs.version }}.jar"
+
+          printf '%s' "$CHANGELOG" > changelog.txt
+
           DATA=$(jq -n \
             --arg pid "${{ steps.config.outputs.modrinth_project_id }}" \
             --arg name "v${{ steps.version.outputs.version }} (Mod)" \
             --arg ver "${{ steps.version.outputs.version }}+mod" \
             --arg type "${{ steps.parse.outputs.version_type }}" \
-            --arg log "${{ steps.parse.outputs.changelog }}" \
+            --rawfile log changelog.txt \
             --argjson gv '${{ steps.game_versions.outputs.json }}' \
             --argjson loaders '${{ steps.config.outputs.package_as_mod_loaders }}' \
+            --argjson deps '${{ steps.config.outputs.modrinth_dependencies }}' \
             --argjson featured ${{ steps.config.outputs.modrinth_featured || 'false' }} \
-            '{name:$name, version_number:$ver, changelog:$log, game_versions:$gv, loaders:$loaders, project_id:$pid, version_type:$type, dependencies:[], featured:$featured, file_parts:["file"], primary_file:"file"}'
+            '{name:$name, version_number:$ver, changelog:$log, game_versions:$gv, loaders:$loaders, project_id:$pid, version_type:$type, dependencies:$deps, featured:$featured, file_parts:["file"], primary_file:"file"}'
           )
-            
+
           curl -sS -o resp.json -w "%{http_code}" \
             -X POST "https://api.modrinth.com/v2/version" \
             -H "Authorization: ${{ secrets.MODRINTH_TOKEN }}" \
             -H "User-Agent: ${{ github.repository }}" \
             -F "data=${DATA};type=application/json" \
             -F "file=@dist/${FILENAME};filename=${FILENAME}" | tee code.txt
-          
+
           cat resp.json | jq .
           [ $(cat code.txt) -ge 200 ] && [ $(cat code.txt) -lt 300 ] || exit 1
 
       - name: Upload to CurseForge (Datapack)
         if: steps.changeset.outputs.found == 'true' && steps.config.outputs.curseforge_datapack_enabled == 'true'
+        env:
+          CHANGELOG: ${{ steps.parse.outputs.changelog }}
         run: |
           FILENAME="${{ steps.config.outputs.project_filename }}-${{ steps.version.outputs.version }}.zip"
-          
+
+          printf '%s' "$CHANGELOG" > changelog.txt
+
           DATA=$(jq -n \
             --arg name "${{ steps.config.outputs.project_name }} - v${{ steps.version.outputs.version }}" \
-            --arg log "${{ steps.parse.outputs.changelog }}" \
+            --rawfile log changelog.txt \
             --arg type "${{ steps.parse.outputs.version_type }}" \
-            --argjson ids '${{ steps.cf_versions.outputs.game_ids }}' \
-            '{displayName:$name, changelog:$log, changelogType:"markdown", releaseType:$type, gameVersions:$ids}')
-          
+            --argjson ids '${{ steps.cf_versions.outputs.ids }}' \
+            --argjson deps '${{ steps.config.outputs.curseforge_datapack_dependencies }}' \
+            '{displayName:$name, changelog:$log, changelogType:"markdown", releaseType:$type, gameVersions:$ids} + (if ($deps | length) > 0 then {relations:{projects:$deps}} else {} end)')
+
           curl -sS -o resp.json -w "%{http_code}" \
             -X POST "https://minecraft.curseforge.com/api/projects/${{ steps.config.outputs.curseforge_datapack_id }}/upload-file" \
             -H "X-Api-Token: ${{ secrets.CURSEFORGE_TOKEN }}" \
             -H "User-Agent: ${{ github.repository }}" \
             -F "metadata=${DATA};type=application/json" \
             -F "file=@dist/${FILENAME}" | tee code.txt
-          
+
           cat resp.json | jq .
           [ $(cat code.txt) -ge 200 ] && [ $(cat code.txt) -lt 300 ] || exit 1
 
       - name: Upload to CurseForge (Mod)
         if: steps.changeset.outputs.found == 'true' && steps.config.outputs.curseforge_mod_enabled == 'true'
+        env:
+          CHANGELOG: ${{ steps.parse.outputs.changelog }}
         run: |
           FILENAME="${{ steps.config.outputs.package_as_mod_filename }}-${{ steps.version.outputs.version }}.jar"
-          
+
+          printf '%s' "$CHANGELOG" > changelog.txt
+
           DATA=$(jq -n \
             --arg name "${{ steps.config.outputs.project_name }} - v${{ steps.version.outputs.version }}" \
-            --arg log "${{ steps.parse.outputs.changelog }}" \
+            --rawfile log changelog.txt \
             --arg type "${{ steps.parse.outputs.version_type }}" \
             --argjson ids '${{ steps.cf_versions.outputs.ids }}' \
-            '{displayName:$name, changelog:$log, changelogType:"markdown", releaseType:$type, gameVersions:$ids}')
-          
+            --argjson deps '${{ steps.config.outputs.curseforge_mod_dependencies }}' \
+            '{displayName:$name, changelog:$log, changelogType:"markdown", releaseType:$type, gameVersions:$ids} + (if ($deps | length) > 0 then {relations:{projects:$deps}} else {} end)')
+
           curl -sS -o resp.json -w "%{http_code}" \
             -X POST "https://minecraft.curseforge.com/api/projects/${{ steps.config.outputs.curseforge_mod_id }}/upload-file" \
             -H "X-Api-Token: ${{ secrets.CURSEFORGE_TOKEN }}" \
             -H "User-Agent: ${{ github.repository }}" \
             -F "metadata=${DATA};type=application/json" \
             -F "file=@dist/${FILENAME}" | tee code.txt
-          
+
           cat resp.json | jq .
           [ $(cat code.txt) -ge 200 ] && [ $(cat code.txt) -lt 300 ] || exit 1
 
@@ -429,28 +585,26 @@ jobs:
         if: steps.changeset.outputs.found == 'true'
         run: |
           python - <<'EOF'
-          import re
-          
-          with open('deploy.yaml', 'r') as f:
-              content = f.read()
-          
-          content = re.sub(
-              r'(version:\s*["\']?)[0-9.]+(["\']?)',
-              r'\g<1>${{ steps.version.outputs.version }}\g<2>',
-              content
-          )
-          
-          with open('deploy.yaml', 'w') as f:
-              f.write(content)
+          import json
+
+          path = 'deploy.json'
+
+          with open(path, 'r', encoding='utf-8') as f:
+              config = json.load(f)
+
+          config['project']['version'] = "${{ steps.version.outputs.version }}"
+
+          with open(path, 'w', encoding='utf-8') as f:
+              json.dump(config, f, indent=2)
+              f.write('\n')
           EOF
 
       - name: Commit
         if: steps.changeset.outputs.found == 'true'
         run: |
-          rm ${{ steps.changeset.outputs.file }}
           rm -f .changeset/*.md
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add deploy.yaml .changeset
+          git add -A deploy.json .changeset
           git commit -m "chore: release v${{ steps.version.outputs.version }}"
           git push
