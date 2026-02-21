@@ -1,0 +1,102 @@
+{
+  "project": {
+    "version": "5.10.1",
+    "name": "NeoEnchant",
+    "filename": "NeoEnchant"
+  },
+  "modrinth": {
+    "enabled": true,
+    "project_id": "BynmO8IO",
+    "featured": false,
+    "dependencies": [
+      {
+        "id": "bHyNNNwZ",
+        "relation": "optional"
+      },
+      {
+        "id": "hwNDseBp",
+        "relation": "optional"
+      },
+      {
+        "id": "nJLo0AtD",
+        "relation": "optional"
+      },
+      {
+        "id": "t2pMCVgG",
+        "relation": "optional"
+      }
+    ]
+  },
+  "curseforge": {
+    "datapack": {
+      "enabled": false,
+      "project_id": null,
+      "dependencies": []
+    },
+    "mod": {
+      "enabled": true,
+      "project_id": 1135663,
+      "java_versions": [
+        "Java 21",
+        "Java 22"
+      ],
+      "environments": [
+        "server"
+      ],
+      "dependencies": [
+        {
+          "id": 1300883,
+          "relation": "optional",
+          "slug": "ne-addons-structure"
+        },
+        {
+          "id": 1135665,
+          "relation": "optional",
+          "slug": "yggdrasils"
+        },
+        {
+          "id": 1417361,
+          "relation": "optional",
+          "slug": "yggdrasil-alternative"
+        },
+        {
+          "id": 1135664,
+          "relation": "optional",
+          "slug": "beyondenchant"
+        }
+      ]
+    }
+  },
+  "package_as_mod": {
+    "enabled": true,
+    "loaders": [
+      "fabric",
+      "forge",
+      "neoforge",
+      "quilt"
+    ],
+    "id": "mr_neoenchant",
+    "authors": [
+      "Hardel",
+      "Voxel Teams"
+    ],
+    "filename": "NeoEnchant",
+    "homepage": "https://hardels-organization.gitbook.io/voxel",
+    "sources": "https://github.com/Hardel-DW/NeoEnchant",
+    "issues": "https://github.com/Hardel-DW/NeoEnchant/issues"
+  },
+  "build": {
+    "exclude": [
+      ".git",
+      ".github",
+      ".changeset",
+      ".vscode",
+      ".cursor",
+      "node_modules",
+      "README.md",
+      ".gitignore",
+      "deploy.yaml",
+      "deploy.json"
+    ]
+  }
+}
