@@ -16,5 +16,5 @@
 		"enchantplus:pickaxe/spawner_touch",
 		"enchantplus:pickaxe/bedrock_breaker"
 	],
-	"replace": true
+	"replace": false
 }
