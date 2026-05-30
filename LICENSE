@@ -3,44 +3,32 @@
 ===============================
 
 Notice: By downloading this Datapack/Mod, you agree to the terms and conditions of this License. All code is the intellectual property of its original creator, "Hardel", along with due recognition to contributors.
-This License is subject to modification, with the most recent revision dated May 09, 2024.
+This License is subject to modification, with the most recent revision dated May 30, 2026.
 
 PERMITTED ACTIVITIES :
 1. Personal Use:
    You are authorized to use this project (datapack or mod) for personal purposes. This includes reviewing, modifying, and utilizing the code in single or multiplayer environments, provided there is no redistribution without my express consent.
 
 2. Server Use:
-   You may implement any of this projects on public or private Minecraft servers. It is advisable to provide the proper direct download link in an accessible location.
+   You may implement any of this projects on public or private Minecraft servers.
 
 3. Inclusion in Collections:
-   This projects may be included in datapack collections or modpacks with minimal modifications. Attribution to the creator ("Hardel") along with a direct download link is mandatory.
+    This project may be included in datapack collections or modpacks. A mention of the creator is appreciated but not required.
 
-4. Social Media Use:
-   Projects may be featured on social media platforms, including showcases on YouTube, Twitch, BiliBili or any support. An explicit direct download link must be included prominently in the main content or description.
-
-5. Repository Cloning:
+4. Repository Cloning:
    Cloning of the main branch from the GitHub repository is permitted. However, presenting altered code as a new official version without prior approval is prohibited. Contributions via pull requests are welcomed.
 
 PROHIBITED ACTIVITIES:
 1. Redistribution:
-   Reuploading, republishing, or redistributing any of my projects without prior approval is strictly prohibited, regardless of modification extent.
-
-2. Unauthorized Modifications:
-   Modifying the pack and reposting it on any other platform except the official discord, and official GitHub is forbidden, For modification you need to make pull request or issue on original github "Hardel-DW/NeoEnchant", .
-
-3. Code Use:
-Using portions of the code from the datapack/mod, specifically from the `enchantplus` namespaces and `.mcfunctions` files, for personal projects without proper attribution to the original source is not allowed, regardless of the extent of modifications made.
+   Reuploading or republishing this project as standalone content, outside of a modpack or collection, is prohibited. However, derivative works that are sufficiently original and substantially different from the original project are permitted and may be published as their own standalone content. As the line between a "modification" and a genuinely original derivative work can be subjective, it is strongly recommended to ask for the creator's ("Hardel") approval beforehand to be sure.
 
 INFORMATIONS:
-The download of this pack is only available on the official Modrinth website. 
-All other sites will be redirected to Modrinth. If not, it may be a dangerous platform. so be careful where you download this content.
+The download of this pack is only available on the official Modrinth/Official "Voxel Labs" Discord/CurseForge website. 
+All other sites will be redirected to Modrinth. If not, it may be a dangerous platform, so be careful where you download this content.
 
-USERS PERMITTED :
-The following persons are authorized to create alternative versions of the pack, including intellectual property, the license and the ensemble of prohebred activities do not apply to them and they are free to do what they wish.
-They are free to define different new licenses for their alternative versions.
-- Frektip
-
+DISCLAIMER OF WARRANTY AND LIABILITY:
+This project is provided "AS IS", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement. In no event shall the creator ("Hardel") or any contributor be held liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the project or the use or other dealings in the project. This includes, without limitation, any crashes, data loss, or conflicts arising from the use of this project alongside other mods, datapacks, or server software.
 
 ===============================
-Copyright (c) 2024 by Hardel
+Copyright (c) 2026 by Hardel
 ===============================
