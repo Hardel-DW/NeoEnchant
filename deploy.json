@@ -37,8 +37,7 @@
       "enabled": true,
       "project_id": 1135663,
       "java_versions": [
-        "Java 21",
-        "Java 22"
+        "Java 25"
       ],
       "environments": [
         "server"
