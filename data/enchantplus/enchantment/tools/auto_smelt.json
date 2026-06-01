@@ -19,14 +19,6 @@
 				"effect": {
 					"type": "minecraft:set",
 					"value": 0
-				},
-				"requirements": {
-					"condition": "minecraft:location_check",
-					"predicate": {
-						"block": {
-							"blocks": "#enchantplus:auto_smelt"
-						}
-					}
 				}
 			}
 		]
