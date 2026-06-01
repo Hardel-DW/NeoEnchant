@@ -34,7 +34,7 @@
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "type": "#enchantplus:last_hope_blacklist"
+                            "minecraft:entity_type": "#enchantplus:last_hope_blacklist"
                         }
                     }
                 }
@@ -52,7 +52,7 @@
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "type": "#enchantplus:last_hope_blacklist"
+                            "minecraft:entity_type": "#enchantplus:last_hope_blacklist"
                         }
                     }
                 }

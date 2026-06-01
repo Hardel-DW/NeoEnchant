@@ -2,7 +2,7 @@
     "condition": "minecraft:entity_properties",
     "entity": "this",
     "predicate": {
-        "slots": {
+        "minecraft:slots": {
             "weapon.mainhand": {
                 "items": "#minecraft:enchantable/mining_loot",
                 "predicates": {

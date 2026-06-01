@@ -67,13 +67,12 @@
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "movement": {
+                            "minecraft:movement": {
                                 "speed": {
                                     "max": 35
                                 }
                             },
-                            "type_specific": {
-                                "type": "minecraft:player",
+                            "minecraft:type_specific/player": {
                                 "level": {
                                     "min": 7
                                 },
@@ -82,7 +81,7 @@
                                     "sneak": false
                                 }
                             },
-                            "flags": {
+                            "minecraft:flags": {
                                 "is_fall_flying": true,
                                 "is_in_water": false,
                                 "is_sneaking": false
@@ -95,8 +94,7 @@
                             "condition": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
-                                "type_specific": {
-                                    "type": "minecraft:player",
+                                "minecraft:type_specific/player": {
                                     "gamemode": [
                                         "creative"
                                     ]

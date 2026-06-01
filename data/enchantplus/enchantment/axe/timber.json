@@ -24,19 +24,18 @@
                 "effect": {
                     "type": "minecraft:run_function",
                     "function": "enchantplus:actions/timber/place_hit_block_marker"
-                }, 
+                },
                 "requirements": {
-					"condition": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"type_specific": {
-							"type": "minecraft:player",
-							"input": {
-								"sneak": false
-							}
-						}
-					}
-				}
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "minecraft:type_specific/player": {
+                            "input": {
+                                "sneak": false
+                            }
+                        }
+                    }
+                }
             }
         ]
     }

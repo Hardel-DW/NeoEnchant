@@ -1,8 +1,8 @@
 {
-	"condition": "minecraft:entity_properties",
-	"entity": "this",
-	"predicate": {
-		"type": "#minecraft:arrows",
-		"nbt": "{inGround: 0b}"
-	}
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "minecraft:entity_type": "#minecraft:arrows",
+        "minecraft:nbt": "{inGround: 0b}"
+    }
 }

@@ -43,7 +43,7 @@
                             "condition": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
-                                "flags": {
+                                "minecraft:flags": {
                                     "is_sneaking": true
                                 }
                             }
@@ -54,7 +54,7 @@
                                 "condition": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
-                                    "effects": {
+                                    "minecraft:effects": {
                                         "minecraft:slowness": {}
                                     }
                                 }
@@ -75,7 +75,7 @@
                             "condition": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
-                                "flags": {
+                                "minecraft:flags": {
                                     "is_sneaking": true
                                 }
                             }
@@ -86,7 +86,7 @@
                                 "condition": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
-                                    "effects": {
+                                    "minecraft:effects": {
                                         "minecraft:slowness": {}
                                     }
                                 }
@@ -111,7 +111,7 @@
                             "condition": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
-                                "flags": {
+                                "minecraft:flags": {
                                     "is_sneaking": true
                                 }
                             }
@@ -122,7 +122,7 @@
                                 "condition": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
-                                    "effects": {
+                                    "minecraft:effects": {
                                         "minecraft:slowness": {}
                                     }
                                 }

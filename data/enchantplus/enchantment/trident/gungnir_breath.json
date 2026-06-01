@@ -106,7 +106,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                        "type": "minecraft:trident"
+                        "minecraft:entity_type": "minecraft:trident"
                     }
                 }
             },
@@ -119,7 +119,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                        "type": "minecraft:trident"
+                        "minecraft:entity_type": "minecraft:trident"
                     }
                 }
             }

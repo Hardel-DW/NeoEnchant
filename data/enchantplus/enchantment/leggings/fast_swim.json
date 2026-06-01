@@ -34,10 +34,10 @@
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "flags": {
+                            "minecraft:flags": {
                                 "is_swimming": true
                             },
-                            "periodic_tick": 100
+                            "minecraft:periodic_tick": 100
                         }
                     }
                 ]

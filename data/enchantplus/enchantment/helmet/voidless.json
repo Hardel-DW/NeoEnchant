@@ -46,7 +46,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                        "location": {
+                        "minecraft:location": {
                             "dimension": "minecraft:the_end",
                             "position": {
                                 "y": {
