@@ -1,19 +1,17 @@
 {
-    "function": "minecraft:set_count",
+    "type": "minecraft:set_count",
     "count": -1,
     "add": true,
-    "conditions": [
-        {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-                "minecraft:type_specific/player": {
-                    "gamemode": [
-                        "adventure",
-                        "survival"
-                    ]
-                }
+    "condition": {
+        "type": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+            "minecraft:type_specific/player": {
+                "gamemode": [
+                    "adventure",
+                    "survival"
+                ]
             }
         }
-    ]
+    }
 }

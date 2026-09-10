@@ -24,25 +24,25 @@
                 "effect": {
                     "type": "minecraft:replace_block",
                     "block_state": {
-                        "type": "minecraft:weighted_state_provider",
+                        "type": "minecraft:weighted",
                         "entries": [
                             {
                                 "weight": 10,
                                 "data": {
-                                    "Name": "minecraft:gold_block"
+                                    "id": "minecraft:gold_block"
                                 }
                             },
                             {
                                 "weight": 90,
                                 "data": {
-                                    "Name": "minecraft:gold_ore"
+                                    "id": "minecraft:gold_ore"
                                 }
                             }
                         ]
                     }
                 },
                 "requirements": {
-                    "condition": "minecraft:entity_properties",
+                    "type": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
                         "minecraft:type_specific/player": {}

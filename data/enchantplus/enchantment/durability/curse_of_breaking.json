@@ -31,7 +31,7 @@
                     }
                 },
                 "requirements": {
-                    "condition": "minecraft:random_chance",
+                    "type": "minecraft:random_chance",
                     "chance": {
                         "type": "minecraft:enchantment_level",
                         "amount": {

@@ -29,18 +29,16 @@
                     "min_amplifier": 0,
                     "max_amplifier": 0
                 },
-                "requirements": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "minecraft:flags": {
-                                "is_swimming": true
-                            },
-                            "minecraft:periodic_tick": 100
-                        }
+                "requirements": {
+                    "type": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "minecraft:flags": {
+                            "is_swimming": true
+                        },
+                        "minecraft:periodic_tick": 100
                     }
-                ]
+                }
             }
         ]
     }

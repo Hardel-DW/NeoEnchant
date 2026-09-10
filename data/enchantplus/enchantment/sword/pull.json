@@ -30,17 +30,17 @@
                     "function": "enchantplus:actions/pull/happy_ghast"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:happy_ghast"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -54,17 +54,17 @@
                     "function": "enchantplus:actions/pull/creaking"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:creaking"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -78,17 +78,17 @@
                     "function": "enchantplus:actions/pull/allay"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:allay"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -102,17 +102,17 @@
                     "function": "enchantplus:actions/pull/armadillo"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:armadillo"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -126,17 +126,17 @@
                     "function": "enchantplus:actions/pull/axolotl"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:axolotl"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -150,17 +150,17 @@
                     "function": "enchantplus:actions/pull/bat"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:bat"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -174,17 +174,17 @@
                     "function": "enchantplus:actions/pull/bee"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:bee"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -198,17 +198,17 @@
                     "function": "enchantplus:actions/pull/blaze"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:blaze"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -222,17 +222,17 @@
                     "function": "enchantplus:actions/pull/bogged"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:bogged"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -246,17 +246,17 @@
                     "function": "enchantplus:actions/pull/breeze"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:breeze"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -270,17 +270,17 @@
                     "function": "enchantplus:actions/pull/camel"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:camel"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -294,17 +294,17 @@
                     "function": "enchantplus:actions/pull/cat"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:cat"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -318,17 +318,17 @@
                     "function": "enchantplus:actions/pull/cave_spider"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:cave_spider"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -342,17 +342,17 @@
                     "function": "enchantplus:actions/pull/chicken"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:chicken"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -366,17 +366,17 @@
                     "function": "enchantplus:actions/pull/cod"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:cod"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -390,17 +390,17 @@
                     "function": "enchantplus:actions/pull/cow"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:cow"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -414,17 +414,17 @@
                     "function": "enchantplus:actions/pull/creeper"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:creeper"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -438,17 +438,17 @@
                     "function": "enchantplus:actions/pull/dolphin"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:dolphin"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -462,17 +462,17 @@
                     "function": "enchantplus:actions/pull/donkey"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:donkey"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -486,17 +486,17 @@
                     "function": "enchantplus:actions/pull/drowned"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:drowned"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -510,17 +510,17 @@
                     "function": "enchantplus:actions/pull/elder_guardian"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:elder_guardian"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -534,17 +534,17 @@
                     "function": "enchantplus:actions/pull/enderman"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:enderman"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -558,17 +558,17 @@
                     "function": "enchantplus:actions/pull/endermite"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:endermite"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -582,17 +582,17 @@
                     "function": "enchantplus:actions/pull/ender_dragon"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:ender_dragon"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -606,17 +606,17 @@
                     "function": "enchantplus:actions/pull/evoker"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:evoker"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -630,17 +630,17 @@
                     "function": "enchantplus:actions/pull/fox"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:fox"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -654,17 +654,17 @@
                     "function": "enchantplus:actions/pull/frog"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:frog"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -678,17 +678,17 @@
                     "function": "enchantplus:actions/pull/ghast"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:ghast"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -702,17 +702,17 @@
                     "function": "enchantplus:actions/pull/glow_squid"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:glow_squid"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -726,17 +726,17 @@
                     "function": "enchantplus:actions/pull/goat"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:goat"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -750,17 +750,17 @@
                     "function": "enchantplus:actions/pull/guardian"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:guardian"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -774,17 +774,17 @@
                     "function": "enchantplus:actions/pull/hoglin"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:hoglin"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -798,17 +798,17 @@
                     "function": "enchantplus:actions/pull/horse"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:horse"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -822,17 +822,17 @@
                     "function": "enchantplus:actions/pull/husk"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:husk"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -846,17 +846,17 @@
                     "function": "enchantplus:actions/pull/iron_golem"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:iron_golem"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -870,17 +870,17 @@
                     "function": "enchantplus:actions/pull/llama"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:llama"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -894,17 +894,17 @@
                     "function": "enchantplus:actions/pull/magma_cube"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:magma_cube"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -918,17 +918,17 @@
                     "function": "enchantplus:actions/pull/mooshroom"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:mooshroom"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -942,17 +942,17 @@
                     "function": "enchantplus:actions/pull/mule"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:mule"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -966,17 +966,17 @@
                     "function": "enchantplus:actions/pull/ocelot"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:ocelot"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -990,17 +990,17 @@
                     "function": "enchantplus:actions/pull/panda"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:panda"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1014,17 +1014,17 @@
                     "function": "enchantplus:actions/pull/parrot"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:parrot"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1038,17 +1038,17 @@
                     "function": "enchantplus:actions/pull/phantom"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:phantom"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1062,17 +1062,17 @@
                     "function": "enchantplus:actions/pull/pig"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:pig"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1086,17 +1086,17 @@
                     "function": "enchantplus:actions/pull/piglin"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:piglin"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1110,17 +1110,17 @@
                     "function": "enchantplus:actions/pull/piglin_brute"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:piglin_brute"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1134,17 +1134,17 @@
                     "function": "enchantplus:actions/pull/pillager"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:pillager"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1158,17 +1158,17 @@
                     "function": "enchantplus:actions/pull/polar_bear"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:polar_bear"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1182,17 +1182,17 @@
                     "function": "enchantplus:actions/pull/pufferfish"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:pufferfish"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1206,17 +1206,17 @@
                     "function": "enchantplus:actions/pull/rabbit"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:rabbit"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1230,17 +1230,17 @@
                     "function": "enchantplus:actions/pull/ravager"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:ravager"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1254,17 +1254,17 @@
                     "function": "enchantplus:actions/pull/salmon"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:salmon"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1278,17 +1278,17 @@
                     "function": "enchantplus:actions/pull/sheep"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:sheep"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1302,17 +1302,17 @@
                     "function": "enchantplus:actions/pull/shulker"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:shulker"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1326,17 +1326,17 @@
                     "function": "enchantplus:actions/pull/silverfish"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:silverfish"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1350,17 +1350,17 @@
                     "function": "enchantplus:actions/pull/skeleton"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:skeleton"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1374,17 +1374,17 @@
                     "function": "enchantplus:actions/pull/skeleton_horse"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:skeleton_horse"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1398,17 +1398,17 @@
                     "function": "enchantplus:actions/pull/slime"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:slime"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1422,17 +1422,17 @@
                     "function": "enchantplus:actions/pull/sniffer"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:sniffer"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1446,17 +1446,17 @@
                     "function": "enchantplus:actions/pull/snow_golem"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:snow_golem"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1470,17 +1470,17 @@
                     "function": "enchantplus:actions/pull/spider"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:spider"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1494,17 +1494,17 @@
                     "function": "enchantplus:actions/pull/squid"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:squid"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1518,17 +1518,17 @@
                     "function": "enchantplus:actions/pull/stray"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:stray"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1542,17 +1542,17 @@
                     "function": "enchantplus:actions/pull/strider"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:strider"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1566,17 +1566,17 @@
                     "function": "enchantplus:actions/pull/tadpole"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:tadpole"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1590,17 +1590,17 @@
                     "function": "enchantplus:actions/pull/trader_llama"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:trader_llama"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1614,17 +1614,17 @@
                     "function": "enchantplus:actions/pull/tropical_fish"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:tropical_fish"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1638,17 +1638,17 @@
                     "function": "enchantplus:actions/pull/turtle"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:turtle"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1662,17 +1662,17 @@
                     "function": "enchantplus:actions/pull/vex"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:vex"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1686,17 +1686,17 @@
                     "function": "enchantplus:actions/pull/villager"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:villager"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1710,17 +1710,17 @@
                     "function": "enchantplus:actions/pull/vindicator"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:vindicator"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1734,17 +1734,17 @@
                     "function": "enchantplus:actions/pull/wandering_trader"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:wandering_trader"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1758,17 +1758,17 @@
                     "function": "enchantplus:actions/pull/warden"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:warden"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1782,17 +1782,17 @@
                     "function": "enchantplus:actions/pull/witch"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:witch"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1806,17 +1806,17 @@
                     "function": "enchantplus:actions/pull/wither"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:wither"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1830,17 +1830,17 @@
                     "function": "enchantplus:actions/pull/wither_skeleton"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:wither_skeleton"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1854,17 +1854,17 @@
                     "function": "enchantplus:actions/pull/wolf"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:wolf"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1878,17 +1878,17 @@
                     "function": "enchantplus:actions/pull/zoglin"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:zoglin"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1902,17 +1902,17 @@
                     "function": "enchantplus:actions/pull/zombie"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:zombie"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1926,17 +1926,17 @@
                     "function": "enchantplus:actions/pull/zombie_horse"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:zombie_horse"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1950,17 +1950,17 @@
                     "function": "enchantplus:actions/pull/zombie_villager"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:zombie_villager"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]
@@ -1974,17 +1974,17 @@
                     "function": "enchantplus:actions/pull/zombified_piglin"
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "minecraft:zombified_piglin"
                             }
                         },
                         {
-                            "condition": "minecraft:random_chance",
+                            "type": "minecraft:random_chance",
                             "chance": 0.01
                         }
                     ]

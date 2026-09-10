@@ -45,7 +45,7 @@
                     "knockback_multiplier": 0
                 },
                 "requirements": {
-                    "condition": "minecraft:entity_properties",
+                    "type": "minecraft:entity_properties",
                     "entity": "direct_attacker",
                     "predicate": {
                         "minecraft:entity_type": "#minecraft:arrows"
@@ -82,19 +82,19 @@
                     ]
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "minecraft:entity_type": "#minecraft:arrows"
                             }
                         },
                         {
-                            "condition": "minecraft:inverted",
+                            "type": "minecraft:inverted",
                             "term": {
-                                "condition": "minecraft:location_check",
+                                "type": "minecraft:location_check",
                                 "predicate": {
                                     "block": {
                                         "blocks": "#enchantplus:non-solid"

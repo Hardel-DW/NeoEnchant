@@ -30,7 +30,7 @@
 					"function": "enchantplus:actions/death_touch"
 				},
 				"requirements": {
-					"condition": "minecraft:random_chance",
+					"type": "minecraft:random_chance",
 					"chance": 0.5
 				}
 			}

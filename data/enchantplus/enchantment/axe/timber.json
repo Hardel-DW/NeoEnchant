@@ -26,7 +26,7 @@
                     "function": "enchantplus:actions/timber/place_hit_block_marker"
                 },
                 "requirements": {
-                    "condition": "minecraft:entity_properties",
+                    "type": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
                         "minecraft:type_specific/player": {

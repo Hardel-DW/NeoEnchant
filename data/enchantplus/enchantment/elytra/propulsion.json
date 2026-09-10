@@ -62,97 +62,100 @@
                         }
                     ]
                 },
-                "requirements": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "minecraft:movement": {
-                                "speed": {
-                                    "max": 35
-                                }
-                            },
-                            "minecraft:type_specific/player": {
-                                "level": {
-                                    "min": 7
-                                },
-                                "input": {
-                                    "jump": true,
-                                    "sneak": false
-                                }
-                            },
-                            "minecraft:flags": {
-                                "is_fall_flying": true,
-                                "is_in_water": false,
-                                "is_sneaking": false
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:inverted",
-                        "term": {
-                            "condition": "minecraft:entity_properties",
+                "requirements": {
+                    "type": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
+                                "minecraft:movement": {
+                                    "speed": {
+                                        "max": 35
+                                    }
+                                },
                                 "minecraft:type_specific/player": {
-                                    "gamemode": [
-                                        "creative"
-                                    ]
+                                    "level": {
+                                        "min": 7
+                                    },
+                                    "input": {
+                                        "jump": true,
+                                        "sneak": false
+                                    }
+                                },
+                                "minecraft:flags": {
+                                    "is_fall_flying": true,
+                                    "is_in_water": false,
+                                    "is_sneaking": false
                                 }
                             }
+                        },
+                        {
+                            "type": "minecraft:inverted",
+                            "term": {
+                                "type": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "minecraft:type_specific/player": {
+                                        "gamemode": [
+                                            "creative"
+                                        ]
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "minecraft:all_of",
+                            "terms": [
+                                {
+                                    "type": "minecraft:location_check",
+                                    "offsetY": -1,
+                                    "predicate": {
+                                        "block": {
+                                            "blocks": "#minecraft:replaceable"
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "minecraft:location_check",
+                                    "offsetY": -2,
+                                    "predicate": {
+                                        "block": {
+                                            "blocks": "#minecraft:replaceable"
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "minecraft:location_check",
+                                    "offsetY": -3,
+                                    "predicate": {
+                                        "block": {
+                                            "blocks": "#minecraft:replaceable"
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "minecraft:location_check",
+                                    "offsetY": -4,
+                                    "predicate": {
+                                        "block": {
+                                            "blocks": "#minecraft:replaceable"
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "minecraft:location_check",
+                                    "offsetY": -5,
+                                    "predicate": {
+                                        "block": {
+                                            "blocks": "#minecraft:replaceable"
+                                        }
+                                    }
+                                }
+                            ]
                         }
-                    },
-                    {
-                        "condition": "minecraft:all_of",
-                        "terms": [
-                            {
-                                "condition": "minecraft:location_check",
-                                "offsetY": -1,
-                                "predicate": {
-                                    "block": {
-                                        "blocks": "#minecraft:replaceable"
-                                    }
-                                }
-                            },
-                            {
-                                "condition": "minecraft:location_check",
-                                "offsetY": -2,
-                                "predicate": {
-                                    "block": {
-                                        "blocks": "#minecraft:replaceable"
-                                    }
-                                }
-                            },
-                            {
-                                "condition": "minecraft:location_check",
-                                "offsetY": -3,
-                                "predicate": {
-                                    "block": {
-                                        "blocks": "#minecraft:replaceable"
-                                    }
-                                }
-                            },
-                            {
-                                "condition": "minecraft:location_check",
-                                "offsetY": -4,
-                                "predicate": {
-                                    "block": {
-                                        "blocks": "#minecraft:replaceable"
-                                    }
-                                }
-                            },
-                            {
-                                "condition": "minecraft:location_check",
-                                "offsetY": -5,
-                                "predicate": {
-                                    "block": {
-                                        "blocks": "#minecraft:replaceable"
-                                    }
-                                }
-                            }
-                        ]
-                    }
-                ]
+                    ]
+                }
             }
         ]
     }

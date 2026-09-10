@@ -12,12 +12,12 @@
 					"value": 9
 				},
 				"requirements": {
-					"condition": "minecraft:damage_source_properties",
+					"type": "minecraft:damage_source_properties",
 					"predicate": {
 						"tags": [
 							{
 								"expected": false,
-								"id": "minecraft:bypasses_invulnerability"
+								"id": "#minecraft:bypasses_invulnerability"
 							}
 						]
 					}
@@ -34,7 +34,9 @@
 		"base": 60,
 		"per_level_above_first": 11
 	},
-	"slots": ["chest"],
+	"slots": [
+		"chest"
+	],
 	"supported_items": "#voxel:enchantable/elytra",
 	"weight": 1
 }

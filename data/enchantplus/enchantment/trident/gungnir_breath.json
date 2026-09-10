@@ -64,12 +64,9 @@
                 "effect": {
                     "type": "minecraft:replace_disk",
                     "block_state": {
-                        "type": "minecraft:simple_state_provider",
-                        "state": {
-                            "Name": "minecraft:frosted_ice",
-                            "Properties": {
-                                "age": "0"
-                            }
+                        "id": "minecraft:frosted_ice",
+                        "properties": {
+                            "age": "0"
                         }
                     },
                     "predicate": {
@@ -103,7 +100,7 @@
                     }
                 },
                 "requirements": {
-                    "condition": "minecraft:entity_properties",
+                    "type": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
                         "minecraft:entity_type": "minecraft:trident"
@@ -116,7 +113,7 @@
                     "function": "enchantplus:actions/gungnir_breath"
                 },
                 "requirements": {
-                    "condition": "minecraft:entity_properties",
+                    "type": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
                         "minecraft:entity_type": "minecraft:trident"

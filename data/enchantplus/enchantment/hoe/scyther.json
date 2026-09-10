@@ -24,10 +24,7 @@
                 "effect": {
                     "type": "minecraft:replace_disk",
                     "block_state": {
-                        "type": "minecraft:simple_state_provider",
-                        "state": {
-                            "Name": "minecraft:farmland"
-                        }
+                        "id": "minecraft:farmland"
                     },
                     "predicate": {
                         "type": "minecraft:matching_blocks",
@@ -46,7 +43,7 @@
                     "height": 1
                 },
                 "requirements": {
-                    "condition": "minecraft:location_check",
+                    "type": "minecraft:location_check",
                     "predicate": {
                         "block": {
                             "blocks": "#minecraft:dirt"

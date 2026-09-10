@@ -15,15 +15,13 @@
                     "min_amplifier": 0,
                     "max_amplifier": 0
                 },
-                "requirements": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "minecraft:periodic_tick": 3600
-                        }
+                "requirements": {
+                    "type": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "minecraft:periodic_tick": 3600
                     }
-                ]
+                }
             }
         ]
     },

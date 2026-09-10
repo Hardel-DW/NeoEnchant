@@ -63,10 +63,7 @@
                         {
                             "type": "minecraft:replace_block",
                             "block_state": {
-                                "type": "minecraft:simple_state_provider",
-                                "state": {
-                                    "Name": "minecraft:air"
-                                }
+                                "id": "minecraft:air"
                             },
                             "trigger_game_event": "minecraft:block_destroy"
                         },
@@ -76,16 +73,14 @@
                         }
                     ]
                 },
-                "requirements": [
-                    {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                            "block": {
-                                "blocks": "#enchantplus:bedrock_breaker"
-                            }
+                "requirements": {
+                    "type": "minecraft:location_check",
+                    "predicate": {
+                        "block": {
+                            "blocks": "#enchantplus:bedrock_breaker"
                         }
                     }
-                ]
+                }
             }
         ]
     }

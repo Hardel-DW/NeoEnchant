@@ -27,7 +27,7 @@
                     "function": "enchantplus:actions/anti_venom"
                 },
                 "requirements": {
-                    "condition": "minecraft:entity_properties",
+                    "type": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {}
                 }

@@ -29,9 +29,9 @@
                     "function": "enchantplus:actions/last_hope"
                 },
                 "requirements": {
-                    "condition": "minecraft:inverted",
+                    "type": "minecraft:inverted",
                     "term": {
-                        "condition": "minecraft:entity_properties",
+                        "type": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
                             "minecraft:entity_type": "#enchantplus:last_hope_blacklist"
@@ -47,9 +47,9 @@
                     "value": 21470000
                 },
                 "requirements": {
-                    "condition": "minecraft:inverted",
+                    "type": "minecraft:inverted",
                     "term": {
-                        "condition": "minecraft:entity_properties",
+                        "type": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
                             "minecraft:entity_type": "#enchantplus:last_hope_blacklist"

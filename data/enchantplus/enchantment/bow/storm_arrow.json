@@ -29,28 +29,31 @@
                     "type": "minecraft:summon_entity",
                     "entity": "minecraft:lightning_bolt"
                 },
-                "requirements": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "minecraft:location": {
-                                "can_see_sky": true
+                "requirements": {
+                    "type": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "type": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "minecraft:location": {
+                                    "can_see_sky": true
+                                }
+                            }
+                        },
+                        {
+                            "type": "minecraft:weather_check",
+                            "thundering": true
+                        },
+                        {
+                            "type": "minecraft:entity_properties",
+                            "entity": "direct_attacker",
+                            "predicate": {
+                                "minecraft:entity_type": "#minecraft:arrows"
                             }
                         }
-                    },
-                    {
-                        "condition": "minecraft:weather_check",
-                        "thundering": true
-                    },
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "direct_attacker",
-                        "predicate": {
-                            "minecraft:entity_type": "#minecraft:arrows"
-                        }
-                    }
-                ]
+                    ]
+                }
             },
             {
                 "enchanted": "attacker",
@@ -59,35 +62,38 @@
                     "type": "minecraft:summon_entity",
                     "entity": "minecraft:lightning_bolt"
                 },
-                "requirements": [
-                    {
-                        "condition": "minecraft:weather_check",
-                        "thundering": false
-                    },
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "minecraft:location": {
-                                "can_see_sky": true
+                "requirements": {
+                    "type": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "type": "minecraft:weather_check",
+                            "thundering": false
+                        },
+                        {
+                            "type": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "minecraft:location": {
+                                    "can_see_sky": true
+                                }
+                            }
+                        },
+                        {
+                            "type": "minecraft:random_chance",
+                            "chance": {
+                                "type": "minecraft:enchantment_level",
+                                "amount": 0.2
+                            }
+                        },
+                        {
+                            "type": "minecraft:entity_properties",
+                            "entity": "direct_attacker",
+                            "predicate": {
+                                "minecraft:entity_type": "#minecraft:arrows"
                             }
                         }
-                    },
-                    {
-                        "condition": "minecraft:random_chance",
-                        "chance": {
-                            "type": "minecraft:enchantment_level",
-                            "amount": 0.2
-                        }
-                    },
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "direct_attacker",
-                        "predicate": {
-                            "minecraft:entity_type": "#minecraft:arrows"
-                        }
-                    }
-                ]
+                    ]
+                }
             }
         ],
         "minecraft:hit_block": [
@@ -96,63 +102,69 @@
                     "type": "minecraft:summon_entity",
                     "entity": "minecraft:lightning_bolt"
                 },
-                "requirements": [
-                    {
-                        "condition": "minecraft:weather_check",
-                        "thundering": true
-                    },
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "minecraft:location": {
-                                "can_see_sky": true
+                "requirements": {
+                    "type": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "type": "minecraft:weather_check",
+                            "thundering": true
+                        },
+                        {
+                            "type": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "minecraft:location": {
+                                    "can_see_sky": true
+                                }
+                            }
+                        },
+                        {
+                            "type": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "minecraft:entity_type": "#minecraft:arrows"
                             }
                         }
-                    },
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "minecraft:entity_type": "#minecraft:arrows"
-                        }
-                    }
-                ]
+                    ]
+                }
             },
             {
                 "effect": {
                     "type": "minecraft:summon_entity",
                     "entity": "minecraft:lightning_bolt"
                 },
-                "requirements": [
-                    {
-                        "condition": "minecraft:weather_check",
-                        "thundering": false
-                    },
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "minecraft:location": {
-                                "can_see_sky": true
+                "requirements": {
+                    "type": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "type": "minecraft:weather_check",
+                            "thundering": false
+                        },
+                        {
+                            "type": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "minecraft:location": {
+                                    "can_see_sky": true
+                                }
+                            }
+                        },
+                        {
+                            "type": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "minecraft:entity_type": "#minecraft:arrows"
+                            }
+                        },
+                        {
+                            "type": "minecraft:random_chance",
+                            "chance": {
+                                "type": "minecraft:enchantment_level",
+                                "amount": 0.15
                             }
                         }
-                    },
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "minecraft:entity_type": "#minecraft:arrows"
-                        }
-                    },
-                    {
-                        "condition": "minecraft:random_chance",
-                        "chance": {
-                            "type": "minecraft:enchantment_level",
-                            "amount": 0.15
-                        }
-                    }
-                ]
+                    ]
+                }
             }
         ],
         "minecraft:projectile_spawned": [
